@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+.env
+
+# Data — exclude raw scraped data and geocode cache from git
+# (too large + contains PII addresses; regenerate by running scraper)
+data/raw/
+data/scored/
+data/geocode_cache.json
+data/status.json
+
+# Keep reference CSVs in git (manually maintained, small)
+!data/ph-flood-risk.csv
+!data/peza_zones.csv
+
+# Playwright
+.playwright/
+playwright-report/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — NEVER commit
+.env.local
+*.key
+secrets.yaml
+
+# IDE
+.idea/
+.vscode/
+*.swp

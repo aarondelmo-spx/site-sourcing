@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/PHSP7027/.claude/skills/gstack/**)",
+      "Bash(./setup)",
+      "Bash(export BUN_INSTALL=\"$HOME/.bun\")",
+      "Bash(export PATH=\"$BUN_INSTALL/bin:$PATH\")",
+      "Bash(~/.claude/skills/gstack/bin/gstack-config get *)"
+    ]
+  }
+}

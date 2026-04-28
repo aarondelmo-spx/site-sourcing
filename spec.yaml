@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# SPX Site Sourcing — Operational Spec
+# Edit this file to change site requirements and scoring weights.
+# The dashboard picks up changes automatically on next score run.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── Operational requirements ──────────────────────────────────────────────────
+min_sqft: 5000
+max_sqft: 20000
+dock_doors_min: 3
+clear_height_m_min: 6.0
+
+# Regions to consider (PH province/NCR names as they appear on portals)
+regions:
+  - NCR
+  - Cavite
+  - Laguna
+  - Bulacan
+
+# Required highway corridors — site must be within 5 km (straight line)
+# Valid values: SLEX, NLEX, C5, R10
+corridor_access:
+  - SLEX
+  - C5
+
+# Max distance (km) to nearest PEZA-accredited zone; set to null to skip
+peza_zone_within_km: 10
+
+# Maximum acceptable flood risk level: low | medium | high
+# (PAGASA classification — stored in data/ph-flood-risk.csv)
+max_flood_risk: medium
+
+# Power supply reliability (informational only in Phase 1 — not scored)
+power_supply: reliable
+
+# ── Scoring weights ───────────────────────────────────────────────────────────
+# Must sum to 100. Scorer raises ValueError at init if they don't.
+weights:
+  sqft: 25
+  dock_doors: 20
+  clear_height_m: 15
+  region: 20
+  corridor_access: 10
+  peza_zone: 5
+  max_flood_risk: 5

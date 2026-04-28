@@ -1,0 +1,43 @@
+municipality,province,risk_level
+Navotas,Metro Manila,high
+Malabon,Metro Manila,high
+Valenzuela,Metro Manila,medium
+Caloocan,Metro Manila,medium
+Manila,Metro Manila,medium
+Tondo,Metro Manila,high
+Binondo,Metro Manila,medium
+Pasay,Metro Manila,medium
+Parañaque,Metro Manila,medium
+Las Piñas,Metro Manila,low
+Muntinlupa,Metro Manila,low
+Makati,Metro Manila,low
+Pasig,Metro Manila,medium
+Taguig,Metro Manila,low
+Mandaluyong,Metro Manila,low
+San Juan,Metro Manila,low
+Quezon City,Metro Manila,low
+Marikina,Metro Manila,medium
+Pateros,Metro Manila,medium
+Bacoor,Cavite,medium
+Imus,Cavite,low
+Dasmariñas,Cavite,low
+General Trias,Cavite,low
+Carmona,Cavite,low
+Silang,Cavite,low
+Trece Martires,Cavite,low
+Biñan,Laguna,low
+Santa Rosa,Laguna,low
+Cabuyao,Laguna,low
+Calamba,Laguna,low
+San Pedro,Laguna,medium
+Los Baños,Laguna,low
+Bay,Laguna,medium
+Meycauayan,Bulacan,medium
+Marilao,Bulacan,medium
+Bocaue,Bulacan,high
+Guiguinto,Bulacan,medium
+Malolos,Bulacan,medium
+San Jose del Monte,Bulacan,low
+Santa Maria,Bulacan,medium
+Balagtas,Bulacan,medium
+Pulilan,Bulacan,high
