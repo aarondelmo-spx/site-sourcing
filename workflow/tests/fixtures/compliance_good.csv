@@ -1,0 +1,13 @@
+hub,site_code,permit_type,permit_number,expiry_date,renewal_status,assigned_to
+Arayat,ARA-001,Business Permit,BP-2024-1234,2026-05-01,Filed,Maria Santos
+Arayat,ARA-001,BFP Certificate,BFP-2024-5678,2026-04-20,Pending,Maria Santos
+Arayat,ARA-001,Sanitary Permit,SP-2024-9012,2026-07-15,Not Started,Maria Santos
+Laguna,LAG-002,Business Permit,BP-2024-2345,2026-06-30,Not Started,Juan Dela Cruz
+Laguna,LAG-002,BFP Certificate,BFP-2024-6789,2026-09-10,Completed,Juan Dela Cruz
+Laguna,LAG-002,Sanitary Permit,SP-2024-0123,2026-08-20,Not Started,Juan Dela Cruz
+Cebu,CEB-003,Business Permit,BP-2024-3456,2026-04-10,Pending,Ana Reyes
+Cebu,CEB-003,BFP Certificate,BFP-2024-7890,2026-12-31,Completed,Ana Reyes
+Cebu,CEB-003,Sanitary Permit,SP-2024-1234,2026-05-25,Not Started,Ana Reyes
+Davao,DAV-004,Business Permit,BP-2024-4567,2026-11-15,Not Started,Pedro Lim
+Davao,DAV-004,BFP Certificate,BFP-2024-8901,2026-10-05,Not Started,Pedro Lim
+Davao,DAV-004,Sanitary Permit,SP-2024-2345,2026-06-18,Not Started,Pedro Lim

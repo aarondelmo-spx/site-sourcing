@@ -1,0 +1,17 @@
+{
+  "required_columns": ["hub", "site_code", "permit_type", "permit_number", "expiry_date", "renewal_status", "assigned_to"],
+  "types": {
+    "hub": "str",
+    "site_code": "str",
+    "permit_type": "str",
+    "permit_number": "str",
+    "expiry_date": "date",
+    "renewal_status": "str",
+    "assigned_to": "str"
+  },
+  "rag_thresholds": {
+    "red_days": 30,
+    "amber_days": 60
+  },
+  "valid_renewal_statuses": ["Not Started", "Pending", "Filed", "Completed"]
+}

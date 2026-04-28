@@ -1,0 +1,17 @@
+{
+  "required_columns": ["date", "hub", "incident_type", "description", "corrective_action", "due_date", "status", "week_date"],
+  "types": {
+    "date": "date",
+    "hub": "str",
+    "incident_type": "str",
+    "description": "str",
+    "corrective_action": "str",
+    "due_date": "date",
+    "status": "str",
+    "week_date": "date"
+  },
+  "incident_types": ["MTC", "FAC", "NM"],
+  "valid_statuses": ["Open", "Closed", "Overdue"],
+  "rolling_window_weeks": 4,
+  "overdue_grace_days": 7
+}

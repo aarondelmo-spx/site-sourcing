@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-04-16T12:36:23.211342",
+  "report_date": "2026-04-16",
+  "kpi_rows": 16,
+  "kpi_flagged": 3,
+  "permits_total": 12,
+  "permits_red": 3,
+  "permits_amber": 1,
+  "incidents_week": 4,
+  "overdue_actions": 1,
+  "output_file": "SPX_Weekly_OpsCompliance_2026-04-16.docx"
+}

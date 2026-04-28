@@ -1,0 +1,25 @@
+SPX Philippines Weekly Ops & Compliance Report — Automated Run Alert
+Date: 2026-04-22
+Status: FAILED — Input files and workflow not accessible
+
+The scheduled task attempted to run the SPX weekly reporting pipeline but encountered a
+session/mount access error. The workflow is configured to run from:
+
+  /sessions/keen-relaxed-bell/mnt/Cowork Automation/workflow/
+
+However, that session directory is no longer accessible from the current execution
+environment. This typically happens when the original Cowork session that set up the
+workflow has expired or been recycled.
+
+MISSING / INACCESSIBLE:
+  - /sessions/keen-relaxed-bell/mnt/Cowork Automation/workflow/inputs/kpi_tracker.csv
+  - /sessions/keen-relaxed-bell/mnt/Cowork Automation/workflow/inputs/compliance_tracker.csv
+  - /sessions/keen-relaxed-bell/mnt/Cowork Automation/workflow/inputs/hse_tracker.csv
+  - /sessions/keen-relaxed-bell/mnt/Cowork Automation/workflow/run.py (pipeline script)
+
+REQUIRED ACTION:
+  Pice — please open a new Cowork session, re-upload the three CSV tracker files to the
+  workflow/inputs/ folder, and re-run or reschedule this task. The scheduled task config
+  will need its workflow path updated to point to the active session's mount.
+
+No report was generated this week.

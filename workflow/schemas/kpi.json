@@ -1,0 +1,14 @@
+{
+  "required_columns": ["hub", "metric", "this_week", "last_week", "target", "week_date"],
+  "types": {
+    "hub": "str",
+    "metric": "str",
+    "this_week": "float",
+    "last_week": "float",
+    "target": "float",
+    "week_date": "date"
+  },
+  "flag_threshold_pct": 5.0,
+  "metrics_higher_is_better": ["SLA Rate", "Productivity", "First Attempt Delivery Rate", "Scan Compliance"],
+  "metrics_lower_is_better": ["Exception Rate", "Loss Rate", "Return Rate"]
+}

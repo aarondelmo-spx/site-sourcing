@@ -1,0 +1,15 @@
+date,hub,incident_type,description,corrective_action,due_date,status,week_date
+2026-03-24,Arayat,FAC,Rider fell from loading dock,Install non-slip mat and add signage,2026-04-07,Closed,2026-03-24
+2026-03-25,Cebu,NM,Forklift near-miss in sorting area,Conduct refresher on traffic management,2026-04-08,Overdue,2026-03-24
+2026-03-30,Laguna,MTC,Staff cut hand on scanner bracket,Remove sharp edges on bracket model LX-4,2026-04-13,Open,2026-03-31
+2026-03-31,Cebu,FAC,Heat exhaustion during peak sort,Install additional industrial fan,2026-04-14,Open,2026-03-31
+2026-04-01,Davao,NM,Electrical socket sparking near conveyor,Engage electrician for inspection and repair,2026-04-08,Closed,2026-03-31
+2026-04-06,Arayat,MTC,Sprained ankle during unloading,Enforce proper lifting SOP,2026-04-20,Open,2026-04-07
+2026-04-07,Laguna,NM,Parcel fell from height during stacking,Install stack height limiter and retrain staff,2026-04-14,Open,2026-04-07
+2026-04-07,Cebu,MTC,Rider road accident (minor),Brief all riders on defensive driving,2026-04-21,Open,2026-04-07
+2026-04-08,Davao,FAC,Slippery floor after mopping,Install wet floor signage and enforce protocol,2026-04-15,Open,2026-04-07
+2026-04-10,Arayat,NM,Gas cylinder stored near fire exit,Relocate storage to designated area,2026-04-12,Closed,2026-04-07
+2026-04-13,Cebu,MTC,Staff eye irritation from dust during sort,Mandate PPE (safety goggles) during peak sort,2026-04-20,Open,2026-04-14
+2026-04-14,Laguna,FAC,Minor burn from label printer,Replace faulty printer model PR-7,2026-04-21,Open,2026-04-14
+2026-04-14,Arayat,NM,Near-miss: unguarded conveyor end,Install conveyor end guard immediately,2026-04-16,Open,2026-04-14
+2026-04-15,Davao,MTC,Back strain during heavy parcel sort,Enforce weight limit SOP and provide trolleys,2026-04-22,Open,2026-04-14
