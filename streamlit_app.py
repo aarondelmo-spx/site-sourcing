@@ -157,8 +157,13 @@ with st.sidebar:
     )
 
 # ── Scraper controls ──────────────────────────────────────────────────────────
+# Resolve orphan before rendering buttons so state is accurate on first load
 
 status = load_status()
+if status.state == "running" and not is_pid_alive(status.pid):
+    status.state = "error"
+    status.message = "Scraper process ended — possibly interrupted. Reset to run again."
+    save_status(status)
 
 col1, col2, col3 = st.columns([2, 2, 3])
 
