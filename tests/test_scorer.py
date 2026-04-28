@@ -395,11 +395,10 @@ def test_dedup_different_sqft_not_flagged():
 # ── Geocoder (unit) ───────────────────────────────────────────────────────────
 
 def test_geocoder_cache_hit_no_api_call(tmp_path, monkeypatch):
-    """Cache hit → Google Maps API NOT called."""
+    """Cache hit → Nominatim NOT called."""
     from sourcing.geocoding.geocoder import Geocoder
 
     cache_path = str(tmp_path / "geocode_cache.json")
-    # Pre-populate cache
     import json
     with open(cache_path, "w") as f:
         json.dump(
@@ -408,29 +407,27 @@ def test_geocoder_cache_hit_no_api_call(tmp_path, monkeypatch):
         )
 
     call_count = {"n": 0}
-    def mock_call_api(self, address):
+    def mock_nominatim(self, address):
         call_count["n"] += 1
         return {"lat": 14.3, "lng": 121.0}
 
-    monkeypatch.setattr(Geocoder, "_call_api", mock_call_api)
-    monkeypatch.setenv("GOOGLE_MAPS_API_KEY", "test-key")
+    monkeypatch.setattr(Geocoder, "_call_nominatim", mock_nominatim)
 
     geocoder = Geocoder(cache_path=cache_path)
     lat, lng = geocoder.geocode("Carmona Industrial Park, Cavite")
-    assert call_count["n"] == 0  # cache hit — no API call
+    assert call_count["n"] == 0  # cache hit — no network call
     assert lat == 14.3
 
 
-def test_geocoder_cache_miss_calls_api(tmp_path, monkeypatch):
-    """Cache miss → API called, result persisted."""
+def test_geocoder_cache_miss_calls_nominatim(tmp_path, monkeypatch):
+    """Cache miss → Nominatim called, result persisted."""
     import json
     from sourcing.geocoding.geocoder import Geocoder
 
     cache_path = str(tmp_path / "geocode_cache.json")
 
-    monkeypatch.setenv("GOOGLE_MAPS_API_KEY", "test-key")
     monkeypatch.setattr(
-        Geocoder, "_call_api",
+        Geocoder, "_call_nominatim",
         lambda self, addr: {"lat": 14.5, "lng": 121.0},
     )
 
@@ -443,24 +440,38 @@ def test_geocoder_cache_miss_calls_api(tmp_path, monkeypatch):
     assert len(cache) == 1
 
 
-def test_geocoder_missing_api_key_raises():
+def test_geocoder_google_backend_missing_key_raises():
+    """Google backend selected without key → MissingApiKeyError at init."""
     from sourcing.geocoding.geocoder import Geocoder, MissingApiKeyError
     import os
     env_backup = os.environ.pop("GOOGLE_MAPS_API_KEY", None)
     try:
         with pytest.raises(MissingApiKeyError):
-            Geocoder(api_key=None)
+            Geocoder(backend="google", api_key=None)
     finally:
         if env_backup:
             os.environ["GOOGLE_MAPS_API_KEY"] = env_backup
 
 
+def test_geocoder_nominatim_no_key_needed(tmp_path, monkeypatch):
+    """Nominatim backend (default) works with no API key at all."""
+    from sourcing.geocoding.geocoder import Geocoder
+    monkeypatch.delenv("GOOGLE_MAPS_API_KEY", raising=False)
+    monkeypatch.setattr(
+        Geocoder, "_call_nominatim",
+        lambda self, addr: {"lat": 14.3, "lng": 121.0},
+    )
+    g = Geocoder(cache_path=str(tmp_path / "cache.json"))
+    assert g.backend == "nominatim"
+    lat, lng = g.geocode("Carmona, Cavite")
+    assert lat == 14.3
+
+
 def test_geocoder_api_returns_null(tmp_path, monkeypatch):
-    """API returns null for address → (None, None), does not crash."""
+    """Nominatim returns null for address → (None, None), does not crash."""
     from sourcing.geocoding.geocoder import Geocoder
 
-    monkeypatch.setenv("GOOGLE_MAPS_API_KEY", "test-key")
-    monkeypatch.setattr(Geocoder, "_call_api", lambda self, addr: None)
+    monkeypatch.setattr(Geocoder, "_call_nominatim", lambda self, addr: None)
 
     geocoder = Geocoder(cache_path=str(tmp_path / "cache.json"))
     lat, lng = geocoder.geocode("Gibberish address that cannot be geocoded")
@@ -477,9 +488,8 @@ def test_geocoder_corrupted_cache(tmp_path, monkeypatch):
     with open(cache_path, "w") as f:
         f.write("{invalid json{{")
 
-    monkeypatch.setenv("GOOGLE_MAPS_API_KEY", "test-key")
     monkeypatch.setattr(
-        Geocoder, "_call_api",
+        Geocoder, "_call_nominatim",
         lambda self, addr: {"lat": 14.0, "lng": 121.0},
     )
 

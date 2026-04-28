@@ -7,8 +7,8 @@ It writes progress to data/status.json as it runs so the dashboard can poll.
 Usage (called by dashboard via subprocess):
     python -m sourcing.scrapers.orchestrator --spec spec.yaml
 
-Also validates the Google Maps API key at startup — exits with clear error
-message if not set, before any scraping begins.
+Geocoding defaults to Nominatim (free, no key needed).
+To switch to Google Maps: set GEOCODING_BACKEND=google and GOOGLE_MAPS_API_KEY.
 """
 from __future__ import annotations
 
@@ -41,7 +41,7 @@ def run_scrape(spec: SpecConfig, data_dir: str = "data") -> None:
     )
     save_status(status)
 
-    # ── 1. Validate API key (fail fast before any scraping) ───────────────────
+    # ── 1. Init geocoder (fails fast only if Google backend is selected without key) ──
     try:
         geocoder = Geocoder()
     except MissingApiKeyError as e:
@@ -51,6 +51,9 @@ def run_scrape(spec: SpecConfig, data_dir: str = "data") -> None:
         save_status(status)
         print(f"\n{e}\n", file=sys.stderr)
         sys.exit(1)
+
+    status.message = f"Geocoding backend: {geocoder.backend}"
+    save_status(status)
 
     # ── 2. Mark stale listings (re-check these first) ─────────────────────────
     stale_count = mark_stale(os.path.join(data_dir, "raw"))

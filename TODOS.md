@@ -50,18 +50,25 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-### 2. Set Google Maps API key
+### 2. Geocoding — no key needed (Nominatim default)
+
+Nominatim (OpenStreetMap) is the default — free, no API key, 1 req/sec rate limit.
+The persistent cache at `data/geocode_cache.json` means each unique address is
+only ever looked up once, so the 1 req/sec limit is not a practical constraint.
+
+**To switch to Google Maps later** (more accurate for barangay-level PH addresses):
 ```bash
 # Windows (PowerShell)
+$env:GEOCODING_BACKEND = "google"
 $env:GOOGLE_MAPS_API_KEY = "your_key_here"
 
 # Mac/Linux
+export GEOCODING_BACKEND=google
 export GOOGLE_MAPS_API_KEY="your_key_here"
 ```
 
-Get a key at: https://console.cloud.google.com/
-Enable: "Geocoding API"
-Cost: ~$0.005/request; Phase 1 demo with caching ≈ $0.50–2.00 total
+Get a Google Maps key at: https://console.cloud.google.com/
+Enable: "Geocoding API" (~$0.005/request; demo with caching ≈ $0.50–2.00 total)
 
 ### 3. Run the scraper
 ```bash
