@@ -29,13 +29,24 @@ POLL_INTERVAL_S = 3
 # ── Helpers ───────────────────────────────────────────────────────────────────
 
 def is_pid_alive(pid: Optional[int]) -> bool:
+    """Check if a process is alive. Uses tasklist on Windows for reliability."""
     if pid is None:
         return False
-    try:
-        os.kill(pid, 0)
-        return True
-    except (ProcessLookupError, PermissionError, OSError):
-        return False
+    if sys.platform == "win32":
+        try:
+            result = subprocess.run(
+                ["tasklist", "/FI", f"PID eq {pid}", "/NH"],
+                capture_output=True, text=True, timeout=5,
+            )
+            return str(pid) in result.stdout
+        except Exception:
+            return False
+    else:
+        try:
+            os.kill(pid, 0)
+            return True
+        except (ProcessLookupError, PermissionError, OSError):
+            return False
 
 
 def peza_staleness_check() -> Optional[str]:
@@ -149,13 +160,6 @@ with st.sidebar:
 
 status = load_status()
 
-# Orphan PID detection
-if status.state == "running" and not is_pid_alive(status.pid):
-    status.state = "error"
-    status.message = "Scraper process ended — possibly interrupted. Reset to run again."
-    save_status(status)
-    status = load_status()
-
 col1, col2, col3 = st.columns([2, 2, 3])
 
 with col1:
@@ -189,24 +193,30 @@ with col3:
 
 # ── Status + polling ──────────────────────────────────────────────────────────
 
-status_box = st.empty()
+@st.fragment(run_every=POLL_INTERVAL_S if status.state == "running" else None)
+def status_panel():
+    s = load_status()
+    # Orphan check inside fragment so it updates during polling too
+    if s.state == "running" and not is_pid_alive(s.pid):
+        s.state = "error"
+        s.message = "Scraper process ended — possibly interrupted. Reset to run again."
+        save_status(s)
+        s = load_status()
 
-if status.state == "running":
-    status_box.info(
-        f"⏳ **Scraper running** (PID {status.pid}) — "
-        f"{status.fetched} fetched · {status.message}  \n"
-        f"_Page refreshes automatically every {POLL_INTERVAL_S}s_"
-    )
-    # Use meta-refresh to avoid WebSocket disconnect from sleep+rerun
-    st.html(f'<meta http-equiv="refresh" content="{POLL_INTERVAL_S}">')
+    if s.state == "running":
+        st.info(
+            f"⏳ **Scraper running** (PID {s.pid}) — "
+            f"{s.fetched} fetched · {s.message}"
+        )
+    elif s.state == "done":
+        st.success(
+            f"✅ **Last run complete** — {s.total} listings · {s.message}"
+            + (f" · finished {s.finished_at[:19].replace('T', ' ')}" if s.finished_at else "")
+        )
+    elif s.state == "error":
+        st.error(f"❌ **{s.message}** — use Reset button above.")
 
-elif status.state == "done":
-    status_box.success(
-        f"✅ **Last run complete** — {status.total} listings · {status.message}"
-        + (f" · finished {status.finished_at[:19].replace('T', ' ')}" if status.finished_at else "")
-    )
-elif status.state == "error":
-    status_box.error(f"❌ **{status.message}** — use Reset button above.")
+status_panel()
 
 # ── Results ───────────────────────────────────────────────────────────────────
 
