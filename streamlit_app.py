@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 SPX Site Sourcing Dashboard — Phase 1
 """
@@ -76,7 +77,7 @@ def render_listings_table(listings: List[ScoredListing], title: str) -> None:
             "Height m": f"{l.listing.clear_height_m:.1f}" if l.listing.clear_height_m else "—",
             "Flood": (l.enriched.flood_risk or "?").upper(),
             "PEZA km": f"{l.enriched.peza_zone_km:.1f}" if l.enriched.peza_zone_km else "—",
-            "Price ₱": f"{l.listing.price_php:,.0f}" if l.listing.price_php else "—",
+            "Price PHP": f"{l.listing.price_php:,.0f}" if l.listing.price_php else "—",
             "Source": l.source,
             "Flag": dup_note,
             "Link": l.url,
@@ -87,7 +88,7 @@ def render_listings_table(listings: List[ScoredListing], title: str) -> None:
             "Link": st.column_config.LinkColumn("Link"),
             "Score": st.column_config.NumberColumn("Score", format="%s / 100"),
         },
-        width="stretch",
+        use_container_width=True,
         hide_index=True,
     )
 
@@ -141,7 +142,7 @@ with st.sidebar:
                        w.corridor_access, w.peza_zone, w.max_flood_risk],
         }),
         hide_index=True,
-        width="stretch",
+        use_container_width=True,
     )
 
 # ── Scraper controls ──────────────────────────────────────────────────────────
@@ -260,7 +261,7 @@ if incomplete_all:
             pd.DataFrame(inc_rows),
             column_config={"Link": st.column_config.LinkColumn("Link")},
             hide_index=True,
-            width="stretch",
+            use_container_width=True,
         )
 
 if complete_filtered:
