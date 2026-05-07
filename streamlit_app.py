@@ -31,6 +31,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ROOT)
 
 from sourcing.models import ScoredListing, load_spec
+from sourcing.proposal import generate_proposal_pdf
 from sourcing.providers.csv_providers import CsvPezaProvider
 from sourcing.requirements import (
     ExpansionRequirement,
@@ -1251,6 +1252,80 @@ with tab_table:
             f"dock data: {len(has_docks)}/{len(filtered)}  |  "
             f"price data: {len(has_price)}/{len(filtered)}"
         )
+
+    # ── Proposal PDF generator ────────────────────────────────────────────────
+    st.divider()
+    with st.expander("📄 Generate Proposal PDF", expanded=False):
+        st.caption(
+            "Select listings to include, then generate a shareable PDF "
+            "with comparison table and 3-year financial projections."
+        )
+
+        # Default selection: scored listings ≥ 60, capped at 5
+        _default_ids = {
+            l.id for l in sorted(
+                [l for l in filtered if l.score is not None and l.score >= 60],
+                key=lambda l: l.score, reverse=True,
+            )[:5]
+        }
+        if not _default_ids:
+            # Fallback: top 5 regardless of score
+            _default_ids = {l.id for l in filtered[:5]}
+
+        # Build options: "Score · Title (region)"
+        _prop_options = {
+            l.id: (
+                f"{l.score:.0f} · " if l.score is not None else "— · "
+            ) + f"{(l.listing.title or l.id)[:50]}  ({l.listing.region or '?'})"
+            for l in filtered
+        }
+
+        _selected_ids = st.multiselect(
+            "Listings to include (drag to reorder, max 8)",
+            options=list(_prop_options.keys()),
+            default=[i for i in _prop_options if i in _default_ids],
+            format_func=lambda x: _prop_options.get(x, x),
+            key="proposal_selection",
+        )
+
+        _req_for_pdf: Optional[ExpansionRequirement] = st.session_state.get("active_requirement")
+        _proj_title = _req_for_pdf.project_name if _req_for_pdf else "Warehouse Shortlist"
+        _proj_title = st.text_input("Proposal title", value=_proj_title, key="proposal_title")
+
+        _gen_col, _dl_col = st.columns([2, 3])
+
+        if _gen_col.button("📄 Generate PDF", type="primary",
+                           disabled=len(_selected_ids) == 0,
+                           key="gen_proposal_btn"):
+            _shortlist = [l for l in filtered if l.id in _selected_ids]
+            # Preserve order from multiselect
+            _id_order = {lid: i for i, lid in enumerate(_selected_ids)}
+            _shortlist.sort(key=lambda l: _id_order.get(l.id, 999))
+
+            with st.spinner(f"Building PDF for {len(_shortlist)} listings…"):
+                try:
+                    _pdf_bytes = generate_proposal_pdf(
+                        _shortlist,
+                        requirement=_req_for_pdf,
+                        project_name=_proj_title,
+                    )
+                    st.session_state["_proposal_pdf"] = _pdf_bytes
+                    st.session_state["_proposal_title"] = _proj_title
+                    st.success(f"PDF ready — {len(_pdf_bytes):,} bytes")
+                except Exception as _e:
+                    st.error(f"PDF generation failed: {_e}")
+
+        _pdf_ready = st.session_state.get("_proposal_pdf")
+        if _pdf_ready:
+            from datetime import date as _date
+            _fname = f"SPX_Proposal_{st.session_state.get('_proposal_title','Shortlist').replace(' ','_')}_{_date.today()}.pdf"
+            _dl_col.download_button(
+                label="⬇️ Download PDF",
+                data=_pdf_ready,
+                file_name=_fname,
+                mime="application/pdf",
+                key="download_proposal",
+            )
 
 # ══════════════════════════════════════════════════════════════════════════════
 # SCORE BREAKDOWN TAB
