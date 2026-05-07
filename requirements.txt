@@ -1,4 +1,4 @@
-# SPX Site Sourcing — Phase 1 dependencies
+# SPX Site Sourcing — Phase 1 + Phase 2 dependencies
 
 # Core
 pydantic>=2.0
@@ -12,6 +12,10 @@ playwright-stealth>=1.0.6  # reduces bot detection on PH portals
 # Dashboard
 streamlit>=1.30
 pandas>=2.0
+
+# Phase 2: AI expansion specialist
+anthropic>=0.100.0         # Claude API — B1 NL intake + B3 negotiation assist
+reportlab>=4.0             # PDF proposal generation — B2
 
 # Testing
 pytest>=7.4
