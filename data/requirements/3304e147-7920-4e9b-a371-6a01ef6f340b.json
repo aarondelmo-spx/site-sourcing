@@ -1,0 +1,15 @@
+{
+  "project_name": "Expansion Search",
+  "requirement_id": "3304e147-7920-4e9b-a371-6a01ef6f340b",
+  "sqm_min": 30000.0,
+  "sqm_max": 50000.0,
+  "region_priority": [],
+  "budget_max_sqm_month": 0.0,
+  "dock_doors_min": 0,
+  "clear_height_min": 0.0,
+  "peza_required": false,
+  "slex_max_km": 60.0,
+  "power_requirement_kva": null,
+  "notes": "",
+  "created_at": "2026-05-07T08:28:23.787813+00:00"
+}

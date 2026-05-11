@@ -1,0 +1,847 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\SPXPH5421\Documents\site scrapping\sourcing\scrapers\orchestrator.py", line 23, in <module>
+    from sourcing.geocoding.geocoder import Geocoder, MissingApiKeyError
+  File "C:\Users\SPXPH5421\Documents\site scrapping\sourcing\geocoding\geocoder.py", line 26, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+============================================================
+2026-05-11T09:12:11  run_scraper.py starting
+2026-05-11T09:12:12  scraper exit code: 1
+Scraper failed — skipping scorer.
+WARN: Could not find the platform standard library directory! The Python 'home' directory was set to 'C:\\Users\\SPXPH5421\\Documents\\Python', is this correct?
+C:\Users\SPXPH5421\Documents\Python\python.exe: Error while finding module specification for 'sourcing.scrapers.orchestrator' (ModuleNotFoundError: No module named 'sourcing')
+
+============================================================
+2026-05-11T12:50:39  run_scraper.py starting
+2026-05-11T12:50:39  scraper exit code: 1
+Scraper failed — skipping scorer.
+[lamudi] No listings found on page 1 for NCR -- stopping
+[lamudi] No listings found on page 1 for Cavite -- stopping
+[lamudi] No listings found on page 1 for Laguna -- stopping
+[lamudi] No listings found on page 1 for Bulacan -- stopping
+[lamudi] No listings found on page 1 for Rizal -- stopping
+[lamudi] No listings found on page 1 for Pampanga -- stopping
+[lamudi] No listings found on page 1 for Batangas -- stopping
+[lamudi] No listings found on page 1 for Cebu -- stopping
+[lamudi] No listings found on page 1 for Iloilo -- stopping
+[lamudi] No listings found on page 1 for Davao del Sur -- stopping
+[lamudi] No listings found on page 1 for Misamis Oriental -- stopping
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/metro-manila?page=8 -- 25 URLs collected
+[dotproperty] NCR warehouses-for-rent/metro-manila -- visiting 200 detail pages
+[dotproperty] (1/200) CACHED -metro-manila_d18609448a45-5c00-bd72-c787-b052d089
+[dotproperty] (2/200) CACHED -metro-manila_0e0c33c68353-eb51-3492-4fee-da0ee089
+[dotproperty] (3/200) CACHED -metro-manila_1024c379a5e4-a33f-f852-07d4-331df089
+[dotproperty] (4/200) CACHED -metro-manila_e8912896bbc9-045f-9c42-2bf9-5ef0d089
+[dotproperty] (10/200) CACHED -metro-manila_9872dc9ea42e-876e-5c32-5ef7-ca632089
+[dotproperty] (11/200) CACHED -metro-manila_8c0f10f9ef2a-6f4f-ecc2-d2b8-b3694089
+[dotproperty] (20/200) scraped so far for NCR
+[dotproperty] (23/200) CACHED -metro-manila_6bdc6b80168b-312f-ab92-022a-2a39b089
+[dotproperty] (24/200) CACHED -metro-manila_8174237e0117-4bae-4032-9386-871e0089
+[dotproperty] (26/200) CACHED -metro-manila_93685c7546e3-a8d0-1772-608a-b347c089
+[dotproperty] (28/200) CACHED -metro-manila_0b3c66aaaa8b-6ed0-1962-9750-32ded089
+[dotproperty] (30/200) scraped so far for NCR
+[dotproperty] (32/200) CACHED -metro-manila_2e608581507f-06bf-9e92-513e-82941089
+[dotproperty] (35/200) CACHED -metro-manila_a2095b0eae16-b380-af82-8613-9eab1089
+[dotproperty] (40/200) scraped so far for NCR
+[dotproperty] (42/200) CACHED 3-taft-avenue_a6bb0b4d098d-4510-ae82-faa7-7b29b089
+[dotproperty] (46/200) CACHED -metro-manila_903b27bef7ac-199e-7432-330d-8a541089
+[dotproperty] (50/200) scraped so far for NCR
+[dotproperty] (60/200) scraped so far for NCR
+[dotproperty] (61/200) CACHED -metro-manila_0278268c9f25-38a1-a192-ff1f-6b7a2089
+[dotproperty] (66/200) CACHED -metro-manila_f5d5b4a03202-ab61-7592-133b-a901d089
+[dotproperty] (68/200) CACHED -metro-manila_1ee9546f28d5-258f-f062-425a-11c8d089
+[dotproperty] (70/200) CACHED -metro-manila_8f4e45b70800-fc71-0e42-adb4-17d3c089
+[dotproperty] (77/200) CACHED -metro-manila_5e0060e69fb3-702e-7f02-6880-f2d32089
+[dotproperty] (80/200) CACHED -metro-manila_4bc87820d376-38fe-0b52-13c3-d4f6f089
+[dotproperty] (81/200) CACHED -metro-manila_1631b3c46255-fede-0252-2f91-3205f089
+[dotproperty] (84/200) CACHED -metro-manila_0a84c3d62b8e-5881-c462-9403-bd221089
+[dotproperty] (85/200) CACHED -metro-manila_885c0c387ef0-7540-fc42-ebd1-0893e089
+[dotproperty] (88/200) CACHED -metro-manila_1f3cdb167431-544f-3a52-e02f-16d32089
+[dotproperty] (90/200) CACHED -metro-manila_063b3a7fb6e5-ec80-7842-218f-76d32089
+[dotproperty] (91/200) CACHED -metro-manila_ebaf2fcf8115-e521-6722-962d-e5f6f089
+[dotproperty] (92/200) CACHED -metro-manila_84748e37e205-9cdf-8082-0236-fae32089
+[dotproperty] (95/200) CACHED -metro-manila_9f1955e151dd-624f-8c52-b4a5-aab2e089
+[dotproperty] (96/200) CACHED -metro-manila_abd7b6d87510-634f-a432-f4b4-00fee089
+[dotproperty] (97/200) CACHED -metro-manila_03abecb2d653-41df-fb32-e95e-56d32089
+[dotproperty] (98/200) CACHED -metro-manila_a12e23c7cebb-3da1-ed92-39c6-04d32089
+[dotproperty] (100/200) CACHED -metro-manila_8aff6d6bc649-6d11-c522-b208-34f6f089
+[dotproperty] (101/200) CACHED -metro-manila_52889853b000-6cdf-e662-ac49-54f6f089
+[dotproperty] (102/200) CACHED -metro-manila_f903579d7175-ba20-bd42-9805-a72f2089
+[dotproperty] (103/200) CACHED -metro-manila_9584bfcd71ad-167f-fa62-b4f0-17d32089
+[dotproperty] (105/200) CACHED -metro-manila_760461cef623-3cf1-8b12-381c-b7d32089
+[dotproperty] (108/200) CACHED -metro-manila_4bdc4214db97-eb71-7502-c828-a72f2089
+[dotproperty] (110/200) scraped so far for NCR
+[dotproperty] (111/200) CACHED -metro-manila_2f5975bda7a2-1720-fd72-0cea-1f221089
+[dotproperty] (112/200) CACHED -metro-manila_496c1a53d40d-b06f-ab42-16f3-21e20089
+[dotproperty] (114/200) CACHED -metro-manila_e3a28fe08af5-4130-0b62-dcbe-c4d32089
+[dotproperty] (115/200) CACHED -metro-manila_00bfc19bfcb7-97ce-5bb2-cd9f-66d32089
+[dotproperty] (116/200) CACHED -metro-manila_72696b8b6be3-b7ee-e052-f433-61f6f089
+[dotproperty] (118/200) CACHED -metro-manila_e83394585040-fb71-1472-c495-a893e089
+[dotproperty] (120/200) CACHED -metro-manila_631dd77d5c90-dcce-e052-cd37-04f6f089
+[dotproperty] (121/200) CACHED -metro-manila_218f6c4cda98-fd2e-7d82-19ff-34d32089
+[dotproperty] (123/200) CACHED -metro-manila_ae972e98b743-c81f-54c2-1420-34d32089
+[dotproperty] (130/200) CACHED -metro-manila_6728a6aefa1f-df1e-fe92-bbc8-431e0089
+[dotproperty] (134/200) CACHED -metro-manila_7f337cff73d9-f8c1-9f42-dd24-0665c089
+[dotproperty] (140/200) scraped so far for NCR
+[dotproperty] (147/200) CACHED -metro-manila_b5b855a6024c-73af-1c82-7113-39a2e089
+[dotproperty] (148/200) CACHED -metro-manila_71e5760af5c0-9d2e-a962-6110-f2020089
+[dotproperty] (149/200) CACHED mrt-3-buendia_cbc84d6dfb84-aafe-5f92-74e8-b7d32089
+[dotproperty] (150/200) scraped so far for NCR
+[dotproperty] (152/200) CACHED -metro-manila_872fd82490fb-39b1-5472-1359-62d32089
+[dotproperty] (154/200) CACHED -metro-manila_34f042be627a-3d2e-f0d2-0da1-e9d32089
+[dotproperty] (155/200) CACHED -metro-manila_7065ea753102-d000-bfc2-1bc1-f2d32089
+[dotproperty] (157/200) CACHED -metro-manila_542e43c7259a-d07f-e842-13bb-b1f6f089
+[dotproperty] (158/200) CACHED -metro-manila_3fd23cf962b1-845f-4d92-5ec8-ff361089
+[dotproperty] (159/200) CACHED t-1-gil-puyat_04718cfef8b5-6a5f-e752-8f75-83520089
+[dotproperty] (160/200) scraped so far for NCR
+[dotproperty] (166/200) CACHED -metro-manila_ddce36ca4562-ecd0-8822-e5f9-93d32089
+[dotproperty] (167/200) CACHED -metro-manila_3d1e52f30f7e-62d1-b652-f023-83d32089
+[dotproperty] (170/200) scraped so far for NCR
+[dotproperty] (180/200) scraped so far for NCR
+[dotproperty] (182/200) CACHED 3-taft-avenue_742c17f5a020-a59e-e222-043c-17f2c089
+[dotproperty] (183/200) CACHED -metro-manila_9c681192451b-9bb1-2a52-34e0-4650e089
+[dotproperty] (188/200) CACHED -metro-manila_62789a0f3afb-6841-7322-ff1b-b93f2089
+[dotproperty] (190/200) scraped so far for NCR
+[dotproperty] (193/200) CACHED -metro-manila_40f2832d3eb5-a150-b182-d79c-d5d32089
+[dotproperty] (194/200) CACHED -metro-manila_c9e80b11c645-9e9f-ff82-4ad2-1bdee089
+[dotproperty] (200/200) scraped so far for NCR
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila -- 23 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/metro-manila?page=8 -- 25 URLs collected
+[dotproperty] NCR warehouses-for-sale/metro-manila -- visiting 198 detail pages
+[dotproperty] (9/198) CACHED -center-cubao_e632ae8995d5-6191-a902-3b23-bb632089
+[dotproperty] (10/198) CACHED -metro-manila_b164a394a486-6100-3182-5844-52532089
+[dotproperty] (20/198) scraped so far for NCR
+[dotproperty] (30/198) scraped so far for NCR
+[dotproperty] (40/198) scraped so far for NCR
+[dotproperty] (50/198) scraped so far for NCR
+[dotproperty] (60/198) scraped so far for NCR
+[dotproperty] (70/198) scraped so far for NCR
+[dotproperty] (80/198) scraped so far for NCR
+[dotproperty] (90/198) scraped so far for NCR
+[dotproperty] (100/198) scraped so far for NCR
+[dotproperty] (108/198) CACHED -metro-manila_8a4d93e57cbf-1750-0942-81bd-b1b21089
+[dotproperty] (110/198) scraped so far for NCR
+[dotproperty] (120/198) scraped so far for NCR
+[dotproperty] (130/198) scraped so far for NCR
+[dotproperty] (140/198) scraped so far for NCR
+[dotproperty] (150/198) scraped so far for NCR
+[dotproperty] (160/198) scraped so far for NCR
+[dotproperty] (170/198) scraped so far for NCR
+[dotproperty] (180/198) scraped so far for NCR
+[dotproperty] (190/198) scraped so far for NCR
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=3 -- 24 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cavite?page=8 -- 25 URLs collected
+[dotproperty] Cavite warehouses-for-rent/cavite -- visiting 199 detail pages
+[dotproperty] (2/199) CACHED sabang-cavite_d7b502fa3f06-ed41-8f92-9dcb-23532089
+[dotproperty] (3/199) CACHED sabang-cavite_79d3adce65f8-c9ee-eed2-485a-23532089
+[dotproperty] (4/199) CACHED sabang-cavite_43d5af0673ce-bae0-d072-0632-82532089
+[dotproperty] (6/199) CACHED sabang-cavite_4f709204b7fb-5201-ad82-cb2a-23532089
+[dotproperty] (7/199) CACHED sabang-cavite_8904754925f1-cfa0-8f02-18fb-23532089
+[dotproperty] (8/199) CACHED sabang-cavite_2faea3a8b652-01ff-f7d2-296c-23532089
+[dotproperty] (9/199) CACHED sabang-cavite_47a2a379eb54-61ff-f1e2-fd39-13532089
+[dotproperty] (10/199) CACHED sabang-cavite_a997cd8cd807-87bf-fb32-6eaa-23532089
+[dotproperty] (11/199) CACHED sabang-cavite_9fd79660b506-5cb0-9cf2-46e7-6a632089
+[dotproperty] (12/199) CACHED sabang-cavite_78cd1b8699a8-dc71-2232-2237-6a632089
+[dotproperty] (14/199) CACHED sabang-cavite_269cfed95f9f-4980-60e2-11fa-d2532089
+[dotproperty] (20/199) scraped so far for Cavite
+[dotproperty] (28/199) CACHED lsahan-cavite_125d585b1375-304e-ee22-2428-6a301089
+[dotproperty] (29/199) CACHED abuhay-cavite_ae28d4fc4822-f9e0-6052-8163-1abcf089
+[dotproperty] (30/199) CACHED ngay-4-cavite_28ace2844f0d-3d6f-ce42-fbc5-a517c089
+[dotproperty] (31/199) CACHED bancal-cavite_4fe9e71d0353-90fe-ae02-204f-58d32089
+[dotproperty] (32/199) CACHED bancal-cavite_6368bc0f80c3-03e1-7ac2-cca9-0ae32089
+[dotproperty] (33/199) CACHED ggahan-cavite_13e0c772915b-59be-d932-a26c-407bf089
+[dotproperty] (34/199) CACHED abuhay-cavite_66a30933b4f3-4bbf-ab32-42d3-02a6e089
+[dotproperty] (35/199) CACHED cao-ii-cavite_ab17b6b6de20-6ccf-af22-ef9c-837af089
+[dotproperty] (37/199) CACHED virata-cavite_3642130945e7-ce4f-2cd2-309c-43532089
+[dotproperty] (38/199) CACHED virata-cavite_6548bb81e325-504f-1a42-100d-43532089
+[dotproperty] (39/199) CACHED -kahoy-cavite_a994a5ace88a-e9ce-4c62-6ea6-1ae32089
+[dotproperty] (40/199) CACHED bancal-cavite_f66760ba9d7c-121f-4f12-2077-fae32089
+[dotproperty] (43/199) CACHED sabang-cavite_046cfdfa46dd-a28e-8192-4520-9b301089
+[dotproperty] (44/199) CACHED lsahan-cavite_f0ebd2a52ad1-04f1-6372-41d6-ea301089
+[dotproperty] (45/199) CACHED chican-cavite_ecaf1cd1f242-2def-f462-d837-1ae32089
+[dotproperty] (46/199) CACHED sabang-cavite_c6fe5c87961b-b71f-ee72-4f47-0c301089
+[dotproperty] (47/199) CACHED sabang-cavite_4608959a137f-e7ef-1362-f572-dc301089
+[dotproperty] (48/199) CACHED abuhay-cavite_4c421b14b00e-f351-5772-6309-93a6e089
+[dotproperty] (50/199) CACHED abuhay-cavite_cae958afc9cd-15a1-ee62-e998-cabcf089
+[dotproperty] (51/199) CACHED abuhay-cavite_8485ad3577b9-f481-db82-8a74-23d0f089
+[dotproperty] (52/199) CACHED ista-i-cavite_e6656283c429-fb50-f232-495f-f2d32089
+[dotproperty] (53/199) CACHED ngay-4-cavite_e69607e2dbb2-970e-3822-8639-34a6e089
+[dotproperty] (55/199) CACHED abuhay-cavite_359b54c1c75c-2e91-a992-d66c-c3d0f089
+[dotproperty] (56/199) CACHED abuhay-cavite_a7553baf13f2-56ef-ab42-db8f-52d0f089
+[dotproperty] (57/199) CACHED bancal-cavite_9d383a9dbea6-bc1f-a7c2-c589-e7d32089
+[dotproperty] (58/199) CACHED bancal-cavite_a6100c7a1d57-a69e-5212-dda2-19d32089
+[dotproperty] (59/199) CACHED ention-cavite_6d78c3673d2c-5bde-0cf2-4f1d-66d32089
+[dotproperty] (60/199) CACHED bancal-cavite_26ff0074cb64-6a6f-85f2-5802-64d32089
+[dotproperty] (61/199) CACHED abuhay-cavite_10021ec0107f-1f6e-de52-1896-82d0f089
+[dotproperty] (62/199) CACHED aan-ii-cavite_b4809d5a7ca1-e4e0-cc22-9073-2c930089
+[dotproperty] (63/199) CACHED abuhay-cavite_dde1377cd947-484e-1d22-2d67-22d0f089
+[dotproperty] (64/199) CACHED bancal-cavite_a3da8a8a500f-f911-c262-9425-44d32089
+[dotproperty] (66/199) CACHED sabang-cavite_ca4f3694af54-0230-f972-31a9-4c301089
+[dotproperty] (70/199) scraped so far for Cavite
+[dotproperty] (71/199) CACHED d-ulan-cavite_9ac0ac7c9d86-41c0-6d62-b622-35c91089
+[dotproperty] (73/199) CACHED kaan-i-cavite_519e018eadfc-7fe0-a232-1ffd-c9d32089
+[dotproperty] (77/199) CACHED d-ulan-cavite_f6bcee62618e-493e-42c2-2ca6-72d32089
+[dotproperty] (80/199) scraped so far for Cavite
+[dotproperty] (90/199) scraped so far for Cavite
+[dotproperty] (91/199) CACHED langan-cavite_457aa88ab600-6a1f-1fd2-8861-44d32089
+[dotproperty] (100/199) scraped so far for Cavite
+[dotproperty] (110/199) scraped so far for Cavite
+[dotproperty] (114/199) CACHED ntulan-cavite_39391e80d5a1-ecbe-40b2-3a01-44d32089
+[dotproperty] (120/199) scraped so far for Cavite
+[dotproperty] (122/199) CACHED astian-cavite_3cf7fef0a0ab-280f-8f92-1cc3-35c91089
+[dotproperty] (130/199) scraped so far for Cavite
+[dotproperty] (140/199) scraped so far for Cavite
+[dotproperty] (141/199) CACHED d-ulan-cavite_63b3a7080e9f-fdb0-7c12-d4c6-72d32089
+[dotproperty] (145/199) CACHED d-ulan-cavite_20fd07c319d3-77de-4602-85ac-38d32089
+[dotproperty] (148/199) CACHED rol-ii-cavite_fcd2a4c01631-a58e-e172-6bab-38d32089
+[dotproperty] (150/199) CACHED sta-ii-cavite_9048bdf1767b-8cd1-6a02-7ede-24d32089
+[dotproperty] (153/199) CACHED d-ulan-cavite_26bd55893969-53ee-34d2-c3cf-c5d32089
+[dotproperty] (156/199) CACHED aloc-i-cavite_5f34b38078b2-eb1e-dbb2-ec47-34d32089
+[dotproperty] (160/199) scraped so far for Cavite
+[dotproperty] (164/199) CACHED aloc-i-cavite_8ca665033b44-a59e-8562-daf8-34d32089
+[dotproperty] (168/199) CACHED d-ulan-cavite_910c380ac596-e860-c3f2-385e-c5d32089
+[dotproperty] (170/199) CACHED aloc-i-cavite_2663d54bc9b5-069e-4b82-b397-34d32089
+[dotproperty] (180/199) scraped so far for Cavite
+[dotproperty] (190/199) scraped so far for Cavite
+[dotproperty] (192/199) CACHED libuyo-cavite_68aa2327b6e1-7bbf-3ac2-7ede-c5d32089
+[dotproperty] (196/199) CACHED libuyo-cavite_314f1ebad78f-453f-e552-360e-c5d32089
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cavite -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cavite?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cavite?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cavite?page=4 -- 23 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cavite?page=5 -- 16 URLs collected
+[dotproperty] Cavite warehouses-for-sale/cavite -- visiting 114 detail pages
+[dotproperty] (10/114) CACHED ngay-i-cavite_1a38394bf843-d660-cad2-9c4f-74d32089
+[dotproperty] (20/114) scraped so far for Cavite
+[dotproperty] (30/114) scraped so far for Cavite
+[dotproperty] (40/114) scraped so far for Cavite
+[dotproperty] (50/114) scraped so far for Cavite
+[dotproperty] (60/114) scraped so far for Cavite
+[dotproperty] (70/114) scraped so far for Cavite
+[dotproperty] (80/114) scraped so far for Cavite
+[dotproperty] (85/114) CACHED abutan-cavite_e15b469b3eee-4e30-e972-67fa-d3941089
+[dotproperty] (90/114) scraped so far for Cavite
+[dotproperty] (100/114) scraped so far for Cavite
+[dotproperty] (102/114) CACHED ista-i-cavite_8d88efb8f00f-7941-bed5-625b-a772afe3
+[dotproperty] (110/114) scraped so far for Cavite
+[dotproperty] (114/114) CACHED baybay-cavite_eaaab3ba2c89-cd1e-1d62-dd59-25288089
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna?page=8 -- 25 URLs collected
+[dotproperty] Laguna warehouses-for-rent/laguna -- visiting 200 detail pages
+[dotproperty] (1/200) CACHED a-rosa-laguna_c9badfcb11ae-d7f0-c822-3f06-604ad089
+[dotproperty] (3/200) CACHED prinza-laguna_ed38fdee182a-ec5f-a932-d1b5-d6621089
+[dotproperty] (4/200) CACHED prinza-laguna_ae3184ef7310-e52e-2d82-9091-ec721089
+[dotproperty] (8/200) CACHED prinza-laguna_14ef03141135-bf6e-a862-3b14-40531089
+[dotproperty] (9/200) CACHED -rizal-laguna_d776beec3812-2d11-68e2-6faa-03d32089
+[dotproperty] (10/200) CACHED ngahan-laguna_ecd99bd1622f-26af-c662-bb02-b85c5089
+[dotproperty] (14/200) CACHED a-rosa-laguna_634622740bb2-c9af-2762-1ac1-5475c089
+[dotproperty] (20/200) CACHED -rizal-laguna_dd8f666c11e6-56bf-6ad2-abd7-66d32089
+[dotproperty] (21/200) CACHED 3%B1an-laguna_4a8028589a79-6c7e-0a92-4f87-1ae32089
+[dotproperty] (22/200) CACHED n-real-laguna_e6e3937068f4-0f50-0572-812f-2ae32089
+[dotproperty] (23/200) CACHED lubang-laguna_2c70da18b679-720e-0262-004a-f5a40089
+[dotproperty] (24/200) CACHED ybanay-laguna_3df6e41a4324-6f4e-b132-d564-e0c40089
+[dotproperty] (25/200) CACHED lubang-laguna_9aec0c36c98c-0091-8162-60f1-2ae32089
+[dotproperty] (26/200) CACHED randal-laguna_ad2d4d03dff7-09a0-ff92-d4da-68cd0089
+[dotproperty] (27/200) CACHED alasan-laguna_eab67cb23737-3a4e-2d62-bf4d-38d32089
+[dotproperty] (28/200) CACHED n-real-laguna_e72a075df9d3-ba00-4312-23b0-c5d32089
+[dotproperty] (29/200) CACHED n-jose-laguna_5682b155ea65-545f-d562-51a6-75d32089
+[dotproperty] (30/200) CACHED lubang-laguna_35d12853377c-07a0-8942-e18b-b5a40089
+[dotproperty] (32/200) CACHED ybanay-laguna_6b4dc4bcc3f9-fd9f-7482-d498-02d32089
+[dotproperty] (33/200) CACHED n-lawa-laguna_fd4d914e4df2-33df-d682-dd41-66d32089
+[dotproperty] (34/200) CACHED ybanay-laguna_0e40ec151363-ba2f-f062-7e7b-50c40089
+[dotproperty] (36/200) CACHED n-real-laguna_ae7271de27b1-4660-0372-61e9-fae32089
+[dotproperty] (37/200) CACHED n-real-laguna_a3feff6a8c0e-b9c1-16f2-9732-1ae32089
+[dotproperty] (38/200) CACHED g-lupa-laguna_034a32f2283d-b8de-fc82-d9d8-71d32089
+[dotproperty] (39/200) CACHED ybanay-laguna_4408cf03b996-4c51-de62-18dd-64d32089
+[dotproperty] (40/200) CACHED g-lupa-laguna_6710ceb164dd-de70-d212-9628-71d32089
+[dotproperty] (41/200) CACHED batino-laguna_ac5f41c251ec-074e-5a92-5bb4-04b8c089
+[dotproperty] (42/200) CACHED n-lawa-laguna_3242ba2fa194-dbae-4382-47fc-53d32089
+[dotproperty] (43/200) CACHED ntonio-laguna_1f43ff1c312e-b4ff-0122-1f8a-f6a40089
+[dotproperty] (44/200) CACHED n-lawa-laguna_00bcadf3d28c-5bcf-2de2-759b-53d32089
+[dotproperty] (45/200) CACHED n-real-laguna_86f5b9d9fc87-6be1-1f72-4973-27d32089
+[dotproperty] (46/200) CACHED 3%B1an-laguna_187eec61723c-87de-ec12-3326-d6d32089
+[dotproperty] (47/200) CACHED diezmo-laguna_9bfcf68d07b8-82b1-a722-b2c6-a6a40089
+[dotproperty] (48/200) CACHED aimsim-laguna_1ab736092390-ea8e-a992-f738-9538e089
+[dotproperty] (49/200) CACHED n-real-laguna_544df8f2c7b1-880f-6b82-ea3c-53d32089
+[dotproperty] (50/200) CACHED n-pulo-laguna_8299cb1fec5d-024e-de82-6d27-bdabe089
+[dotproperty] (51/200) CACHED o-alto-laguna_42d4cc4b832c-7f9e-9e82-5c6e-85d32089
+[dotproperty] (52/200) CACHED ybanay-laguna_0ab4f8a7b4b6-9180-e472-0292-b0c40089
+[dotproperty] (53/200) CACHED n-pulo-laguna_71d1d3ad24bd-035e-a282-4bc2-42a6e089
+[dotproperty] (54/200) CACHED y-tres-laguna_81db1716f0ce-8041-9592-a2bd-d5d32089
+[dotproperty] (55/200) CACHED n-pulo-laguna_564440fef8b8-bda0-efd2-ceb8-71d32089
+[dotproperty] (58/200) CACHED alasan-laguna_22af728a05b3-8670-2972-8dfc-45c91089
+[dotproperty] (60/200) CACHED alasan-laguna_74f8ca7b52f7-efa1-3222-3130-14d32089
+[dotproperty] (63/200) CACHED ybanay-laguna_6c9b1fe0c87a-bb30-0022-74e2-b1c40089
+[dotproperty] (65/200) CACHED alasan-laguna_4da0c5a6f673-4e4e-ca02-27f0-14d32089
+[dotproperty] (70/200) scraped so far for Laguna
+[dotproperty] (71/200) CACHED n-pulo-laguna_fdfb4d935d0a-b66f-8182-6535-51d32089
+[dotproperty] (73/200) CACHED -rizal-laguna_66eaa6e9b855-af6e-6212-6800-38532089
+[dotproperty] (78/200) CACHED ubuyan-laguna_4ad7f47243c4-ef30-4572-bfe2-44d32089
+[dotproperty] (80/200) scraped so far for Laguna
+[dotproperty] (85/200) CACHED -rizal-laguna_3d3d77c15e66-2b0e-6e32-26fa-eae32089
+[dotproperty] (90/200) scraped so far for Laguna
+[dotproperty] (91/200) CACHED lubang-laguna_74118d04fbfc-730e-f382-9af6-a859d089
+[dotproperty] (92/200) CACHED -rizal-laguna_f4534154792d-85d1-0b82-7396-66d32089
+[dotproperty] (95/200) CACHED C3%B1o-laguna_14cd91e1d99d-73f0-9062-ba21-82d32089
+[dotproperty] (100/200) CACHED -rizal-laguna_837ba84cba96-0cf0-5992-0642-58d32089
+[dotproperty] (104/200) CACHED -rizal-laguna_8a325006672e-d54e-2db2-f919-54d32089
+[dotproperty] (110/200) scraped so far for Laguna
+[dotproperty] (111/200) CACHED alasan-laguna_bf1b63135533-601f-f3c2-df91-54d32089
+[dotproperty] (120/200) scraped so far for Laguna
+[dotproperty] (125/200) CACHED alasan-laguna_627e30ded145-658e-0172-22e7-35c91089
+[dotproperty] (130/200) scraped so far for Laguna
+[dotproperty] (132/200) CACHED alasan-laguna_e70f2b744a7f-92be-c4b2-cdf7-1ae32089
+[dotproperty] (136/200) CACHED -rizal-laguna_5ee1a02317c0-18ee-a062-05ca-eae32089
+[dotproperty] (139/200) CACHED -rizal-laguna_ca1732f3c050-4a1f-5862-dee4-58d32089
+[dotproperty] (140/200) scraped so far for Laguna
+[dotproperty] (146/200) CACHED -rizal-laguna_fc5dafe3da38-2ee1-3052-d70f-24d32089
+[dotproperty] (150/200) scraped so far for Laguna
+[dotproperty] (152/200) CACHED alasan-laguna_7dc6b93c17e7-de80-7c42-f3dc-36532089
+[dotproperty] (154/200) CACHED ubuyan-laguna_409c92e37051-54b0-9182-e637-5ae32089
+[dotproperty] (158/200) CACHED alasan-laguna_61052d591550-3bce-6fd2-7c5b-e5d32089
+[dotproperty] (160/200) scraped so far for Laguna
+[dotproperty] (170/200) scraped so far for Laguna
+[dotproperty] (176/200) CACHED -rizal-laguna_a185fdf69169-5760-de72-fe58-71d32089
+[dotproperty] (178/200) CACHED a-rosa-laguna_580e580c683c-f780-ec92-23b6-35c91089
+[dotproperty] (179/200) CACHED n-pulo-laguna_d814d785ffde-2221-f652-38a8-5ae32089
+[dotproperty] (180/200) scraped so far for Laguna
+[dotproperty] (182/200) CACHED alasan-laguna_9dc60cc7fdb0-0f31-85b2-c777-19d32089
+[dotproperty] (189/200) CACHED alasan-laguna_04e0297c6cb4-00bf-3f82-1103-58d32089
+[dotproperty] (190/200) scraped so far for Laguna
+[dotproperty] (194/200) CACHED -rizal-laguna_2fe6cdbcb12a-ef2e-df12-6b2b-18d32089
+[dotproperty] (196/200) CACHED a-rosa-laguna_5e994c302a0a-5151-ae72-ca13-35c91089
+[dotproperty] (199/200) CACHED -rizal-laguna_a1959d22cc71-96c1-38d2-306a-fc632089
+[dotproperty] (200/200) scraped so far for Laguna
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=2 -- 24 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/calamba?page=8 -- 25 URLs collected
+[dotproperty] Laguna warehouses-for-rent/laguna/calamba -- visiting 199 detail pages
+[dotproperty] (2/199) CACHED prinza-laguna_ed38fdee182a-ec5f-a932-d1b5-d6621089
+[dotproperty] (3/199) CACHED prinza-laguna_ae3184ef7310-e52e-2d82-9091-ec721089
+[dotproperty] (6/199) CACHED prinza-laguna_14ef03141135-bf6e-a862-3b14-40531089
+[dotproperty] (7/199) CACHED -rizal-laguna_d776beec3812-2d11-68e2-6faa-03d32089
+[dotproperty] (10/199) scraped so far for Laguna
+[dotproperty] (11/199) CACHED -rizal-laguna_dd8f666c11e6-56bf-6ad2-abd7-66d32089
+[dotproperty] (12/199) CACHED n-real-laguna_e6e3937068f4-0f50-0572-812f-2ae32089
+[dotproperty] (13/199) CACHED lubang-laguna_2c70da18b679-720e-0262-004a-f5a40089
+[dotproperty] (14/199) CACHED lubang-laguna_9aec0c36c98c-0091-8162-60f1-2ae32089
+[dotproperty] (15/199) CACHED randal-laguna_ad2d4d03dff7-09a0-ff92-d4da-68cd0089
+[dotproperty] (16/199) CACHED n-real-laguna_e72a075df9d3-ba00-4312-23b0-c5d32089
+[dotproperty] (17/199) CACHED lubang-laguna_35d12853377c-07a0-8942-e18b-b5a40089
+[dotproperty] (19/199) CACHED n-lawa-laguna_fd4d914e4df2-33df-d682-dd41-66d32089
+[dotproperty] (20/199) scraped so far for Laguna
+[dotproperty] (21/199) CACHED n-real-laguna_ae7271de27b1-4660-0372-61e9-fae32089
+[dotproperty] (22/199) CACHED n-real-laguna_a3feff6a8c0e-b9c1-16f2-9732-1ae32089
+[dotproperty] (23/199) CACHED g-lupa-laguna_034a32f2283d-b8de-fc82-d9d8-71d32089
+[dotproperty] (24/199) CACHED g-lupa-laguna_6710ceb164dd-de70-d212-9628-71d32089
+[dotproperty] (25/199) CACHED batino-laguna_ac5f41c251ec-074e-5a92-5bb4-04b8c089
+[dotproperty] (26/199) CACHED n-real-laguna_86f5b9d9fc87-6be1-1f72-4973-27d32089
+[dotproperty] (27/199) CACHED aimsim-laguna_1ab736092390-ea8e-a992-f738-9538e089
+[dotproperty] (28/199) CACHED n-real-laguna_544df8f2c7b1-880f-6b82-ea3c-53d32089
+[dotproperty] (29/199) CACHED n-lawa-laguna_00bcadf3d28c-5bcf-2de2-759b-53d32089
+[dotproperty] (30/199) CACHED o-alto-laguna_42d4cc4b832c-7f9e-9e82-5c6e-85d32089
+[dotproperty] (38/199) CACHED -rizal-laguna_66eaa6e9b855-af6e-6212-6800-38532089
+[dotproperty] (40/199) scraped so far for Laguna
+[dotproperty] (41/199) CACHED ubuyan-laguna_4ad7f47243c4-ef30-4572-bfe2-44d32089
+[dotproperty] (44/199) CACHED -rizal-laguna_3d3d77c15e66-2b0e-6e32-26fa-eae32089
+[dotproperty] (50/199) CACHED lubang-laguna_74118d04fbfc-730e-f382-9af6-a859d089
+[dotproperty] (51/199) CACHED -rizal-laguna_f4534154792d-85d1-0b82-7396-66d32089
+[dotproperty] (52/199) CACHED -rizal-laguna_837ba84cba96-0cf0-5992-0642-58d32089
+[dotproperty] (53/199) CACHED -rizal-laguna_8a325006672e-d54e-2db2-f919-54d32089
+[dotproperty] (60/199) scraped so far for Laguna
+[dotproperty] (62/199) CACHED -rizal-laguna_5ee1a02317c0-18ee-a062-05ca-eae32089
+[dotproperty] (63/199) CACHED -rizal-laguna_ca1732f3c050-4a1f-5862-dee4-58d32089
+[dotproperty] (65/199) CACHED -rizal-laguna_fc5dafe3da38-2ee1-3052-d70f-24d32089
+[dotproperty] (67/199) CACHED ubuyan-laguna_409c92e37051-54b0-9182-e637-5ae32089
+[dotproperty] (70/199) scraped so far for Laguna
+[dotproperty] (74/199) CACHED -rizal-laguna_a185fdf69169-5760-de72-fe58-71d32089
+[dotproperty] (78/199) CACHED -rizal-laguna_2fe6cdbcb12a-ef2e-df12-6b2b-18d32089
+[dotproperty] (79/199) CACHED -rizal-laguna_a1959d22cc71-96c1-38d2-306a-fc632089
+[dotproperty] (80/199) scraped so far for Laguna
+[dotproperty] (83/199) CACHED -rizal-laguna_cbd971026c3e-75d1-5ef2-d6a7-52532089
+[dotproperty] (87/199) CACHED -rizal-laguna_fc4a3f27ac70-c091-2e32-524d-83632089
+[dotproperty] (90/199) scraped so far for Laguna
+[dotproperty] (91/199) CACHED randal-laguna_2ec92493963f-b740-42c2-5a45-31632089
+[dotproperty] (93/199) CACHED batino-laguna_3aaa7c0dd68f-7b41-c7e2-cfd0-eca8c089
+[dotproperty] (94/199) CACHED -rizal-laguna_0b49c58a33f1-9aae-ef32-349d-cc632089
+[dotproperty] (95/199) CACHED -rizal-laguna_ec934f4217db-aeaf-ce32-95de-cc632089
+[dotproperty] (100/199) CACHED -rizal-laguna_22cc3760e6cc-b91e-55e2-943e-cc632089
+[dotproperty] (101/199) CACHED -rizal-laguna_d9a52896829f-b1df-38f2-b3d6-52532089
+[dotproperty] (110/199) scraped so far for Laguna
+[dotproperty] (118/199) CACHED randal-laguna_adbc4daeafd0-d45e-9875-6932-c3750d9e
+[dotproperty] (120/199) scraped so far for Laguna
+[dotproperty] (122/199) CACHED prinza-laguna_4eeb14ba8b61-a0a1-2e82-721a-12cdf089
+[dotproperty] (123/199) CACHED prinza-laguna_0b804beaea75-68ae-ed52-d5f7-32cdf089
+[dotproperty] (124/199) CACHED prinza-laguna_aa3c751e7847-b25f-0592-0f1e-72cdf089
+[dotproperty] (128/199) CACHED urbina-laguna_be3b02695f84-796f-0762-2c9b-2bad2089
+[dotproperty] (130/199) scraped so far for Laguna
+[dotproperty] (136/199) CACHED prinza-laguna_d11105bb8da0-1a71-d962-82a9-92cdf089
+[dotproperty] (137/199) CACHED prinza-laguna_3f72289c22cf-2dee-d642-f0f2-c3cdf089
+[dotproperty] (138/199) CACHED prinza-laguna_2718f3b089ab-806f-bf72-d03a-f3cdf089
+[dotproperty] (139/199) CACHED prinza-laguna_6827e2a140e9-ca7f-4f62-32ac-12bdf089
+[dotproperty] (140/199) CACHED prinza-laguna_63f4357ef4bb-a8a0-1962-d16d-32bdf089
+[dotproperty] (141/199) CACHED prinza-laguna_9bfe0ebefad0-46a0-ef62-5358-62bdf089
+[dotproperty] (142/199) CACHED prinza-laguna_f8542f3c3c48-78ae-1922-8545-82bdf089
+[dotproperty] (143/199) CACHED prinza-laguna_0dfede57fdd8-1aae-d572-f6d0-a3bdf089
+[dotproperty] (144/199) CACHED prinza-laguna_13bc9abc6324-c73f-b352-6511-e3bdf089
+[dotproperty] (145/199) CACHED prinza-laguna_9c294b7882cc-883f-be32-de2a-c3bdf089
+[dotproperty] (150/199) scraped so far for Laguna
+[dotproperty] (157/199) CACHED -rizal-laguna_5bbdd5b19787-f430-8d32-1726-33632089
+[dotproperty] (160/199) scraped so far for Laguna
+[dotproperty] (161/199) CACHED -rizal-laguna_f6df384db921-29f0-1182-5b74-ca632089
+[dotproperty] (163/199) CACHED prinza-laguna_daf3d7ddc89b-5960-7832-d760-23cdf089
+[dotproperty] (164/199) CACHED prinza-laguna_c61fb331b1b3-9a21-9d52-2bcf-59621089
+[dotproperty] (167/199) CACHED prinza-laguna_3680ae081419-388f-9152-5990-d1531089
+[dotproperty] (169/199) CACHED prinza-laguna_242bf5cab39f-f5c1-db92-9b80-73531089
+[dotproperty] (170/199) CACHED -rizal-laguna_f255ac45ea59-2b00-f0e2-c3a8-94532089
+[dotproperty] (172/199) CACHED prinza-laguna_d97ae05d8032-a111-f662-68f3-8d531089
+[dotproperty] (180/199) scraped so far for Laguna
+[dotproperty] (181/199) CACHED prinza-laguna_5f3cbb90b229-34ff-9b82-41c6-d9531089
+[dotproperty] (182/199) CACHED prinza-laguna_e1f5dd4410c7-4331-e342-d36e-ee631089
+[dotproperty] (186/199) CACHED -rizal-laguna_3896782b1c02-5ea1-4ce2-dfcc-bae32089
+[dotproperty] (190/199) CACHED -rizal-laguna_b3d6bd0f63cd-aacf-fb62-eb0b-adce0089
+[dotproperty] (196/199) CACHED -rizal-laguna_c6efe96630cc-37d1-7a32-bd10-93d32089
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/cabuyao -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/cabuyao?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/cabuyao?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/laguna/cabuyao?page=4 -- 20 URLs collected
+[dotproperty] Laguna warehouses-for-rent/laguna/cabuyao -- visiting 95 detail pages
+[dotproperty] (1/95) CACHED ybanay-laguna_3df6e41a4324-6f4e-b132-d564-e0c40089
+[dotproperty] (2/95) CACHED ybanay-laguna_6b4dc4bcc3f9-fd9f-7482-d498-02d32089
+[dotproperty] (3/95) CACHED ybanay-laguna_0e40ec151363-ba2f-f062-7e7b-50c40089
+[dotproperty] (4/95) CACHED ybanay-laguna_4408cf03b996-4c51-de62-18dd-64d32089
+[dotproperty] (5/95) CACHED n-pulo-laguna_8299cb1fec5d-024e-de82-6d27-bdabe089
+[dotproperty] (6/95) CACHED diezmo-laguna_9bfcf68d07b8-82b1-a722-b2c6-a6a40089
+[dotproperty] (7/95) CACHED ybanay-laguna_0ab4f8a7b4b6-9180-e472-0292-b0c40089
+[dotproperty] (8/95) CACHED n-pulo-laguna_71d1d3ad24bd-035e-a282-4bc2-42a6e089
+[dotproperty] (9/95) CACHED y-tres-laguna_81db1716f0ce-8041-9592-a2bd-d5d32089
+[dotproperty] (10/95) CACHED n-pulo-laguna_564440fef8b8-bda0-efd2-ceb8-71d32089
+[dotproperty] (11/95) CACHED ybanay-laguna_6c9b1fe0c87a-bb30-0022-74e2-b1c40089
+[dotproperty] (12/95) CACHED n-pulo-laguna_fdfb4d935d0a-b66f-8182-6535-51d32089
+[dotproperty] (20/95) scraped so far for Laguna
+[dotproperty] (30/95) CACHED n-pulo-laguna_d814d785ffde-2221-f652-38a8-5ae32089
+[dotproperty] (33/95) CACHED n-pulo-laguna_9a90f1de6391-b4ef-1c02-7c7a-36532089
+[dotproperty] (37/95) CACHED n-pulo-laguna_aad6b7102e7b-04e0-9a22-fd17-3830e089
+[dotproperty] (40/95) scraped so far for Laguna
+[dotproperty] (43/95) CACHED n-pulo-laguna_17f40c9a8294-53bf-6992-e60f-13d54089
+[dotproperty] (50/95) scraped so far for Laguna
+[dotproperty] (53/95) CACHED n-pulo-laguna_cac8f5569a23-4ebe-8ae2-9dd6-b4d32089
+[dotproperty] (55/95) CACHED n-pulo-laguna_bd6dadb4e0cf-0980-ea32-0c33-0ae32089
+[dotproperty] (57/95) CACHED n-pulo-laguna_71530aac0641-7a11-ad92-0ec1-f7532089
+[dotproperty] (58/95) CACHED n-pulo-laguna_ab211b6184b7-bede-c2e2-c682-0ae32089
+[dotproperty] (59/95) CACHED n-pulo-laguna_4c45ccaa3fe0-fede-9c82-d7c3-0ae32089
+[dotproperty] (60/95) scraped so far for Laguna
+[dotproperty] (61/95) CACHED n-pulo-laguna_5549ff456742-975f-2ac2-3712-0ae32089
+[dotproperty] (62/95) CACHED n-pulo-laguna_88fbf3f76d5c-209f-b892-a8d5-a830e089
+[dotproperty] (64/95) CACHED n-pulo-laguna_e03bb6c5285f-bf00-3952-5f41-8730e089
+[dotproperty] (66/95) CACHED n-pulo-laguna_3cbb7ec34d38-4281-0692-6549-d830e089
+[dotproperty] (70/95) scraped so far for Laguna
+[dotproperty] (76/95) CACHED n-pulo-laguna_105c0fc8c9b7-31a1-35e5-aae8-f63ae0e2
+[dotproperty] (80/95) CACHED n-pulo-laguna_36d2f7c267ef-872f-cf62-05c9-5cf41089
+[dotproperty] (81/95) CACHED n-pulo-laguna_37adcdb3730e-cc9e-3112-ca84-1f0d5089
+[dotproperty] (89/95) CACHED n-pulo-laguna_88629df4e886-53bf-6992-68e9-34d54089
+[dotproperty] (90/95) CACHED n-pulo-laguna_14c55f42bc45-53bf-6992-bb40-83d54089
+[dotproperty] (91/95) CACHED n-pulo-laguna_d13bac2b6b55-96af-51d5-1e87-ce4a596d
+[dotproperty] (93/95) CACHED n-pulo-laguna_c6ae86edf9e6-b6f1-48a8-65c8-9de33b58
+[dotproperty] (94/95) CACHED n-pulo-laguna_7a84fbb385ab-4fa0-fbb2-f067-e2437089
+[dotproperty] No new listings on https://www.dotproperty.com.ph/warehouses-for-rent/laguna/sta-rosa -- stopping
+[dotproperty] No new listings on https://www.dotproperty.com.ph/warehouses-for-rent/laguna/binan -- stopping
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/laguna -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/laguna?page=2 -- 24 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/laguna?page=3 -- 16 URLs collected
+[dotproperty] Laguna warehouses-for-sale/laguna -- visiting 65 detail pages
+[dotproperty] (4/65) CACHED abling-laguna_6584dd8cb885-90f1-f092-d59a-43f7c089
+[dotproperty] (5/65) CACHED abling-laguna_bea777ec3b67-c3b0-1922-b683-ab6fc089
+[dotproperty] (6/65) CACHED a-cruz-laguna_72d64f728ba0-fd2e-2262-15cb-3662f089
+[dotproperty] (7/65) CACHED -tomas-laguna_3fec186f981c-535f-0022-0ab1-ea2cf089
+[dotproperty] (10/65) CACHED abling-laguna_0de0b80458e8-c84f-ec22-61bd-b2632089
+[dotproperty] (17/65) CACHED abling-laguna_643d6e07866a-1cdf-c792-3678-d28ac089
+[dotproperty] (20/65) scraped so far for Laguna
+[dotproperty] (24/65) CACHED n-real-laguna_c2ab3047abda-f691-f962-e1ee-c85ce089
+[dotproperty] (28/65) CACHED n-real-laguna_8b63e106564a-206f-f422-0b74-85d3c089
+[dotproperty] (30/65) scraped so far for Laguna
+[dotproperty] (33/65) CACHED n-real-laguna_e84b7c91bf77-c350-d792-3005-4814f089
+[dotproperty] (35/65) CACHED batino-laguna_4f83ab2b863f-e480-a532-6978-12b41089
+[dotproperty] (40/65) CACHED y-ii-b-laguna_a248a3ac8d35-b3ff-b992-5bd1-2f704089
+[dotproperty] (50/65) scraped so far for Laguna
+[dotproperty] (60/65) CACHED icente-laguna_2c7d7ac9f61c-5521-eb42-031e-f4640089
+[dotproperty] (63/65) CACHED n-real-laguna_da42edd84787-d5c0-ce42-487b-1d190089
+[dotproperty] (64/65) CACHED y-ii-b-laguna_b57369446258-b15f-2f82-11df-27510089
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/laguna/calamba -- 24 URLs collected
+[dotproperty] Laguna warehouses-for-sale/laguna/calamba -- visiting 24 detail pages
+[dotproperty] (7/24) CACHED n-real-laguna_c2ab3047abda-f691-f962-e1ee-c85ce089
+[dotproperty] (9/24) CACHED n-real-laguna_8b63e106564a-206f-f422-0b74-85d3c089
+[dotproperty] (10/24) scraped so far for Laguna
+[dotproperty] (11/24) CACHED n-real-laguna_e84b7c91bf77-c350-d792-3005-4814f089
+[dotproperty] (12/24) CACHED batino-laguna_4f83ab2b863f-e480-a532-6978-12b41089
+[dotproperty] (20/24) scraped so far for Laguna
+[dotproperty] (24/24) CACHED n-real-laguna_da42edd84787-d5c0-ce42-487b-1d190089
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/laguna/cabuyao -- 7 URLs collected
+[dotproperty] Laguna warehouses-for-sale/laguna/cabuyao -- visiting 7 detail pages
+[dotproperty] No new listings on https://www.dotproperty.com.ph/warehouses-for-sale/laguna/sta-rosa -- stopping
+[dotproperty] No new listings on https://www.dotproperty.com.ph/warehouses-for-sale/laguna/binan -- stopping
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/bulacan?page=8 -- 25 URLs collected
+[dotproperty] Bulacan warehouses-for-rent/bulacan -- visiting 200 detail pages
+[dotproperty] (1/200) CACHED -juan-bulacan_2beaaa6aa896-c37f-2e62-08af-82941089
+[dotproperty] (3/200) CACHED tikay-bulacan_c7c411040977-2521-52e2-7c03-a2532089
+[dotproperty] (6/200) CACHED tikay-bulacan_a0c46882442f-a86e-cf22-1a8b-106b2089
+[dotproperty] (8/200) CACHED gundi-bulacan_0fe3d4c60ef7-fb10-8d42-7d9f-b4d32089
+[dotproperty] (10/200) scraped so far for Bulacan
+[dotproperty] (17/200) CACHED n-iba-bulacan_22ea047232cf-d8f0-1b92-e245-76d32089
+[dotproperty] (18/200) CACHED osa-i-bulacan_d6a8e9b50555-536e-5b72-3a49-64d32089
+[dotproperty] (19/200) CACHED n-iba-bulacan_5e1d3ece5272-3f51-5bd2-6474-76d32089
+[dotproperty] (20/200) scraped so far for Bulacan
+[dotproperty] (21/200) CACHED osa-i-bulacan_a3841988c062-77d1-c662-f95c-1f55e089
+[dotproperty] (22/200) CACHED sa-ii-bulacan_7e3df4a329ba-3651-d482-66ed-7f55e089
+[dotproperty] (23/200) CACHED osa-i-bulacan_532b9aecdf6c-05fe-78d2-f79c-66d32089
+[dotproperty] (24/200) CACHED acion-bulacan_011c42a2e328-ce71-a512-27d6-bae32089
+[dotproperty] (25/200) CACHED -juan-bulacan_714c14a0f6f8-54bf-e972-6f7c-09ccd089
+[dotproperty] (26/200) CACHED osa-i-bulacan_b43a1c63a70f-fcd1-68f2-aa8c-19d32089
+[dotproperty] (27/200) CACHED sa-ii-bulacan_7481aff4ede5-a240-a6d2-9de2-58d32089
+[dotproperty] (28/200) CACHED n-iba-bulacan_270e6c1aa34f-6d4e-92d2-8ed5-76d32089
+[dotproperty] (30/200) CACHED gundi-bulacan_dc5b5968b4a7-dd50-37e2-23a3-77d32089
+[dotproperty] (32/200) CACHED rulan-bulacan_6348ccaf46b6-80af-f232-b194-d389b089
+[dotproperty] (33/200) CACHED gundi-bulacan_7ef8cfc75cae-8391-af62-ea1e-45c91089
+[dotproperty] (40/200) scraped so far for Bulacan
+[dotproperty] (48/200) CACHED sa-ii-bulacan_b3469ded52e5-69ce-78a2-4ded-09d32089
+[dotproperty] (50/200) scraped so far for Bulacan
+[dotproperty] (58/200) CACHED sa-ii-bulacan_42cd430daa71-9fe1-e012-c85c-09d32089
+[dotproperty] (60/200) CACHED nayon-bulacan_494eaa5310d6-f9ef-4772-eab6-18d32089
+[dotproperty] (63/200) CACHED mbang-bulacan_44c2136b52ee-9a71-ec02-86b3-d4d32089
+[dotproperty] (64/200) CACHED nayon-bulacan_5719b91b9085-6d61-d5f2-e24a-e4d32089
+[dotproperty] (66/200) CACHED sa-ii-bulacan_7b9b46c1a0b3-f94f-eed2-54ad-09d32089
+[dotproperty] (70/200) scraped so far for Bulacan
+[dotproperty] (71/200) CACHED nayon-bulacan_d378ae728382-5a2e-e502-13fa-e4d32089
+[dotproperty] (72/200) CACHED angka-bulacan_9a49f033b5a6-3cef-bf92-64b5-0ae32089
+[dotproperty] (77/200) CACHED gundi-bulacan_4a18e51c1cf4-aff1-a702-9d42-d4d32089
+[dotproperty] (80/200) scraped so far for Bulacan
+[dotproperty] (90/200) scraped so far for Bulacan
+[dotproperty] (98/200) CACHED bagna-bulacan_12c5c36245b3-a321-c402-6563-66d32089
+[dotproperty] (100/200) scraped so far for Bulacan
+[dotproperty] (106/200) CACHED sa-ii-bulacan_37b398010541-8090-ee92-6574-98d32089
+[dotproperty] (110/200) CACHED rulan-bulacan_3a3fcc3e10b9-3f11-10b2-c596-bae32089
+[dotproperty] (112/200) CACHED pablo-bulacan_1d9895f6ccef-17ae-81b2-d415-64d32089
+[dotproperty] (114/200) CACHED pablo-bulacan_1bd168a21cb2-83ce-a842-1f33-66d32089
+[dotproperty] (117/200) CACHED tikay-bulacan_ceca78962e5f-5d9e-a892-42de-66d32089
+[dotproperty] (118/200) CACHED tikay-bulacan_6c8c7a7c53e2-8c5e-1882-8892-a2532089
+[dotproperty] (120/200) scraped so far for Bulacan
+[dotproperty] (122/200) CACHED rulan-bulacan_c037223ac186-0f70-a0f2-6749-22d32089
+[dotproperty] (124/200) CACHED angka-bulacan_cce9f6a2e6e3-a8f1-4842-68a8-fae32089
+[dotproperty] (127/200) CACHED tubig-bulacan_7baaee68819a-52d0-1182-cbbe-d457c089
+[dotproperty] (130/200) scraped so far for Bulacan
+[dotproperty] (133/200) CACHED labon-bulacan_23e0017fb0ba-5461-c362-cdf3-e050d089
+[dotproperty] (140/200) scraped so far for Bulacan
+[dotproperty] (150/200) CACHED rulan-bulacan_6f7f51f91f2c-271e-cc02-8890-61532089
+[dotproperty] (160/200) scraped so far for Bulacan
+[dotproperty] (170/200) scraped so far for Bulacan
+[dotproperty] (178/200) CACHED rulan-bulacan_728ef4ba4be5-50be-af42-80b0-9865c089
+[dotproperty] (180/200) scraped so far for Bulacan
+[dotproperty] (189/200) CACHED rulan-bulacan_720838afff55-9711-bc42-8e70-45efe089
+[dotproperty] (190/200) scraped so far for Bulacan
+[dotproperty] (200/200) scraped so far for Bulacan
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/bulacan -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/bulacan?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/bulacan?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/bulacan?page=4 -- 23 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/bulacan?page=5 -- 3 URLs collected
+[dotproperty] Bulacan warehouses-for-sale/bulacan -- visiting 101 detail pages
+[dotproperty] (10/101) scraped so far for Bulacan
+[dotproperty] (20/101) scraped so far for Bulacan
+[dotproperty] (30/101) scraped so far for Bulacan
+[dotproperty] (40/101) scraped so far for Bulacan
+[dotproperty] (45/101) CACHED acion-bulacan_d930e6b0ea6e-9530-d932-b185-d67dd089
+[dotproperty] (46/101) CACHED acion-bulacan_7a86f264b06e-2d6f-a632-51da-467dd089
+[dotproperty] (50/101) scraped so far for Bulacan
+[dotproperty] (56/101) CACHED ungao-bulacan_f55530b9f864-1c8e-2f52-3c1d-0f20d089
+[dotproperty] (60/101) scraped so far for Bulacan
+[dotproperty] (70/101) CACHED lihan-bulacan_447eb320eed9-8fbf-4bb2-4e56-5f802089
+[dotproperty] (80/101) scraped so far for Bulacan
+[dotproperty] (90/101) scraped so far for Bulacan
+[dotproperty] (100/101) scraped so far for Bulacan
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/rizal?page=8 -- 25 URLs collected
+[dotproperty] Rizal warehouses-for-rent/rizal -- visiting 200 detail pages
+[dotproperty] (10/200) CACHED mayamot-rizal_f3d8b5051d79-2ec0-6cf2-097f-3fe8c089
+[dotproperty] (14/200) CACHED mayamot-rizal_b5aced856c79-f841-de72-8070-c7a00089
+[dotproperty] (16/200) CACHED an-juan-rizal_d5c044d1532b-ab9e-e822-196c-f4d32089
+[dotproperty] (17/200) CACHED mayamot-rizal_271c95ff4669-10ae-7a22-c117-c6d32089
+[dotproperty] (19/200) CACHED %C3%B1o-rizal_b0da8e14ee89-c20e-8cc2-c119-62d32089
+[dotproperty] (20/200) CACHED an-juan-rizal_6d0716c7c967-6c8f-e852-8370-4704c089
+[dotproperty] (21/200) CACHED mayamot-rizal_d2c118235da6-11f1-3b62-963e-ef221089
+[dotproperty] (22/200) CACHED an-juan-rizal_05e9075a31ab-bd1f-8072-861e-f704c089
+[dotproperty] (30/200) scraped so far for Rizal
+[dotproperty] (40/200) scraped so far for Rizal
+[dotproperty] (50/200) CACHED an-luis-rizal_d78f2c751227-022f-77b2-0e1d-a4d32089
+[dotproperty] (60/200) scraped so far for Rizal
+[dotproperty] (70/200) scraped so far for Rizal
+[dotproperty] (80/200) scraped so far for Rizal
+[dotproperty] (90/200) scraped so far for Rizal
+[dotproperty] (100/200) scraped so far for Rizal
+[dotproperty] (109/200) CACHED %C3%B1o-rizal_e7b12fa32809-92f0-f372-f9da-031ed089
+[dotproperty] (110/200) scraped so far for Rizal
+[dotproperty] (120/200) scraped so far for Rizal
+[dotproperty] (130/200) scraped so far for Rizal
+[dotproperty] (140/200) scraped so far for Rizal
+[dotproperty] (150/200) scraped so far for Rizal
+[dotproperty] (160/200) scraped so far for Rizal
+[dotproperty] (163/200) CACHED an-luis-rizal_7a1783018a7e-c88f-fc52-42ef-e6d32089
+[dotproperty] (170/200) scraped so far for Rizal
+[dotproperty] (180/200) scraped so far for Rizal
+[dotproperty] (190/200) scraped so far for Rizal
+[dotproperty] (200/200) scraped so far for Rizal
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/rizal -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/rizal?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/rizal?page=3 -- 5 URLs collected
+[dotproperty] Rizal warehouses-for-sale/rizal -- visiting 55 detail pages
+[dotproperty] (10/55) scraped so far for Rizal
+[dotproperty] (20/55) scraped so far for Rizal
+[dotproperty] (30/55) scraped so far for Rizal
+[dotproperty] (40/55) scraped so far for Rizal
+[dotproperty] (50/55) scraped so far for Rizal
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=6 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/pampanga?page=8 -- 25 URLs collected
+[dotproperty] Pampanga warehouses-for-rent/pampanga -- visiting 200 detail pages
+[dotproperty] (10/200) scraped so far for Pampanga
+[dotproperty] (16/200) CACHED illa-pampanga_ffe2da358976-ceaf-8d32-a9a2-4ae32089
+[dotproperty] (17/200) CACHED utad-pampanga_0f2d20f97f43-34f0-0a32-a602-c9cd0089
+[dotproperty] (18/200) CACHED ario-pampanga_ce7c7bfe8e06-3d9e-4d72-4f85-7fc40089
+[dotproperty] (19/200) CACHED ario-pampanga_6f7ca153e0a1-e29e-5b72-2180-4ae32089
+[dotproperty] (20/200) CACHED ario-pampanga_d14dcec69eeb-77f0-7812-04fa-cae32089
+[dotproperty] (21/200) CACHED idro-pampanga_5c8df777b58e-22d1-4402-02f5-02d32089
+[dotproperty] (22/200) CACHED ario-pampanga_850fcb30d0f5-9cee-d0e2-0574-13d32089
+[dotproperty] (24/200) CACHED ario-pampanga_9476fe7f9861-b02f-d592-4e2f-eae32089
+[dotproperty] (27/200) CACHED oque-pampanga_9e7f96c46426-e0bf-07c2-cb3d-d2d32089
+[dotproperty] (30/200) scraped so far for Pampanga
+[dotproperty] (40/200) scraped so far for Pampanga
+[dotproperty] (44/200) CACHED %B1o-pampanga_a9805082cf7d-5b51-0032-7cda-d4d32089
+[dotproperty] (50/200) scraped so far for Pampanga
+[dotproperty] (51/200) CACHED %B1o-pampanga_efd3a505c4f9-08ff-8482-9c89-c4d32089
+[dotproperty] (60/200) scraped so far for Pampanga
+[dotproperty] (70/200) scraped so far for Pampanga
+[dotproperty] (80/200) scraped so far for Pampanga
+[dotproperty] (90/200) scraped so far for Pampanga
+[dotproperty] (100/200) scraped so far for Pampanga
+[dotproperty] (110/200) scraped so far for Pampanga
+[dotproperty] (111/200) CACHED bano-pampanga_55d171f53eb3-f851-e2b2-d06d-cc632089
+[dotproperty] (117/200) CACHED bano-pampanga_2d15dd26193f-c80f-63f2-822d-cc632089
+[dotproperty] (120/200) scraped so far for Pampanga
+[dotproperty] (130/200) scraped so far for Pampanga
+[dotproperty] (140/200) scraped so far for Pampanga
+[dotproperty] (150/200) scraped so far for Pampanga
+[dotproperty] (160/200) scraped so far for Pampanga
+[dotproperty] (170/200) scraped so far for Pampanga
+[dotproperty] (179/200) CACHED tcut-pampanga_2f46577e60d5-e12f-c6b2-dcae-11b11089
+[dotproperty] (180/200) scraped so far for Pampanga
+[dotproperty] (185/200) CACHED ista-pampanga_d8fca7f19fe7-7ebf-a0f2-74f2-55d32089
+[dotproperty] (187/200) CACHED tcut-pampanga_75059959ebd9-d9b0-f112-3f59-2fb11089
+[dotproperty] (190/200) scraped so far for Pampanga
+[dotproperty] (200/200) scraped so far for Pampanga
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/pampanga -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/pampanga?page=2 -- 9 URLs collected
+[dotproperty] Pampanga warehouses-for-sale/pampanga -- visiting 34 detail pages
+[dotproperty] (1/34) CACHED ario-pampanga_56d54724ab02-ca20-e192-5d60-90170089
+[dotproperty] (10/34) scraped so far for Pampanga
+[dotproperty] (20/34) scraped so far for Pampanga
+[dotproperty] (30/34) scraped so far for Pampanga
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas?page=3 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas?page=4 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas?page=5 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/batangas?page=6 -- 17 URLs collected
+[dotproperty] Batangas warehouses-for-rent/batangas -- visiting 142 detail pages
+[dotproperty] (3/142) CACHED y-16-batangas_8670aaba226d-3521-4cc2-743c-0e0c8089
+[dotproperty] (4/142) CACHED acia-batangas_2f6b73d75caf-f7de-c5b2-2586-1ae32089
+[dotproperty] (6/142) CACHED acia-batangas_d27a15ebb236-ec7e-d152-b02f-89c31089
+[dotproperty] (8/142) CACHED edro-batangas_09715ed6ce49-e580-f562-50ee-5ad31089
+[dotproperty] (9/142) CACHED edro-batangas_0ac92263db3a-929f-a262-f10f-1ad31089
+[dotproperty] (10/142) CACHED iago-batangas_535ec68143cd-27af-25e2-85f4-14d32089
+[dotproperty] (11/142) CACHED ndan-batangas_7ac37f5c1e5d-c9b0-e172-1b62-f49df089
+[dotproperty] (12/142) CACHED fael-batangas_cc976279589e-8cf0-dd22-fe37-8f82d089
+[dotproperty] (13/142) CACHED acia-batangas_0b2cc4632b33-1a3f-a082-2f48-49c31089
+[dotproperty] (14/142) CACHED ihan-batangas_45ed1649d5f3-02b1-c142-66a3-0859d089
+[dotproperty] (15/142) CACHED fael-batangas_1f8b87ad2d34-adc1-0952-4b90-c082d089
+[dotproperty] (16/142) CACHED iago-batangas_f3a9844e1321-4a60-c792-e773-14d32089
+[dotproperty] (17/142) CACHED acia-batangas_42a29f1c93af-406e-d532-b0f3-19c31089
+[dotproperty] (18/142) CACHED y-16-batangas_755af5ceb457-97d0-c182-bf70-c49df089
+[dotproperty] (19/142) CACHED acia-batangas_6bab8bfec10e-002e-b692-d6bc-bad31089
+[dotproperty] (20/142) CACHED acia-batangas_991cea361b9e-8f50-4672-bfdd-45c91089
+[dotproperty] (21/142) CACHED acia-batangas_1be471b5458c-66d1-1822-1658-ead31089
+[dotproperty] (29/142) CACHED acia-batangas_16be5237a9d8-eeb0-c612-6806-0ae32089
+[dotproperty] (30/142) scraped so far for Batangas
+[dotproperty] (39/142) CACHED acia-batangas_5a20279b1e6e-493e-aac2-c9de-2ae32089
+[dotproperty] (40/142) scraped so far for Batangas
+[dotproperty] (50/142) scraped so far for Batangas
+[dotproperty] (60/142) scraped so far for Batangas
+[dotproperty] (61/142) CACHED acia-batangas_8077c59321be-8cdf-6712-f5e8-d9d32089
+[dotproperty] (63/142) CACHED acia-batangas_a6c60ab43d6b-4d81-60b2-b00d-d5d32089
+[dotproperty] (70/142) scraped so far for Batangas
+[dotproperty] (80/142) scraped so far for Batangas
+[dotproperty] (90/142) scraped so far for Batangas
+[dotproperty] (91/142) CACHED y-16-batangas_c55d1eb689ff-c9b1-5332-3663-6bb03089
+[dotproperty] (92/142) CACHED y-16-batangas_430c93d79581-2f21-1552-401c-3b1f3089
+[dotproperty] (93/142) CACHED y-16-batangas_4c39a0d1e082-2f21-1552-48d5-cd1f3089
+[dotproperty] (96/142) CACHED y-16-batangas_8fbeece1cdd1-2f21-1552-7d31-f70f3089
+[dotproperty] (100/142) scraped so far for Batangas
+[dotproperty] (109/142) CACHED y-16-batangas_3bbc6559c252-165e-d382-c341-00cdf089
+[dotproperty] (110/142) scraped so far for Batangas
+[dotproperty] (114/142) CACHED y-16-batangas_2e470e4f8eba-e930-ca62-24b6-02e9e089
+[dotproperty] (115/142) CACHED y-16-batangas_076e0587a6de-32c0-a832-28ae-d13d1089
+[dotproperty] (116/142) CACHED y-16-batangas_bf01b5af81ca-b890-a062-a02b-b13d1089
+[dotproperty] (117/142) CACHED y-16-batangas_0b50babdb2fe-a301-e832-87ec-22bdf089
+[dotproperty] (120/142) scraped so far for Batangas
+[dotproperty] (130/142) scraped so far for Batangas
+[dotproperty] (140/142) scraped so far for Batangas
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/batangas -- 22 URLs collected
+[dotproperty] Batangas warehouses-for-sale/batangas -- visiting 22 detail pages
+[dotproperty] (10/22) scraped so far for Batangas
+[dotproperty] (20/22) scraped so far for Batangas
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu -- 24 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=2 -- 22 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=3 -- 23 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=4 -- 22 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=5 -- 17 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=6 -- 23 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=7 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/cebu?page=8 -- 25 URLs collected
+[dotproperty] Cebu warehouses-for-rent/cebu -- visiting 181 detail pages
+[dotproperty] (1/181) CACHED maguikay-cebu_ffc3e7354b51-b2c0-a422-2f08-5d07f089
+[dotproperty] (10/181) CACHED maguikay-cebu_0959847f90cf-312e-f9f2-225d-32d32089
+[dotproperty] (12/181) CACHED maguikay-cebu_38d1373ead0f-a4ff-fe82-7742-46d32089
+[dotproperty] (13/181) CACHED maguikay-cebu_3b13841f56f8-ce00-c182-a499-78d32089
+[dotproperty] (15/181) CACHED lawaan-i-cebu_33e3c214d840-6790-ade2-4e16-60bb1089
+[dotproperty] (20/181) CACHED maguikay-cebu_5215871bc618-6bf0-8462-f60b-45c91089
+[dotproperty] (22/181) CACHED maguikay-cebu_9c3de5e1c1ba-246e-a2f2-ed9c-a7d32089
+[dotproperty] (28/181) CACHED maguikay-cebu_a86c61975ace-be4f-3592-867e-c3d32089
+[dotproperty] (30/181) scraped so far for Cebu
+[dotproperty] (32/181) CACHED maguikay-cebu_6f4957740a48-4991-8ad2-94e5-54d32089
+[dotproperty] (35/181) CACHED maguikay-cebu_a2e349bb9c74-3f51-2ce2-0f4d-a7d32089
+[dotproperty] (36/181) CACHED maguikay-cebu_2888afdd3258-915e-bee2-1851-46d32089
+[dotproperty] (37/181) CACHED maguikay-cebu_d348a29ac5f9-0cce-0562-40a2-46d32089
+[dotproperty] (38/181) CACHED maguikay-cebu_37a28bd4b7f1-33ef-6f72-70f2-46d32089
+[dotproperty] (39/181) CACHED maguikay-cebu_11996e0ed906-3e11-b882-0141-98851089
+[dotproperty] (40/181) scraped so far for Cebu
+[dotproperty] (45/181) CACHED maguikay-cebu_28616d99f596-fa80-b582-43f1-98851089
+[dotproperty] (50/181) CACHED maguikay-cebu_bf531bcee8b0-09fe-cf72-d6b8-92d32089
+[dotproperty] (54/181) CACHED maguikay-cebu_537f8207f036-5de0-6302-0903-07d32089
+[dotproperty] (55/181) CACHED maguikay-cebu_9c0c04bfc113-632f-5832-afff-f6d32089
+[dotproperty] (60/181) scraped so far for Cebu
+[dotproperty] (70/181) scraped so far for Cebu
+[dotproperty] (80/181) scraped so far for Cebu
+[dotproperty] (90/181) scraped so far for Cebu
+[dotproperty] (100/181) scraped so far for Cebu
+[dotproperty] (102/181) CACHED maguikay-cebu_4e08962683a1-cbe1-3cc2-da2c-7d80f089
+[dotproperty] (110/181) CACHED in-basak-cebu_faaa8b16cce8-8651-0292-c15b-6ab7c089
+[dotproperty] (117/181) CACHED maguikay-cebu_2dd28d1d63ca-5b5e-88e2-6870-5ddee089
+[dotproperty] (120/181) scraped so far for Cebu
+[dotproperty] (130/181) scraped so far for Cebu
+[dotproperty] (137/181) CACHED maguikay-cebu_5717a9fba203-6acf-b792-14b3-68aad089
+[dotproperty] (140/181) scraped so far for Cebu
+[dotproperty] (142/181) CACHED maguikay-cebu_6ac80a4ca2f1-7390-9152-6df9-e81bf089
+[dotproperty] (150/181) CACHED maguikay-cebu_fd7d4b151768-e380-1db5-35c9-cc09f13e
+[dotproperty] (153/181) CACHED maguikay-cebu_51682590d38e-d510-f2d2-5088-097f2089
+[dotproperty] (160/181) scraped so far for Cebu
+[dotproperty] (170/181) scraped so far for Cebu
+[dotproperty] (176/181) CACHED maguikay-cebu_e95cea035584-f990-3572-c744-1c632089
+[dotproperty] (180/181) scraped so far for Cebu
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cebu -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/cebu?page=2 -- 15 URLs collected
+[dotproperty] Cebu warehouses-for-sale/cebu -- visiting 40 detail pages
+[dotproperty] (10/40) scraped so far for Cebu
+[dotproperty] (20/40) scraped so far for Cebu
+[dotproperty] (30/40) scraped so far for Cebu
+[dotproperty] (40/40) scraped so far for Cebu
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/iloilo -- 11 URLs collected
+[dotproperty] Iloilo warehouses-for-rent/iloilo -- visiting 11 detail pages
+[dotproperty] (10/11) scraped so far for Iloilo
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/iloilo -- 2 URLs collected
+[dotproperty] Iloilo warehouses-for-sale/iloilo -- visiting 2 detail pages
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/davao-del-sur -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/davao-del-sur?page=2 -- 25 URLs collected
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/davao-del-sur?page=3 -- 19 URLs collected
+[dotproperty] Davao del Sur warehouses-for-rent/davao-del-sur -- visiting 69 detail pages
+[dotproperty] (3/69) CACHED davao-del-sur_57f8122ea47e-e870-ee62-a25d-360ef089
+[dotproperty] (7/69) CACHED davao-del-sur_f9e24b5ac551-5371-2502-cee8-e2632089
+[dotproperty] (9/69) CACHED davao-del-sur_52b1b31f23c9-bf8e-72b2-778b-b9532089
+[dotproperty] (10/69) scraped so far for Davao del Sur
+[dotproperty] (11/69) CACHED davao-del-sur_9ce2429f99f2-1901-f522-35f1-a9532089
+[dotproperty] (14/69) CACHED davao-del-sur_054d1c11df75-dff0-6e62-7da1-e9532089
+[dotproperty] (16/69) CACHED davao-del-sur_59c94ea146e6-9c10-ad42-fa72-32632089
+[dotproperty] (17/69) CACHED davao-del-sur_52e49010d982-dd01-9502-626c-d2632089
+[dotproperty] (18/69) CACHED davao-del-sur_b34a1013147a-2710-22f2-a65a-192ef089
+[dotproperty] (20/69) scraped so far for Davao del Sur
+[dotproperty] (24/69) CACHED davao-del-sur_25001d5ea212-31bf-abb2-c56f-e2632089
+[dotproperty] (30/69) scraped so far for Davao del Sur
+[dotproperty] (40/69) scraped so far for Davao del Sur
+[dotproperty] (41/69) CACHED davao-del-sur_d799b1300aab-b380-e0c2-907b-a92ef089
+[dotproperty] (50/69) scraped so far for Davao del Sur
+[dotproperty] (60/69) scraped so far for Davao del Sur
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/davao-del-sur -- 6 URLs collected
+[dotproperty] Davao del Sur warehouses-for-sale/davao-del-sur -- visiting 6 detail pages
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-rent/misamis-oriental -- 14 URLs collected
+[dotproperty] Misamis Oriental warehouses-for-rent/misamis-oriental -- visiting 14 detail pages
+[dotproperty] (1/14) CACHED amis-oriental_af6d2f886ec6-b211-11b2-a488-7f3ce089
+[dotproperty] (10/14) scraped so far for Misamis Oriental
+[dotproperty] https://www.dotproperty.com.ph/warehouses-for-sale/misamis-oriental -- 3 URLs collected
+[dotproperty] Misamis Oriental warehouses-for-sale/misamis-oriental -- visiting 3 detail pages
+[dotproperty] (1/3) CACHED amis-oriental_c69bf6da47f9-4d8e-4422-0b43-fa9bf089
+
+[orchestrator] Complete. 2581 listings scraped.
+
+============================================================
+2026-05-11T12:54:01  run_scraper.py starting
+2026-05-11T13:39:03  scraper exit code: 0
+2026-05-11T13:39:04  scored 747 listings (112 complete, 0 duplicates flagged)
+2026-05-11T13:39:04  done.
