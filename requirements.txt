@@ -12,6 +12,8 @@ playwright-stealth>=1.0.6  # reduces bot detection on PH portals
 # Dashboard
 streamlit>=1.30
 pandas>=2.0
+folium>=0.15
+streamlit-folium>=0.18
 
 # Phase 2: AI expansion specialist
 anthropic>=0.100.0         # Claude API — B1 NL intake + B3 negotiation assist
