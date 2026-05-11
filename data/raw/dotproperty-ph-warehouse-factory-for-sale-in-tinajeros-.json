@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tinajeros-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tinajeros-metro-manila_a2d7842088cf-21b1-1122-03a4-3241c089",
+  "scraped_at": "2026-05-04T06:52:37.620970Z",
+  "first_seen_at": "2026-05-04T06:52:37.620970Z",
+  "expires_at": "2026-05-11T06:52:37.620970Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Building Warehouse For Sale at Dona Victoria st.. brgy Tinajeros, Malabon. Near st francis Robinson Mall",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Malabon, Tinajeros",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 98330000.0,
+    "price_unit": "total",
+    "agent_name": "Heyy Land Group ,Inc",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 98,330,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-paludpud-t",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-paludpud-tarlac_de1277fb2d2e-758f-91f2-8a28-5ae32089",
+  "scraped_at": "2026-05-04T07:31:41.034811Z",
+  "first_seen_at": "2026-05-04T07:31:41.034811Z",
+  "expires_at": "2026-05-11T07:31:41.034811Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Offices for rent in Clark Pampanga",
+    "sqm": 1802.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, La Paz, Paludpud",
+    "region": "Tarlac",
+    "lat": null,
+    "lng": null,
+    "price_php": 540000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Mervyn Valenzuela",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,802 m2",
+      "price_raw": "Rent: ₱ 540,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

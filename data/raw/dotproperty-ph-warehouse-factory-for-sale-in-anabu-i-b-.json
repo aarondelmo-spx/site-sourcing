@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-anabu-i-b-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-anabu-i-b-cavite_8b62cce1c89a-a39f-bf42-247e-d52b0089",
+  "scraped_at": "2026-05-11T05:05:05.740451Z",
+  "first_seen_at": "2026-05-04T06:58:38.896728Z",
+  "expires_at": "2026-05-18T05:05:05.740451Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "900.13 sqm Warehouse for Sale in Aguinaldo Highway, Imus, Cavite",
+    "sqm": 1956.1,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Imus, Anabu I-B",
+    "region": "Cavite",
+    "lat": 14.4061874,
+    "lng": 120.9401857,
+    "price_php": 90000000.0,
+    "price_unit": "total",
+    "agent_name": "Cecilia C. Nakagawa",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,956.12 m2",
+      "price_raw": "Sale: ₱ 90,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.15,
+      "NLEX": 28.52,
+      "C5": 19.93,
+      "R10": 23.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

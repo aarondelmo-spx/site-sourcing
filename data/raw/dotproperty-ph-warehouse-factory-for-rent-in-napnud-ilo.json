@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-napnud-ilo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-napnud-iloilo_e594595eb1c2-e970-1e92-949a-45c91089",
+  "scraped_at": "2026-05-11T05:37:06.661609Z",
+  "first_seen_at": "2026-05-04T07:41:11.058364Z",
+  "expires_at": "2026-05-18T05:37:06.661609Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,700 Square Meters Warehouse with Office For Lease in Leganes, Iloilo City",
+    "sqm": 3700.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Iloilo, Leganes, Napnud",
+    "region": "Iloilo",
+    "lat": 10.7766054,
+    "lng": 122.603022,
+    "price_php": 555000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,700 m2",
+      "price_raw": "Rent: ₱ 555,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 403.97,
+      "NLEX": 464.43,
+      "C5": 452.25,
+      "R10": 461.8
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

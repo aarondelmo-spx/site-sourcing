@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cabilang-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cabilang-baybay-cavite_eaaab3ba2c89-cd1e-1d62-dd59-25288089",
+  "scraped_at": "2026-05-08T03:33:38.723251Z",
+  "first_seen_at": "2026-04-29T08:39:45.106017Z",
+  "expires_at": "2026-05-15T03:33:38.723251Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse for Sale in Carmona, Cavite",
+    "sqm": 2200.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Cabilang Baybay",
+    "region": "Cavite",
+    "lat": 14.3207465,
+    "lng": 121.0543618,
+    "price_php": 80000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,200 m2",
+      "price_raw": "Sale: ₱ 80,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.3,
+      "NLEX": 37.32,
+      "C5": 25.6,
+      "R10": 33.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

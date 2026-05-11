@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-matina-cro",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-matina-crossing-davao-del-sur_0fe349e3937a-adbe-4562-c41b-55532089",
+  "scraped_at": "2026-05-11T05:38:24.398844Z",
+  "first_seen_at": "2026-05-04T07:44:11.814653Z",
+  "expires_at": "2026-05-18T05:38:24.398844Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "450 Sqm. Warehouse For Rent @ Matina, Juna Subd. Davao City",
+    "sqm": 450.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Matina Crossing",
+    "region": "Davao del Sur",
+    "lat": 7.061232,
+    "lng": 125.5868664,
+    "price_php": 80000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Amethyst P. de Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 450 m2",
+      "price_raw": "Rent: ₱ 80,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 922.9,
+      "NLEX": 980.89,
+      "C5": 968.92,
+      "R10": 979.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

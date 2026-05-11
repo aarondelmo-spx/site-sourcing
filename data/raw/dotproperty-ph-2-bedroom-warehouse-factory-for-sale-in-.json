@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-2-bedroom-warehouse-factory-for-sale-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/2-bedroom-warehouse-factory-for-sale-in-casuntingan-cebu_25e479158e9a-2ba1-b182-b146-c52cc089",
+  "scraped_at": "2026-05-11T05:36:25.191256Z",
+  "first_seen_at": "2026-05-04T06:53:22.015822Z",
+  "expires_at": "2026-05-18T05:36:25.191256Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "BRAND-NEW WAREHOUSE FOR SALE IN CASUNTINGAN MANDAUE CEBU",
+    "sqm": 1545.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Casuntingan",
+    "region": "Cebu",
+    "lat": 10.3438415,
+    "lng": 123.9321143,
+    "price_php": 220000001.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,545 m2",
+      "price_raw": "Sale: ₱ 220,000,001"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 517.97,
+      "NLEX": 574.66,
+      "C5": 562.82,
+      "R10": 573.06
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-matatalaib",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-matatalaib-tarlac_005755864ef6-35fe-2572-860b-f7d32089",
+  "scraped_at": "2026-05-04T07:31:35.650449Z",
+  "first_seen_at": "2026-05-04T07:31:13.240263Z",
+  "expires_at": "2026-05-11T07:31:35.650449Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High-ceiling 1,500 sqm warehouse for lease/rent in Tarlac City",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": 12.0,
+    "address": "Tarlac, Tarlac, Matatalaib",
+    "region": "Tarlac",
+    "lat": 15.4981809,
+    "lng": 120.6037878,
+    "price_php": 225000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 225,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 114.44,
+      "NLEX": 46.13,
+      "C5": 98.75,
+      "R10": 100.05
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

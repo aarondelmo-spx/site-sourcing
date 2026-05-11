@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-paliparan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-paliparan-i-cavite_24cd8cbb89d1-83c1-4592-8a37-39851089",
+  "scraped_at": "2026-05-11T05:04:58.730572Z",
+  "first_seen_at": "2026-05-04T06:58:31.845673Z",
+  "expires_at": "2026-05-18T05:04:58.730572Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Office Warehouse for Sale in PEZA Zone, Dasmariñas, Cavite",
+    "sqm": 3000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, Paliparan I",
+    "region": "Cavite",
+    "lat": 14.285149,
+    "lng": 120.9895932,
+    "price_php": 167475000.0,
+    "price_unit": "total",
+    "agent_name": "Brad Zafe",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,000 m2",
+      "price_raw": "Sale: ₱ 167,475,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.62,
+      "NLEX": 41.03,
+      "C5": 30.24,
+      "R10": 36.74
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

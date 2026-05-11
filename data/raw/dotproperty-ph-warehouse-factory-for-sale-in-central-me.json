@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-central-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-central-metro-manila_b700f282aaac-7c8f-ee42-05f3-994f2089",
+  "scraped_at": "2026-05-11T05:00:52.066336Z",
+  "first_seen_at": "2026-05-04T06:53:33.100240Z",
+  "expires_at": "2026-05-18T05:00:52.066336Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale in Mazaraga St.   Tatalon  Quezon City",
+    "sqm": 1008.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Central",
+    "region": "NCR",
+    "lat": 14.6474563,
+    "lng": 121.0458558,
+    "price_php": 131040000.0,
+    "price_unit": "total",
+    "agent_name": "Janna Sangcap",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,008 m2",
+      "price_raw": "Sale: ₱ 131,040,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.19,
+      "NLEX": 3.93,
+      "C5": 4.68,
+      "R10": 7.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

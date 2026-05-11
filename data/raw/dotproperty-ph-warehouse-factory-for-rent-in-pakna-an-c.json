@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pakna-an-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pakna-an-cebu_5e27db1f5e2c-839e-fec2-3123-95d32089",
+  "scraped_at": "2026-05-11T05:34:02.881525Z",
+  "first_seen_at": "2026-05-08T04:02:30.844860Z",
+  "expires_at": "2026-05-18T05:34:02.881525Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,949 sqm Warehouse for Rent in Mandaue City, Cebu",
+    "sqm": 3949.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Pakna-An",
+    "region": "Cebu",
+    "lat": 10.3426149,
+    "lng": 123.9476773,
+    "price_php": 868780.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,949 m2",
+      "price_raw": "Rent: ₱ 868,780\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.08,
+      "NLEX": 575.71,
+      "C5": 563.87,
+      "R10": 574.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

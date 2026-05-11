@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lunec-pang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lunec-pangasinan_a25a3617ec1c-a80f-5762-8449-d6910089",
+  "scraped_at": "2026-05-04T07:33:23.916893Z",
+  "first_seen_at": "2026-05-04T07:33:23.165769Z",
+  "expires_at": "2026-05-11T07:33:23.916893Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2289 sqm Warehouse for Rent in Pangasinan",
+    "sqm": 2289.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Malasiqui, Lunec",
+    "region": "Pangasinan",
+    "lat": null,
+    "lng": null,
+    "price_php": 183120.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Erds Rejano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,289 m2",
+      "price_raw": "Rent: ₱ 183,120\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

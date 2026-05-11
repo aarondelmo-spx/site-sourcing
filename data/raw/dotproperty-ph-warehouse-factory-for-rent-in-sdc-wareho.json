@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sdc-wareho",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sdc-warehouse-for-lease-iloilo-city-legaspi-dela-rama-iloilo_8d3f061d80de-b081-e192-b0f2-1b632089",
+  "scraped_at": "2026-05-11T05:36:59.895647Z",
+  "first_seen_at": "2026-05-04T07:41:08.649856Z",
+  "expires_at": "2026-05-18T05:36:59.895647Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "SGS Iloilo Warehouse for Lease in Muelle Loney Street, Iloilo City |2,271.35 sqm",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Iloilo, Iloilo City, Legaspi Dela Rama",
+    "region": "Iloilo",
+    "lat": 10.699431,
+    "lng": 122.5772141,
+    "price_php": 408843.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sunproperties Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 408,843\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 410.8,
+      "NLEX": 471.4,
+      "C5": 459.22,
+      "R10": 468.71
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

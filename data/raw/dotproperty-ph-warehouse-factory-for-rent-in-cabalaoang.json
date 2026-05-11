@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cabalaoang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cabalaoangan-norte-pangasinan_fea1e76b45ab-871f-f192-083d-74d32089",
+  "scraped_at": "2026-05-04T07:33:11.688755Z",
+  "first_seen_at": "2026-05-04T07:33:11.688755Z",
+  "expires_at": "2026-05-11T07:33:11.688755Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Pangasinan warehouse for lease - approximately 5 km from Carmen Exit",
+    "sqm": 2161.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Rosales, Cabalaoangan Norte",
+    "region": "Pangasinan",
+    "lat": 15.8782529,
+    "lng": 120.622056,
+    "price_php": 217000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sondi Tuazon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,161.5 m2",
+      "price_raw": "Rent: ₱ 217,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 153.68,
+      "NLEX": 84.62,
+      "C5": 136.57,
+      "R10": 139.48
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

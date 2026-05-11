@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santo-rosa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santo-rosario-pampanga_59b66217bd9a-888f-ac82-3f48-3f03d089",
+  "scraped_at": "2026-05-11T05:30:05.204499Z",
+  "first_seen_at": "2026-05-04T07:26:23.290370Z",
+  "expires_at": "2026-05-18T05:30:05.204499Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "‼️BUILDING WITH WAREHOUSE FOR SALE IN SAN FERNANDO PAMPANGA‼️",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, San Fernando, Santo Rosario",
+    "region": "Pampanga",
+    "lat": 15.0278714,
+    "lng": 120.6931311,
+    "price_php": 45000000.0,
+    "price_unit": "total",
+    "agent_name": "Glenndie Rivera",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 45,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 63.61,
+      "NLEX": 18.13,
+      "C5": 51.26,
+      "R10": 49.4
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

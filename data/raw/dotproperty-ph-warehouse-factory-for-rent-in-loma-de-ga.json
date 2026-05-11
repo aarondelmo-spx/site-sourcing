@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-loma-de-ga",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loma-de-gato-bulacan_f04f8a3e1cea-df5f-b412-29ec-15d32089",
+  "scraped_at": "2026-05-11T05:15:31.374659Z",
+  "first_seen_at": "2026-05-04T07:18:31.101944Z",
+  "expires_at": "2026-05-18T05:15:31.374659Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,500 square meter Warehouse For Rent in Marilao, Bulacan",
+    "sqm": 1543.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Marilao, Loma de Gato",
+    "region": "Bulacan",
+    "lat": 14.7907944,
+    "lng": 121.0083902,
+    "price_php": 231450.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,543 m2",
+      "price_raw": "Rent: ₱ 231,450\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 26.77,
+      "NLEX": 7.6,
+      "C5": 8.9,
+      "R10": 14.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

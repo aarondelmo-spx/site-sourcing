@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-luz-cebu_2",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-luz-cebu_250ee52e4ad8-6f31-d322-1e06-12d32089",
+  "scraped_at": "2026-05-11T05:34:30.564535Z",
+  "first_seen_at": "2026-05-08T04:03:13.250101Z",
+  "expires_at": "2026-05-18T05:34:30.564535Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "450 sqm Warehouse in Cebu City",
+    "sqm": 450.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Luz",
+    "region": "Cebu",
+    "lat": 10.3178116,
+    "lng": 123.904585,
+    "price_php": 75000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 450 m2",
+      "price_raw": "Rent: ₱ 75,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.58,
+      "NLEX": 575.45,
+      "C5": 563.58,
+      "R10": 573.81
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

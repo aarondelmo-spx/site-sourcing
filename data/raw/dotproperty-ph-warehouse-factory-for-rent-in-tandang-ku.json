@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tandang-ku",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tandang-kutyo-rizal_1b3377424010-5e2e-8582-8317-f9d32089",
+  "scraped_at": "2026-05-11T05:23:54.578107Z",
+  "first_seen_at": "2026-05-04T07:11:35.709684Z",
+  "expires_at": "2026-05-18T05:23:54.578107Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling 1,696 sq.m. Warehouse for Lease in San Pedro, Laguna",
+    "sqm": 1696.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Tanay, Tandang Kutyo",
+    "region": "Rizal",
+    "lat": null,
+    "lng": null,
+    "price_php": 271360.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Armando Sison",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,696 m2",
+      "price_raw": "Rent: ₱ 271,360\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

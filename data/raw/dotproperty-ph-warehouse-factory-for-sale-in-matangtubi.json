@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-matangtubi",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-matangtubig-bulacan_6d858fa34f61-feaf-fdd2-8450-55635089",
+  "scraped_at": "2026-05-11T05:19:11.481971Z",
+  "first_seen_at": "2026-05-04T07:21:45.324762Z",
+  "expires_at": "2026-05-18T05:19:11.481971Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Warehouse and lots in  Pulilan-Baliuag Bypass Road, Bulacan",
+    "sqm": 3909.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Baliuag, Matangtubig",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 91861500.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,909 m2",
+      "price_raw": "Sale: ₱ 91,861,500"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-viente-rea",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-viente-reales-metro-manila_7d8016728455-9851-f1e2-ef5e-04d32089",
+  "scraped_at": "2026-05-11T04:57:08.256695Z",
+  "first_seen_at": "2026-05-04T06:51:29.681469Z",
+  "expires_at": "2026-05-18T04:57:08.256695Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "644 square meters Warehouse for Rent in Valenzuela City, Metro Manila",
+    "sqm": 644.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Viente Reales",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 190000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 644 m2",
+      "price_raw": "Rent: ₱ 190,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

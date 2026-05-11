@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-malabon-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-malabon-metro-manila_f08064ddab2d-2490-ee82-d253-fd4ef089",
+  "scraped_at": "2026-05-11T05:01:19.793835Z",
+  "first_seen_at": "2026-05-04T06:55:36.267951Z",
+  "expires_at": "2026-05-18T05:01:19.793835Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Lot with Warehouse for Sale in Malabon",
+    "sqm": 1073.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Malabon",
+    "region": "NCR",
+    "lat": 14.6667462,
+    "lng": 120.9746131,
+    "price_php": 54000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,073 m2",
+      "price_raw": "Sale: ₱ 54,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.8,
+      "NLEX": 3.79,
+      "C5": 10.06,
+      "R10": 1.39
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

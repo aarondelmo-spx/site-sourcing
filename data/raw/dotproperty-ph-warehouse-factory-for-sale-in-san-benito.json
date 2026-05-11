@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-benito",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-benito-bataan_0cfdde571a5a-0c6e-f662-55c9-64833089",
+  "scraped_at": "2026-05-04T07:29:59.671070Z",
+  "first_seen_at": "2026-05-04T07:29:58.630682Z",
+  "expires_at": "2026-05-11T07:29:59.671070Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE: San Benito, Dinalupihan, Bataan - Freeport with Warehouses",
+    "sqm": 117000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Dinalupihan, San Benito",
+    "region": "Bataan",
+    "lat": null,
+    "lng": null,
+    "price_php": 1.26,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 117,000 m2",
+      "price_raw": "Sale: ₱ 1.26 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

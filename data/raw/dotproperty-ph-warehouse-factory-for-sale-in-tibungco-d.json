@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tibungco-d",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tibungco-davao-del-sur_b58e07e9fe6d-5491-5552-7a03-2aab8089",
+  "scraped_at": "2026-05-11T05:38:34.626867Z",
+  "first_seen_at": "2026-05-04T07:44:20.807782Z",
+  "expires_at": "2026-05-18T05:38:34.626867Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1-Hectare Commercial Land with Warehouse in Tibungco",
+    "sqm": 4000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Tibungco",
+    "region": "Davao del Sur",
+    "lat": 7.2045111,
+    "lng": 125.6447666,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,000 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 912.75,
+      "NLEX": 970.43,
+      "C5": 958.49,
+      "R10": 968.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

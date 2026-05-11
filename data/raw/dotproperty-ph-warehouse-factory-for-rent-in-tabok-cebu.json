@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabok-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabok-cebu_58639abb9de2-3bee-5e92-72f7-88851089",
+  "scraped_at": "2026-05-11T05:34:17.486036Z",
+  "first_seen_at": "2026-05-08T04:01:57.580086Z",
+  "expires_at": "2026-05-18T05:34:17.486036Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse 1000sqm Elevated Toilet High-ceiling Tingub Mandaue",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Tabok",
+    "region": "Cebu",
+    "lat": 10.3425356,
+    "lng": 123.9475179,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Invest Realty Services, Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.07,
+      "NLEX": 575.71,
+      "C5": 563.87,
+      "R10": 574.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

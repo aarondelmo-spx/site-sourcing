@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-alasas-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-alasas-pampanga_ddbe69aa3162-bd50-62a5-cba6-5e0f0d25",
+  "scraped_at": "2026-05-11T05:30:14.915909Z",
+  "first_seen_at": "2026-05-04T07:26:55.668867Z",
+  "expires_at": "2026-05-18T05:30:14.915909Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale At Alasas San Fernando Pampanga",
+    "sqm": 5000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, San Fernando, Alasas",
+    "region": "Pampanga",
+    "lat": 15.0585295,
+    "lng": 120.6443289,
+    "price_php": 50000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 5,000 m2",
+      "price_raw": "Sale: ₱ 50,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 69.39,
+      "NLEX": 21.7,
+      "C5": 57.45,
+      "R10": 55.27
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

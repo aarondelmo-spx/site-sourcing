@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-buenavista",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-buenavista-i-cavite_8d88efb8f00f-7941-bed5-625b-a772afe3",
+  "scraped_at": "2026-05-08T03:33:29.461925Z",
+  "first_seen_at": "2026-04-29T08:39:28.751589Z",
+  "expires_at": "2026-05-15T03:33:29.461925Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse For Sale Very Near Gov. Drive & Calax in General Trias",
+    "sqm": 8641.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Buenavista I",
+    "region": "Cavite",
+    "lat": 14.32863,
+    "lng": 120.9022735,
+    "price_php": 320000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,641 m2",
+      "price_raw": "Sale: ₱ 320,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.33,
+      "NLEX": 37.95,
+      "C5": 29.36,
+      "R10": 32.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-holy-spiri",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-holy-spirit-metro-manila_627cb3193ea3-3edf-c082-7423-f4d32089",
+  "scraped_at": "2026-04-29T08:21:34.540034Z",
+  "expires_at": "2026-05-06T08:21:34.540034Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,135 Lot with Warehouse in Don Antonio Heights, Quezon City",
+    "sqft": 12217.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Holy Spirit",
+    "region": "NCR",
+    "lat": 14.6820598,
+    "lng": 121.080867,
+    "price_php": 400000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,135 m2",
+      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.1,
+      "NLEX": 8.26,
+      "C5": 1.5,
+      "R10": 12.66
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

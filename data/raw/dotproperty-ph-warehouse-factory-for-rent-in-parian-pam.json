@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-parian-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-parian-pampanga_808a7a7b42fe-e42e-a422-db01-93cae089",
+  "scraped_at": "2026-05-11T05:29:17.134249Z",
+  "first_seen_at": "2026-05-11T05:29:17.134249Z",
+  "expires_at": "2026-05-18T05:29:17.134249Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2400 SQM WAREHOUSE - MEXICO PAMPANGA",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Mexico, Parian",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 276000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Lerry Nakagawa",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 276,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

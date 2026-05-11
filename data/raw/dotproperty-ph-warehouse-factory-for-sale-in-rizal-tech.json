@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-rizal-tech",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-rizal-technopark-dolores-rizal_64f282f1e434-272f-1cc2-66b4-4bcb5089",
+  "scraped_at": "2026-05-11T05:25:53.078125Z",
+  "first_seen_at": "2026-05-04T07:16:09.204277Z",
+  "expires_at": "2026-05-18T05:25:53.078125Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial/Commericial Lot For Sale",
+    "sqm": 1845.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, Dolores",
+    "region": "Rizal",
+    "lat": 14.5703733,
+    "lng": 121.131209,
+    "price_php": 60000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,845 m2",
+      "price_raw": "Sale: ₱ 60,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.29,
+      "NLEX": 16.0,
+      "C5": 6.77,
+      "R10": 17.22
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

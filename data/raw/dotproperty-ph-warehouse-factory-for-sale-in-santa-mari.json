@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santa-mari",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santa-maria-cavite_f7a0e98ae45d-3cc1-6272-c643-1ae32089",
+  "scraped_at": "2026-05-11T05:05:00.884159Z",
+  "first_seen_at": "2026-05-04T06:58:33.171645Z",
+  "expires_at": "2026-05-18T05:05:00.884159Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,000 sqm Industrial Property For Sale in Dasmariñas, Cavite",
+    "sqm": 2112.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, Santa Maria",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,112 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

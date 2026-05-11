@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-malhacan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-malhacan-bulacan_2ed659fc90f6-8a4e-b3b5-6a20-b1e38f2d",
+  "scraped_at": "2026-05-11T05:20:08.867372Z",
+  "first_seen_at": "2026-05-04T07:21:04.351885Z",
+  "expires_at": "2026-05-18T05:20:08.867372Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "44k/sqm Warehouse for Sale in Meycauayan, Bulacan near Balintawak QC and NLEX",
+    "sqm": 3800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Malhacan",
+    "region": "Bulacan",
+    "lat": 14.7421392,
+    "lng": 120.9673361,
+    "price_php": 170000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,800 m2",
+      "price_raw": "Sale: ₱ 170,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 22.04,
+      "NLEX": 2.41,
+      "C5": 9.12,
+      "R10": 8.33
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

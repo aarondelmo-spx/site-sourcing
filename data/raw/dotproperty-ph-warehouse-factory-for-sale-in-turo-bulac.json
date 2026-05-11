@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-turo-bulac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-turo-bulacan_dc0fe188eed7-8dcf-afc2-daea-0c632089",
+  "scraped_at": "2026-05-11T05:18:18.896559Z",
+  "first_seen_at": "2026-05-04T07:20:49.427345Z",
+  "expires_at": "2026-05-18T05:18:18.896559Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,200 sqm Warehouse for Sale in Bocaue Industrial Park at Bocaue, Bulacan",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bocaue, Turo",
+    "region": "Bulacan",
+    "lat": 14.8086026,
+    "lng": 120.9453286,
+    "price_php": 28800000.0,
+    "price_unit": "total",
+    "agent_name": "Shirley Sy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Sale: ₱ 28,800,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 29.79,
+      "NLEX": 2.59,
+      "C5": 14.81,
+      "R10": 15.8
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

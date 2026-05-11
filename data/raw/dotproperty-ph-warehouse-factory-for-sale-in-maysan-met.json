@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-maysan-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maysan-metro-manila_4e777a4b4797-ad8e-3f62-10bb-e896d089",
+  "scraped_at": "2026-05-11T05:00:21.173269Z",
+  "first_seen_at": "2026-05-04T06:54:52.872982Z",
+  "expires_at": "2026-05-18T05:00:21.173269Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Property Brgy. Maysan, Valenzuela City",
+    "sqm": 2500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Maysan",
+    "region": "NCR",
+    "lat": 14.6909682,
+    "lng": 120.9812524,
+    "price_php": 150000000.0,
+    "price_unit": "total",
+    "agent_name": "That's Broker Raven",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 2,500 m2",
+      "price_raw": "Sale: ₱ 150,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.16,
+      "NLEX": 1.03,
+      "C5": 8.05,
+      "R10": 3.36
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

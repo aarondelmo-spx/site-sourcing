@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-zapote-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-zapote-laguna_91c8693af8e9-87df-6b32-42dd-7f3cd089",
+  "scraped_at": "2026-05-11T05:13:38.814253Z",
+  "first_seen_at": "2026-05-04T07:07:33.767001Z",
+  "expires_at": "2026-05-18T05:13:38.814253Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Binan, Laguna",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Biñan, Zapote",
+    "region": "Laguna",
+    "lat": 14.3136015,
+    "lng": 121.0782003,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": "JJ Gaduena",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.59,
+      "NLEX": 38.51,
+      "C5": 26.57,
+      "R10": 35.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

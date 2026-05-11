@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barandal-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barandal-laguna_ff8cf2334fb2-b630-3442-1642-55312089",
+  "scraped_at": "2026-05-11T05:14:17.381221Z",
+  "first_seen_at": "2026-05-04T07:07:41.127827Z",
+  "expires_at": "2026-05-18T05:14:17.381221Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Mixed-Use Property located at Ciudad de Calamba, Laguna",
+    "sqm": 1600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Barandal",
+    "region": "Laguna",
+    "lat": 14.1971161,
+    "lng": 121.123883,
+    "price_php": 85000000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,600 m2",
+      "price_raw": "Sale: ₱ 85,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.17,
+      "NLEX": 52.22,
+      "C5": 40.15,
+      "R10": 49.09
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

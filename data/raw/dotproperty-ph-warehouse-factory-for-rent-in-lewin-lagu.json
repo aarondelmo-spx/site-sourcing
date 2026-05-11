@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lewin-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lewin-laguna_7846cabbaf97-bc20-acb2-4c22-66d32089",
+  "scraped_at": "2026-05-11T05:08:26.424707Z",
+  "first_seen_at": "2026-05-04T07:02:14.767956Z",
+  "expires_at": "2026-05-18T05:08:26.424707Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "4671 sqm Carmona Warehouse Factory Space for Rent",
+    "sqm": 4671.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Lumban, Lewin",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 935000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 4,671 m2",
+      "price_raw": "Rent: ₱ 935,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

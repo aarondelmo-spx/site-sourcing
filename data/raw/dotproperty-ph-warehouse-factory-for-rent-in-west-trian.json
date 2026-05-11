@@ -1,0 +1,40 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-west-trian",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-west-triangle-metro-manila-near-mrt-3-quezon-avenue_63fc92809957-cd2f-ab72-ff67-3b632089",
+  "scraped_at": "2026-05-04T02:19:21.946857Z",
+  "expires_at": "2026-05-11T02:19:21.946857Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Office/Storage/Staff House/Commissary for Lease near Quezon Avenue, Quezon City",
+    "sqm": 200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, West Triangle",
+    "region": "NCR",
+    "lat": 14.645993,
+    "lng": 121.0357397,
+    "price_php": 60000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Catherine Clidoro",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 200 m2",
+      "price_raw": "Rent: ₱ 60,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.79,
+      "NLEX": 2.91,
+      "C5": 5.71,
+      "R10": 6.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santa-ana-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santa-ana-rizal_4904bc952ec4-7efe-e6d2-dbb0-11532089",
+  "scraped_at": "2026-05-11T05:24:54.299139Z",
+  "first_seen_at": "2026-05-04T07:15:04.484450Z",
+  "expires_at": "2026-05-18T05:24:54.299139Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale along Hi-way 2000, Taytay, Rizal",
+    "sqm": 4190.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, Santa Ana",
+    "region": "Rizal",
+    "lat": 14.5402246,
+    "lng": 121.1064932,
+    "price_php": 320000000.0,
+    "price_unit": "total",
+    "agent_name": "Irene Gonzaga",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,190 m2",
+      "price_raw": "Sale: ₱ 320,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.49,
+      "NLEX": 16.34,
+      "C5": 6.26,
+      "R10": 16.15
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

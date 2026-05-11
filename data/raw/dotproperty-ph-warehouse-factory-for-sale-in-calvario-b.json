@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-calvario-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-calvario-bulacan_d13a39bc7578-aa1e-ac82-c83f-6d0bd089",
+  "scraped_at": "2026-05-11T05:20:23.498715Z",
+  "first_seen_at": "2026-05-04T07:21:42.886694Z",
+  "expires_at": "2026-05-18T05:20:23.498715Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for sale in Meycauyan Bulacan",
+    "sqm": 13202.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Calvario",
+    "region": "Bulacan",
+    "lat": 14.7365114,
+    "lng": 120.9612816,
+    "price_php": 800000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 13,202 m2",
+      "price_raw": "Sale: ₱ 800,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 21.61,
+      "NLEX": 2.39,
+      "C5": 9.62,
+      "R10": 7.68
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sabutan-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sabutan-cavite_e15b469b3eee-4e30-e972-67fa-d3941089",
+  "scraped_at": "2026-05-08T03:32:06.061647Z",
+  "first_seen_at": "2026-04-29T08:37:55.080672Z",
+  "expires_at": "2026-05-15T03:32:06.061647Z",
+  "status": "active",
+  "listing": {
+    "title": "JA - FOR SALE: 4,696 sqm Warehouse in Maguyam, Silang, Cavite",
+    "sqm": 4696.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Sabutan",
+    "region": "Cavite",
+    "lat": 14.2400484,
+    "lng": 120.9762083,
+    "price_php": 150000000.0,
+    "price_unit": "total",
+    "agent_name": "RE/MAX Capital",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 4,696 m2",
+      "price_raw": "Sale: ₱ 150,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.12,
+      "NLEX": 46.13,
+      "C5": 35.45,
+      "R10": 41.74
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

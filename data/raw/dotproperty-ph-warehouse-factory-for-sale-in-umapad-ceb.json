@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-umapad-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-umapad-cebu_4cbefd12c683-6dff-4992-acf1-550f6089",
+  "scraped_at": "2026-05-11T05:36:32.266995Z",
+  "first_seen_at": "2026-05-08T04:05:19.917873Z",
+  "expires_at": "2026-05-18T05:36:32.266995Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse in Plaridel St.Umapad, Mandaue City",
+    "sqm": 5122.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Umapad",
+    "region": "Cebu",
+    "lat": 10.3304993,
+    "lng": 123.9628135,
+    "price_php": 415000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 5,122 m2",
+      "price_raw": "Sale: ₱ 415,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 521.14,
+      "NLEX": 577.75,
+      "C5": 565.91,
+      "R10": 576.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

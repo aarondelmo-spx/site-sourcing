@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-carolina-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-carolina-camarines-sur_d19ff6487a95-3ade-6192-45ee-45c91089",
+  "scraped_at": "2026-05-04T07:34:34.347216Z",
+  "first_seen_at": "2026-05-04T07:34:32.425913Z",
+  "expires_at": "2026-05-11T07:34:34.347216Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,850 sqm Prime Warehouse for Lease in Naga City, Camarines Sur",
+    "sqm": 1850.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Camarines Sur, Naga, Carolina",
+    "region": "Camarines Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 277500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,850 m2",
+      "price_raw": "Rent: ₱ 277,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

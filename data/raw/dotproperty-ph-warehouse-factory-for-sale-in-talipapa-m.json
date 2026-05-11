@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-talipapa-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-talipapa-metro-manila_b8bd2466024b-be4f-7372-5ffa-81532089",
+  "scraped_at": "2026-05-11T05:00:49.749117Z",
+  "first_seen_at": "2026-05-04T06:55:25.019162Z",
+  "expires_at": "2026-05-18T05:00:49.749117Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE LOT with Warehouse in Quirino Highway Quezon City",
+    "sqm": 600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Talipapa",
+    "region": "NCR",
+    "lat": 14.6893864,
+    "lng": 121.0284244,
+    "price_php": 100000000.0,
+    "price_unit": "total",
+    "agent_name": "Irene Gonzaga",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 600 m2",
+      "price_raw": "Sale: ₱ 100,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.5,
+      "NLEX": 4.45,
+      "C5": 4.19,
+      "R10": 7.58
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

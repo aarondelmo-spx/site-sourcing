@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-paradise-i",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-paradise-iii-bulacan_e21d46b337a4-371e-72c2-8301-56d32089",
+  "scraped_at": "2026-05-11T05:16:21.251666Z",
+  "first_seen_at": "2026-05-04T07:19:11.352859Z",
+  "expires_at": "2026-05-18T05:16:21.251666Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "350 sqm Warehouse for Rent in Santa Maria, Bulacan - PHP 50,000",
+    "sqm": 350.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, San Jose del Monte, Paradise III",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 50000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 350 m2",
+      "price_raw": "Rent: ₱ 50,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

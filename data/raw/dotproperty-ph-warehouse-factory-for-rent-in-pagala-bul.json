@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pagala-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pagala-bulacan_ed5c2c3e9437-ccd1-4472-c5bf-68d32089",
+  "scraped_at": "2026-05-11T05:16:39.963152Z",
+  "first_seen_at": "2026-05-04T07:19:37.401255Z",
+  "expires_at": "2026-05-18T05:16:39.963152Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5300 sqm warehouse for rent in baliuag bulacan",
+    "sqm": 5300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Baliuag, Pagala",
+    "region": "Bulacan",
+    "lat": 14.9600718,
+    "lng": 120.8855548,
+    "price_php": 690000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,300 m2",
+      "price_raw": "Rent: ₱ 690,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 47.77,
+      "NLEX": 2.95,
+      "C5": 31.86,
+      "R10": 33.56
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

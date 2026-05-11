@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cabantian-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cabantian-davao-del-sur_44309176c2ee-4451-9742-7968-f2632089",
+  "scraped_at": "2026-05-11T05:37:47.649382Z",
+  "first_seen_at": "2026-05-04T03:08:49.385027Z",
+  "expires_at": "2026-05-18T05:37:47.649382Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse for Rent in Buhangin, Davao City",
+    "sqm": 6100.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Cabantian",
+    "region": "Davao del Sur",
+    "lat": 7.1300935,
+    "lng": 125.638871,
+    "price_php": 1098000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gelyn Artuque",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 6,100 m2",
+      "price_raw": "Rent: ₱ 1,098,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 919.41,
+      "NLEX": 977.2,
+      "C5": 965.25,
+      "R10": 975.39
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

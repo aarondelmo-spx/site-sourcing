@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-javalera-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-javalera-cavite_dc97c51a72f0-25fe-1332-0010-48ec5089",
+  "scraped_at": "2026-05-11T05:06:29.644654Z",
+  "first_seen_at": "2026-05-04T07:00:10.321935Z",
+  "expires_at": "2026-05-18T05:06:29.644654Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3.5 Hectares Warehouse for Sale in Cavite with 8.1 Hectares Lot Area",
+    "sqm": 35922.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Javalera",
+    "region": "Cavite",
+    "lat": 14.2630583,
+    "lng": 120.9154323,
+    "price_php": 1.25,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 35,922.5 m2",
+      "price_raw": "Sale: ₱ 1.25 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.97,
+      "NLEX": 44.6,
+      "C5": 35.11,
+      "R10": 39.76
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

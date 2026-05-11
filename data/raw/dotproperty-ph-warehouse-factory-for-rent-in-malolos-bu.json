@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-malolos-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-malolos-bulacan_d2f2f7c66b20-deb1-80c2-07c1-a5d32089",
+  "scraped_at": "2026-05-11T05:16:48.679871Z",
+  "first_seen_at": "2026-04-29T09:00:28.730075Z",
+  "expires_at": "2026-05-18T05:16:48.679871Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "15000 pallet position warehouse for rent in malolos bulacan with racks",
+    "sqm": 15000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Malolos",
+    "region": "Bulacan",
+    "lat": 14.8415064,
+    "lng": 120.8387416,
+    "price_php": 5400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 15,000 m2",
+      "price_raw": "Rent: ₱ 5,400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 37.74,
+      "NLEX": 7.68,
+      "C5": 26.3,
+      "R10": 23.44
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

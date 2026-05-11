@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ibo-cebu_5",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ibo-cebu_598da373f947-eafe-5192-f908-1757d089",
+  "scraped_at": "2026-05-11T05:34:09.019847Z",
+  "first_seen_at": "2026-05-04T03:01:39.275965Z",
+  "expires_at": "2026-05-18T05:34:09.019847Z",
+  "status": "active",
+  "listing": {
+    "title": "6,432 Sqm Modern Factory & Warehouse Space With Loading Bays for Lease in Lapu-Lapu City",
+    "sqm": 5632.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cebu, Lapu-Lapu, Ibo",
+    "region": "Cebu",
+    "lat": 10.3280601,
+    "lng": 123.9771158,
+    "price_php": 1608000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,632 m2",
+      "price_raw": "Rent: ₱ 1,608,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 522.28,
+      "NLEX": 578.83,
+      "C5": 567.01,
+      "R10": 577.26
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

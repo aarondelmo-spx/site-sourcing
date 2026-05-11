@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-turbina-la",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-turbina-laguna_897c90407a71-789e-bfb2-a6bb-36532089",
+  "scraped_at": "2026-05-11T05:14:10.716191Z",
+  "first_seen_at": "2026-05-04T07:07:21.003641Z",
+  "expires_at": "2026-05-18T05:14:10.716191Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PEZA Industrial Property in Carmelray Industrial Park 2, Laguna",
+    "sqm": 13000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Turbina",
+    "region": "Laguna",
+    "lat": 14.1906066,
+    "lng": 121.137302,
+    "price_php": 720000000.0,
+    "price_unit": "total",
+    "agent_name": "REMAX PRIME",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 13,000 m2",
+      "price_raw": "Sale: ₱ 720,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.67,
+      "NLEX": 53.28,
+      "C5": 41.17,
+      "R10": 50.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

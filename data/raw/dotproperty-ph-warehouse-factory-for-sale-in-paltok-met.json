@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-paltok-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-paltok-metro-manila-near-mrt-3-north-avenue_91a858980cac-d9b1-9852-a07b-9bdc0089",
+  "scraped_at": "2026-05-11T05:01:16.108697Z",
+  "first_seen_at": "2026-05-04T06:55:28.409716Z",
+  "expires_at": "2026-05-18T05:01:16.108697Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Factory-Office for Sale 2,346 SQM in QC Near Baler, SFDM, Roosevelt, West Avenue",
+    "sqm": 2400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Paltok",
+    "region": "NCR",
+    "lat": 14.6432708,
+    "lng": 121.0269371,
+    "price_php": 350000000.0,
+    "price_unit": "total",
+    "agent_name": "Ma Cecilia Zarate / CSZ Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,400 m2",
+      "price_raw": "Sale: ₱ 350,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.37,
+      "NLEX": 2.16,
+      "C5": 6.69,
+      "R10": 5.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

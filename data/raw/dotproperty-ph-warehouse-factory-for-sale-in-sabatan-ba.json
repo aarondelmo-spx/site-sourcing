@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sabatan-ba",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sabatan-bataan_05c754e78f31-f2ae-c152-d87e-bd1f0089",
+  "scraped_at": "2026-05-04T07:29:57.620450Z",
+  "first_seen_at": "2026-05-04T07:29:57.620450Z",
+  "expires_at": "2026-05-11T07:29:57.620450Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Industrial Property with Existing Warehouse in Roman Superhighway, Orion, Bataan",
+    "sqm": 9941.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Orion, Sabatan",
+    "region": "Bataan",
+    "lat": 14.6091585,
+    "lng": 120.5706119,
+    "price_php": 139174000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 9,941 m2",
+      "price_raw": "Sale: ₱ 139,174,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 48.68,
+      "NLEX": 43.75,
+      "C5": 51.93,
+      "R10": 42.57
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

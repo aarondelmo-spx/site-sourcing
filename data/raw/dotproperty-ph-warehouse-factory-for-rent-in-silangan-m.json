@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-silangan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-silangan-metro-manila-near-lrt-2-anonas_44bae1f5e8b1-897f-16a2-2204-81d32089",
+  "scraped_at": "2026-04-29T08:21:33.215034Z",
+  "expires_at": "2026-05-06T08:21:33.215034Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "600 sqm Warehouse for Rent in Cubao, Quezon City",
+    "sqft": 6458.3,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Silangan",
+    "region": "NCR",
+    "lat": 14.6256536,
+    "lng": 121.061989,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 600 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.58,
+      "NLEX": 6.41,
+      "C5": 2.94,
+      "R10": 9.1
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

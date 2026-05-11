@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pagsangaha",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pagsangahan-quezon_baf574010375-8fbe-fc82-7afb-73941089",
+  "scraped_at": "2026-05-04T07:16:58.841658Z",
+  "first_seen_at": "2026-05-04T07:16:58.046630Z",
+  "expires_at": "2026-05-11T07:16:58.841658Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "194.90 sqm Residential Warehouse and Lot for sale",
+    "sqm": 150.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Quezon, General Nakar, Pagsangahan",
+    "region": "Quezon",
+    "lat": null,
+    "lng": null,
+    "price_php": 5500000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 150 m2",
+      "price_raw": "Sale: ₱ 5,500,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

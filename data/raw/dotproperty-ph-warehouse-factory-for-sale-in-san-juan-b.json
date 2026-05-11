@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-juan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-juan-bulacan_41560aeb7da0-2f51-2952-6fc4-96d32089",
+  "scraped_at": "2026-05-11T05:19:12.687770Z",
+  "first_seen_at": "2026-05-04T07:20:51.471967Z",
+  "expires_at": "2026-05-18T05:19:12.687770Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Compound for Sale in Balagtas, Bulacan",
+    "sqm": 6250.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), San Juan",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 245000000.0,
+    "price_unit": "total",
+    "agent_name": "Eckhart Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 6,250 m2",
+      "price_raw": "Sale: ₱ 245,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

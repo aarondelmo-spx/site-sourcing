@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-danglag-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-danglag-cebu_a6e0d927b275-b9be-deb5-7a22-8553daa3",
+  "scraped_at": "2026-05-11T05:36:33.246418Z",
+  "first_seen_at": "2026-05-08T04:04:41.092173Z",
+  "expires_at": "2026-05-18T05:36:33.246418Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse in Danlag, Consolacion Cebu",
+    "sqm": 1600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Consolacion, Danglag",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 50000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,600 m2",
+      "price_raw": "Sale: ₱ 50,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

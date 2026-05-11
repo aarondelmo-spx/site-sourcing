@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santa-rosa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santa-rosa-ii-bulacan_b25aedf624fa-951e-ba72-686b-b89c2089",
+  "scraped_at": "2026-05-11T05:20:26.335902Z",
+  "first_seen_at": "2026-05-04T07:07:39.734717Z",
+  "expires_at": "2026-05-18T05:20:26.335902Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Lot with Unfinished Warehouse in Marilao Bulacan for Sale",
+    "sqm": 1261.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Marilao, Santa Rosa II",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 34000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,261 m2",
+      "price_raw": "Sale: ₱ 34,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

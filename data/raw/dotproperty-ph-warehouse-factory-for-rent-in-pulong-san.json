@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pulong-san",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pulong-santa-cruz-laguna_a481373e5bbd-548e-2952-b0cd-34d32089",
+  "scraped_at": "2026-05-11T05:08:48.666989Z",
+  "first_seen_at": "2026-05-04T07:01:01.741486Z",
+  "expires_at": "2026-05-18T05:08:48.666989Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "4000 sqm Sta Rosa Laguna Warehouse for Rent with Overhead Crane",
+    "sqm": 4000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Pulong Santa Cruz",
+    "region": "Laguna",
+    "lat": 14.2730161,
+    "lng": 121.077213,
+    "price_php": 1000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 4,000 m2",
+      "price_raw": "Rent: ₱ 1,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.63,
+      "NLEX": 42.94,
+      "C5": 31.04,
+      "R10": 39.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

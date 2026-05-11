@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-central-po",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-central-pob-cebu_325073854bcb-dadf-d972-d0ee-24dee089",
+  "scraped_at": "2026-05-11T05:35:55.093390Z",
+  "first_seen_at": "2026-05-08T04:02:17.758525Z",
+  "expires_at": "2026-05-18T05:35:55.093390Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT/LEASE CEBU CITY 7,000 SQM",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Central (Pob.)",
+    "region": "Cebu",
+    "lat": 10.2934208,
+    "lng": 123.9022613,
+    "price_php": 1400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Philippine Access",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 1,400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.65,
+      "NLEX": 577.59,
+      "C5": 565.72,
+      "R10": 575.94
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tayud-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tayud-cebu_d0d858fd8e3e-e10e-3d32-5bef-2a0fc089",
+  "scraped_at": "2026-05-11T05:36:00.941821Z",
+  "first_seen_at": "2026-05-08T04:04:39.629481Z",
+  "expires_at": "2026-05-18T05:36:00.941821Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Prime Commercial Lot with Warehouse along Cebu North Coastal Road",
+    "sqm": 2255.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Liloan, Tayud",
+    "region": "Cebu",
+    "lat": 10.391205,
+    "lng": 124.0070004,
+    "price_php": 55000000.0,
+    "price_unit": "total",
+    "agent_name": "Atari Real Estate Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,255 m2",
+      "price_raw": "Sale: ₱ 55,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.56,
+      "NLEX": 574.82,
+      "C5": 563.03,
+      "R10": 573.31
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

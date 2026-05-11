@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bagbaguin-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bagbaguin-bulacan_6e7475dd58ce-8e8e-d442-b46c-d22cd089",
+  "scraped_at": "2026-05-11T05:17:55.030536Z",
+  "first_seen_at": "2026-05-04T06:51:34.330251Z",
+  "expires_at": "2026-05-18T05:17:55.030536Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Rent in Meycauayan, Bulacan | 1,065 sqm | Newly Built",
+    "sqm": 1065.9,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Bagbaguin",
+    "region": "Bulacan",
+    "lat": 14.7550824,
+    "lng": 121.0041457,
+    "price_php": 165000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Phil Dang-At",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,065.9 m2",
+      "price_raw": "Rent: ₱ 165,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 22.83,
+      "NLEX": 5.96,
+      "C5": 6.15,
+      "R10": 10.77
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

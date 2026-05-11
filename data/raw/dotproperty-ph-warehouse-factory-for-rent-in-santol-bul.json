@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santol-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santol-bulacan_c30d4889e5e6-49e0-0142-10dd-00020089",
+  "scraped_at": "2026-05-11T05:18:01.465960Z",
+  "first_seen_at": "2026-05-04T07:19:31.692862Z",
+  "expires_at": "2026-05-18T05:18:01.465960Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,320 sqm covered warehouse - MALOLOS BULACAN",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Malolos, Santol",
+    "region": "Bulacan",
+    "lat": 14.8378202,
+    "lng": 120.8532118,
+    "price_php": 1200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Lerry Nakagawa",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 1,200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 36.6,
+      "NLEX": 6.36,
+      "C5": 24.75,
+      "R10": 22.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

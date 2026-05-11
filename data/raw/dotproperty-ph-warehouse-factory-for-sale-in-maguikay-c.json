@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-maguikay-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maguikay-cebu_8c3d9d886be4-2400-5272-4b18-f2364089",
+  "scraped_at": "2026-05-11T05:36:20.276619Z",
+  "first_seen_at": "2026-05-08T04:04:58.525449Z",
+  "expires_at": "2026-05-18T05:36:20.276619Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "INDUSTRIAL WAREHOUSE FOR SALE AT CASUNTINGAN , MANDAUE CITY",
+    "sqm": 2652.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Maguikay",
+    "region": "Cebu",
+    "lat": 10.341736,
+    "lng": 123.947291,
+    "price_php": 220000000.0,
+    "price_unit": "total",
+    "agent_name": "Broker She Manalang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,652 m2",
+      "price_raw": "Sale: ₱ 220,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.13,
+      "NLEX": 575.77,
+      "C5": 563.93,
+      "R10": 574.18
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

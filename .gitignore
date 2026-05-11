@@ -11,10 +11,7 @@ venv/
 env/
 .env
 
-# Data — exclude raw scraped data and geocode cache from git
-# (too large + contains PII addresses; regenerate by running scraper)
-data/raw/
-data/scored/
+# Data — exclude geocode cache and status from git
 data/geocode_cache.json
 data/status.json
 
@@ -42,3 +39,4 @@ secrets.yaml
 .idea/
 .vscode/
 *.swp
+.gstack/

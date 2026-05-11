@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-real-lagun",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-real-laguna_0e5d0e51ab96-fef0-6242-2ef7-8d4cd089",
+  "scraped_at": "2026-05-11T05:11:52.694530Z",
+  "first_seen_at": "2026-05-04T07:00:59.443376Z",
+  "expires_at": "2026-05-18T05:11:52.694530Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT IN CALAMBA, LAGUNA",
+    "sqm": 220.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Real",
+    "region": "Laguna",
+    "lat": 14.2021172,
+    "lng": 121.1582891,
+    "price_php": 120000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 220 m2",
+      "price_raw": "Rent: ₱ 120,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.27,
+      "NLEX": 52.68,
+      "C5": 40.52,
+      "R10": 49.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

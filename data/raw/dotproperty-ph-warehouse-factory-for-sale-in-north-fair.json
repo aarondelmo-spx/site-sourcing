@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-north-fair",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-north-fairview-metro-manila_afcd5ddfd4b1-f45e-f892-fe7c-1ec21089",
+  "scraped_at": "2026-05-11T04:59:49.867620Z",
+  "first_seen_at": "2026-05-04T06:55:27.222282Z",
+  "expires_at": "2026-05-18T04:59:49.867620Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in North Fairview, Novaliches, Quezon City",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, North Fairview",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 20000000.0,
+    "price_unit": "total",
+    "agent_name": "PhilPro Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 400 m2",
+      "price_raw": "Sale: ₱ 20,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

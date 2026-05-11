@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-canlubang-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-canlubang-laguna_46961659b320-1051-8c02-6f0b-73d32089",
+  "scraped_at": "2026-05-11T05:11:40.017952Z",
+  "first_seen_at": "2026-05-04T07:01:00.363768Z",
+  "expires_at": "2026-05-18T05:11:40.017952Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1375 SQM Canlubang, Calamba Warehouse for Lease",
+    "sqm": 1375.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Canlubang",
+    "region": "Laguna",
+    "lat": 14.2245718,
+    "lng": 121.0973944,
+    "price_php": 343750.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Armando Sison",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,375 m2",
+      "price_raw": "Rent: ₱ 343,750\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.35,
+      "NLEX": 48.63,
+      "C5": 36.65,
+      "R10": 45.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

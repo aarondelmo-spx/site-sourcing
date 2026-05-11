@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-camachilih",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-camachilihan-bulacan_447eb320eed9-8fbf-4bb2-4e56-5f802089",
+  "scraped_at": "2026-05-08T03:49:41.693876Z",
+  "first_seen_at": "2026-04-29T09:04:15.465609Z",
+  "expires_at": "2026-05-15T03:49:41.693876Z",
+  "status": "active",
+  "listing": {
+    "title": "FOR SALE Industrial Property located at Interglobal Industrial Compound, Bustos, Bulacan",
+    "sqm": 1000.0,
+    "dock_doors": 1,
+    "clear_height_m": 13.7,
+    "address": "Bulacan, Bustos, Camachilihan",
+    "region": "Bulacan",
+    "lat": 14.9086536,
+    "lng": 120.9402283,
+    "price_php": 25000000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,000 m2",
+      "price_raw": "Sale: ₱ 25,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 40.74,
+      "NLEX": 4.88,
+      "C5": 23.92,
+      "R10": 26.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

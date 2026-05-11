@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-agusti",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-agustin-batangas_f5cf22a2ca57-c8f1-29c2-86e6-fae32089",
+  "scraped_at": "2026-05-11T05:31:25.110161Z",
+  "first_seen_at": "2026-05-04T07:09:45.295816Z",
+  "expires_at": "2026-05-18T05:31:25.110161Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "11000 sqm peza factory warehouse for rent in LISP 3",
+    "sqm": 11000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Santo Tomas, San Agustin",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 4000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 11,000 m2",
+      "price_raw": "Rent: ₱ 4,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

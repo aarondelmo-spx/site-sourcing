@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-makiling-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-makiling-laguna_922a2984cfb9-30e0-e442-2a8f-0a637089",
+  "scraped_at": "2026-05-11T05:14:25.398173Z",
+  "first_seen_at": "2026-05-04T07:08:01.597643Z",
+  "expires_at": "2026-05-18T05:14:25.398173Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Commercial Property in Makiling, Calamba, Laguna - OBSM28",
+    "sqm": 11468.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Makiling",
+    "region": "Laguna",
+    "lat": 14.1584372,
+    "lng": 121.1364079,
+    "price_php": 321104000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 11,468 m2",
+      "price_raw": "Sale: ₱ 321,104,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.38,
+      "NLEX": 56.72,
+      "C5": 44.64,
+      "R10": 53.6
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

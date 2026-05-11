@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cainta-riz",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cainta-rizal_4a51c9525d14-bb11-2812-117d-8bae1089",
+  "scraped_at": "2026-05-11T05:25:11.417823Z",
+  "first_seen_at": "2026-05-04T07:15:21.375858Z",
+  "expires_at": "2026-05-18T05:25:11.417823Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Felix Ave Mint warehouse RFO near Robinson's Cainta Ortigas Avenue",
+    "sqm": 3500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Cainta",
+    "region": "Rizal",
+    "lat": 14.5869653,
+    "lng": 121.1362376,
+    "price_php": 705000000.0,
+    "price_unit": "total",
+    "agent_name": "Bernard john Calata",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,500 m2",
+      "price_raw": "Sale: ₱ 705,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.27,
+      "NLEX": 15.48,
+      "C5": 6.39,
+      "R10": 17.31
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

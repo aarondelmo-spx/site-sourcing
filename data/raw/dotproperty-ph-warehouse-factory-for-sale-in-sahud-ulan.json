@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sahud-ulan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sahud-ulan-cavite_5a6b905dbce5-f961-bb88-f4a1-91c878b0",
+  "scraped_at": "2026-05-11T05:06:37.950312Z",
+  "first_seen_at": "2026-05-04T06:59:03.524423Z",
+  "expires_at": "2026-05-18T05:06:37.950312Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Brand New Warehouse in Suntrust Ecotown Tanza, Cavite",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Sahud Ulan",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 98000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 98,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maybubon-n",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maybubon-nueva-ecija_4c88d172b706-fc21-5c02-af22-45d32089",
+  "scraped_at": "2026-05-04T07:30:34.894851Z",
+  "first_seen_at": "2026-05-04T07:30:34.894851Z",
+  "expires_at": "2026-05-11T07:30:34.894851Z",
+  "status": "active",
+  "listing": {
+    "title": "For Rent 2,016 sqm Warehouse in Del Rosario, San Fernando, Pampanga",
+    "sqm": 2016.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, Guimba, Maybubon",
+    "region": "Nueva Ecija",
+    "lat": null,
+    "lng": null,
+    "price_php": 419000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,016 m2",
+      "price_raw": "Rent: ₱ 419,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

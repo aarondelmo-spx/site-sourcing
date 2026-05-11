@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-pl",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-plainview-metro-manila-near-mrt-3-boni_84ab7f1bbae5-fbc0-9b22-8c44-865f0089",
+  "scraped_at": "2026-05-11T04:58:11.440542Z",
+  "first_seen_at": "2026-05-04T06:49:49.687364Z",
+  "expires_at": "2026-05-18T04:58:11.440542Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease or Sale –  Mandaluyong City",
+    "sqm": 450.0,
+    "dock_doors": null,
+    "clear_height_m": 8.5,
+    "address": "Metro Manila, Mandaluyong, Plainview",
+    "region": "NCR",
+    "lat": 14.5761957,
+    "lng": 121.0323463,
+    "price_php": 62000000.0,
+    "price_unit": "total",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 450 m2",
+      "price_raw": "Sale: ₱ 62,000,000\n                                                                                                    Rent: ₱ 300,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.22,
+      "NLEX": 8.94,
+      "C5": 3.2,
+      "R10": 7.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

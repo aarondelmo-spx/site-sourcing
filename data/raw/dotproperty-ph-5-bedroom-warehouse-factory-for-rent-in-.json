@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-5-bedroom-warehouse-factory-for-rent-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/5-bedroom-warehouse-factory-for-rent-in-dolores-rizal_655215619c1f-0020-cd22-74ed-edbb2089",
+  "scraped_at": "2026-05-11T05:21:42.365782Z",
+  "first_seen_at": "2026-05-04T06:50:47.556802Z",
+  "expires_at": "2026-05-18T05:21:42.365782Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "4072 sqm taytay rizal warehouse for rent",
+    "sqm": 4072.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, Dolores",
+    "region": "Rizal",
+    "lat": 14.5703733,
+    "lng": 121.131209,
+    "price_php": 1100000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 4,072 m2",
+      "price_raw": "Rent: ₱ 1,100,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.29,
+      "NLEX": 16.0,
+      "C5": 6.77,
+      "R10": 17.22
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

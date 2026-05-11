@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-pedro-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-pedro-batangas_5b4f93e65999-7811-0452-5fe2-0072f089",
+  "scraped_at": "2026-05-11T05:32:23.971080Z",
+  "first_seen_at": "2026-05-04T07:09:38.448700Z",
+  "expires_at": "2026-05-18T05:32:23.971080Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse with Office and Mezzanine Space for Rent in Sto. Tomas, Batangas City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Santo Tomas, San Pedro",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 1012620.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "27C Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 1,012,620\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

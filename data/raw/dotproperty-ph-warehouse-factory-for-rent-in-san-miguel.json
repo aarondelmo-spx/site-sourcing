@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-miguel",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-miguel-metro-manila_adcb1eec5435-9b7e-bbd2-5bfe-3ae32089",
+  "scraped_at": "2026-05-11T04:57:02.279030Z",
+  "first_seen_at": "2026-05-04T06:49:16.245680Z",
+  "expires_at": "2026-05-18T04:57:02.279030Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "472 sqm Warehouse for Rent in San Miguel, Pasig City",
+    "sqm": 472.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, San Miguel",
+    "region": "NCR",
+    "lat": 14.5788074,
+    "lng": 121.0581998,
+    "price_php": 165200.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 472 m2",
+      "price_raw": "Rent: ₱ 165,200\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.29,
+      "NLEX": 9.81,
+      "C5": 0.47,
+      "R10": 9.53
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

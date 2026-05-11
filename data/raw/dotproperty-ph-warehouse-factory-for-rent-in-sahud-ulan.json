@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sahud-ulan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sahud-ulan-cavite_3558cd29276a-bfae-d862-f028-d3532089",
+  "scraped_at": "2026-05-08T03:31:26.192903Z",
+  "first_seen_at": "2026-04-29T08:36:55.223679Z",
+  "expires_at": "2026-05-15T03:31:26.192903Z",
+  "status": "active",
+  "listing": {
+    "title": "Industrial Warehouse with parking For Longterm Rent Lease at Tanza Cavite",
+    "sqm": 8351.6,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Sahud Ulan",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 2169967.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "GENE",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 8,351.56 m2",
+      "price_raw": "Rent: ₱ 2,169,967\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

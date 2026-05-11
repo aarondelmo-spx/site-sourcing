@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-ferdinand-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-ferdinand-e-marcos-poblacion-nueva-ecija_1d76b3a03750-2ecf-a332-2375-2bd01089",
+  "scraped_at": "2026-05-04T07:30:38.818834Z",
+  "first_seen_at": "2026-05-04T07:30:37.953148Z",
+  "expires_at": "2026-05-11T07:30:38.818834Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale in San Jose, Nueva Ecija",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, San Jose, Ferdinand E. Marcos Poblacion",
+    "region": "Nueva Ecija",
+    "lat": null,
+    "lng": null,
+    "price_php": 45000000.0,
+    "price_unit": "total",
+    "agent_name": "Cielo Jean Tubeza",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 45,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

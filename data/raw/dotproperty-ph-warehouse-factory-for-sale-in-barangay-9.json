@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-9",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-93-metro-manila-near-lrt-1-monumento_20312b485f63-9020-f162-d946-3285d089",
+  "scraped_at": "2026-05-11T04:58:59.540050Z",
+  "first_seen_at": "2026-05-04T06:53:24.165767Z",
+  "expires_at": "2026-05-18T04:58:59.540050Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Income Generating Commissary Warehouse in Caloocan City near Monumento Circle FOR SALE",
+    "sqm": 812.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Caloocan, Barangay 93",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 120000000.0,
+    "price_unit": "total",
+    "agent_name": "Charmaine Bataller",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 812 m2",
+      "price_raw": "Sale: ₱ 120,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

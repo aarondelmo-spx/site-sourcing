@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-puting-lup",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-puting-lupa-laguna_40b2eeb299c1-4a2e-4052-f0b0-76d32089",
+  "scraped_at": "2026-05-11T05:10:44.197797Z",
+  "first_seen_at": "2026-05-04T07:01:37.811162Z",
+  "expires_at": "2026-05-18T05:10:44.197797Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2700 sqm calamba warehouse for rent in laguna",
+    "sqm": 2700.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Puting Lupa",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 700000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,700 m2",
+      "price_raw": "Rent: ₱ 700,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

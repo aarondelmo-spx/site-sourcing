@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tondo-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tondo-metro-manila_d78576aad585-a03e-ea92-351f-69830089",
+  "scraped_at": "2026-05-11T04:56:03.878072Z",
+  "first_seen_at": "2026-05-04T06:50:07.084703Z",
+  "expires_at": "2026-05-18T04:56:03.878072Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Space for Lease Rent 700 sqm in Tondo Manila",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, Tondo",
+    "region": "NCR",
+    "lat": 14.6063667,
+    "lng": 120.9777425,
+    "price_php": 210000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME Realty Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 210,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.65,
+      "NLEX": 6.29,
+      "C5": 9.65,
+      "R10": 1.01
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

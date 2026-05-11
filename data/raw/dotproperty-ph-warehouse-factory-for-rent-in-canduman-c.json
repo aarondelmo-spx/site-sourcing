@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-canduman-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-canduman-cebu_8fb84adf009f-af3f-e8a2-e562-75d32089",
+  "scraped_at": "2026-05-11T05:35:40.133999Z",
+  "first_seen_at": "2026-05-08T04:02:01.224988Z",
+  "expires_at": "2026-05-18T05:35:40.133999Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Canduman, Mandaue City, Cebu",
+    "sqm": 900.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Canduman",
+    "region": "Cebu",
+    "lat": 10.3682775,
+    "lng": 123.9316883,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CebuAdCon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 900 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 515.74,
+      "NLEX": 572.37,
+      "C5": 560.53,
+      "R10": 570.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

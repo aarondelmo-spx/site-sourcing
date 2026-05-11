@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-marikina-h",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-marikina-heights-metro-manila_cd0f6ea65f3e-40ae-38e2-dd12-f9d32089",
+  "scraped_at": "2026-05-08T03:27:49.169257Z",
+  "first_seen_at": "2026-05-04T06:55:29.365662Z",
+  "expires_at": "2026-05-15T03:27:49.169257Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Flood-free Office Warehouse Marikina City, Metro Manila",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Marikina, Marikina Heights",
+    "region": "NCR",
+    "lat": 14.6452093,
+    "lng": 121.1186801,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": "Neal&Co. Realty and Brokerage Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.06,
+      "NLEX": 11.74,
+      "C5": 3.07,
+      "R10": 15.48
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

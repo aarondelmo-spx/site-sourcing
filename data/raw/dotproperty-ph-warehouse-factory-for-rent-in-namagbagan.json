@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-namagbagan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-namagbagan-pangasinan_bd5200e3a7e3-b430-1fc2-fc8c-44d32089",
+  "scraped_at": "2026-05-04T07:33:19.733368Z",
+  "first_seen_at": "2026-05-04T07:33:12.676100Z",
+  "expires_at": "2026-05-11T07:33:19.733368Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1480 sqm warehouse for rent in San Fernando, Pampanga",
+    "sqm": 1480.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Santa Maria, Namagbagan",
+    "region": "Pangasinan",
+    "lat": null,
+    "lng": null,
+    "price_php": 222000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,480 m2",
+      "price_raw": "Rent: ₱ 222,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-catacte-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-catacte-bulacan_2c106630419a-ed4e-0992-78d9-d4d32089",
+  "scraped_at": "2026-05-11T05:15:54.618606Z",
+  "first_seen_at": "2026-05-04T07:18:18.293842Z",
+  "expires_at": "2026-05-18T05:15:54.618606Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "17,855 square meter Warehouse for Rent/Lease in Bustos, Bulacan",
+    "sqm": 17855.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bustos, Catacte",
+    "region": "Bulacan",
+    "lat": 14.9081311,
+    "lng": 120.9393031,
+    "price_php": 2321150.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 17,855 m2",
+      "price_raw": "Rent: ₱ 2,321,150\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 40.7,
+      "NLEX": 4.8,
+      "C5": 23.91,
+      "R10": 26.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

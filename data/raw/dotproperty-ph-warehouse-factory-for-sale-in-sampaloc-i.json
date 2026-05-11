@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sampaloc-i",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sampaloc-i-cavite_694b45a85478-980e-cc45-e09d-ffa04a7c",
+  "scraped_at": "2026-05-11T05:06:42.917815Z",
+  "first_seen_at": "2026-05-04T06:58:37.793206Z",
+  "expires_at": "2026-05-18T05:06:42.917815Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE! 4,000 sqm Industrial Lot with Warehouse/Quarters/Office at Dasmat Technopark,Dasma, Cavite",
+    "sqm": 3600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, Sampaloc I",
+    "region": "Cavite",
+    "lat": 14.2917972,
+    "lng": 120.9561533,
+    "price_php": 205000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,600 m2",
+      "price_raw": "Sale: ₱ 205,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.03,
+      "NLEX": 40.64,
+      "C5": 30.51,
+      "R10": 36.06
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

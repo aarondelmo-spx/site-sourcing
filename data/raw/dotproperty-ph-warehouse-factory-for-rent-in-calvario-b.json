@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-calvario-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-calvario-bulacan_d2c7e107e7c4-a39f-f942-fb7f-adb3d089",
+  "scraped_at": "2026-05-11T05:17:33.941570Z",
+  "first_seen_at": "2026-05-04T07:17:51.417178Z",
+  "expires_at": "2026-05-18T05:17:33.941570Z",
+  "status": "active",
+  "listing": {
+    "title": "The 10,400 SQM High-Ceiling Logistics Hub for Lease in Meycauayan Bulacan featuring 11 Meter Clearance",
+    "sqm": 10400.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Calvario",
+    "region": "Bulacan",
+    "lat": 14.7365114,
+    "lng": 120.9612816,
+    "price_php": 2993200.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cedtrix Rena - PRIME Philippines",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 10,400 m2",
+      "price_raw": "Rent: ₱ 2,993,200\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 21.61,
+      "NLEX": 2.39,
+      "C5": 9.62,
+      "R10": 7.68
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

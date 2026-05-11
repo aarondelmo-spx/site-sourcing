@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-inarawan-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-inarawan-rizal_0cab1b2c2abf-ab31-9172-1f13-0029e089",
+  "scraped_at": "2026-05-11T05:24:09.360873Z",
+  "first_seen_at": "2026-05-04T07:14:23.354623Z",
+  "expires_at": "2026-05-18T05:24:09.360873Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSES FOR LEASE",
+    "sqm": 2600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Antipolo, Inarawan",
+    "region": "Rizal",
+    "lat": null,
+    "lng": null,
+    "price_php": 910000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 9",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,600 m2",
+      "price_raw": "Rent: ₱ 910,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pansol-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pansol-metro-manila_2f5fc3c56667-dcc0-f5c2-a8ad-f4d32089",
+  "scraped_at": "2026-05-11T04:57:01.135842Z",
+  "first_seen_at": "2026-05-04T06:51:55.126880Z",
+  "expires_at": "2026-05-18T04:57:01.135842Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,135 Lot with Warehouse in Don Antonio Heights For Rent, Quezon City",
+    "sqm": 1135.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Pansol",
+    "region": "NCR",
+    "lat": 14.6517566,
+    "lng": 121.0748867,
+    "price_php": 400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,135 m2",
+      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.79,
+      "NLEX": 6.99,
+      "C5": 2.1,
+      "R10": 11.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tubuan-ii-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tubuan-ii-cavite_6ce2953aebf7-5f5f-3032-c8f0-c58cd089",
+  "scraped_at": "2026-05-11T05:06:12.221872Z",
+  "first_seen_at": "2026-05-04T06:59:14.233149Z",
+  "expires_at": "2026-05-18T05:06:12.221872Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Warehouse in Silang, Cavite",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Tubuan II",
+    "region": "Cavite",
+    "lat": 14.2156382,
+    "lng": 120.9704121,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.28,
+      "NLEX": 48.88,
+      "C5": 38.24,
+      "R10": 44.46
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

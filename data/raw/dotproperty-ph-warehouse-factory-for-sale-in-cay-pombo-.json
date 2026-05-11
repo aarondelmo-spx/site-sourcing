@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cay-pombo-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cay-pombo-bulacan_533a9fdaf2f3-85e1-9662-e0d1-ddd33089",
+  "scraped_at": "2026-05-11T05:19:26.549524Z",
+  "first_seen_at": "2026-05-04T07:21:55.177993Z",
+  "expires_at": "2026-05-18T05:19:26.549524Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Property located in Sta. Maria, Bulacan",
+    "sqm": 10119.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Santa Maria, Cay Pombo",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 270000000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 10,119 m2",
+      "price_raw": "Sale: ₱ 270,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

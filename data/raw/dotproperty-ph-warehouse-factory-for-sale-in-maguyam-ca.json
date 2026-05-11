@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-maguyam-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maguyam-cavite_031eef4ad1c3-d95f-9975-2a2a-c56ce9d6",
+  "scraped_at": "2026-05-11T05:06:42.096088Z",
+  "first_seen_at": "2026-05-04T06:58:24.570484Z",
+  "expires_at": "2026-05-18T05:06:42.096088Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Lot for Sale 40 minutes from Alabang for Warehouse",
+    "sqm": 5219.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Maguyam",
+    "region": "Cavite",
+    "lat": 14.2581799,
+    "lng": 121.0157125,
+    "price_php": 75936450.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 5,219 m2",
+      "price_raw": "Sale: ₱ 75,936,450"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.54,
+      "NLEX": 43.97,
+      "C5": 32.75,
+      "R10": 39.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

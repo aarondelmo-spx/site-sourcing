@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tawason-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tawason-cebu_4e8544f65472-a0d0-fa32-c6dd-949bd089",
+  "scraped_at": "2026-05-08T04:04:29.042645Z",
+  "first_seen_at": "2026-05-08T04:04:29.042645Z",
+  "expires_at": "2026-05-15T04:04:29.042645Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "505 sqm Warehouse for Rent in Tawason Mandaue City",
+    "sqm": 505.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Tawason",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 131300.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 505 m2",
+      "price_raw": "Rent: ₱ 131,300\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

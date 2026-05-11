@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ilang-ilan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ilang-ilang-bulacan_08e806d8c673-143e-b282-3ba2-22941089",
+  "scraped_at": "2026-05-11T05:15:06.291020Z",
+  "first_seen_at": "2026-05-04T07:17:43.591677Z",
+  "expires_at": "2026-05-18T05:15:06.291020Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent Lease in Guiguinto Bulacan",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Ilang-Ilang",
+    "region": "Bulacan",
+    "lat": 14.8344839,
+    "lng": 120.8648224,
+    "price_php": 120000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,000 m2",
+      "price_raw": "Rent: ₱ 120,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 35.68,
+      "NLEX": 5.44,
+      "C5": 23.5,
+      "R10": 21.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

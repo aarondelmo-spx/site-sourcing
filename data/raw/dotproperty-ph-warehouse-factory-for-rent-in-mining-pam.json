@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mining-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mining-pampanga_2de222b21a78-0c70-cae2-8284-57d32089",
+  "scraped_at": "2026-05-11T05:29:26.803553Z",
+  "first_seen_at": "2026-05-04T07:23:09.530691Z",
+  "expires_at": "2026-05-18T05:29:26.803553Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent 1000 SQM Warehouse in Angeles City, Pampanga",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Mining",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

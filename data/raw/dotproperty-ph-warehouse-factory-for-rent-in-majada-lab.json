@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-majada-lab",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-majada-labas-laguna_4bfe4c8e121e-dd61-a522-d1b8-fcf41089",
+  "scraped_at": "2026-05-08T03:40:10.352508Z",
+  "first_seen_at": "2026-05-08T03:40:10.352508Z",
+  "expires_at": "2026-05-15T03:40:10.352508Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,400 sqm Calamba Laguna Warehouse For Lease / Rent",
+    "sqm": 1400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Majada Labas",
+    "region": "Laguna",
+    "lat": 14.1961132,
+    "lng": 121.1090102,
+    "price_php": 252000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "All Seasons Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,400 m2",
+      "price_raw": "Rent: ₱ 252,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.6,
+      "NLEX": 51.98,
+      "C5": 39.97,
+      "R10": 48.71
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

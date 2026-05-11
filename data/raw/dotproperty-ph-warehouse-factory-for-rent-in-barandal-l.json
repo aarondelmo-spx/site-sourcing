@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barandal-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barandal-laguna_adbc4daeafd0-d45e-9875-6932-c3750d9e",
+  "scraped_at": "2026-05-08T03:39:03.953873Z",
+  "first_seen_at": "2026-04-29T08:50:01.163592Z",
+  "expires_at": "2026-05-15T03:39:03.953873Z",
+  "status": "active",
+  "listing": {
+    "title": "27,800 Square Meters Warehouse With 72 Loading Docks in Calamba, Laguna",
+    "sqm": 27800.0,
+    "dock_doors": 72,
+    "clear_height_m": 12.0,
+    "address": "Laguna, Calamba, Barandal",
+    "region": "Laguna",
+    "lat": 14.1971161,
+    "lng": 121.123883,
+    "price_php": 10016000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 27,800 m2",
+      "price_raw": "Rent: ₱ 10,016,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.17,
+      "NLEX": 52.22,
+      "C5": 40.15,
+      "R10": 49.09
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

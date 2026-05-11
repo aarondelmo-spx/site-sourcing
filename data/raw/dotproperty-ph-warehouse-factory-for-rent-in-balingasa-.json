@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balingasa-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balingasa-metro-manila-near-lrt-1-balintawak_4ed1f19bf9b2-db21-2772-a86c-55d32089",
+  "scraped_at": "2026-05-08T03:24:18.709764Z",
+  "first_seen_at": "2026-05-04T06:51:00.708308Z",
+  "expires_at": "2026-05-15T03:24:18.709764Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Balintawak, Quezon City",
+    "sqm": 225.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Balingasa",
+    "region": "NCR",
+    "lat": 14.646425,
+    "lng": 120.9950294,
+    "price_php": 56250.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 225 m2",
+      "price_raw": "Rent: ₱ 56,250\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.99,
+      "NLEX": 1.79,
+      "C5": 9.82,
+      "R10": 2.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

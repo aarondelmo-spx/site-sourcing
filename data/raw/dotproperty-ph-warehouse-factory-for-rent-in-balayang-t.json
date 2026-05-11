@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balayang-t",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balayang-tarlac_ac598562cbd0-a271-2442-efd8-fae32089",
+  "scraped_at": "2026-05-04T07:31:24.379772Z",
+  "first_seen_at": "2026-05-04T07:31:23.125749Z",
+  "expires_at": "2026-05-11T07:31:24.379772Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "500 sqm Warehouse for Rent in McArthur Highway, San Fernando, Pampanga",
+    "sqm": 500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Victoria, Balayang",
+    "region": "Tarlac",
+    "lat": null,
+    "lng": null,
+    "price_php": 50000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 50,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

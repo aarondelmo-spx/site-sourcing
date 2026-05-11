@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-queens-row",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-queens-row-east-cavite_50d3436d9f16-cd61-59d2-4733-b8d32089",
+  "scraped_at": "2026-05-11T05:03:03.036499Z",
+  "first_seen_at": "2026-05-04T06:56:52.910833Z",
+  "expires_at": "2026-05-18T05:03:03.036499Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "150 sqm Warehouse for Rent in Bacoor, Cavite",
+    "sqm": 150.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, Queens Row East",
+    "region": "Cavite",
+    "lat": 14.3902001,
+    "lng": 120.9868292,
+    "price_php": 58000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 150 m2",
+      "price_raw": "Rent: ₱ 58,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.72,
+      "NLEX": 29.39,
+      "C5": 19.1,
+      "R10": 25.06
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

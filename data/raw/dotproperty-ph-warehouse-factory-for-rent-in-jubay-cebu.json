@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-jubay-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-jubay-cebu_28971b32a0a2-602e-fb72-30f2-35c91089",
+  "scraped_at": "2026-05-11T05:35:11.667757Z",
+  "first_seen_at": "2026-05-08T04:02:52.840889Z",
+  "expires_at": "2026-05-18T05:35:11.667757Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,615 Sqm Warehouse in Jubay, Liloan, Cebu",
+    "sqm": 1615.0,
+    "dock_doors": null,
+    "clear_height_m": 12.0,
+    "address": "Cebu, Liloan, Jubay",
+    "region": "Cebu",
+    "lat": 10.4063049,
+    "lng": 123.9939727,
+    "price_php": 323000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,615 m2",
+      "price_raw": "Rent: ₱ 323,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 516.37,
+      "NLEX": 572.63,
+      "C5": 560.84,
+      "R10": 571.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

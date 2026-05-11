@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santo-cris",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santo-cristo-pampanga_cad43b2e8dd9-b1ae-0cc2-d5f7-2c3b3089",
+  "scraped_at": "2026-05-11T05:29:40.976181Z",
+  "first_seen_at": "2026-05-04T07:22:02.738809Z",
+  "expires_at": "2026-05-18T05:29:40.976181Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Income-ready warehouse for sale in Angeles City, Pampanga — conveniently located near MacArthur Highway",
+    "sqm": 1050.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Santo Cristo",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": "Ancell Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,050 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

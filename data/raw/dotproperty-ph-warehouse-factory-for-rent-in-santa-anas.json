@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-anas",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-anastacia-batangas_a6c60ab43d6b-4d81-60b2-b00d-d5d32089",
+  "scraped_at": "2026-05-04T07:09:43.008925Z",
+  "first_seen_at": "2026-05-04T07:09:16.199097Z",
+  "expires_at": "2026-05-11T07:09:43.008925Z",
+  "status": "active",
+  "listing": {
+    "title": "19,247 sqm Compound For Rent in Santo Tomas, Batangas with Warehouse",
+    "sqm": 12942.0,
+    "dock_doors": 1,
+    "clear_height_m": 11.5,
+    "address": "Batangas, Santo Tomas, Santa Anastacia",
+    "region": "Batangas",
+    "lat": 14.1388402,
+    "lng": 121.1290609,
+    "price_php": 4500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 12,942 m2",
+      "price_raw": "Rent: ₱ 4,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.84,
+      "NLEX": 58.66,
+      "C5": 46.62,
+      "R10": 55.43
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

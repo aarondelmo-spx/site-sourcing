@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-manuyo-dos",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-manuyo-dos-metro-manila_b5680ec1fa85-5740-49c2-2ef1-c2d32089",
+  "scraped_at": "2026-04-29T08:20:32.966129Z",
+  "expires_at": "2026-05-06T08:20:32.966129Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "840 sqm Warehouse for Rent at BF International Village, Las Piñas City",
+    "sqft": 9041.7,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Las Piñas, Manuyo Dos",
+    "region": "NCR",
+    "lat": 14.4734729,
+    "lng": 120.9970121,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 840 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.31,
+      "NLEX": 20.08,
+      "C5": 10.29,
+      "R10": 15.91
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

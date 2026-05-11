@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-balibago-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balibago-laguna_2cc2e40e0f7a-2320-a6d2-dcf4-dc632089",
+  "scraped_at": "2026-05-11T05:13:16.687894Z",
+  "first_seen_at": "2026-05-04T02:36:45.690619Z",
+  "expires_at": "2026-05-18T05:13:16.687894Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Sta Rosa Laguna Warehouse Complex for Sale in Industrial Park Main Road Balibago",
+    "sqm": 4000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Balibago",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 500000000.0,
+    "price_unit": "total",
+    "agent_name": "Anna AD",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,000 m2",
+      "price_raw": "Sale: ₱ 500,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

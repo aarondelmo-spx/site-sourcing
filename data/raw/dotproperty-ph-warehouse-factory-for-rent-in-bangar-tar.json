@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bangar-tar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bangar-tarlac_05557a02ad16-15be-a352-0347-91d32089",
+  "scraped_at": "2026-05-04T07:31:38.682729Z",
+  "first_seen_at": "2026-05-04T07:31:38.682729Z",
+  "expires_at": "2026-05-11T07:31:38.682729Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse/Office for Lease at San Fernando City, Pampanga",
+    "sqm": 324.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Victoria, Bangar",
+    "region": "Tarlac",
+    "lat": null,
+    "lng": null,
+    "price_php": 80000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Cyril Katipunan)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 324 m2",
+      "price_raw": "Rent: ₱ 80,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

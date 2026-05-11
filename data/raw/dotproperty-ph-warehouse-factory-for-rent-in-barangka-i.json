@@ -1,0 +1,40 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangka-i",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangka-ilaya-metro-manila-near-mrt-3-boni_2aaac9c0e92e-442f-3a92-709f-04d32089",
+  "scraped_at": "2026-05-04T02:19:10.253603Z",
+  "expires_at": "2026-05-11T02:19:10.253603Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial/ Warehouse for Rent at Mandaluyong",
+    "sqm": 781.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Mandaluyong, Barangka Ilaya",
+    "region": "NCR",
+    "lat": 14.5673448,
+    "lng": 121.0589978,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 781 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.71,
+      "NLEX": 10.95,
+      "C5": 1.11,
+      "R10": 10.21
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

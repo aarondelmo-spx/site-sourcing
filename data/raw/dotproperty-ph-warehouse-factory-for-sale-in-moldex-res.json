@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-moldex-res",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-moldex-residences-valenzuela-paso-de-blas-metro-manila_d34c3318720c-aa8e-fd32-02b3-f5aee089",
+  "scraped_at": "2026-05-11T05:00:04.132044Z",
+  "first_seen_at": "2026-05-04T06:54:31.628589Z",
+  "expires_at": "2026-05-18T05:00:04.132044Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,777 sqm Warehouse with Office for Sale in Ugong, Valenzuela City easy access to NLEX",
+    "sqm": 5777.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Paso de Blas",
+    "region": "NCR",
+    "lat": 14.7116705,
+    "lng": 120.9968238,
+    "price_php": 375000000.0,
+    "price_unit": "total",
+    "agent_name": "Bridgette Aloya",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 5,777 m2",
+      "price_raw": "Sale: ₱ 375,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 18.1,
+      "NLEX": 2.08,
+      "C5": 5.74,
+      "R10": 6.21
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

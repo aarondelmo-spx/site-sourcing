@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tarcan-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tarcan-bulacan_6db9ebe3ff11-17bf-5222-190d-54d32089",
+  "scraped_at": "2026-05-11T05:15:27.257706Z",
+  "first_seen_at": "2026-05-04T07:18:20.569420Z",
+  "expires_at": "2026-05-18T05:15:27.257706Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "828 sqm Warehouse for Rent in Baliwag, Bulacan",
+    "sqm": 828.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Baliuag, Tarcan",
+    "region": "Bulacan",
+    "lat": 14.9326526,
+    "lng": 120.882279,
+    "price_php": 130000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 828 m2",
+      "price_raw": "Rent: ₱ 130,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 44.98,
+      "NLEX": 1.93,
+      "C5": 29.58,
+      "R10": 30.71
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

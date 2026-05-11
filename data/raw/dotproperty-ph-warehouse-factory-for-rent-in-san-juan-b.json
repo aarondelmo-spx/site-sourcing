@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-juan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-juan-bulacan_714c14a0f6f8-54bf-e972-6f7c-09ccd089",
+  "scraped_at": "2026-05-08T03:45:18.928739Z",
+  "first_seen_at": "2026-04-29T08:58:05.407279Z",
+  "expires_at": "2026-05-15T03:45:18.928739Z",
+  "status": "active",
+  "listing": {
+    "title": "22,234 SQM FULLY ELEVATED WAREHOUSE WITH LOADING BAYS IN BULACAN",
+    "sqm": 22234.0,
+    "dock_doors": 1,
+    "clear_height_m": 12.0,
+    "address": "Bulacan, San Miguel, San Juan",
+    "region": "Bulacan",
+    "lat": 15.1403706,
+    "lng": 120.9773599,
+    "price_php": 6670200.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 22,234 m2",
+      "price_raw": "Rent: ₱ 6,670,200\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 65.76,
+      "NLEX": 15.95,
+      "C5": 47.25,
+      "R10": 52.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

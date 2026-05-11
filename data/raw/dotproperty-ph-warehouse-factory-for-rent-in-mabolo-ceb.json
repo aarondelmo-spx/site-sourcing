@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mabolo-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mabolo-cebu_5d3be50ac97d-5b1e-5482-b265-98851089",
+  "scraped_at": "2026-05-11T05:34:18.549038Z",
+  "first_seen_at": "2026-05-08T04:03:01.006229Z",
+  "expires_at": "2026-05-18T05:34:18.549038Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouses with offices 482sqm & 676sqm Mabolo Cebu City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Mabolo",
+    "region": "Cebu",
+    "lat": 10.312243,
+    "lng": 123.9197651,
+    "price_php": 144600.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Invest Realty Services, Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 144,600\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.05,
+      "NLEX": 576.87,
+      "C5": 565.01,
+      "R10": 575.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-alemania-n",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-alemania-nueva-ecija_4a7ebf54ba2b-7dc1-4c32-c65b-93d32089",
+  "scraped_at": "2026-05-04T07:30:31.745058Z",
+  "first_seen_at": "2026-05-04T07:30:31.745058Z",
+  "expires_at": "2026-05-11T07:30:31.745058Z",
+  "status": "active",
+  "listing": {
+    "title": "For LEASE: 21,450 SQM High-Ceiling Warehouse in San Fernando, Pampanga!!!",
+    "sqm": 21450.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, Nampicuan, Alemania",
+    "region": "Nueva Ecija",
+    "lat": null,
+    "lng": null,
+    "price_php": 6006000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sondi Tuazon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 21,450 m2",
+      "price_raw": "Rent: ₱ 6,006,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

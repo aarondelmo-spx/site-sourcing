@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-7-bedroom-warehouse-factory-for-rent-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/7-bedroom-warehouse-factory-for-rent-in-barangay-tres-laguna_81db1716f0ce-8041-9592-a2bd-d5d32089",
+  "scraped_at": "2026-05-08T03:40:30.143842Z",
+  "first_seen_at": "2026-04-29T08:51:51.995064Z",
+  "expires_at": "2026-05-15T03:40:30.143842Z",
+  "status": "active",
+  "listing": {
+    "title": "14,000 square meters Warehouse for rent at Cabuyao, Laguna",
+    "sqm": 13900.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Barangay Tres",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 3500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 13,900 m2",
+      "price_raw": "Rent: ₱ 3,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

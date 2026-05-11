@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-suclayin-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-suclayin-pampanga_4e59e716b877-d860-7e12-fc6b-fc632089",
+  "scraped_at": "2026-05-11T05:27:10.212185Z",
+  "first_seen_at": "2026-05-04T07:23:22.789818Z",
+  "expires_at": "2026-05-18T05:27:10.212185Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: 3,120sqm Warehouse in San Simon Pampanga",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pampanga, Arayat, Suclayin",
+    "region": "Pampanga",
+    "lat": 15.1686512,
+    "lng": 120.7900203,
+    "price_php": 296400.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Prism Real Estate and Marketing Company",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 296,400\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 73.03,
+      "NLEX": 4.82,
+      "C5": 57.02,
+      "R10": 58.71
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dampol-ii-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dampol-ii-b-bulacan_b0cb302c09ef-894f-0352-ea3c-08d32089",
+  "scraped_at": "2026-05-11T05:15:34.571575Z",
+  "first_seen_at": "2026-05-04T07:18:17.252343Z",
+  "expires_at": "2026-05-18T05:15:34.571575Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,800 sqm warehouse for lease in Dampol, Pulilan, Bulacan, near Calumpit",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Pulilan, Dampol II-B",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 216000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Rent: ₱ 216,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

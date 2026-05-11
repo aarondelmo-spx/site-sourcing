@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mampalasan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mampalasan-laguna_fa69de0fb300-bbfe-cf92-d723-42532089",
+  "scraped_at": "2026-05-11T05:13:18.928586Z",
+  "first_seen_at": "2026-05-04T07:07:16.863041Z",
+  "expires_at": "2026-05-18T05:13:18.928586Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "38,000 sqm Industrial Lot with Warehouse for Sale in Biñan, Laguna",
+    "sqm": 38000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Biñan, Mampalasan",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 1.178,
+    "price_unit": "total",
+    "agent_name": "PRIME Philippines - VisMin",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 38,000 m2",
+      "price_raw": "Sale: ₱ 1.178 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

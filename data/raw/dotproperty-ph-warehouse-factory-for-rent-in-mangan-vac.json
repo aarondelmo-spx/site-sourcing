@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mangan-vac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mangan-vaca-zambales_68d72cdf53c6-b76f-43b2-073d-93d32089",
+  "scraped_at": "2026-05-04T07:32:46.542322Z",
+  "first_seen_at": "2026-05-04T07:32:39.289386Z",
+  "expires_at": "2026-05-11T07:32:46.542322Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,000 sqm Warehouse For Rent in Subic, Zambales - PHP 570,000/month",
+    "sqm": 3000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Zambales, Subic, Mangan-Vaca",
+    "region": "Zambales",
+    "lat": 14.8724934,
+    "lng": 120.2352754,
+    "price_php": 570000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,000 m2",
+      "price_raw": "Rent: ₱ 570,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 91.58,
+      "NLEX": 70.04,
+      "C5": 89.12,
+      "R10": 81.37
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

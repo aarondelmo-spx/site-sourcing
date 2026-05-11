@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tunasan-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tunasan-metro-manila_3a01ef73fb47-e17f-61d2-d64a-4ae32089",
+  "scraped_at": "2026-05-11T04:59:01.878085Z",
+  "first_seen_at": "2026-05-04T06:53:22.864451Z",
+  "expires_at": "2026-05-18T04:59:01.878085Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "RMT Warehouse with Office",
+    "sqm": 1440.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Tunasan",
+    "region": "NCR",
+    "lat": 14.3797074,
+    "lng": 121.0443045,
+    "price_php": 78000000.0,
+    "price_unit": "total",
+    "agent_name": "Elaine Romualdez",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,440 m2",
+      "price_raw": "Sale: ₱ 78,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.78,
+      "NLEX": 30.68,
+      "C5": 19.04,
+      "R10": 27.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

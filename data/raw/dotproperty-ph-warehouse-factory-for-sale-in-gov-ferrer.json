@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-gov-ferrer",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-gov-ferrer-poblacion-cavite_270c0a0a688e-4a30-5882-084e-7e2e4089",
+  "scraped_at": "2026-05-11T05:06:28.725448Z",
+  "first_seen_at": "2026-05-04T07:00:14.490816Z",
+  "expires_at": "2026-05-18T05:06:28.725448Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE! 1,785 sqm Open Shed Type Warehouse at Gen Trias Cavite",
+    "sqm": 1785.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Gov. Ferrer Poblacion",
+    "region": "Cavite",
+    "lat": 14.3713461,
+    "lng": 120.8801248,
+    "price_php": 22000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,785 m2",
+      "price_raw": "Sale: ₱ 22,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.94,
+      "NLEX": 34.35,
+      "C5": 27.03,
+      "R10": 29.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

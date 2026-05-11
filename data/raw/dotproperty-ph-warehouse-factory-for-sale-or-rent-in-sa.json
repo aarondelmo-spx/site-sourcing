@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-sa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-san-agustin-pampanga_38a953b78ddb-608e-d192-8c1a-199be089",
+  "scraped_at": "2026-05-11T05:29:55.177394Z",
+  "first_seen_at": "2026-05-04T06:55:12.269943Z",
+  "expires_at": "2026-05-18T05:29:55.177394Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR LEASE / SALE: High Ceiling Industrial Warehouse – Pampanga",
+    "sqm": 4500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, San Simon, San Agustin",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 90000000.0,
+    "price_unit": "total",
+    "agent_name": "Jeffrey Lock",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,500 m2",
+      "price_raw": "Sale: ₱ 90,000,000\n                                                                                                    Rent: ₱ 540,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

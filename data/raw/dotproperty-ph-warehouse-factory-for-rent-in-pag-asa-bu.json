@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pag-asa-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pag-asa-bulacan_799fe2312508-fecf-5862-f1ff-0bbdf089",
+  "scraped_at": "2026-05-11T05:17:57.334714Z",
+  "first_seen_at": "2026-05-04T07:19:17.124946Z",
+  "expires_at": "2026-05-18T05:17:57.334714Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN OBANDO, BULACAN!!!",
+    "sqm": 1166.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Obando, Pag-Asa",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 256520.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 5",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,166 m2",
+      "price_raw": "Rent: ₱ 256,520\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

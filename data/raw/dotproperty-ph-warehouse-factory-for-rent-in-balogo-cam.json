@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balogo-cam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balogo-camarines-sur_fb75cc0fb18f-7f0f-55e2-3e90-53d32089",
+  "scraped_at": "2026-05-04T07:34:35.291671Z",
+  "first_seen_at": "2026-05-04T07:34:35.291671Z",
+  "expires_at": "2026-05-11T07:34:35.291671Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,000 SQM. Warehouse for Lease in Pasacao, Camarines Sur",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Camarines Sur, Pasacao, Balogo",
+    "region": "Camarines Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 130000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Daisylyn-Lacson",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 130,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

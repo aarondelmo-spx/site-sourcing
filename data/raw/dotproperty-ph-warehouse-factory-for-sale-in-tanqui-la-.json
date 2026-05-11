@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tanqui-la-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tanqui-la-union_ef6c037b548e-5850-1132-39a7-8a0ef089",
+  "scraped_at": "2026-05-04T07:33:01.531180Z",
+  "first_seen_at": "2026-05-04T07:33:01.531180Z",
+  "expires_at": "2026-05-11T07:33:01.531180Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Industrial Warehouse with Bodega in San Fernando, La Union",
+    "sqm": 3055.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "La Union, San Fernando, Tanqui",
+    "region": "La Union",
+    "lat": 16.6256986,
+    "lng": 120.3226156,
+    "price_php": 120000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,055 m2",
+      "price_raw": "Sale: ₱ 120,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 242.52,
+      "NLEX": 173.43,
+      "C5": 225.61,
+      "R10": 228.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

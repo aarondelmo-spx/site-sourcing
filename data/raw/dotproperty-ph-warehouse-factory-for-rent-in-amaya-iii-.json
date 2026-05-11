@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-amaya-iii-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-amaya-iii-cavite_097253d51dc0-746f-3b42-804f-155ec089",
+  "scraped_at": "2026-05-11T05:02:15.820796Z",
+  "first_seen_at": "2026-05-04T06:56:33.875535Z",
+  "expires_at": "2026-05-18T05:02:15.820796Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,048 sqm. Warehouse for Rent in Tanza Cavite City Brand New!",
+    "sqm": 5048.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Amaya III",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 1256996.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Top Realty Corporation - Lease",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,048 m2",
+      "price_raw": "Rent: ₱ 1,256,996\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

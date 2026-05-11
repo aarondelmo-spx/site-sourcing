@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bukal-bata",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bukal-batangas_d7ae622ddaa7-3500-2c32-c739-16d32089",
+  "scraped_at": "2026-05-11T05:30:58.663542Z",
+  "first_seen_at": "2026-05-04T07:09:27.295418Z",
+  "expires_at": "2026-05-18T05:30:58.663542Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE | BATANGAS CITY, BATANGAS",
+    "sqm": 999.0,
+    "dock_doors": null,
+    "clear_height_m": 8.0,
+    "address": "Batangas, Batangas City, Bukal",
+    "region": "Batangas",
+    "lat": 13.8447026,
+    "lng": 121.0887797,
+    "price_php": 149850.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 999 m2",
+      "price_raw": "Rent: ₱ 149,850\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 30.23,
+      "NLEX": 90.35,
+      "C5": 78.64,
+      "R10": 86.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

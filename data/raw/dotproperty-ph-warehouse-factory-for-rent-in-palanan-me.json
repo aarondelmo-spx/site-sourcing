@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-palanan-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-palanan-metro-manila_b3648723ab04-ceff-6782-1691-d4d32089",
+  "scraped_at": "2026-04-29T08:21:28.174254Z",
+  "expires_at": "2026-05-06T08:21:28.174254Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "780 sqm Warehouse for Rent at Palanan, Makati City, Metro Manila",
+    "sqft": 8395.8,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Makati, Palanan",
+    "region": "NCR",
+    "lat": 14.5560612,
+    "lng": 121.0033509,
+    "price_php": 400000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 780 m2",
+      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.79,
+      "NLEX": 10.87,
+      "C5": 4.99,
+      "R10": 7.14
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

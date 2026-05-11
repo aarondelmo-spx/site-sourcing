@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabunoc-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabunoc-cebu_12f933ced488-e7e0-97d2-9c36-b1532089",
+  "scraped_at": "2026-05-11T05:35:19.444579Z",
+  "first_seen_at": "2026-05-08T04:03:38.747095Z",
+  "expires_at": "2026-05-18T05:35:19.444579Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT IN TALISAY CITY CEBU 600 Sqm area",
+    "sqm": 608.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Talisay, Tabunoc",
+    "region": "Cebu",
+    "lat": 10.2639889,
+    "lng": 123.8399427,
+    "price_php": 139840.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Nemrick-Cabanog",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 608 m2",
+      "price_raw": "Rent: ₱ 139,840\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.47,
+      "NLEX": 576.72,
+      "C5": 564.81,
+      "R10": 575.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

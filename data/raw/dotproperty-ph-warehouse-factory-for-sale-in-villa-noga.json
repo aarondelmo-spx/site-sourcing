@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-villa-noga",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-villa-nogales-laguna_e624ecc239ef-b6e1-0a92-91e3-6294d089",
+  "scraped_at": "2026-05-11T05:13:23.076935Z",
+  "first_seen_at": "2026-05-04T07:07:24.174630Z",
+  "expires_at": "2026-05-18T05:13:23.076935Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Commercial Property with Warehouse in Laguna",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Majayjay, Villa Nogales",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 140000000.0,
+    "price_unit": "total",
+    "agent_name": "Brad Zafe",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Sale: ₱ 140,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

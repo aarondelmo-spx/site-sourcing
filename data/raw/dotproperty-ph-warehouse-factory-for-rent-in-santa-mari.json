@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-mari",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-maria-pampanga_8df78fffcbc4-ffce-83f2-5800-b4d32089",
+  "scraped_at": "2026-05-11T05:26:41.921241Z",
+  "first_seen_at": "2026-05-04T02:51:01.102025Z",
+  "expires_at": "2026-05-18T05:26:41.921241Z",
+  "status": "active",
+  "listing": {
+    "title": "21,000 square meter Warehouse For Rent in Mabalacat, Pampanga",
+    "sqm": 21000.0,
+    "dock_doors": 1,
+    "clear_height_m": 14.0,
+    "address": "Pampanga, Mabalacat, Santa Maria",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 700000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 21,000 m2",
+      "price_raw": "Rent: ₱ 700,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-3",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-35-metro-manila_213e110633de-a33f-eec2-6a91-83632089",
+  "scraped_at": "2026-05-11T04:58:05.376072Z",
+  "first_seen_at": "2026-05-04T06:52:22.902215Z",
+  "expires_at": "2026-05-18T04:58:05.376072Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FIRE SALE!! Prime Caloocan Commerical Lot for Sale (accessible to NLEX)",
+    "sqm": 1.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Caloocan, Barangay 35",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 57400000.0,
+    "price_unit": "total",
+    "agent_name": "Dream Address PH",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1 m2",
+      "price_raw": "Sale: ₱ 57,400,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

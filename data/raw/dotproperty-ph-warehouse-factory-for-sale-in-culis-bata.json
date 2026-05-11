@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-culis-bata",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-culis-bataan_eb9f54708589-a5e1-2952-e15d-e718c089",
+  "scraped_at": "2026-05-04T07:29:53.128102Z",
+  "first_seen_at": "2026-05-04T07:29:53.128102Z",
+  "expires_at": "2026-05-11T07:29:53.128102Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,856 sqm Newly built Warehouse for sale in Hermosa, Bataan.",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Hermosa, Culis",
+    "region": "Bataan",
+    "lat": 14.8380836,
+    "lng": 120.4764203,
+    "price_php": 125000000.0,
+    "price_unit": "total",
+    "agent_name": "Richmond Vasallo",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 125,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 66.55,
+      "NLEX": 46.24,
+      "C5": 62.95,
+      "R10": 55.53
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

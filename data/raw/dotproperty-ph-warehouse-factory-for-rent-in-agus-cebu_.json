@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-agus-cebu_",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-agus-cebu_7ed812f631a2-66ee-bb62-947a-aae32089",
+  "scraped_at": "2026-05-11T05:34:35.517364Z",
+  "first_seen_at": "2026-05-08T04:02:30.033581Z",
+  "expires_at": "2026-05-18T05:34:35.517364Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,900 square meters Warehouse For Rent in Lapu-Lapu City, Cebu",
+    "sqm": 3900.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Lapu-Lapu, Agus",
+    "region": "Cebu",
+    "lat": 10.2848678,
+    "lng": 123.9971745,
+    "price_php": 780000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,900 m2",
+      "price_raw": "Rent: ₱ 780,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 527.45,
+      "NLEX": 584.05,
+      "C5": 572.22,
+      "R10": 582.47
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

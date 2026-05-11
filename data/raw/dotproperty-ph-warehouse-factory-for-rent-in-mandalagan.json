@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mandalagan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mandalagan-negros-occidental_cffcf619f53a-cd5f-6862-4737-35c91089",
+  "scraped_at": "2026-05-04T07:41:37.616754Z",
+  "first_seen_at": "2026-05-04T07:41:34.585252Z",
+  "expires_at": "2026-05-11T07:41:37.616754Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,000 sqm Warehouse For Lease in Bacolod City, Negros Occidental",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Negros Occidental, Bacolod, Mandalagan",
+    "region": "Negros Occidental",
+    "lat": null,
+    "lng": null,
+    "price_php": 140000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 140,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

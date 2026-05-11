@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-turbina-la",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-turbina-laguna_be3b02695f84-796f-0762-2c9b-2bad2089",
+  "scraped_at": "2026-05-08T03:38:35.131382Z",
+  "first_seen_at": "2026-04-29T08:49:51.543842Z",
+  "expires_at": "2026-05-15T03:38:35.131382Z",
+  "status": "active",
+  "listing": {
+    "title": "PEZA Warehouse in LIMA TECHNOLOGY PARK Batangas For RENT",
+    "sqm": 15504.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Turbina",
+    "region": "Laguna",
+    "lat": 14.1906066,
+    "lng": 121.137302,
+    "price_php": 4651200.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "REMAX PRIME",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 15,504 m2",
+      "price_raw": "Rent: ₱ 4,651,200\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.67,
+      "NLEX": 53.28,
+      "C5": 41.17,
+      "R10": 50.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

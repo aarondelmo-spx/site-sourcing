@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-don-jose-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-jose-laguna_cfbd64632b9a-bf01-bf42-1261-a4532089",
+  "scraped_at": "2026-05-11T05:09:19.188021Z",
+  "first_seen_at": "2026-05-04T07:01:34.512014Z",
+  "expires_at": "2026-05-18T05:09:19.188021Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling Warehouse Spaces for Lease Rent in Cabuyao Laguna",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Don Jose",
+    "region": "Laguna",
+    "lat": 14.2586909,
+    "lng": 121.0621202,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME REALTY INC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.12,
+      "NLEX": 44.27,
+      "C5": 32.52,
+      "R10": 40.68
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

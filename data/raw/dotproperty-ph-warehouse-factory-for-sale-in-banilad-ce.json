@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-banilad-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-banilad-cebu_7556c2b8df02-a30f-ec15-249e-39c4cf4a",
+  "scraped_at": "2026-05-11T05:36:39.585446Z",
+  "first_seen_at": "2026-05-04T03:05:03.970139Z",
+  "expires_at": "2026-05-18T05:36:39.585446Z",
+  "status": "active",
+  "listing": {
+    "title": "FOR SALE: MANDAUE WAREHOUSE PROPERTY",
+    "sqm": 8000.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Banilad",
+    "region": "Cebu",
+    "lat": 10.33888,
+    "lng": 123.9168275,
+    "price_php": 65000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Sale: ₱ 65,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 517.45,
+      "NLEX": 574.21,
+      "C5": 562.36,
+      "R10": 572.6
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

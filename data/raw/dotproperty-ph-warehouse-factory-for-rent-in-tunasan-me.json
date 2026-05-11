@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tunasan-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tunasan-metro-manila_944c72d06d9f-8ebe-1e62-1d5c-ecd60089",
+  "scraped_at": "2026-05-11T04:55:23.534131Z",
+  "first_seen_at": "2026-05-04T06:49:19.878747Z",
+  "expires_at": "2026-05-18T04:55:23.534131Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT – TUNASAN, MUNTINLUPA CITY",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Tunasan",
+    "region": "NCR",
+    "lat": 14.3797074,
+    "lng": 121.0443045,
+    "price_php": 190000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 190,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.78,
+      "NLEX": 30.68,
+      "C5": 19.04,
+      "R10": 27.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

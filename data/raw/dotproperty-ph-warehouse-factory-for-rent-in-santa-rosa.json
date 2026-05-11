@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-rosa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-rosa-ii-bulacan_37b398010541-8090-ee92-6574-98d32089",
+  "scraped_at": "2026-05-08T03:45:52.300823Z",
+  "first_seen_at": "2026-04-29T09:00:09.184780Z",
+  "expires_at": "2026-05-15T03:45:52.300823Z",
+  "status": "active",
+  "listing": {
+    "title": "1200 sqm Marilao Bulacan warehouse for rent",
+    "sqm": 1200.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Marilao, Santa Rosa II",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 160000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 160,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-calibutbut",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-calibutbut-pampanga_05669cb5edee-2cef-0562-a8e2-a24e2089",
+  "scraped_at": "2026-05-11T05:30:10.109761Z",
+  "first_seen_at": "2026-05-04T07:26:49.305001Z",
+  "expires_at": "2026-05-18T05:30:10.109761Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Warehouse Property located near Friendship Highway, Bacolor, Pampanga",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Bacolor, Calibutbut",
+    "region": "Pampanga",
+    "lat": 15.1036648,
+    "lng": 120.5984175,
+    "price_php": 20000000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 400 m2",
+      "price_raw": "Sale: ₱ 20,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 76.35,
+      "NLEX": 24.86,
+      "C5": 64.47,
+      "R10": 62.27
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

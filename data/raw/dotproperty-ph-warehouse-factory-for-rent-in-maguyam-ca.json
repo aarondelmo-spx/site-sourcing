@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maguyam-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maguyam-cavite_bc401d6c43bf-e69e-1ab2-efeb-486bf089",
+  "scraped_at": "2026-05-11T05:04:03.956917Z",
+  "first_seen_at": "2026-05-04T06:56:40.163959Z",
+  "expires_at": "2026-05-18T05:04:03.956917Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For lease Peza 3 phase warehouse",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Maguyam",
+    "region": "Cavite",
+    "lat": 14.2581799,
+    "lng": 121.0157125,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Capital Properties",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.54,
+      "NLEX": 43.97,
+      "C5": 32.75,
+      "R10": 39.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

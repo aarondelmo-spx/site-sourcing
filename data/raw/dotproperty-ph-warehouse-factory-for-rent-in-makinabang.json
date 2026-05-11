@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-makinabang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-makinabang-bulacan_d8cf0227fe90-f13e-0332-08ee-6ac60089",
+  "scraped_at": "2026-05-11T05:16:42.682803Z",
+  "first_seen_at": "2026-05-04T07:19:26.635058Z",
+  "expires_at": "2026-05-18T05:16:42.682803Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR LEASE Warehouse in Baliuag Industrial Subdivision along DRT Highway, Brgy Makinabang, Baliwag Bulacan",
+    "sqm": 608.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Baliuag, Makinabang",
+    "region": "Bulacan",
+    "lat": 14.9024228,
+    "lng": 120.8675998,
+    "price_php": 241040.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "That's Broker Raven",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 608 m2",
+      "price_raw": "Rent: ₱ 241,040\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 42.4,
+      "NLEX": 3.97,
+      "C5": 28.06,
+      "R10": 28.02
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pagsangaha",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pagsangahan-quezon_f4fd9f0d26b1-3651-af82-d90e-73941089",
+  "scraped_at": "2026-05-04T07:16:55.674112Z",
+  "first_seen_at": "2026-05-04T07:16:20.690663Z",
+  "expires_at": "2026-05-11T07:16:55.674112Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "240 sqm Warehouse for Lease, Camarin Caloocan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Quezon, General Nakar, Pagsangahan",
+    "region": "Quezon",
+    "lat": null,
+    "lng": null,
+    "price_php": 100000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 100,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

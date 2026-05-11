@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-concepcion",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-concepcion-batangas_62bfa1700096-8e4e-26e2-88bd-b2d32089",
+  "scraped_at": "2026-05-11T05:31:41.766780Z",
+  "first_seen_at": "2026-05-04T07:09:53.376435Z",
+  "expires_at": "2026-05-18T05:31:41.766780Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1800 sqm batangas city warehouse for rent",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Batangas City, Concepcion",
+    "region": "Batangas",
+    "lat": 13.828038,
+    "lng": 121.0790525,
+    "price_php": 290000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Rent: ₱ 290,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 32.23,
+      "NLEX": 92.1,
+      "C5": 80.44,
+      "R10": 88.22
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

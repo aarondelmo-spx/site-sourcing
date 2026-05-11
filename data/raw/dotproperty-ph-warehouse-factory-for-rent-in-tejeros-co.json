@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tejeros-co",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tejeros-convention-cavite_12a46caac5d3-38a0-8b92-8cfd-58f41089",
+  "scraped_at": "2026-05-11T05:04:34.558063Z",
+  "first_seen_at": "2026-05-04T06:56:48.681565Z",
+  "expires_at": "2026-05-18T05:04:34.558063Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Lease Warehouse(Industrial)    Cavite Economic Zone  Rosario  Cavite",
+    "sqm": 4000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Rosario, Tejeros Convention",
+    "region": "Cavite",
+    "lat": 14.4106759,
+    "lng": 120.8702222,
+    "price_php": 1150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Maricar David",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 4,000 m2",
+      "price_raw": "Rent: ₱ 1,150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 18.54,
+      "NLEX": 30.91,
+      "C5": 24.8,
+      "R10": 25.56
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

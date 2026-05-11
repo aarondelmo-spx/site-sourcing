@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-bartol",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-bartolome-metro-manila_b0c35c9e56cb-da1e-f0e2-2ff1-59d32089",
+  "scraped_at": "2026-05-11T04:57:18.544276Z",
+  "first_seen_at": "2026-05-04T06:51:25.111462Z",
+  "expires_at": "2026-05-18T04:57:18.544276Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "180 sqm Warehouse for Rent in San Bartolome, Quezon City",
+    "sqm": 180.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, San Bartolome",
+    "region": "NCR",
+    "lat": 14.7014234,
+    "lng": 121.039437,
+    "price_php": 36000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 180 m2",
+      "price_raw": "Rent: ₱ 36,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.95,
+      "NLEX": 6.19,
+      "C5": 2.44,
+      "R10": 9.18
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

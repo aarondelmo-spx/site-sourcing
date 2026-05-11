@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-culis-bata",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-culis-bataan_c54642a92c79-ea7f-0062-dca4-a4c1d089",
+  "scraped_at": "2026-05-04T07:27:09.930279Z",
+  "first_seen_at": "2026-05-04T07:27:09.930279Z",
+  "expires_at": "2026-05-11T07:27:09.930279Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN HERMOSA, BATAAN (PEZA)",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Hermosa, Culis",
+    "region": "Bataan",
+    "lat": 14.8380836,
+    "lng": 120.4764203,
+    "price_php": 329360.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 329,360\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 66.55,
+      "NLEX": 46.24,
+      "C5": 62.95,
+      "R10": 55.53
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

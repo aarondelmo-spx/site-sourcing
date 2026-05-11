@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sapang-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sapang-bulak-bulacan_b6aa87be8e90-18c1-e032-714d-c90df089",
+  "scraped_at": "2026-05-11T05:19:18.687907Z",
+  "first_seen_at": "2026-05-04T07:21:16.178367Z",
+  "expires_at": "2026-05-18T05:19:18.687907Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "BRAND NEW WAREHOUSE FOR SALE – BULACAN",
+    "sqm": 1850.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Doña Remedios Trinidad, Sapang Bulak",
+    "region": "Bulacan",
+    "lat": 15.0344968,
+    "lng": 121.0940557,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 7",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,850 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 54.44,
+      "NLEX": 23.74,
+      "C5": 35.17,
+      "R10": 43.23
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

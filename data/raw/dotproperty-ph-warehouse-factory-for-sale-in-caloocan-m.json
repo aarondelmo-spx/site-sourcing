@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-caloocan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-caloocan-metro-manila_4e6b82f26ed8-77af-cd62-dc4c-cc632089",
+  "scraped_at": "2026-05-11T05:00:51.075778Z",
+  "first_seen_at": "2026-05-04T06:54:57.380387Z",
+  "expires_at": "2026-05-18T05:00:51.075778Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,000 sqm Warehouse for Sale in Marilao, Bulacan",
+    "sqm": 3000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Caloocan",
+    "region": "NCR",
+    "lat": 14.6707114,
+    "lng": 121.0053476,
+    "price_php": 30000000.0,
+    "price_unit": "total",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,000 m2",
+      "price_raw": "Sale: ₱ 30,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.47,
+      "NLEX": 1.96,
+      "C5": 7.34,
+      "R10": 4.66
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

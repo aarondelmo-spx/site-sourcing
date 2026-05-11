@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-banaybanay",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-banaybanay-laguna_4e19da2fb3c3-a480-c262-c658-beace089",
+  "scraped_at": "2026-05-11T05:14:32.491362Z",
+  "first_seen_at": "2026-05-04T07:07:43.110995Z",
+  "expires_at": "2026-05-18T05:14:32.491362Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Lot with Warehouse located along National Road, Sta Rosa, Laguna",
+    "sqm": 25156.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Banaybanay",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 628900000.0,
+    "price_unit": "total",
+    "agent_name": "Natalie Basmajian",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 25,156 m2",
+      "price_raw": "Sale: ₱ 628,900,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-nicola",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-nicolas-iii-cavite_7d6ec8259af8-bd01-7332-10ea-c3482089",
+  "scraped_at": "2026-05-11T05:05:45.567386Z",
+  "first_seen_at": "2026-05-04T06:54:36.849109Z",
+  "expires_at": "2026-05-18T05:05:45.567386Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "San Nicholas 3 | Warehouse For Sale - #8592",
+    "sqm": 340.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, San Nicolas III",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 19000000.0,
+    "price_unit": "total",
+    "agent_name": "Everbright Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 340 m2",
+      "price_raw": "Sale: ₱ 19,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

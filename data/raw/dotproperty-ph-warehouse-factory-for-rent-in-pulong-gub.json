@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pulong-gub",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pulong-gubat-bulacan_458214f0842a-35f1-fff2-53c2-a2d32089",
+  "scraped_at": "2026-05-11T05:15:37.164701Z",
+  "first_seen_at": "2026-05-04T07:18:16.307074Z",
+  "expires_at": "2026-05-18T05:15:37.164701Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2550.86 Warehouse Spaces for Rent in Balagtas Bulacan!",
+    "sqm": 2550.9,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), Pulong Gubat",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 459100.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sondi Tuazon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,550.86 m2",
+      "price_raw": "Rent: ₱ 459,100\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

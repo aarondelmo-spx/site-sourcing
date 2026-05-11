@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-industrial",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-industrial-valley-metro-manila-near-lrt-2-katipunan_0bf3ce710247-d780-7b72-58ae-5ee0e089",
+  "scraped_at": "2026-05-11T04:58:34.680810Z",
+  "first_seen_at": "2026-05-04T06:52:52.454478Z",
+  "expires_at": "2026-05-18T04:58:34.680810Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "23,289 SQM Marikina Warehouse / Commercial Lot for Sale – Prime Industrial Location",
+    "sqm": 23289.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Marikina, Industrial Valley",
+    "region": "NCR",
+    "lat": 14.6311047,
+    "lng": 121.0779405,
+    "price_php": 931560000.0,
+    "price_unit": "total",
+    "agent_name": "Tanabe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 23,289 m2",
+      "price_raw": "Sale: ₱ 931,560,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.0,
+      "NLEX": 7.74,
+      "C5": 1.6,
+      "R10": 10.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

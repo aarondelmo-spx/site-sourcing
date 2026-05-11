@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tiaong-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tiaong-bulacan_2a9f38cb2afc-75de-ef62-0cdb-53632089",
+  "scraped_at": "2026-05-11T05:17:20.488780Z",
+  "first_seen_at": "2026-05-04T07:19:12.592664Z",
+  "expires_at": "2026-05-18T05:17:20.488780Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "GUIGUINTO Warehouse",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Tiaong",
+    "region": "Bulacan",
+    "lat": 14.8489564,
+    "lng": 120.8952244,
+    "price_php": 270000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Junee Rodriguez",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 270,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 35.77,
+      "NLEX": 1.87,
+      "C5": 21.82,
+      "R10": 21.42
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

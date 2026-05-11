@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-intramuros",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-intramuros-metro-manila-near-lrt-1-central-terminal_2559b2dcaff5-e16f-ae62-49a2-22941089",
+  "scraped_at": "2026-05-11T04:55:26.648121Z",
+  "first_seen_at": "2026-05-04T06:49:28.337001Z",
+  "expires_at": "2026-05-18T04:55:26.648121Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial Warehouse for Lease Rent in Manila Malabon Metro Manila",
+    "sqm": 3000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, Intramuros",
+    "region": "NCR",
+    "lat": 14.5915681,
+    "lng": 120.9778248,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 3,000 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.37,
+      "NLEX": 7.71,
+      "C5": 8.93,
+      "R10": 2.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

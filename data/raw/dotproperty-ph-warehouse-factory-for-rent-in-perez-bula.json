@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-perez-bula",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-perez-bulacan_a5c0685729cc-d870-5d92-fc1e-8e8fd089",
+  "scraped_at": "2026-05-11T05:17:42.675906Z",
+  "first_seen_at": "2026-05-04T07:18:55.267715Z",
+  "expires_at": "2026-05-18T05:17:42.675906Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Building for rent in Muralla Industrial Park",
+    "sqm": 2770.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Perez",
+    "region": "Bulacan",
+    "lat": 14.7655616,
+    "lng": 121.0032347,
+    "price_php": 170000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Beverly Sumalinog",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 2,770 m2",
+      "price_raw": "Rent: ₱ 170,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 24.0,
+      "NLEX": 6.0,
+      "C5": 6.99,
+      "R10": 11.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

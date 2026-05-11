@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-balintawak",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balintawak-batangas_914f8470a9c5-05a1-b882-8849-951b9089",
+  "scraped_at": "2026-05-11T05:32:57.410816Z",
+  "first_seen_at": "2026-05-04T07:10:54.381457Z",
+  "expires_at": "2026-05-18T05:32:57.410816Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐚𝐥 𝐖𝐚𝐫𝐞𝐡𝐨𝐮𝐬𝐞 𝐟𝐨𝐫 𝐒𝐚𝐥𝐞 𝐢𝐧 𝐌𝐚𝐲𝐜𝐚𝐫 𝐅𝐨𝐨𝐝𝐬 𝐈𝐧𝐜. 𝐚𝐭 𝐋𝐢𝐩𝐚 𝐁𝐚𝐭𝐚𝐧𝐠𝐚𝐬",
+    "sqm": 3549.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Lipa, Balintawak",
+    "region": "Batangas",
+    "lat": 13.9561834,
+    "lng": 121.1625266,
+    "price_php": 70000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,549 m2",
+      "price_raw": "Sale: ₱ 70,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.8,
+      "NLEX": 79.27,
+      "C5": 67.24,
+      "R10": 75.95
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

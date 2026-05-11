@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-do",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-don-bosco-metro-manila_334e5d239d8f-03b1-ab82-fda1-cbcac089",
+  "scraped_at": "2026-05-11T05:00:12.910405Z",
+  "first_seen_at": "2026-05-08T03:26:51.922287Z",
+  "expires_at": "2026-05-18T05:00:12.910405Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2203 sqm Warehouse/Office/Plant for Rent or Sale in Paranaque City",
+    "sqm": 2203.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Don Bosco",
+    "region": "NCR",
+    "lat": 14.4853251,
+    "lng": 121.0296577,
+    "price_php": 221000000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Raselle Atilano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 2,203 m2",
+      "price_raw": "Sale: ₱ 221,000,000\n                                                                                                    Rent: ₱ 987,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.67,
+      "NLEX": 18.83,
+      "C5": 7.59,
+      "R10": 15.49
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

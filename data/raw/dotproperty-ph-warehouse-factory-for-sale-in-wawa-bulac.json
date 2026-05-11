@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-wawa-bulac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-wawa-bulacan_55980aa8fe07-88e1-4f92-9d57-eefad089",
+  "scraped_at": "2026-05-11T05:19:22.313804Z",
+  "first_seen_at": "2026-05-04T07:21:51.888660Z",
+  "expires_at": "2026-05-18T05:19:22.313804Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale - Industrial / Rice Mill Warehouse with Equipment in Balagtas, Bulacan",
+    "sqm": 1015.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), Wawa",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 22000000.0,
+    "price_unit": "total",
+    "agent_name": "Santos Knight Frank  ICM",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,015 m2",
+      "price_raw": "Sale: ₱ 22,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

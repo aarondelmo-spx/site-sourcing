@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-2-bedroom-warehouse-factory-for-sale-or-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/2-bedroom-warehouse-factory-for-sale-or-rent-in-punta-laguna_f1b0ae40cbf7-7fce-d122-3b61-db632089",
+  "scraped_at": "2026-05-11T05:14:09.787126Z",
+  "first_seen_at": "2026-05-04T07:07:14.633974Z",
+  "expires_at": "2026-05-18T05:14:09.787126Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Rush for sale 5000 sqm Warehouse in Calamba Laguna Peza Zone",
+    "sqm": 8000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Punta",
+    "region": "Laguna",
+    "lat": 14.1724281,
+    "lng": 121.1193336,
+    "price_php": 390000000.0,
+    "price_unit": "total",
+    "agent_name": "Metro Residences",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Sale: ₱ 390,000,000\n                                                                                                    Rent: Contact for price"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.15,
+      "NLEX": 54.79,
+      "C5": 42.75,
+      "R10": 51.55
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

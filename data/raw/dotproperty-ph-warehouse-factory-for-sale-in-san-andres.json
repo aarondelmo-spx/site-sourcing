@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-andres",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-andres-rizal_728e25a5c1a3-3c90-0542-81b9-8523f089",
+  "scraped_at": "2026-05-11T05:25:45.656120Z",
+  "first_seen_at": "2026-05-04T07:15:08.912750Z",
+  "expires_at": "2026-05-18T05:25:45.656120Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Mercedes Executive Village, Pasig City",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Cainta, San Andres",
+    "region": "Rizal",
+    "lat": 14.5666054,
+    "lng": 121.1092495,
+    "price_php": 25530000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 400 m2",
+      "price_raw": "Sale: ₱ 25,530,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.89,
+      "NLEX": 14.42,
+      "C5": 5.2,
+      "R10": 15.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

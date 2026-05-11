@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pagsabunga",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pagsabungan-cebu_68786da10afe-893e-e942-1a60-edd9e089",
+  "scraped_at": "2026-05-11T05:35:46.687518Z",
+  "first_seen_at": "2026-05-08T04:02:33.881010Z",
+  "expires_at": "2026-05-18T05:35:46.687518Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "525 sqm Warehouse for Rent in Pagsabungan Mandaue City Cebu",
+    "sqm": 525.0,
+    "dock_doors": null,
+    "clear_height_m": 6.1,
+    "address": "Cebu, Mandaue, Pagsabungan",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 139125.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 525 m2",
+      "price_raw": "Rent: ₱ 139,125\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

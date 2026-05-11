@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lourdes-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lourdes-metro-manila_9236a4fea5a2-88de-0c22-b751-aa4b0089",
+  "scraped_at": "2026-05-11T04:56:14.662589Z",
+  "first_seen_at": "2026-05-04T06:50:22.787750Z",
+  "expires_at": "2026-05-18T04:56:14.662589Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease – Near Banawe, Quezon City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Lourdes",
+    "region": "NCR",
+    "lat": 14.62764,
+    "lng": 120.9978362,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.89,
+      "NLEX": 3.16,
+      "C5": 8.92,
+      "R10": 2.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

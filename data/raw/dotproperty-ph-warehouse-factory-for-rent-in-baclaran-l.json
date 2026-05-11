@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-baclaran-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-baclaran-laguna_9d01f62e82e5-21a0-6272-50ae-b9d32089",
+  "scraped_at": "2026-05-11T05:12:43.501801Z",
+  "first_seen_at": "2026-05-04T07:01:36.477315Z",
+  "expires_at": "2026-05-18T05:12:43.501801Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: 3,000 sqm. Warehouse with Racking System  in Cabuyao, Laguna",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Baclaran",
+    "region": "Laguna",
+    "lat": 14.243023,
+    "lng": 121.1667654,
+    "price_php": 825000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gil Alegado",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 825,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.11,
+      "NLEX": 48.68,
+      "C5": 36.49,
+      "R10": 46.12
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

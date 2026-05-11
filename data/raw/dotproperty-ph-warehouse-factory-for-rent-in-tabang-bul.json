@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabang-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabang-bulacan_9f5a77020d9b-07bf-80e2-0ce2-66d32089",
+  "scraped_at": "2026-05-11T05:16:19.256830Z",
+  "first_seen_at": "2026-05-04T07:19:21.620447Z",
+  "expires_at": "2026-05-18T05:16:19.256830Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "10000 sqm warehouse for rent in bulacan",
+    "sqm": 10000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Tabang",
+    "region": "Bulacan",
+    "lat": 14.8338967,
+    "lng": 120.8641274,
+    "price_php": 1400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 10,000 m2",
+      "price_raw": "Rent: ₱ 1,400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 35.66,
+      "NLEX": 5.54,
+      "C5": 23.52,
+      "R10": 21.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

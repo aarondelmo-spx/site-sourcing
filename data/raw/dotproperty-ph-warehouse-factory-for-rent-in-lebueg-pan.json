@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lebueg-pan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lebueg-pangasinan_5cafcb6fa740-7ba1-43d2-9050-b4d32089",
+  "scraped_at": "2026-05-04T07:33:18.505725Z",
+  "first_seen_at": "2026-05-04T07:33:13.817246Z",
+  "expires_at": "2026-05-11T07:33:18.505725Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "VILLASIS WAREHOUSE FOR LEASE | PANGASINAN",
+    "sqm": 1440.0,
+    "dock_doors": null,
+    "clear_height_m": 6.7,
+    "address": "Pangasinan, Laoac, Lebueg",
+    "region": "Pangasinan",
+    "lat": 16.0307982,
+    "lng": 120.5649352,
+    "price_php": 216000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,440 m2",
+      "price_raw": "Rent: ₱ 216,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 171.67,
+      "NLEX": 102.59,
+      "C5": 154.6,
+      "R10": 157.46
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

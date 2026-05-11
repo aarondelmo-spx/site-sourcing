@@ -1,0 +1,40 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bakilid-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bakilid-cebu_4cc596abd356-1f4e-7442-fdca-466c3089",
+  "scraped_at": "2026-05-04T03:04:36.058666Z",
+  "expires_at": "2026-05-11T03:04:36.058666Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Brand new Warehouse for sale in Mandaue City Cebu",
+    "sqm": 1545.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Bakilid",
+    "region": "Cebu",
+    "lat": 10.3387234,
+    "lng": 123.932637,
+    "price_php": 220000.0,
+    "price_unit": "total",
+    "agent_name": "PH/PRO Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,545 m2",
+      "price_raw": "Sale: ₱ 220,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.47,
+      "NLEX": 575.17,
+      "C5": 563.32,
+      "R10": 573.57
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

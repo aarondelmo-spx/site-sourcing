@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-manibaug-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-manibaug-libutad-pampanga_4dca06a8d0b9-b9f0-0352-3441-8e62d089",
+  "scraped_at": "2026-05-11T05:27:30.410298Z",
+  "first_seen_at": "2026-05-04T02:51:29.985100Z",
+  "expires_at": "2026-05-18T05:27:30.410298Z",
+  "status": "active",
+  "listing": {
+    "title": "Pampanga-Porac 13,157 SQM Distribution Center for Lease with Elevated Docks and 40ft Truck Access",
+    "sqm": 13157.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pampanga, Porac, Manibaug Libutad",
+    "region": "Pampanga",
+    "lat": 15.1155801,
+    "lng": 120.5688874,
+    "price_php": 3289250.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cedtrix Rena - PRIME Philippines",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 13,157 m2",
+      "price_raw": "Rent: ₱ 3,289,250\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 79.31,
+      "NLEX": 27.81,
+      "C5": 67.73,
+      "R10": 65.31
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

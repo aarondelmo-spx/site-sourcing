@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-merville-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-merville-metro-manila_31110f2315e3-18a1-1942-b8d3-ba8fd089",
+  "scraped_at": "2026-05-11T05:00:32.462828Z",
+  "first_seen_at": "2026-05-04T06:54:40.249358Z",
+  "expires_at": "2026-05-18T05:00:32.462828Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Warehouse/Factory in Edison Avenue, Sun Valley, Paranaque City",
+    "sqm": 8002.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Merville",
+    "region": "NCR",
+    "lat": 14.4984947,
+    "lng": 121.0311353,
+    "price_php": 720180000.0,
+    "price_unit": "total",
+    "agent_name": "One Global Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 8,002 m2",
+      "price_raw": "Sale: ₱ 720,180,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.12,
+      "NLEX": 17.4,
+      "C5": 6.15,
+      "R10": 14.2
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

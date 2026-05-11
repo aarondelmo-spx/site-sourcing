@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-canlubang-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-canlubang-laguna_dd14e04e3f88-30e0-e442-4305-da637089",
+  "scraped_at": "2026-05-11T05:14:23.608664Z",
+  "first_seen_at": "2026-05-04T07:07:27.182928Z",
+  "expires_at": "2026-05-18T05:14:23.608664Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Property in Canlubang, Calamba, Laguna - OBSM29",
+    "sqm": 4800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Canlubang",
+    "region": "Laguna",
+    "lat": 14.2245718,
+    "lng": 121.0973944,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 4,800 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.35,
+      "NLEX": 48.63,
+      "C5": 36.65,
+      "R10": 45.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

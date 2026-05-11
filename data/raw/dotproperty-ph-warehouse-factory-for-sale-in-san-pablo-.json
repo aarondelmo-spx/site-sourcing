@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-pablo-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-pablo-proper-pampanga_2ebea9a9ff08-a910-a552-fc00-dfbce089",
+  "scraped_at": "2026-05-11T05:30:07.976981Z",
+  "first_seen_at": "2026-05-04T07:26:48.020371Z",
+  "expires_at": "2026-05-18T05:30:07.976981Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Four Warehouse for Sale in San Simon Pampanga Industrial Park 3-Phase",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, San Simon, San Pablo Proper",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 99655000.0,
+    "price_unit": "total",
+    "agent_name": "MyHomeTown Realty and Development Inc. (DF)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 99,655,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

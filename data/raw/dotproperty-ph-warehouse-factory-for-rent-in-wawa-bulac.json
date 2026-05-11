@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-wawa-bulac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-wawa-bulacan_a9b51ff5475c-4231-ae92-ff22-b592c089",
+  "scraped_at": "2026-05-11T05:17:07.898174Z",
+  "first_seen_at": "2026-05-04T07:19:34.220866Z",
+  "expires_at": "2026-05-18T05:17:07.898174Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,300 sqm Warehouse For Rent in Bulacan",
+    "sqm": 1300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), Wawa",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Raselle Atilano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,300 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

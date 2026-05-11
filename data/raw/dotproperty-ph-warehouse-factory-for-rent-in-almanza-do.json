@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-almanza-do",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-almanza-dos-metro-manila_b14236c9b918-640f-e462-a2e2-91532089",
+  "scraped_at": "2026-05-11T04:55:35.302596Z",
+  "first_seen_at": "2026-05-04T06:49:35.566879Z",
+  "expires_at": "2026-05-18T04:55:35.302596Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Las Pinas Office Warehouse in TS Cruz Subdivision",
+    "sqm": 2519.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Las Piñas, Almanza Dos",
+    "region": "NCR",
+    "lat": 14.4001299,
+    "lng": 121.0113548,
+    "price_php": 950000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Aimee Flordeliza",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,519 m2",
+      "price_raw": "Rent: ₱ 950,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.38,
+      "NLEX": 28.19,
+      "C5": 17.26,
+      "R10": 24.2
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

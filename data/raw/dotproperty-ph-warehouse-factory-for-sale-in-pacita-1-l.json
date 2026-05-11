@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pacita-1-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pacita-1-laguna_e2dc1c16e638-3ac0-2cc2-5951-85872089",
+  "scraped_at": "2026-05-11T05:13:55.669812Z",
+  "first_seen_at": "2026-05-04T07:07:26.172007Z",
+  "expires_at": "2026-05-18T05:13:55.669812Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE IN CALABUSO BIÑAN LAGUNA",
+    "sqm": 4600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, San Pedro, Pacita 1",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 102120000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 4,600 m2",
+      "price_raw": "Sale: ₱ 102,120,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

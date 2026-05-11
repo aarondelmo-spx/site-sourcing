@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-central-bi",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-central-bicutan-metro-manila_848d6217ed6f-74a0-8782-ad76-eae32089",
+  "scraped_at": "2026-05-11T04:56:47.779454Z",
+  "first_seen_at": "2026-05-11T04:56:47.779454Z",
+  "expires_at": "2026-05-18T04:56:47.779454Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,739 sqm Warehouse for Rent in Bicutan, Parañaque City",
+    "sqm": 1739.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Central Bicutan",
+    "region": "NCR",
+    "lat": 14.4881321,
+    "lng": 121.0514253,
+    "price_php": 678210.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,739 m2",
+      "price_raw": "Rent: ₱ 678,210\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.78,
+      "NLEX": 18.93,
+      "C5": 6.98,
+      "R10": 16.2
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-concepcion",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-concepcion-uno-metro-manila_fac00fe8883b-4891-d262-de61-4e8ac089",
+  "scraped_at": "2026-05-04T06:54:29.821979Z",
+  "first_seen_at": "2026-05-04T06:54:29.821979Z",
+  "expires_at": "2026-05-11T06:54:29.821979Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Warehouse in Brgy. Concepcion Uno, Marikina City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Marikina, Concepcion Uno",
+    "region": "NCR",
+    "lat": 14.6511402,
+    "lng": 121.1100631,
+    "price_php": 13200000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 13,200,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 14.9,
+      "NLEX": 10.78,
+      "C5": 2.65,
+      "R10": 14.74
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

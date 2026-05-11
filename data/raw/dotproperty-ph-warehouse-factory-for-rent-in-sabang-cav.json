@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sabang-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sabang-cavite_269cfed95f9f-4980-60e2-11fa-d2532089",
+  "scraped_at": "2026-05-08T03:28:57.840061Z",
+  "first_seen_at": "2026-04-29T08:36:29.721540Z",
+  "expires_at": "2026-05-15T03:28:57.840061Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse Space for Lease - Sabang, Naic, Cavite",
+    "sqm": 1200.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Naic, Sabang",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 264000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Febz Maico",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 264,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

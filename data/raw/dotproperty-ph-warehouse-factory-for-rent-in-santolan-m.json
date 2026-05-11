@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santolan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santolan-metro-manila-near-lrt-2-santolan_f986243f6979-f0c1-96b2-dd0a-e4d32089",
+  "scraped_at": "2026-05-08T03:24:27.585459Z",
+  "first_seen_at": "2026-05-08T03:24:27.585459Z",
+  "expires_at": "2026-05-15T03:24:27.585459Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "442 sqm Warehouse in Santolan, Pasig City",
+    "sqm": 442.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Santolan",
+    "region": "NCR",
+    "lat": 14.6230974,
+    "lng": 121.0826071,
+    "price_php": 154700.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 442 m2",
+      "price_raw": "Rent: ₱ 154,700\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.61,
+      "NLEX": 8.53,
+      "C5": 1.65,
+      "R10": 11.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

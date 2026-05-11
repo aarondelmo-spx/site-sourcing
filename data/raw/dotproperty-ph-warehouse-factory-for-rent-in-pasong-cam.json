@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pasong-cam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pasong-camachile-ii-cavite_bd45ebfc279b-3131-a4f2-48de-42d32089",
+  "scraped_at": "2026-05-11T05:04:15.739683Z",
+  "first_seen_at": "2026-05-04T06:56:59.742215Z",
+  "expires_at": "2026-05-18T05:04:15.739683Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "445.5 sq. meters Warehouse For Rent in General Trias, Cavite",
+    "sqm": 445.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Pasong Camachile II",
+    "region": "Cavite",
+    "lat": 14.3649915,
+    "lng": 120.9148278,
+    "price_php": 151470.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 445.5 m2",
+      "price_raw": "Rent: ₱ 151,470\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 14.23,
+      "NLEX": 33.68,
+      "C5": 25.24,
+      "R10": 28.67
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

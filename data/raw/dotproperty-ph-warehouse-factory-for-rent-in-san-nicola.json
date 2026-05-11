@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-nicola",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-nicolas-metro-manila_7065ea753102-d000-bfc2-1bc1-f2d32089",
+  "scraped_at": "2026-05-08T03:23:24.682954Z",
+  "first_seen_at": "2026-04-29T08:19:52.259877Z",
+  "expires_at": "2026-05-15T03:23:24.682954Z",
+  "status": "active",
+  "listing": {
+    "title": "Manila Small Warehouse besides Divisoria, 168 Mall and Lucky China Town",
+    "sqm": 113.5,
+    "dock_doors": 2,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, San Nicolas",
+    "region": "NCR",
+    "lat": 14.5988373,
+    "lng": 120.9728642,
+    "price_php": 43713.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Easy Property Match",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 113.54 m2",
+      "price_raw": "Rent: ₱ 43,713\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.33,
+      "NLEX": 7.28,
+      "C5": 9.81,
+      "R10": 1.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

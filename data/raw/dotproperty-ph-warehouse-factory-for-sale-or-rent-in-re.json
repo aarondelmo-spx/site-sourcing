@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-re",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-real-laguna_e84b7c91bf77-c350-d792-3005-4814f089",
+  "scraped_at": "2026-05-08T03:43:47.541433Z",
+  "first_seen_at": "2026-04-29T08:55:39.558985Z",
+  "expires_at": "2026-05-15T03:43:47.541433Z",
+  "status": "active",
+  "listing": {
+    "title": "FOR SALE/LEASE - Warehouse in Calamba Laguna",
+    "sqm": 6754.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Real",
+    "region": "Laguna",
+    "lat": 14.2021172,
+    "lng": 121.1582891,
+    "price_php": 320000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 6,754 m2",
+      "price_raw": "Sale: ₱ 320,000,000\n                                                                                                    Rent: ₱ 1,485,880\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.27,
+      "NLEX": 52.68,
+      "C5": 40.52,
+      "R10": 49.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

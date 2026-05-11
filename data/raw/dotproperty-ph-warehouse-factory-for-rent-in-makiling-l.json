@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-makiling-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-makiling-laguna_0458677b2d71-ed31-f842-52f7-d1d5f089",
+  "scraped_at": "2026-05-11T05:11:38.294804Z",
+  "first_seen_at": "2026-05-04T07:00:58.355823Z",
+  "expires_at": "2026-05-18T05:11:38.294804Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,376 sqm Warehouse For Rent in Alogis, Laguna",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Makiling",
+    "region": "Laguna",
+    "lat": 14.1584372,
+    "lng": 121.1364079,
+    "price_php": 1150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Phil Dang-At",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 1,150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.38,
+      "NLEX": 56.72,
+      "C5": 44.64,
+      "R10": 53.6
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

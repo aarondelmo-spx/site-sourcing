@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-lantic-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-lantic-cavite_d0b3cad466a4-e8c0-ec72-92ff-9b8f2089",
+  "scraped_at": "2026-05-11T05:06:18.144124Z",
+  "first_seen_at": "2026-05-04T06:59:57.114449Z",
+  "expires_at": "2026-05-18T05:06:18.144124Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE IN CARMONA, CAVITE",
+    "sqm": 6047.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Lantic",
+    "region": "Cavite",
+    "lat": 14.2957843,
+    "lng": 121.0487066,
+    "price_php": 211645000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 6,047 m2",
+      "price_raw": "Sale: ₱ 211,645,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.19,
+      "NLEX": 40.01,
+      "C5": 28.37,
+      "R10": 36.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

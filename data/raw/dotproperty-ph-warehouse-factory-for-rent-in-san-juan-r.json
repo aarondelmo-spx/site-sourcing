@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-juan-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-juan-rizal_f4c1deb78287-6291-f822-42e8-0a99e089",
+  "scraped_at": "2026-05-11T05:24:47.126745Z",
+  "first_seen_at": "2026-05-04T07:11:34.649651Z",
+  "expires_at": "2026-05-18T05:24:47.126745Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE – VELASQUEZ, TAYTAY, RIZAL",
+    "sqm": 1438.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, San Juan",
+    "region": "Rizal",
+    "lat": 14.5545605,
+    "lng": 121.1248669,
+    "price_php": 575200.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 10",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,438 m2",
+      "price_raw": "Rent: ₱ 575,200\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.41,
+      "NLEX": 16.56,
+      "C5": 7.2,
+      "R10": 17.18
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-ugong-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-ugong-metro-manila_8a258a3527ac-5261-0632-2f30-02d32089",
+  "scraped_at": "2026-05-11T04:58:18.406917Z",
+  "first_seen_at": "2026-05-04T06:52:35.769111Z",
+  "expires_at": "2026-05-18T04:58:18.406917Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE: Mindanao Avenue, Warehouse + 2 Storey Apartment",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Ugong",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 35000000.0,
+    "price_unit": "total",
+    "agent_name": "LYONS Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 35,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

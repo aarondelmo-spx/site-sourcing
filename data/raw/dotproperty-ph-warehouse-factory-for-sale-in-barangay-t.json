@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-t",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-tres-laguna_04d494912f4a-dd61-1d92-c9da-3201d089",
+  "scraped_at": "2026-05-11T05:14:36.007376Z",
+  "first_seen_at": "2026-05-04T07:07:42.026311Z",
+  "expires_at": "2026-05-18T05:14:36.007376Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Lot For Sale Cabuyao, Laguna",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Barangay Tres",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 960000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 960,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

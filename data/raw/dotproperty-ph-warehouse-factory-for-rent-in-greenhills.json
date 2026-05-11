@@ -1,0 +1,40 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-greenhills",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-greenhills-metro-manila_d8c654ae4e75-ed7e-5162-972b-d4d32089",
+  "scraped_at": "2026-05-04T02:18:06.493107Z",
+  "expires_at": "2026-05-11T02:18:06.493107Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for rent in San Juan City",
+    "sqm": 544.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, San Juan, Greenhills",
+    "region": "NCR",
+    "lat": 14.6024713,
+    "lng": 121.0584087,
+    "price_php": 210000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 544 m2",
+      "price_raw": "Rent: ₱ 210,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.19,
+      "NLEX": 7.72,
+      "C5": 2.36,
+      "R10": 8.76
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

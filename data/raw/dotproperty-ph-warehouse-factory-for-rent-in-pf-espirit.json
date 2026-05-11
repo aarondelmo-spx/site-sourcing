@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pf-espirit",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pf-espiritu-viii-cavite_b419abcc8701-278f-8942-6fa0-a4d32089",
+  "scraped_at": "2026-05-11T05:04:00.883943Z",
+  "first_seen_at": "2026-05-04T06:56:44.469173Z",
+  "expires_at": "2026-05-18T05:04:00.883943Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "BACOOR CITY WAREHOUSE FOR LEASE | CAVITE",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": 9.0,
+    "address": "Cavite, Bacoor, P.F. Espiritu VIII",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 280000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 280,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-linasin-za",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-linasin-zambales_e3f1a0b31c9a-5ad0-8d82-b222-e3d32089",
+  "scraped_at": "2026-05-04T07:32:38.236089Z",
+  "first_seen_at": "2026-05-04T07:32:38.236089Z",
+  "expires_at": "2026-05-11T07:32:38.236089Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "540 sq.m. Warehouse for Lease at Linasin, San Marcelino, Zambales",
+    "sqm": 540.0,
+    "dock_doors": null,
+    "clear_height_m": 9.0,
+    "address": "Zambales, San Marcelino, Linasin",
+    "region": "Zambales",
+    "lat": null,
+    "lng": null,
+    "price_php": 80000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Cyril Katipunan)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 540 m2",
+      "price_raw": "Rent: ₱ 80,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

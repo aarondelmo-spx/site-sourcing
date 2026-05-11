@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-burol-ii-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-burol-ii-cavite_fcd2a4c01631-a58e-e172-6bab-38d32089",
+  "scraped_at": "2026-05-08T03:31:01.435112Z",
+  "first_seen_at": "2026-04-29T08:34:36.081310Z",
+  "expires_at": "2026-05-15T03:31:01.435112Z",
+  "status": "active",
+  "listing": {
+    "title": "2027 sqm Industrial Warehouse Factory Space for Rent in Dasmariñas, Cavite",
+    "sqm": 2027.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, Burol II",
+    "region": "Cavite",
+    "lat": 14.3251514,
+    "lng": 120.9623973,
+    "price_php": 550000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,027 m2",
+      "price_raw": "Rent: ₱ 550,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.53,
+      "NLEX": 36.88,
+      "C5": 26.79,
+      "R10": 32.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

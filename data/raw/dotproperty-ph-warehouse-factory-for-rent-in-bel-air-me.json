@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bel-air-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bel-air-metro-manila_7eee0f450aae-94c0-fe52-1397-5ec0d089",
+  "scraped_at": "2026-05-11T04:56:01.263399Z",
+  "first_seen_at": "2026-05-04T06:49:56.793276Z",
+  "expires_at": "2026-05-18T04:56:01.263399Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Space for Lease Rent 600 sqm in Makati City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": 10.0,
+    "address": "Metro Manila, Makati, Bel-Air",
+    "region": "NCR",
+    "lat": 14.5602085,
+    "lng": 121.0245571,
+    "price_php": 450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME Realty Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.26,
+      "NLEX": 10.5,
+      "C5": 2.87,
+      "R10": 7.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

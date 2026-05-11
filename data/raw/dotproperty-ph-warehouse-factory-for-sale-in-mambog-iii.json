@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mambog-iii",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mambog-iii-cavite_22c847cd0170-934f-6d22-0e45-f87fd089",
+  "scraped_at": "2026-05-11T05:05:14.010409Z",
+  "first_seen_at": "2026-05-04T06:58:45.145361Z",
+  "expires_at": "2026-05-18T05:05:14.010409Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Office Warehouse in Mambog 4, Bacoor, Cavite",
+    "sqm": 242.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, Mambog III",
+    "region": "Cavite",
+    "lat": 14.4254867,
+    "lng": 120.9572002,
+    "price_php": 25000000.0,
+    "price_unit": "total",
+    "agent_name": "One Global Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 242 m2",
+      "price_raw": "Sale: ₱ 25,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.09,
+      "NLEX": 25.99,
+      "C5": 17.12,
+      "R10": 21.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

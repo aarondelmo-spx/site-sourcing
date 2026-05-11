@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lingunan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lingunan-metro-manila_d4616f9b5b8c-d701-2062-f588-82941089",
+  "scraped_at": "2026-05-11T04:56:07.120466Z",
+  "first_seen_at": "2026-05-04T06:50:11.775684Z",
+  "expires_at": "2026-05-18T04:56:07.120466Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease in Valenzuela City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Lingunan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 240131.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 240,131\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

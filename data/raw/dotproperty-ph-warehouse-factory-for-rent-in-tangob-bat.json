@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tangob-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tangob-batangas_528db26cf54f-53b1-2192-92c5-bb632089",
+  "scraped_at": "2026-05-11T05:32:05.416988Z",
+  "first_seen_at": "2026-05-04T07:09:52.331184Z",
+  "expires_at": "2026-05-18T05:32:05.416988Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PEZA Warehouse Spaces for Lease / Rent in Batangas",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Batangas, Lipa, Tangob",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME REALTY INC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

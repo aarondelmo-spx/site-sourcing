@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-isidro",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-isidro-pampanga_c1584d1d4774-579e-0e82-257d-01532089",
+  "scraped_at": "2026-05-11T05:29:52.038551Z",
+  "first_seen_at": "2026-05-04T06:52:26.135695Z",
+  "expires_at": "2026-05-18T05:29:52.038551Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE: COMMERCIAL WAREHOUSE – MABALACAT, PAMPANGA",
+    "sqm": 600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Magalang, San Isidro",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 60000000.0,
+    "price_unit": "total",
+    "agent_name": "Pierrealty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 600 m2",
+      "price_raw": "Sale: ₱ 60,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

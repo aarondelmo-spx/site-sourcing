@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-putatan-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-putatan-metro-manila_7ee8bcfaa861-e3ae-10c2-06d1-03632089",
+  "scraped_at": "2026-05-11T04:55:25.489136Z",
+  "first_seen_at": "2026-05-04T06:49:21.490140Z",
+  "expires_at": "2026-05-18T04:55:25.489136Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Spaces for Lease Rent in Muntinlupa City",
+    "sqm": 960.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Putatan",
+    "region": "NCR",
+    "lat": 14.4031143,
+    "lng": 121.0398982,
+    "price_php": 280000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME Realty Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 960 m2",
+      "price_raw": "Rent: ₱ 280,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.6,
+      "NLEX": 28.04,
+      "C5": 16.46,
+      "R10": 24.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

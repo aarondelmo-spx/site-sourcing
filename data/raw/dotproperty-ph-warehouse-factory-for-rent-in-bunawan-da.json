@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bunawan-da",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bunawan-davao-del-sur_e5e7c846d01c-0d4e-e202-378e-c2632089",
+  "scraped_at": "2026-05-11T05:38:08.651802Z",
+  "first_seen_at": "2026-05-04T07:43:28.227681Z",
+  "expires_at": "2026-05-18T05:38:08.651802Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,300 sqms Warehouse for Lease in Budbud, Bunawan, Davao",
+    "sqm": 1300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Bunawan",
+    "region": "Davao del Sur",
+    "lat": 7.2358881,
+    "lng": 125.6424661,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Hannah",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,300 m2",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 909.67,
+      "NLEX": 967.31,
+      "C5": 955.38,
+      "R10": 965.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

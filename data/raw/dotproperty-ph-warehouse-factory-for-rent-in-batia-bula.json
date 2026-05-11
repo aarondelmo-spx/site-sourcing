@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-batia-bula",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-batia-bulacan_6feb18fa0e65-d7af-6a32-63d0-da570089",
+  "scraped_at": "2026-05-08T03:45:21.116146Z",
+  "first_seen_at": "2026-05-04T07:20:01.305560Z",
+  "expires_at": "2026-05-15T03:45:21.116146Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,200 sqm Warehouse for Rent in Batia, Bocaue, Bulacan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bocaue, Batia",
+    "region": "Bulacan",
+    "lat": 14.8327155,
+    "lng": 120.9455298,
+    "price_php": 156000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 156,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 32.38,
+      "NLEX": 3.61,
+      "C5": 16.68,
+      "R10": 18.46
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

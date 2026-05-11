@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-6",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-6-laguna_81bf34d9916b-6131-6a12-8235-3f8f5089",
+  "scraped_at": "2026-05-11T05:14:21.564390Z",
+  "first_seen_at": "2026-05-04T06:54:50.807577Z",
+  "expires_at": "2026-05-18T05:14:21.564390Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "CALAMBA LAGUNA COMMERCIAL INDUSTRIAL LOT WITH WAREHOUSE IMPROVEMENT",
+    "sqm": 11468.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Barangay 6",
+    "region": "Laguna",
+    "lat": 14.2139934,
+    "lng": 121.1682218,
+    "price_php": 286700000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 11,468 m2",
+      "price_raw": "Sale: ₱ 286,700,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.89,
+      "NLEX": 51.77,
+      "C5": 39.59,
+      "R10": 49.11
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

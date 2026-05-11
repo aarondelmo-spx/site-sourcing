@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-malabanban",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-malabanban-sur-quezon_e54905311cb8-c0a1-8e62-2316-35910089",
+  "scraped_at": "2026-05-04T07:16:53.619477Z",
+  "first_seen_at": "2026-05-04T07:16:53.619477Z",
+  "expires_at": "2026-05-11T07:16:53.619477Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "316sqm Warehouse for Rent in Brgy. Malabanban Sur Candelaria, Quezon Province",
+    "sqm": 316.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Quezon, Candelaria, Malabanban Sur",
+    "region": "Quezon",
+    "lat": 13.9242748,
+    "lng": 121.4234963,
+    "price_php": 150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Erds Rejano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 316 m2",
+      "price_raw": "Rent: ₱ 150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 37.89,
+      "NLEX": 92.54,
+      "C5": 80.5,
+      "R10": 90.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

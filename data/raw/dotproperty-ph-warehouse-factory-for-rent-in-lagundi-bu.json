@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lagundi-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lagundi-bulacan_4a18e51c1cf4-aff1-a702-9d42-d4d32089",
+  "scraped_at": "2026-05-08T03:46:16.594821Z",
+  "first_seen_at": "2026-04-29T08:59:06.078106Z",
+  "expires_at": "2026-05-15T03:46:16.594821Z",
+  "status": "active",
+  "listing": {
+    "title": "20,000 square meter Warehouse for Rent/Lease in Bulacan",
+    "sqm": 20000.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Plaridel, Lagundi",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 3000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 20,000 m2",
+      "price_raw": "Rent: ₱ 3,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

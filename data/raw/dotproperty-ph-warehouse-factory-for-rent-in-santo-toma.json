@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santo-toma",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santo-tomas-batangas_df89de019a80-09bf-1de2-21b9-16d32089",
+  "scraped_at": "2026-05-11T05:31:18.028228Z",
+  "first_seen_at": "2026-05-04T02:57:14.639058Z",
+  "expires_at": "2026-05-18T05:31:18.028228Z",
+  "status": "active",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE | SANTO TOMAS, BATANGAS",
+    "sqm": 1287.0,
+    "dock_doors": 1,
+    "clear_height_m": 8.0,
+    "address": "Batangas, Mabini, Santo Tomas",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 450450.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,287 m2",
+      "price_raw": "Rent: ₱ 450,450\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

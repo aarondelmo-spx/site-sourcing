@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-diversion-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-diversion-nueva-ecija_50210d371037-60be-8ab2-61ef-c2d32089",
+  "scraped_at": "2026-05-04T07:30:29.315961Z",
+  "first_seen_at": "2026-05-04T07:30:29.315961Z",
+  "expires_at": "2026-05-11T07:30:29.315961Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "500 sqm Warehouse for Rent at Diversion, San Leonardo, Nueva Ecija",
+    "sqm": 500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, San Leonardo, Diversion",
+    "region": "Nueva Ecija",
+    "lat": 15.3581292,
+    "lng": 120.9388139,
+    "price_php": 50000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 50,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 90.24,
+      "NLEX": 26.77,
+      "C5": 71.81,
+      "R10": 76.84
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-biasong-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-biasong-cebu_0fb11d000298-ea70-2e05-42b4-170c4e03",
+  "scraped_at": "2026-05-11T05:36:36.372669Z",
+  "first_seen_at": "2026-05-08T04:05:16.552175Z",
+  "expires_at": "2026-05-18T05:36:36.372669Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse in Biasong, Talisay City",
+    "sqm": 8862.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Talisay, Biasong",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 194964000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 8,862 m2",
+      "price_raw": "Sale: ₱ 194,964,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

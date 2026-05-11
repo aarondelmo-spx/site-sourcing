@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mining-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mining-pampanga_e81b08ac1f7b-bb0f-4eb2-88dd-96532089",
+  "scraped_at": "2026-05-11T05:29:44.430954Z",
+  "first_seen_at": "2026-05-04T07:26:19.107533Z",
+  "expires_at": "2026-05-18T05:29:44.430954Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse in Angeles Pampanga for Sale",
+    "sqm": 10891.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Mining",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 1.198,
+    "price_unit": "total",
+    "agent_name": "PRIME Philippines",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 10,891 m2",
+      "price_raw": "Sale: ₱ 1.198 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

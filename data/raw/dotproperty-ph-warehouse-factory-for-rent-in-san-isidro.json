@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-isidro",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-isidro-pampanga_6177b991cf8c-a46f-fe22-169e-74d32089",
+  "scraped_at": "2026-05-11T05:29:27.536488Z",
+  "first_seen_at": "2026-05-04T06:49:46.158439Z",
+  "expires_at": "2026-05-18T05:29:27.536488Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For rent warehouse near Sta Ines Mabalacat City Pampanga",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Magalang, San Isidro",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

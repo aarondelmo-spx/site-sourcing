@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-2",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-2-a-davao-del-sur_4382e0f2cc7c-36df-a7d2-826e-437bf089",
+  "scraped_at": "2026-05-11T05:37:29.391733Z",
+  "first_seen_at": "2026-05-04T07:43:12.515585Z",
+  "expires_at": "2026-05-18T05:37:29.391733Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "warehouse for lease malagamot davao city",
+    "sqm": 6000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Barangay 2-A",
+    "region": "Davao del Sur",
+    "lat": 7.1917962,
+    "lng": 125.430407,
+    "price_php": 1020000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PHILIPPINE ACCESS SALES NETWORK REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 6,000 m2",
+      "price_raw": "Rent: ₱ 1,020,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 901.54,
+      "NLEX": 959.68,
+      "C5": 947.69,
+      "R10": 957.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

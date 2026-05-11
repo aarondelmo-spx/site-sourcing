@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-del-monte-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-del-monte-metro-manila_c04c560387aa-dbff-1b82-7beb-c99c2089",
+  "scraped_at": "2026-05-08T03:28:06.245858Z",
+  "first_seen_at": "2026-05-04T06:55:37.546264Z",
+  "expires_at": "2026-05-15T03:28:06.245858Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial Property for Sale along Del Monte Avenue, San Francisco del Monte, QC",
+    "sqm": 310.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Del Monte",
+    "region": "NCR",
+    "lat": 14.642094,
+    "lng": 121.0177929,
+    "price_php": 85350000.0,
+    "price_unit": "total",
+    "agent_name": "27C Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 310 m2",
+      "price_raw": "Sale: ₱ 85,350,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.21,
+      "NLEX": 1.54,
+      "C5": 7.65,
+      "R10": 4.81
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

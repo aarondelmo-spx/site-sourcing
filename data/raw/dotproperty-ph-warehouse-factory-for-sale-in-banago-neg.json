@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-banago-neg",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-banago-negros-occidental_45988de5b6ca-fe9e-4532-4536-253c0089",
+  "scraped_at": "2026-05-04T07:41:51.358920Z",
+  "first_seen_at": "2026-05-04T07:41:51.358920Z",
+  "expires_at": "2026-05-11T07:41:51.358920Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "BACOLOD CITY LOT BANAGO",
+    "sqm": 2885.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Negros Occidental, Bacolod, Banago",
+    "region": "Negros Occidental",
+    "lat": 10.7022565,
+    "lng": 122.9501968,
+    "price_php": 54000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,885 m2",
+      "price_raw": "Sale: ₱ 54,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 427.64,
+      "NLEX": 487.17,
+      "C5": 475.04,
+      "R10": 484.86
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

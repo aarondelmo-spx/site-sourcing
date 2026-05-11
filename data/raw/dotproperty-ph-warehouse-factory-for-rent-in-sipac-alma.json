@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sipac-alma",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sipac-almacen-metro-manila_c9d084c9d47e-4d90-c292-66b2-82941089",
+  "scraped_at": "2026-05-11T04:55:22.525946Z",
+  "first_seen_at": "2026-05-04T06:49:23.903999Z",
+  "expires_at": "2026-05-18T04:55:22.525946Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Lot for Lease Along C3 in Navotas City (near port)",
+    "sqm": 8168.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Navotas, Sipac-Almacen",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 2858800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 8,168 m2",
+      "price_raw": "Rent: ₱ 2,858,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

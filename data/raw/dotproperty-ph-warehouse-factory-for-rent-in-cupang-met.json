@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cupang-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cupang-metro-manila_46da3808481d-a2af-1b92-726e-62d32089",
+  "scraped_at": "2026-05-11T04:57:34.805812Z",
+  "first_seen_at": "2026-05-04T06:49:24.820109Z",
+  "expires_at": "2026-05-18T04:57:34.805812Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,900 sqm Warehouse for Rent along West Service Road, Muntinlupa City",
+    "sqm": 1900.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Cupang",
+    "region": "NCR",
+    "lat": 14.4279213,
+    "lng": 121.0444551,
+    "price_php": 760000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,900 m2",
+      "price_raw": "Rent: ₱ 760,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.35,
+      "NLEX": 25.37,
+      "C5": 13.68,
+      "R10": 22.04
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

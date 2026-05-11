@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sanja-mayo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sanja-mayor-cavite_4d947959e334-8b8f-6102-58fd-62d32089",
+  "scraped_at": "2026-05-11T05:02:40.775250Z",
+  "first_seen_at": "2026-05-04T06:57:19.123813Z",
+  "expires_at": "2026-05-18T05:02:40.775250Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,400 sq.m. Warehouse For Rent in Suntrust, Ecopark, Tanza, Cavite",
+    "sqm": 1400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Sanja Mayor",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 1071280.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,400 m2",
+      "price_raw": "Rent: ₱ 1,071,280\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

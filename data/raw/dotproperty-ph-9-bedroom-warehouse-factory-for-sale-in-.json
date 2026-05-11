@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-9-bedroom-warehouse-factory-for-sale-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/9-bedroom-warehouse-factory-for-sale-in-pamplona-dos-metro-manila_678b73b3eb63-41a0-2052-b3d2-b1ccf089",
+  "scraped_at": "2026-05-11T04:59:44.822246Z",
+  "first_seen_at": "2026-05-04T06:52:43.406357Z",
+  "expires_at": "2026-05-18T04:59:44.822246Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE  WAREHOUSE/OFFICE SPACE IN LAS PIÑAS CITY",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Las Piñas, Pamplona Dos",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 8",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

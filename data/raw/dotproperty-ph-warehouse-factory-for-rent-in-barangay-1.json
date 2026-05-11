@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-1",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-110-leyte_6716aba54e2b-79e0-ca82-569b-a545d089",
+  "scraped_at": "2026-05-04T07:42:34.816656Z",
+  "first_seen_at": "2026-05-04T06:49:47.291092Z",
+  "expires_at": "2026-05-11T07:42:34.816656Z",
+  "status": "active",
+  "listing": {
+    "title": "Elevated Modern Warehouse for Lease | Maharlika Highway, Tacloban City",
+    "sqm": 4643.0,
+    "dock_doors": 5,
+    "clear_height_m": 9.0,
+    "address": "Leyte, Tacloban, Barangay 110",
+    "region": "Leyte",
+    "lat": 11.2672969,
+    "lng": 124.9653202,
+    "price_php": 1485760.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 4,643 m2",
+      "price_raw": "Rent: ₱ 1,485,760\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 522.58,
+      "NLEX": 570.46,
+      "C5": 559.81,
+      "R10": 570.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

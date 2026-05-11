@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ibabao-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ibabao-cebu_ba8cf8304341-dafe-1695-c834-99ab648d",
+  "scraped_at": "2026-05-11T05:34:46.692860Z",
+  "first_seen_at": "2026-05-08T04:02:47.014150Z",
+  "expires_at": "2026-05-18T05:34:46.692860Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "800 SQM Warehouse Near CCLEX For Rent",
+    "sqm": 855.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cordoba, Ibabao",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 136800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "1st Cebu Homes Property Management & Realty Corp.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 855 m2",
+      "price_raw": "Rent: ₱ 136,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

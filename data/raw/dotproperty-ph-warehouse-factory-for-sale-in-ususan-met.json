@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-ususan-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-ususan-metro-manila_5a44b42a8544-cda0-af92-b56f-ba79b089",
+  "scraped_at": "2026-05-11T04:59:26.223047Z",
+  "first_seen_at": "2026-05-04T06:54:03.539381Z",
+  "expires_at": "2026-05-18T04:59:26.223047Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "286 sqm Office Warehouse for Sale in Taguig City",
+    "sqm": 286.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Ususan",
+    "region": "NCR",
+    "lat": 14.5319236,
+    "lng": 121.0668637,
+    "price_php": 16800000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Raselle Atilano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 286 m2",
+      "price_raw": "Sale: ₱ 16,800,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.55,
+      "NLEX": 14.85,
+      "C5": 2.83,
+      "R10": 13.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-bi",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-bi%C3%B1ang-1st-bulacan_137c53a19381-6071-eb82-a96e-fd7cc089",
+  "scraped_at": "2026-05-11T05:19:19.616181Z",
+  "first_seen_at": "2026-05-04T07:21:41.580645Z",
+  "expires_at": "2026-05-18T05:19:19.616181Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE/LEASE - Warehouse in Bocaue, Bulacan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bocaue, Biñang 1st",
+    "region": "Bulacan",
+    "lat": 14.8053472,
+    "lng": 120.9295381,
+    "price_php": 39000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 39,000,000\n                                                                                                    Rent: ₱ 169,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 29.94,
+      "NLEX": 1.04,
+      "C5": 15.92,
+      "R10": 15.72
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

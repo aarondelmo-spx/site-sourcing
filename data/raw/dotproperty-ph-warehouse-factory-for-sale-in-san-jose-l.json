@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-jose-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-jose-laguna_194d2af9a3fe-6fd1-88d2-fdcc-0a632089",
+  "scraped_at": "2026-05-11T05:13:30.850144Z",
+  "first_seen_at": "2026-05-04T07:07:17.919682Z",
+  "expires_at": "2026-05-18T05:13:30.850144Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,500sqm Warehouse with Office for Sale in San Pablo, Laguna",
+    "sqm": 3500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, San Pablo, San Jose",
+    "region": "Laguna",
+    "lat": 14.0712244,
+    "lng": 121.3232514,
+    "price_php": 52500000.0,
+    "price_unit": "total",
+    "agent_name": "Centricity Corp.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,500 m2",
+      "price_raw": "Sale: ₱ 52,500,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 21.23,
+      "NLEX": 73.03,
+      "C5": 60.95,
+      "R10": 71.02
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

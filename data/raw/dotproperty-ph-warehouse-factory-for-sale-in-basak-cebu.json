@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-basak-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-basak-cebu_5eddac253396-5791-2525-84f0-415ae95a",
+  "scraped_at": "2026-05-11T05:36:40.611437Z",
+  "first_seen_at": "2026-05-08T04:05:22.308419Z",
+  "expires_at": "2026-05-18T05:36:40.611437Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial Property at Basak Lapu-Lapu City Cebu",
+    "sqm": 4000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Lapu-Lapu, Basak",
+    "region": "Cebu",
+    "lat": 10.2885045,
+    "lng": 123.9608794,
+    "price_php": 562250000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,000 m2",
+      "price_raw": "Sale: ₱ 562,250,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 524.81,
+      "NLEX": 581.54,
+      "C5": 569.69,
+      "R10": 579.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-camaman-an",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-camaman-an-misamis-oriental_71ef6cf4540a-7ba1-5522-2277-d4bdf089",
+  "scraped_at": "2026-05-11T05:38:53.834196Z",
+  "first_seen_at": "2026-05-04T07:44:43.260490Z",
+  "expires_at": "2026-05-18T05:38:53.834196Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR RENT: WAREHOUSE IN CAMAMAN-AN, CDO",
+    "sqm": 450.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Cagayan de Oro, Camaman-An",
+    "region": "Misamis Oriental",
+    "lat": null,
+    "lng": null,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Alessandra Victoria Guingao",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 450 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

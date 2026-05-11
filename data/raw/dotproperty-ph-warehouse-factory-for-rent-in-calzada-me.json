@@ -1,0 +1,33 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-calzada-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-calzada-metro-manila_08671df3c56f-5c9e-7e72-ad94-c1632089",
+  "scraped_at": "2026-04-29T08:18:31.275165Z",
+  "expires_at": "2026-05-06T08:18:31.275165Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Multipurpose /Commercial Warehouse with 2 Office Space For Rent, Taguig City",
+    "sqft": 1829.9,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Calzada",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 42500.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 170 m2",
+      "price_raw": "Rent: ₱ 42,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

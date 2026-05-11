@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-real-de-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-real-de-cacarong-bulacan_f02740104660-55ee-cf42-5f50-b4d32089",
+  "scraped_at": "2026-05-11T05:16:37.607149Z",
+  "first_seen_at": "2026-05-04T07:19:38.695388Z",
+  "expires_at": "2026-05-18T05:16:37.607149Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "17,000 square meter Warehouse For Rent in Pandi, Bulacan",
+    "sqm": 17000.0,
+    "dock_doors": null,
+    "clear_height_m": 14.0,
+    "address": "Bulacan, Pandi, Real de Cacarong",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 800000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 17,000 m2",
+      "price_raw": "Rent: ₱ 800,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

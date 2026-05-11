@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-5",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-53-b-cavite_53906a403e30-4460-b072-d25c-330ad089",
+  "scraped_at": "2026-05-11T05:06:18.870319Z",
+  "first_seen_at": "2026-05-04T07:00:03.319216Z",
+  "expires_at": "2026-05-18T05:06:18.870319Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial Warehouse in San Antonio, Cavite City",
+    "sqm": 11605.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Cavite City, Barangay 53-B",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 1.5,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 11,605 m2",
+      "price_raw": "Sale: ₱ 1.5 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

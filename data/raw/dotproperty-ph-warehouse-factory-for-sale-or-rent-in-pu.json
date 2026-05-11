@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-pu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-putatan-metro-manila_c8eccef9d5c4-1180-2c32-c1fe-fdd7d089",
+  "scraped_at": "2026-05-11T05:00:57.342306Z",
+  "first_seen_at": "2026-05-04T06:54:59.396137Z",
+  "expires_at": "2026-05-18T05:00:57.342306Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE / LEASE | Income-Generating Warehouse – Muntinlupa",
+    "sqm": 3705.0,
+    "dock_doors": null,
+    "clear_height_m": 4.2,
+    "address": "Metro Manila, Muntinlupa, Putatan",
+    "region": "NCR",
+    "lat": 14.4031143,
+    "lng": 121.0398982,
+    "price_php": 66800000.0,
+    "price_unit": "total",
+    "agent_name": "Jeffrey Lock",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,705 m2",
+      "price_raw": "Sale: ₱ 66,800,000\n                                                                                                    Rent: ₱ 260,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.6,
+      "NLEX": 28.04,
+      "C5": 16.46,
+      "R10": 24.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

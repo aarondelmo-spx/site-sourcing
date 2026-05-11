@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-telapayong",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-telapayong-pampanga_7c0ebf898197-14de-cd62-e95a-95a5d089",
+  "scraped_at": "2026-05-11T05:29:57.842997Z",
+  "first_seen_at": "2026-05-04T07:26:28.025961Z",
+  "expires_at": "2026-05-18T05:29:57.842997Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "RUSH SALE ‼️ LOTS WITH WAREHOUSE IN PAMPANGA NEAR NLEX MEXICO OR ANGELES EXIT",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Arayat, Telapayong",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 20000000.0,
+    "price_unit": "total",
+    "agent_name": "Aslagan Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Sale: ₱ 20,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

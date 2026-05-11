@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-abagon-tar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-abagon-tarlac_0fc93c0c93f0-b66e-8fa5-4cef-233da4dd",
+  "scraped_at": "2026-05-04T07:31:52.575814Z",
+  "first_seen_at": "2026-05-04T07:31:51.137830Z",
+  "expires_at": "2026-05-11T07:31:52.575814Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "7000 sqm WAREHOUSE FOR LEASE - GERONA TARLAC",
+    "sqm": 7000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Gerona, Abagon",
+    "region": "Tarlac",
+    "lat": 15.6174507,
+    "lng": 120.6189223,
+    "price_php": 860000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 7,000 m2",
+      "price_raw": "Rent: ₱ 860,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 126.19,
+      "NLEX": 57.23,
+      "C5": 109.84,
+      "R10": 111.86
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

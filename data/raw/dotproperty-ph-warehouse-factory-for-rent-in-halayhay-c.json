@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-halayhay-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-halayhay-cavite_05a78e08dc44-05a0-4782-a9bf-93d32089",
+  "scraped_at": "2026-05-11T05:02:41.654393Z",
+  "first_seen_at": "2026-05-04T06:56:35.774231Z",
+  "expires_at": "2026-05-18T05:02:41.654393Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,149 sqm Lot with Warehouse in Halayhay, Tanza Cavite",
+    "sqm": 1149.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Halayhay",
+    "region": "Cavite",
+    "lat": 14.3732575,
+    "lng": 120.8144973,
+    "price_php": 229800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,149 m2",
+      "price_raw": "Rent: ₱ 229,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 25.01,
+      "NLEX": 37.61,
+      "C5": 32.09,
+      "R10": 32.17
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

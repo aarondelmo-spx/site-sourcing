@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-jose-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-jose-bulacan_feb17a02d887-83de-e282-48ba-8f1be089",
+  "scraped_at": "2026-05-11T05:19:09.134295Z",
+  "first_seen_at": "2026-05-04T07:21:33.279691Z",
+  "expires_at": "2026-05-18T05:19:09.134295Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE IN BULACAN",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bulacan, San Jose",
+    "region": "Bulacan",
+    "lat": 14.7958453,
+    "lng": 120.8808849,
+    "price_php": 220000000.0,
+    "price_unit": "total",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 220,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 31.08,
+      "NLEX": 4.63,
+      "C5": 19.92,
+      "R10": 16.72
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

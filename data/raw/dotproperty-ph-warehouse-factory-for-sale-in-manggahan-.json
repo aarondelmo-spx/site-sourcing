@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-manggahan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-manggahan-cavite_8363dc6551c7-6b90-b942-1daa-82e41089",
+  "scraped_at": "2026-05-11T05:04:56.627151Z",
+  "first_seen_at": "2026-05-04T06:58:29.287046Z",
+  "expires_at": "2026-05-18T05:04:56.627151Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Lot with Warehouse and office for Sale in Gen Trias City Cavite few minutes to CALAX Interchange",
+    "sqm": 35992.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Manggahan",
+    "region": "Cavite",
+    "lat": 14.3021914,
+    "lng": 120.9164537,
+    "price_php": 1.25,
+    "price_unit": "total",
+    "agent_name": "GENE",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 35,992.5 m2",
+      "price_raw": "Sale: ₱ 1.25 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.1,
+      "NLEX": 40.35,
+      "C5": 31.14,
+      "R10": 35.45
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

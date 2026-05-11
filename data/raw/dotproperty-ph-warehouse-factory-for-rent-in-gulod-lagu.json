@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-gulod-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-gulod-laguna_9564b7321e3d-9f3e-7892-ac6f-8a951089",
+  "scraped_at": "2026-05-11T05:13:00.914469Z",
+  "first_seen_at": "2026-05-04T07:01:17.986481Z",
+  "expires_at": "2026-05-18T05:13:00.914469Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Cabuyao Laguna Warehouse for Lease PP CODE #L1473",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Gulod",
+    "region": "Laguna",
+    "lat": 14.2502728,
+    "lng": 121.1589067,
+    "price_php": 646295.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 646,295\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.41,
+      "NLEX": 47.63,
+      "C5": 35.45,
+      "R10": 45.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

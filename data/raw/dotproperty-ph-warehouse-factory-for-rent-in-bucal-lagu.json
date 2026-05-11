@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bucal-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bucal-laguna_0c64ebfe885b-07f0-02c2-3606-58d32089",
+  "scraped_at": "2026-05-11T05:10:06.635148Z",
+  "first_seen_at": "2026-05-04T07:02:34.317304Z",
+  "expires_at": "2026-05-18T05:10:06.635148Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1968 sqm peza warehouse for rent in carmelray 1 laguna",
+    "sqm": 1968.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Bucal",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,968 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

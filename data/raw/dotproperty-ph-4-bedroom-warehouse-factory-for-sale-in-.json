@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-4-bedroom-warehouse-factory-for-sale-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/4-bedroom-warehouse-factory-for-sale-in-kauswagan-misamis-oriental_c9e909424dfb-520f-ce52-ec05-e56fd089",
+  "scraped_at": "2026-05-11T05:39:00.246459Z",
+  "first_seen_at": "2026-05-04T06:52:42.071107Z",
+  "expires_at": "2026-05-18T05:39:00.246459Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Space in Kauswagan CDO",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Cagayan de Oro, Kauswagan",
+    "region": "Misamis Oriental",
+    "lat": 8.7737936,
+    "lng": 124.7844013,
+    "price_php": 28000000.0,
+    "price_unit": "total",
+    "agent_name": "Alessandra Victoria Guingao",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 28,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 714.77,
+      "NLEX": 772.13,
+      "C5": 760.22,
+      "R10": 770.41
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

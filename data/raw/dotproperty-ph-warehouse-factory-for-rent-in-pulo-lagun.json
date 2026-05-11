@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pulo-lagun",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pulo-laguna_fcf94c6dc135-d7c0-0aa2-10d1-da0c8089",
+  "scraped_at": "2026-05-08T03:42:09.502176Z",
+  "first_seen_at": "2026-04-29T08:53:43.121864Z",
+  "expires_at": "2026-05-15T03:42:09.502176Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse for Lease in Biñan, Laguna",
+    "sqm": 3165.0,
+    "dock_doors": 2,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Pulo",
+    "region": "Laguna",
+    "lat": 14.2385821,
+    "lng": 121.1060311,
+    "price_php": 1017130.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,165 m2",
+      "price_raw": "Rent: ₱ 1,017,130\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.56,
+      "NLEX": 47.29,
+      "C5": 35.26,
+      "R10": 44.11
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

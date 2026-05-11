@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mabuhay-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mabuhay-cavite_3a3d9af1b8c0-04b0-b9d2-3c36-56d32089",
+  "scraped_at": "2026-05-11T05:03:58.224904Z",
+  "first_seen_at": "2026-04-29T08:36:18.364000Z",
+  "expires_at": "2026-05-18T05:03:58.224904Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "8,204 sqm Warehouse Factory Space For Rent in Carmona, Cavite",
+    "sqm": 8204.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Mabuhay",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 2200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 8,204 m2",
+      "price_raw": "Rent: ₱ 2,200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

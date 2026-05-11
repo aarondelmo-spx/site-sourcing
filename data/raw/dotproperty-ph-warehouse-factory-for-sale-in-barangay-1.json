@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-1",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-16-b-davao-del-sur_424db0fc2734-fd31-50b2-cd7e-d7d32089",
+  "scraped_at": "2026-05-11T05:38:31.710006Z",
+  "first_seen_at": "2026-05-04T06:53:04.921715Z",
+  "expires_at": "2026-05-18T05:38:31.710006Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Obrero 470sqm Lot: Central Location, Ideal for Investment and Commercial Venture",
+    "sqm": 470.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Barangay 16-B",
+    "region": "Davao del Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 25000000.0,
+    "price_unit": "total",
+    "agent_name": "K LAND PROPERTY CORPORATION",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 470 m2",
+      "price_raw": "Sale: ₱ 25,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

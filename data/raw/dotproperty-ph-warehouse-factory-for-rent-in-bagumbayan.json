@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bagumbayan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bagumbayan-metro-manila_cf56371081f2-9370-1892-54e9-65f3d089",
+  "scraped_at": "2026-05-11T04:56:31.723240Z",
+  "first_seen_at": "2026-05-04T06:49:18.056958Z",
+  "expires_at": "2026-05-18T04:56:31.723240Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,877 sqm Bagumbayan Quezon City Warehouse for Rent Warehouse for Lease",
+    "sqm": 1877.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Bagumbayan",
+    "region": "NCR",
+    "lat": 14.6032519,
+    "lng": 121.0814233,
+    "price_php": 938500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Tanabe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,877 m2",
+      "price_raw": "Rent: ₱ 938,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.94,
+      "NLEX": 9.52,
+      "C5": 0.32,
+      "R10": 11.2
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

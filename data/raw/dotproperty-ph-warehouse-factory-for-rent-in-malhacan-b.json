@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-malhacan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-malhacan-bulacan_746ead6fb2e5-10bf-0a42-dedb-4c4cd089",
+  "scraped_at": "2026-05-11T05:17:58.490037Z",
+  "first_seen_at": "2026-05-04T07:18:24.256694Z",
+  "expires_at": "2026-05-18T05:17:58.490037Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1000 SQM MEYCAUAYAN WAREHOUSE FOR RENT",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Malhacan",
+    "region": "Bulacan",
+    "lat": 14.7421392,
+    "lng": 120.9673361,
+    "price_php": 150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Hazel Gatdula",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 22.04,
+      "NLEX": 2.41,
+      "C5": 9.12,
+      "R10": 8.33
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

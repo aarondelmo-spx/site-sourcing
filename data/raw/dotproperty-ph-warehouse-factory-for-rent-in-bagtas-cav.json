@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bagtas-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bagtas-cavite_9502d655801b-f19f-c642-1aa1-f7ee1089",
+  "scraped_at": "2026-05-11T05:02:23.770393Z",
+  "first_seen_at": "2026-05-04T06:56:42.431686Z",
+  "expires_at": "2026-05-18T05:02:23.770393Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN CAVITE",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Bagtas",
+    "region": "Cavite",
+    "lat": 14.3333983,
+    "lng": 120.849989,
+    "price_php": 824550.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 824,550\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 21.65,
+      "NLEX": 39.55,
+      "C5": 32.34,
+      "R10": 34.26
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

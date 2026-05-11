@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tinajeros-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tinajeros-metro-manila_cf76b00edf5a-e2e1-d872-f100-89d32089",
+  "scraped_at": "2026-05-11T04:57:04.754663Z",
+  "first_seen_at": "2026-05-04T06:51:38.615665Z",
+  "expires_at": "2026-05-18T04:57:04.754663Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "480 sqm Warehouse for Rent in Malabon, Metro Manila",
+    "sqm": 480.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Malabon, Tinajeros",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 480 m2",
+      "price_raw": "Rent: ₱ 150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

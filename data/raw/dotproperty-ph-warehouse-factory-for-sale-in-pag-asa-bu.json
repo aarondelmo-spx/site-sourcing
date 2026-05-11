@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pag-asa-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pag-asa-bulacan_675f5dcd6b0d-2b71-7182-e35c-8fcdf089",
+  "scraped_at": "2026-05-11T05:19:06.037902Z",
+  "first_seen_at": "2026-05-04T07:20:48.149735Z",
+  "expires_at": "2026-05-18T05:19:06.037902Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE: Newly Built Warehouse Compound in Obando, Bulacan",
+    "sqm": 8000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Obando, Pag-Asa",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 430000000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 2",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Sale: ₱ 430,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

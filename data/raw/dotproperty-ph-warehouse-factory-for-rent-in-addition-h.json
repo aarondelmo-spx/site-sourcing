@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-addition-h",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-addition-hills-metro-manila_979d8c946a3b-421f-2742-627d-53d32089",
+  "scraped_at": "2026-05-11T04:56:48.522029Z",
+  "first_seen_at": "2026-05-04T06:50:42.112629Z",
+  "expires_at": "2026-05-18T04:56:48.522029Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN55666 Warehouse for Rent In Mandaluyong!",
+    "sqm": 650.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Mandaluyong, Addition Hills",
+    "region": "NCR",
+    "lat": 14.5907035,
+    "lng": 121.036223,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 650 m2",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.86,
+      "NLEX": 7.55,
+      "C5": 3.18,
+      "R10": 6.83
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

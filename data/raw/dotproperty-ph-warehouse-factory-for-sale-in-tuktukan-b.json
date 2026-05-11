@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tuktukan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tuktukan-bulacan_e4922543547f-265f-e732-3cf6-4c69c089",
+  "scraped_at": "2026-05-11T05:19:30.861324Z",
+  "first_seen_at": "2026-05-04T07:20:52.486209Z",
+  "expires_at": "2026-05-18T05:19:30.861324Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Small Warehouse in Bulacan for Sale",
+    "sqm": 1263.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Tuktukan",
+    "region": "Bulacan",
+    "lat": 14.8281474,
+    "lng": 120.8867715,
+    "price_php": 45000000.0,
+    "price_unit": "total",
+    "agent_name": "Prospecting PH",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,263 m2",
+      "price_raw": "Sale: ₱ 45,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 34.01,
+      "NLEX": 4.21,
+      "C5": 21.14,
+      "R10": 19.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

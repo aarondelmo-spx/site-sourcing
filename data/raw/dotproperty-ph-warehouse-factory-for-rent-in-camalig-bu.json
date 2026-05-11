@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-camalig-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-camalig-bulacan_67993600eedc-99f0-e202-2e9d-53d32089",
+  "scraped_at": "2026-05-11T05:17:24.180026Z",
+  "first_seen_at": "2026-05-04T07:17:42.156936Z",
+  "expires_at": "2026-05-18T05:17:24.180026Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Complex for Lease in Meycauyan Bulacan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Camalig",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 204379.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Daisylyn-Lacson",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 204,379\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

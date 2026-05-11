@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-culubasa-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-culubasa-pampanga_c14ed5da5f68-1590-9f62-7db2-55d32089",
+  "scraped_at": "2026-05-11T05:29:33.029005Z",
+  "first_seen_at": "2026-05-04T07:25:59.290599Z",
+  "expires_at": "2026-05-18T05:29:33.029005Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "957 sqm Warehouse For Rent in Angeles City, Pampanga - PHP 148,335/month",
+    "sqm": 957.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Mexico, Culubasa",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 148335.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 957 m2",
+      "price_raw": "Rent: ₱ 148,335\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

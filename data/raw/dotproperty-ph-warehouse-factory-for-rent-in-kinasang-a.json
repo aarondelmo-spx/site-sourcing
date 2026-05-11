@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-kinasang-a",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-kinasang-an-pardo-cebu_06fe6d8e0384-3b91-b822-0c32-74d32089",
+  "scraped_at": "2026-05-11T05:35:09.716955Z",
+  "first_seen_at": "2026-05-08T04:03:35.568301Z",
+  "expires_at": "2026-05-18T05:35:09.716955Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "583 sqm Warehouse in Pardo Cebu City",
+    "sqm": 583.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Kinasang-An Pardo",
+    "region": "Cebu",
+    "lat": 10.2845979,
+    "lng": 123.8597773,
+    "price_php": 116600.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 583 m2",
+      "price_raw": "Rent: ₱ 116,600\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.8,
+      "NLEX": 575.93,
+      "C5": 564.04,
+      "R10": 574.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

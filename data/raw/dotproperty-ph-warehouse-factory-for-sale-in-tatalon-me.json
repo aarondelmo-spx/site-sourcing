@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tatalon-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tatalon-metro-manila_6d161a9a01f4-aeef-5882-5726-dbd98089",
+  "scraped_at": "2026-05-11T04:59:32.525927Z",
+  "first_seen_at": "2026-05-04T06:53:07.479623Z",
+  "expires_at": "2026-05-18T04:59:32.525927Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1614.50sqm Warehouse in G Araneta Quezon City",
+    "sqm": 1614.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Tatalon",
+    "region": "NCR",
+    "lat": 14.6189516,
+    "lng": 121.0130295,
+    "price_php": 290610000.0,
+    "price_unit": "total",
+    "agent_name": "Bridgette Aloya",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,614.5 m2",
+      "price_raw": "Sale: ₱ 290,610,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.66,
+      "NLEX": 3.87,
+      "C5": 7.05,
+      "R10": 3.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

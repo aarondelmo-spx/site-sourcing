@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santo-rosa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santo-rosario-pampanga_d9120b37472c-71ef-0c62-c4e7-ef62d089",
+  "scraped_at": "2026-05-11T05:27:32.298857Z",
+  "first_seen_at": "2026-05-04T02:51:41.631992Z",
+  "expires_at": "2026-05-18T05:27:32.298857Z",
+  "status": "active",
+  "listing": {
+    "title": "Heavy-Duty 3,600 SQM Secured Warehouse for Lease in San Fernando Pampanga offering 40ft Truck Accessibility",
+    "sqm": 1800.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pampanga, San Fernando, Santo Rosario",
+    "region": "Pampanga",
+    "lat": 15.0278714,
+    "lng": 120.6931311,
+    "price_php": 1008000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cedtrix Rena - PRIME Philippines",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Rent: ₱ 1,008,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 63.61,
+      "NLEX": 18.13,
+      "C5": 51.26,
+      "R10": 49.4
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

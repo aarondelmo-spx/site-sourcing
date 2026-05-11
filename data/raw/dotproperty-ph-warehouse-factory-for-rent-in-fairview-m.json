@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-fairview-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-fairview-metro-manila_c8e34db804b9-2200-ad92-a5c8-56d32089",
+  "scraped_at": "2026-05-11T04:57:03.986488Z",
+  "first_seen_at": "2026-05-11T04:57:03.986488Z",
+  "expires_at": "2026-05-18T04:57:03.986488Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN55561 Warehouse for Rent In North Fairview!",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Fairview",
+    "region": "NCR",
+    "lat": 14.7057881,
+    "lng": 121.0718359,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 18.2,
+      "NLEX": 8.84,
+      "C5": 0.85,
+      "R10": 12.59
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-nagkaisang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-nagkaisang-nayon-metro-manila_fa5a501a15e3-7d10-ff42-704e-94532089",
+  "scraped_at": "2026-04-29T08:18:18.739560Z",
+  "expires_at": "2026-05-06T08:18:18.739560Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN DAMONG MALIIT",
+    "sqft": 9687.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Nagkaisang Nayon",
+    "region": "NCR",
+    "lat": 14.7193687,
+    "lng": 121.0198094,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 900 m2",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 18.8,
+      "NLEX": 4.64,
+      "C5": 3.18,
+      "R10": 8.51
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

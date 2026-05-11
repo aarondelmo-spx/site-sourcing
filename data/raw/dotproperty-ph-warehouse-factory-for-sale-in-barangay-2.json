@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-2",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-25-cavite_70dfa288bc94-8e21-2412-778d-18532089",
+  "scraped_at": "2026-05-11T05:05:04.846342Z",
+  "first_seen_at": "2026-05-04T06:58:36.582919Z",
+  "expires_at": "2026-05-18T05:05:04.846342Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Warehouse With Office Building For Sale In Cavite",
+    "sqm": 5000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Cavite City, Barangay 25",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 577952000.0,
+    "price_unit": "total",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 5,000 m2",
+      "price_raw": "Sale: ₱ 577,952,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

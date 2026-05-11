@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bagong-ilo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bagong-ilog-metro-manila_42d2bef71e29-ac7e-6405-1640-a722668c",
+  "scraped_at": "2026-05-11T05:00:24.906340Z",
+  "first_seen_at": "2026-05-04T06:54:13.888749Z",
+  "expires_at": "2026-05-18T05:00:24.906340Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FS: Residential Commercial  in Bagong Ilog, Pasig City.",
+    "sqm": 299.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Bagong Ilog",
+    "region": "NCR",
+    "lat": 14.5718481,
+    "lng": 121.0690162,
+    "price_php": 21800000.0,
+    "price_unit": "total",
+    "agent_name": "Gerald Evangelista",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 299 m2",
+      "price_raw": "Sale: ₱ 21,800,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.9,
+      "NLEX": 11.09,
+      "C5": 0.93,
+      "R10": 10.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

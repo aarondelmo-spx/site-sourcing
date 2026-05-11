@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-indangan-d",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-indangan-davao-del-sur_7e9515909a4b-7760-ec32-9a4b-428ee089",
+  "scraped_at": "2026-05-11T05:38:28.157708Z",
+  "first_seen_at": "2026-05-04T07:44:16.600237Z",
+  "expires_at": "2026-05-18T05:38:28.157708Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Indangan",
+    "region": "Davao del Sur",
+    "lat": 7.1465538,
+    "lng": 125.5987217,
+    "price_php": 625000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 625,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 915.51,
+      "NLEX": 973.37,
+      "C5": 961.41,
+      "R10": 971.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

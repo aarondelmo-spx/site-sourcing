@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-3",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-34-d-davao-del-sur_863a780826c4-b55e-3a42-3030-db632089",
+  "scraped_at": "2026-05-11T05:38:22.691050Z",
+  "first_seen_at": "2026-05-04T07:41:33.485863Z",
+  "expires_at": "2026-05-18T05:38:22.691050Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Barangay 34-D",
+    "region": "Davao del Sur",
+    "lat": 7.0732121,
+    "lng": 125.6116643,
+    "price_php": 162000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gelyn Artuque",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 162,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 923.2,
+      "NLEX": 981.12,
+      "C5": 969.16,
+      "R10": 979.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

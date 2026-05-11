@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maysan-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maysan-metro-manila_8c0f10f9ef2a-6f4f-ecc2-d2b8-b3694089",
+  "scraped_at": "2026-05-08T03:22:03.343541Z",
+  "first_seen_at": "2026-04-29T08:18:05.020550Z",
+  "expires_at": "2026-05-15T03:22:03.343541Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse Space for Lease Rent 5,300 sqm in Valenzuela City",
+    "sqm": 5300.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Maysan",
+    "region": "NCR",
+    "lat": 14.6909682,
+    "lng": 120.9812524,
+    "price_php": 1000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,300 m2",
+      "price_raw": "Rent: ₱ 1,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.16,
+      "NLEX": 1.03,
+      "C5": 8.05,
+      "R10": 3.36
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

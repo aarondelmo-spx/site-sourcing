@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-rosario-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-rosario-metro-manila_be3d9628e26c-a671-1f42-137e-54d32089",
+  "scraped_at": "2026-05-08T03:23:52.066658Z",
+  "first_seen_at": "2026-05-04T06:50:48.469221Z",
+  "expires_at": "2026-05-15T03:23:52.066658Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1000 sqm Pasig Warehouse for Rent Lease Rosario Pasig",
+    "sqm": 1012.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Rosario",
+    "region": "NCR",
+    "lat": 14.5908587,
+    "lng": 121.0864251,
+    "price_php": 253000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Easy Property Match",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,012 m2",
+      "price_raw": "Rent: ₱ 253,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.55,
+      "NLEX": 10.79,
+      "C5": 1.8,
+      "R10": 11.97
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

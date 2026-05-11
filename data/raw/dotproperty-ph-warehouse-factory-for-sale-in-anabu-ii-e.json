@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-anabu-ii-e",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-anabu-ii-e-cavite_5438865cda72-7ba1-d292-ee46-5069d089",
+  "scraped_at": "2026-05-11T05:05:06.926521Z",
+  "first_seen_at": "2026-05-04T06:58:40.619890Z",
+  "expires_at": "2026-05-18T05:05:06.926521Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "[06803-BO-023] Warehouse For Sale in Cavite",
+    "sqm": 1956.1,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Imus, Anabu II-E",
+    "region": "Cavite",
+    "lat": 14.3689393,
+    "lng": 120.9390027,
+    "price_php": 90000000.0,
+    "price_unit": "total",
+    "agent_name": "Buena Mano",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,956.12 m2",
+      "price_raw": "Sale: ₱ 90,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.61,
+      "NLEX": 32.56,
+      "C5": 23.47,
+      "R10": 27.73
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

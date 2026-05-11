@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-imbatug-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-imbatug-bukidnon_f6e4813efec3-5c1e-bb88-1219-9400e26b",
+  "scraped_at": "2026-05-04T07:45:04.189919Z",
+  "first_seen_at": "2026-05-04T07:45:04.189919Z",
+  "expires_at": "2026-05-11T07:45:04.189919Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "for SALE: Poultry Farm 7.4 hectares",
+    "sqm": 47000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bukidnon, Baungon, Imbatug",
+    "region": "Bukidnon",
+    "lat": null,
+    "lng": null,
+    "price_php": 190000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 47,000 m2",
+      "price_raw": "Sale: ₱ 190,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

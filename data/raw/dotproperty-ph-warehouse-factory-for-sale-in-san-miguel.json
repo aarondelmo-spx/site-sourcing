@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-miguel",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-miguel-pampanga_027959356d9e-ee8e-7882-16d5-1c632089",
+  "scraped_at": "2026-05-11T05:29:43.140293Z",
+  "first_seen_at": "2026-05-04T02:53:47.348723Z",
+  "expires_at": "2026-05-18T05:29:43.140293Z",
+  "status": "active",
+  "listing": {
+    "title": "For Sale: 2461-sq. meters Warehouse Located in San Simon, Pampanga",
+    "sqm": 1910.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pampanga, San Simon, San Miguel",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 90000000.0,
+    "price_unit": "total",
+    "agent_name": "Upside Philippines Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,910 m2",
+      "price_raw": "Sale: ₱ 90,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

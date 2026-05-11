@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cuyambay-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cuyambay-rizal_0137f6530a57-1dbf-9b32-4558-e95ce089",
+  "scraped_at": "2026-05-11T05:23:31.210873Z",
+  "first_seen_at": "2026-05-04T07:13:50.494040Z",
+  "expires_at": "2026-05-18T05:23:31.210873Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1288sqm Tanay Rizal",
+    "sqm": 1288.0,
+    "dock_doors": null,
+    "clear_height_m": 8.0,
+    "address": "Rizal, Tanay, Cuyambay",
+    "region": "Rizal",
+    "lat": 14.6098934,
+    "lng": 121.3367698,
+    "price_php": 257600.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Kayoken Realty (Parent)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,288 m2",
+      "price_raw": "Rent: ₱ 257,600\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 34.84,
+      "NLEX": 35.5,
+      "C5": 26.43,
+      "R10": 38.6
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

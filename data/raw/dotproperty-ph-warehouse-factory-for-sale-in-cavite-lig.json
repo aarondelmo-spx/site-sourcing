@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cavite-lig",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cavite-light-industrial-park-maguyam-cavite_118485614bbc-fd01-e672-3e22-c3941089",
+  "scraped_at": "2026-05-11T05:06:17.361013Z",
+  "first_seen_at": "2026-05-04T06:58:23.422902Z",
+  "expires_at": "2026-05-18T05:06:17.361013Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "DYU - FOR SALE: 1,700 sqm Warehouse in Cavite Light Industrial Park, Cavite",
+    "sqm": 1700.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Maguyam",
+    "region": "Cavite",
+    "lat": 14.2581799,
+    "lng": 121.0157125,
+    "price_php": 75000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,700 m2",
+      "price_raw": "Sale: ₱ 75,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.54,
+      "NLEX": 43.97,
+      "C5": 32.75,
+      "R10": 39.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

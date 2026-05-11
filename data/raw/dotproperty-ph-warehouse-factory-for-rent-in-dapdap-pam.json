@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dapdap-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dapdap-pampanga_9635ff832d2e-7af0-2c22-9dec-0c3d0089",
+  "scraped_at": "2026-05-11T05:27:19.677714Z",
+  "first_seen_at": "2026-05-04T07:26:00.266719Z",
+  "expires_at": "2026-05-18T05:27:19.677714Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "6,000 SQM Warehouse for Rent In Mabalacat San Fernando Pampanga",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pampanga, Mabalacat, Dapdap",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 1500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Phil Dang-At",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 1,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

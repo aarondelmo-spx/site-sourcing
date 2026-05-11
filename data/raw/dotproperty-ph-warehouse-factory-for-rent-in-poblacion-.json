@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-poblacion-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-poblacion-iloilo_2d32d79c54c7-de3e-9b92-fb4e-45c91089",
+  "scraped_at": "2026-05-11T05:37:09.664162Z",
+  "first_seen_at": "2026-05-04T02:58:51.153875Z",
+  "expires_at": "2026-05-18T05:37:09.664162Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,500 sqm to 1,673 sqm, Prime Warehouse for Lease in Leganes, Iloilo",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Iloilo, Leganes, Poblacion",
+    "region": "Iloilo",
+    "lat": 10.7747158,
+    "lng": 122.5848085,
+    "price_php": 255000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 255,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 403.39,
+      "NLEX": 463.9,
+      "C5": 451.71,
+      "R10": 461.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

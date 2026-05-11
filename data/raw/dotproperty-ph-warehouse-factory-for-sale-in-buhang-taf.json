@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-buhang-taf",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-buhang-taft-north-iloilo_2d482c0298a9-c011-8b02-e0f1-cbda3089",
+  "scraped_at": "2026-05-11T05:37:13.134950Z",
+  "first_seen_at": "2026-05-04T07:41:20.634349Z",
+  "expires_at": "2026-05-18T05:37:13.134950Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Building in Iloilo City Proper",
+    "sqm": 142.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Iloilo, Iloilo City, Buhang Taft North",
+    "region": "Iloilo",
+    "lat": 10.7182013,
+    "lng": 122.5483854,
+    "price_php": 14000000.0,
+    "price_unit": "total",
+    "agent_name": "Piccio Gonzales Real Estate and Property Management",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 142 m2",
+      "price_raw": "Sale: ₱ 14,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 407.68,
+      "NLEX": 468.33,
+      "C5": 456.14,
+      "R10": 465.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

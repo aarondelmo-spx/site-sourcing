@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-zapote-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-zapote-laguna_5d11a24320dc-d82f-0682-0d2e-33a3d089",
+  "scraped_at": "2026-05-08T03:36:44.363794Z",
+  "first_seen_at": "2026-04-29T08:47:03.783691Z",
+  "expires_at": "2026-05-15T03:36:44.363794Z",
+  "status": "active",
+  "listing": {
+    "title": "Strategic Biñan Laguna 11,673 SQM Multi-Unit Warehouse Cluster for Lease in a Highly Secured Industrial Park",
+    "sqm": 11673.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Biñan, Zapote",
+    "region": "Laguna",
+    "lat": 14.3136015,
+    "lng": 121.0782003,
+    "price_php": 3268440.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cedtrix Rena - PRIME Philippines",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 11,673 m2",
+      "price_raw": "Rent: ₱ 3,268,440\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.59,
+      "NLEX": 38.51,
+      "C5": 26.57,
+      "R10": 35.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cataning-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cataning-bataan_84717f5a07f9-07de-2752-a999-4b632089",
+  "scraped_at": "2026-05-04T07:27:30.600669Z",
+  "first_seen_at": "2026-05-04T07:27:30.600669Z",
+  "expires_at": "2026-05-11T07:27:30.600669Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "REDUCED PRICE!! Warehouse and Property for Sale in Hermosa, Bataan along Roman Hi-way",
+    "sqm": 30439.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Hermosa, Cataning",
+    "region": "Bataan",
+    "lat": null,
+    "lng": null,
+    "price_php": 198000000.0,
+    "price_unit": "total",
+    "agent_name": "Margaret Tumacder",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 30,439 m2",
+      "price_raw": "Sale: ₱ 198,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

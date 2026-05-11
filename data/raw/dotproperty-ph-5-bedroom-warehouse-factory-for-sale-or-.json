@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-5-bedroom-warehouse-factory-for-sale-or-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/5-bedroom-warehouse-factory-for-sale-or-rent-in-bahay-toro-metro-manila_477bae31f7c7-36d1-ea92-742f-a049b089",
+  "scraped_at": "2026-05-11T04:58:33.881676Z",
+  "first_seen_at": "2026-05-11T04:56:22.418130Z",
+  "expires_at": "2026-05-18T04:58:33.881676Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "325sqm  Warehouse/Commissary for Rent/Sale in Quezon City  *Project 8 (GSIS Village)",
+    "sqm": 325.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Bahay Toro",
+    "region": "NCR",
+    "lat": 14.666285,
+    "lng": 121.0349555,
+    "price_php": 32000000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Sam Mariano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 325 m2",
+      "price_raw": "Sale: ₱ 32,000,000\n                                                                                                    Rent: ₱ 75,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.01,
+      "NLEX": 3.04,
+      "C5": 5.21,
+      "R10": 7.43
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

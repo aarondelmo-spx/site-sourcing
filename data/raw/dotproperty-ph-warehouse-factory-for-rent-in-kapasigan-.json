@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-kapasigan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-kapasigan-metro-manila_ec631c970d7b-2e71-b9f2-0219-43d32089",
+  "scraped_at": "2026-05-11T04:56:52.537066Z",
+  "first_seen_at": "2026-05-08T03:23:58.931018Z",
+  "expires_at": "2026-05-18T04:56:52.537066Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "720 sqm Warehouse for Rent in Pasig City",
+    "sqm": 720.0,
+    "dock_doors": null,
+    "clear_height_m": 10.0,
+    "address": "Metro Manila, Pasig, Kapasigan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 255000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 720 m2",
+      "price_raw": "Rent: ₱ 255,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

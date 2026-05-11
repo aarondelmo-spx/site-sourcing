@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ganado-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ganado-laguna_27151559d67f-4530-9512-0f6e-b4d32089",
+  "scraped_at": "2026-05-11T05:09:03.581108Z",
+  "first_seen_at": "2026-05-04T07:02:18.759588Z",
+  "expires_at": "2026-05-18T05:09:03.581108Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "8,000 sqm Warehouse Factory Space For Rent in LIIP, Biñan, Laguna",
+    "sqm": 8000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Biñan, Ganado",
+    "region": "Laguna",
+    "lat": 14.2794855,
+    "lng": 121.0748481,
+    "price_php": 1900000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Rent: ₱ 1,900,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.87,
+      "NLEX": 42.18,
+      "C5": 30.3,
+      "R10": 38.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

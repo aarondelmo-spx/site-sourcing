@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-malitlit-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-malitlit-laguna_1ab145e6abe1-34ee-2142-ce17-66d32089",
+  "scraped_at": "2026-05-11T05:09:06.114175Z",
+  "first_seen_at": "2026-05-04T07:01:22.073230Z",
+  "expires_at": "2026-05-18T05:09:06.114175Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling 5,600 sqm Industrial Warehouse For Rent in Santa Rosa, Laguna",
+    "sqm": 5600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Malitlit",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 1200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,600 m2",
+      "price_raw": "Rent: ₱ 1,200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

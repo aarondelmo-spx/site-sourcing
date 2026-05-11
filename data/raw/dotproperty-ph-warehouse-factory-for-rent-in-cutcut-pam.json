@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cutcut-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cutcut-pampanga_3d77c76085da-3200-ad82-3ca2-38d32089",
+  "scraped_at": "2026-05-11T05:29:32.043208Z",
+  "first_seen_at": "2026-05-04T07:25:54.626433Z",
+  "expires_at": "2026-05-18T05:29:32.043208Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Rent in Pampanga",
+    "sqm": 2800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Cutcut",
+    "region": "Pampanga",
+    "lat": 15.1379475,
+    "lng": 120.5758329,
+    "price_php": 700000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,800 m2",
+      "price_raw": "Rent: ₱ 700,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 80.86,
+      "NLEX": 26.9,
+      "C5": 68.81,
+      "R10": 66.76
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

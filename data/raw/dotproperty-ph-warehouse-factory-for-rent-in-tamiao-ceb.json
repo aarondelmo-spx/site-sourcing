@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tamiao-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tamiao-cebu_11128d9b65fc-e9de-0772-d115-35c91089",
+  "scraped_at": "2026-05-11T05:35:01.155305Z",
+  "first_seen_at": "2026-05-08T04:03:15.985503Z",
+  "expires_at": "2026-05-18T05:35:01.155305Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,934 sq. meters Warehouse for lease in Tamiao, Compostela, Cebu",
+    "sqm": 5934.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Compostela, Tamiao",
+    "region": "Cebu",
+    "lat": 10.4519675,
+    "lng": 123.9858254,
+    "price_php": 528120.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,934 m2",
+      "price_raw": "Rent: ₱ 528,120\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 511.77,
+      "NLEX": 567.93,
+      "C5": 556.15,
+      "R10": 566.44
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

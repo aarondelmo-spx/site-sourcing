@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-4",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-4-cavite_5bbb34a4e6b8-84cf-c452-eb32-bd0d2089",
+  "scraped_at": "2026-05-11T05:06:27.566322Z",
+  "first_seen_at": "2026-05-04T06:59:11.261291Z",
+  "expires_at": "2026-05-18T05:06:27.566322Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE! 647 sqm Newly Built Warehouse with Office at Carmona, Cavite",
+    "sqm": 500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Barangay 4",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 38000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Sale: ₱ 38,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

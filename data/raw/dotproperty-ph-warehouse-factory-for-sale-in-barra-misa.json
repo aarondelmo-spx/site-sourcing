@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barra-misa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barra-misamis-oriental_c3ae1456894d-296e-b662-2912-0eab0089",
+  "scraped_at": "2026-05-11T05:39:01.390055Z",
+  "first_seen_at": "2026-05-04T07:44:51.825547Z",
+  "expires_at": "2026-05-18T05:39:01.390055Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Barra, Opol",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Opol, Barra",
+    "region": "Misamis Oriental",
+    "lat": null,
+    "lng": null,
+    "price_php": 35000000.0,
+    "price_unit": "total",
+    "agent_name": "Alessandra Victoria Guingao",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 35,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

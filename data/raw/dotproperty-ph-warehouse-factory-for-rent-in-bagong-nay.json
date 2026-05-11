@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bagong-nay",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bagong-nayon-bulacan_494eaa5310d6-f9ef-4772-eab6-18d32089",
+  "scraped_at": "2026-05-08T03:46:05.415361Z",
+  "first_seen_at": "2026-05-04T07:18:37.693355Z",
+  "expires_at": "2026-05-15T03:46:05.415361Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse for Rent/Lease in Baliuag, Bulacan near DRT, Sta. Rita, Pulilan Bypass",
+    "sqm": 1281.0,
+    "dock_doors": 1,
+    "clear_height_m": 9.5,
+    "address": "Bulacan, Baliuag, Bagong Nayon",
+    "region": "Bulacan",
+    "lat": 14.9572867,
+    "lng": 120.9001033,
+    "price_php": 166530.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,281 m2",
+      "price_raw": "Rent: ₱ 166,530\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 47.02,
+      "NLEX": 3.78,
+      "C5": 30.76,
+      "R10": 32.91
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

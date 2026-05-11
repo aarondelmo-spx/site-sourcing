@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-santa-cruz",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santa-cruz-pampanga_7f7c990eabca-e6b1-5a72-982a-e6910089",
+  "scraped_at": "2026-05-11T05:30:06.071625Z",
+  "first_seen_at": "2026-05-04T06:52:38.926923Z",
+  "expires_at": "2026-05-18T05:30:06.071625Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Compound with Large Lot Area for Sale in Lubao Pampanga",
+    "sqm": 1400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Lubao, Santa Cruz",
+    "region": "Pampanga",
+    "lat": 14.9148337,
+    "lng": 120.5696146,
+    "price_php": 550000000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Erds Rejano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,400 m2",
+      "price_raw": "Sale: ₱ 550,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 63.07,
+      "NLEX": 34.14,
+      "C5": 55.88,
+      "R10": 50.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

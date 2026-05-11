@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-calaboa-il",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-calaboa-iloilo_b341dbb3fea9-934f-1e42-8558-91632089",
+  "scraped_at": "2026-05-11T05:37:01.025652Z",
+  "first_seen_at": "2026-05-04T03:07:32.161280Z",
+  "expires_at": "2026-05-18T05:37:01.025652Z",
+  "status": "active",
+  "listing": {
+    "title": "1,776.60 square meter Warehouse for Rent in Calaboa, Leganes,  Iloilo",
+    "sqm": 1776.6,
+    "dock_doors": 1,
+    "clear_height_m": 12.0,
+    "address": "Iloilo, Leganes, Calaboa",
+    "region": "Iloilo",
+    "lat": 10.7934669,
+    "lng": 122.5790698,
+    "price_php": 515214.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - VisMin",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,776.6 m2",
+      "price_raw": "Rent: ₱ 515,214\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 401.23,
+      "NLEX": 461.73,
+      "C5": 449.54,
+      "R10": 459.08
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

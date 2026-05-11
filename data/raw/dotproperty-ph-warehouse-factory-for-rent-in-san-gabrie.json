@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-gabrie",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-gabriel-poblacion-cavite_24006984c46b-f8be-c542-b262-d6d32089",
+  "scraped_at": "2026-05-11T05:03:43.098859Z",
+  "first_seen_at": "2026-05-04T06:57:07.894845Z",
+  "expires_at": "2026-05-18T05:03:43.098859Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "900sqm WAREHOUSE FOR LEASE | GENERAL TRIAS, CAVITE",
+    "sqm": 903.0,
+    "dock_doors": null,
+    "clear_height_m": 7.0,
+    "address": "Cavite, General Trias, San Gabriel Poblacion",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 153510.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 903 m2",
+      "price_raw": "Rent: ₱ 153,510\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

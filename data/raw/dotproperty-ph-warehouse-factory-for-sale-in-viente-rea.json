@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-viente-rea",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-viente-reales-metro-manila_2233f834fd85-d0bf-f502-08a8-2ae32089",
+  "scraped_at": "2026-05-11T04:59:31.492038Z",
+  "first_seen_at": "2026-05-04T06:53:15.272465Z",
+  "expires_at": "2026-05-18T04:59:31.492038Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "8,330 sq.m. Warehouse for Sale in Valenzuela City, Metro Manila",
+    "sqm": 8330.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Viente Reales",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 333200000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,330 m2",
+      "price_raw": "Sale: ₱ 333,200,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

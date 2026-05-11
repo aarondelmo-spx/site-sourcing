@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bugtong-na",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bugtong-na-pulo-batangas_596b05337ce9-e59e-a432-ecd3-dc6ec089",
+  "scraped_at": "2026-05-11T05:32:48.516218Z",
+  "first_seen_at": "2026-05-04T07:10:48.480759Z",
+  "expires_at": "2026-05-18T05:32:48.516218Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Commercial & Industrial Lot for Sale in Biz Hub at LIMA Estate",
+    "sqm": 14000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Lipa, Bugtong Na Pulo",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 163856000.0,
+    "price_unit": "total",
+    "agent_name": "Raissa Madlangbayan",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 14,000 m2",
+      "price_raw": "Sale: ₱ 163,856,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

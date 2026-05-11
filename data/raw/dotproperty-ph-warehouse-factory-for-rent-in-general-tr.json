@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-general-tr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-general-trias-cavite_5ff581453de1-d40f-de72-3248-2bb0f089",
+  "scraped_at": "2026-04-29T08:36:54.155439Z",
+  "expires_at": "2026-05-06T08:36:54.155439Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "General Trias Cavite Warehouse Unit 15 for Rent – 1093 sqm, Private Restroom, Prime Access",
+    "sqft": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias",
+    "region": "Cavite",
+    "lat": 14.3541434,
+    "lng": 120.902739,
+    "price_php": 185810.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 185,810\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.65,
+      "NLEX": 35.24,
+      "C5": 26.98,
+      "R10": 30.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqft",
+    "dock_doors"
+  ]
+}

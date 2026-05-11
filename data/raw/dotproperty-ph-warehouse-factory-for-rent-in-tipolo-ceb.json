@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tipolo-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tipolo-cebu_e3b54ea91412-d681-4022-d6c0-0bfee089",
+  "scraped_at": "2026-05-11T05:35:45.678736Z",
+  "first_seen_at": "2026-05-08T04:01:53.361144Z",
+  "expires_at": "2026-05-18T05:35:45.678736Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT/LEASE NRA MANDAUE  CITY, CEBU 1,700 SQM",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Tipolo",
+    "region": "Cebu",
+    "lat": 10.33498,
+    "lng": 123.9256942,
+    "price_php": 340000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Philippine Access",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 340,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.36,
+      "NLEX": 575.1,
+      "C5": 563.25,
+      "R10": 573.49
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

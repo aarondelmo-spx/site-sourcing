@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tambo-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tambo-metro-manila_818d42232ed9-726e-1122-e1bd-b2ab1089",
+  "scraped_at": "2026-05-11T04:55:39.876327Z",
+  "first_seen_at": "2026-05-04T06:49:43.723379Z",
+  "expires_at": "2026-05-18T04:55:39.876327Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease – Prime Location on Mia Road, Parañaque City",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Tambo",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

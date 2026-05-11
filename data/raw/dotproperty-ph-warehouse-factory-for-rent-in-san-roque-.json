@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-roque-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-roque-rizal_b69e71765263-6dc0-d152-6552-731bf089",
+  "scraped_at": "2026-05-11T05:24:00.400239Z",
+  "first_seen_at": "2026-05-04T02:46:59.264914Z",
+  "expires_at": "2026-05-18T05:24:00.400239Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse/Office for Rent in Antipolo, Rizal",
+    "sqm": 359.2,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Rizal, Antipolo, San Roque",
+    "region": "Rizal",
+    "lat": 14.5873144,
+    "lng": 121.1720427,
+    "price_php": 107775.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "A-Sun Centre",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 359.25 m2",
+      "price_raw": "Rent: ₱ 107,775\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.99,
+      "NLEX": 18.94,
+      "C5": 10.05,
+      "R10": 21.1
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

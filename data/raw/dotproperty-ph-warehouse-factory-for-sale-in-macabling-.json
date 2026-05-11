@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-macabling-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-macabling-laguna_643d6e07866a-1cdf-c792-3678-d28ac089",
+  "scraped_at": "2026-05-08T03:42:33.223464Z",
+  "first_seen_at": "2026-04-29T08:54:08.534323Z",
+  "expires_at": "2026-05-15T03:42:33.223464Z",
+  "status": "active",
+  "listing": {
+    "title": "FOR SALE WAREHOUSE WITH OFFICE IN MERIDIAN INDUSTRIAL COMPLEX BALIBAGO STA. ROSA LAGUNA",
+    "sqm": 8092.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Macabling",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 307496000.0,
+    "price_unit": "total",
+    "agent_name": "REinvestmentsph",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,092 m2",
+      "price_raw": "Sale: ₱ 307,496,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

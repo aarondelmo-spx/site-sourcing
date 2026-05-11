@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-javalera-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-javalera-cavite_43dfb422b0d4-a38f-f722-a52e-66d32089",
+  "scraped_at": "2026-05-11T05:03:53.011173Z",
+  "first_seen_at": "2026-05-04T06:57:14.894467Z",
+  "expires_at": "2026-05-18T05:03:53.011173Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2680 Sqm General Trias, Cavite Factory Warehouse For Rent",
+    "sqm": 2680.0,
+    "dock_doors": null,
+    "clear_height_m": 6.0,
+    "address": "Cavite, General Trias, Javalera",
+    "region": "Cavite",
+    "lat": 14.2630583,
+    "lng": 120.9154323,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,680 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.97,
+      "NLEX": 44.6,
+      "C5": 35.11,
+      "R10": 39.76
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

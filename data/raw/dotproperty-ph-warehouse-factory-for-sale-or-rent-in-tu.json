@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-tu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-tulo-laguna_23b9a564da66-11b1-b992-8bf9-a6bfd089",
+  "scraped_at": "2026-05-11T05:14:16.173047Z",
+  "first_seen_at": "2026-05-04T06:49:30.738731Z",
+  "expires_at": "2026-05-18T05:14:16.173047Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale/Lease: Industrial Property located at Carmelray II Industrial Park Calamba, Laguna",
+    "sqm": 8000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Tulo",
+    "region": "Laguna",
+    "lat": 14.1705213,
+    "lng": 121.1341,
+    "price_php": 407176000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Sale: ₱ 407,176,000\n                                                                                                    Rent: ₱ 1,250,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.75,
+      "NLEX": 55.36,
+      "C5": 43.27,
+      "R10": 52.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

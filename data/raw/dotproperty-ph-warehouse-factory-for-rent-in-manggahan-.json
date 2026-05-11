@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-manggahan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-manggahan-cavite_d57b7d7d0fab-a6fe-09e2-cd42-73d32089",
+  "scraped_at": "2026-05-11T05:03:27.538687Z",
+  "first_seen_at": "2026-05-04T06:56:31.184134Z",
+  "expires_at": "2026-05-18T05:03:27.538687Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease at Stateland Hills, Manggahan, General Trias, Cavite",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Manggahan",
+    "region": "Cavite",
+    "lat": 14.3021914,
+    "lng": 120.9164537,
+    "price_php": 120000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Cyril Katipunan)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 120,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.1,
+      "NLEX": 40.35,
+      "C5": 31.14,
+      "R10": 35.45
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-roxas-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-roxas-metro-manila_4d68ab1e7a23-20ee-36d2-694a-56d32089",
+  "scraped_at": "2026-05-11T04:56:45.730054Z",
+  "first_seen_at": "2026-05-04T06:51:13.461148Z",
+  "expires_at": "2026-05-18T04:56:45.730054Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN54355 For Rent Property in Proj. 7, Quezon City nr SM North",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Roxas",
+    "region": "NCR",
+    "lat": 14.6536485,
+    "lng": 121.070854,
+    "price_php": 70000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 400 m2",
+      "price_raw": "Rent: ₱ 70,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.78,
+      "NLEX": 6.56,
+      "C5": 2.15,
+      "R10": 10.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

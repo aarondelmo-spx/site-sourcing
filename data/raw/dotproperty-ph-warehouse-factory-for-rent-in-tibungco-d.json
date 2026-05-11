@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tibungco-d",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tibungco-davao-del-sur_4ce83b1f2555-2161-fbb2-1ea4-80284089",
+  "scraped_at": "2026-05-11T05:38:27.248916Z",
+  "first_seen_at": "2026-05-04T07:43:13.467326Z",
+  "expires_at": "2026-05-18T05:38:27.248916Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Prime Warehouse for Rent in Tibungco Industrial Zone",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Tibungco",
+    "region": "Davao del Sur",
+    "lat": 7.2045111,
+    "lng": 125.6447666,
+    "price_php": 150000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 150,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 912.75,
+      "NLEX": 970.43,
+      "C5": 958.49,
+      "R10": 968.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

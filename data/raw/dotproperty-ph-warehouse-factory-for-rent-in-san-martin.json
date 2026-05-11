@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-martin",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-martin-de-porres-metro-manila_f89c402bdb31-4791-0a02-2c44-83d32089",
+  "scraped_at": "2026-05-11T04:57:10.062122Z",
+  "first_seen_at": "2026-05-11T04:57:10.062122Z",
+  "expires_at": "2026-05-18T04:57:10.062122Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "677 sqm Warehouse with Fenced in Bicutan, Taguig City",
+    "sqm": 677.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, San Martin de Porres",
+    "region": "NCR",
+    "lat": 14.495913,
+    "lng": 121.0412314,
+    "price_php": 350000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 677 m2",
+      "price_raw": "Rent: ₱ 350,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.35,
+      "NLEX": 17.86,
+      "C5": 6.18,
+      "R10": 14.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

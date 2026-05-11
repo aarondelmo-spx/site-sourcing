@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-amsic-pamp",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-amsic-pampanga_328f7031b228-545e-82a5-7c15-27e2caea",
+  "scraped_at": "2026-05-11T05:30:11.354329Z",
+  "first_seen_at": "2026-05-04T07:26:51.736041Z",
+  "expires_at": "2026-05-18T05:30:11.354329Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "RUSH SALE WAREHOUSE IN ANGELES CITY PAMPANGA NEAR CLARK",
+    "sqm": 150.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Amsic",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 7000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 150 m2",
+      "price_raw": "Sale: ₱ 7,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

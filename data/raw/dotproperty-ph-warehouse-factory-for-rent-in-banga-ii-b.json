@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-banga-ii-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-banga-ii-bulacan_27adfcb56f76-d2ef-8572-774f-96532089",
+  "scraped_at": "2026-05-11T05:15:08.527211Z",
+  "first_seen_at": "2026-05-04T07:17:46.331657Z",
+  "expires_at": "2026-05-18T05:15:08.527211Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1200 SQM MORE OR LESS - PLARIDEL BULACAN WAREHOUSE LEASE",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Plaridel, Banga II",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 145000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Lerry Nakagawa",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 145,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

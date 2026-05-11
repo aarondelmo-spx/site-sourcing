@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-borol-1st-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-borol-1st-bulacan_66728fec0a05-e9e0-abf2-326a-91632089",
+  "scraped_at": "2026-05-11T05:15:40.874568Z",
+  "first_seen_at": "2026-05-04T07:18:06.870760Z",
+  "expires_at": "2026-05-18T05:15:40.874568Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,550 SQM Warehouse in Balagtas with Restroom and Loading Area – For LEASE!!!!!",
+    "sqm": 2550.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), Borol 1st",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 460000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Meliza",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,550 m2",
+      "price_raw": "Rent: ₱ 460,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

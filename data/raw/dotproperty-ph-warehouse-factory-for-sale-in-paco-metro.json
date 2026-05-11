@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-paco-metro",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-paco-metro-manila_21d98580d87c-7f50-d832-7542-9969b089",
+  "scraped_at": "2026-05-11T04:59:24.937164Z",
+  "first_seen_at": "2026-05-08T03:26:11.918171Z",
+  "expires_at": "2026-05-18T04:59:24.937164Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "140 sqm Warehouse for Sale in Paco, Manila",
+    "sqm": 140.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, Paco",
+    "region": "NCR",
+    "lat": 14.5863553,
+    "lng": 120.9931325,
+    "price_php": 12600000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Raselle Atilano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 140 m2",
+      "price_raw": "Sale: ₱ 12,600,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.87,
+      "NLEX": 7.69,
+      "C5": 7.23,
+      "R10": 3.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-basak-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-basak-cebu_bb03543fe0f2-ed70-e962-5705-46d32089",
+  "scraped_at": "2026-05-11T05:35:42.012156Z",
+  "first_seen_at": "2026-05-08T04:02:24.582380Z",
+  "expires_at": "2026-05-18T05:35:42.012156Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,235 sqm Warehouse for Lease - Basak, Mandaue City",
+    "sqm": 1235.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Basak",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 261045.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CebuAdCon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,235 m2",
+      "price_raw": "Rent: ₱ 261,045\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

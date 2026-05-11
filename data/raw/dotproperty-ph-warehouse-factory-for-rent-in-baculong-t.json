@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-baculong-t",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-baculong-tarlac_cc7d50c74a01-25d1-f652-a225-85d32089",
+  "scraped_at": "2026-05-04T07:31:40.012814Z",
+  "first_seen_at": "2026-05-04T07:31:40.012814Z",
+  "expires_at": "2026-05-11T07:31:40.012814Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Lease at Victoria Tarlac",
+    "sqm": 250.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Victoria, Baculong",
+    "region": "Tarlac",
+    "lat": 15.5435251,
+    "lng": 120.6407089,
+    "price_php": 60000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 250 m2",
+      "price_raw": "Rent: ₱ 60,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 117.67,
+      "NLEX": 48.76,
+      "C5": 101.41,
+      "R10": 103.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

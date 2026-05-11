@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dela-paz-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dela-paz-rizal_222870f404ac-4821-4b02-26a2-59d32089",
+  "scraped_at": "2026-05-11T05:22:12.896341Z",
+  "first_seen_at": "2026-05-04T07:12:17.658559Z",
+  "expires_at": "2026-05-18T05:22:12.896341Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,200 sqm. Marikina Warehouse For Rent along Marcos Highway",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Antipolo, Dela Paz",
+    "region": "Rizal",
+    "lat": 14.590689,
+    "lng": 121.1718993,
+    "price_php": 240000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 240,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.07,
+      "NLEX": 18.78,
+      "C5": 9.84,
+      "R10": 21.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

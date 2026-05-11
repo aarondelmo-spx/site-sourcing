@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-carreta-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-carreta-cebu_4b7d8171074c-e7f0-2132-01d8-a2d32089",
+  "scraped_at": "2026-05-11T05:35:06.980648Z",
+  "first_seen_at": "2026-05-08T04:03:03.032768Z",
+  "expires_at": "2026-05-18T05:35:06.980648Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for rent in Cebu City near Port Area",
+    "sqm": 1073.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Carreta",
+    "region": "Cebu",
+    "lat": 10.3054355,
+    "lng": 123.9174564,
+    "price_php": 321900.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,073 m2",
+      "price_raw": "Rent: ₱ 321,900\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.52,
+      "NLEX": 577.37,
+      "C5": 565.51,
+      "R10": 575.74
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

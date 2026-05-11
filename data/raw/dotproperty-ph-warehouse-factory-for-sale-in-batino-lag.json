@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-batino-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-batino-laguna_4f83ab2b863f-e480-a532-6978-12b41089",
+  "scraped_at": "2026-05-08T03:43:48.699634Z",
+  "first_seen_at": "2026-04-29T08:55:40.888748Z",
+  "expires_at": "2026-05-15T03:43:48.699634Z",
+  "status": "active",
+  "listing": {
+    "title": "For Sale Warehouse property in Calamba",
+    "sqm": 13719.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Batino",
+    "region": "Laguna",
+    "lat": 14.1979691,
+    "lng": 121.1328738,
+    "price_php": 480000000.0,
+    "price_unit": "total",
+    "agent_name": "Patrick Meris",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 13,719 m2",
+      "price_raw": "Sale: ₱ 480,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.83,
+      "NLEX": 52.37,
+      "C5": 40.26,
+      "R10": 49.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

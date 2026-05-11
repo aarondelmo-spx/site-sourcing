@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pagsabunga",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pagsabungan-cebu_9569db888d9c-7a8f-9492-0456-faa51089",
+  "scraped_at": "2026-05-11T05:36:17.387360Z",
+  "first_seen_at": "2026-05-08T04:04:47.651309Z",
+  "expires_at": "2026-05-18T05:36:17.387360Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,769 sq. meters Warehouse For Sale at Pagsabungan, Mandaue City",
+    "sqm": 5769.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Pagsabungan",
+    "region": "Cebu",
+    "lat": null,
+    "lng": null,
+    "price_php": 173070000.0,
+    "price_unit": "total",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 5,769 m2",
+      "price_raw": "Sale: ₱ 173,070,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

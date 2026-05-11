@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-saguin-pam",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-saguin-pampanga_36206f9b8d03-2341-f792-9778-fa930089",
+  "scraped_at": "2026-05-11T05:29:51.105702Z",
+  "first_seen_at": "2026-05-04T07:26:29.034635Z",
+  "expires_at": "2026-05-18T05:29:51.105702Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE PRIME LOT IDEAL FOR COMMERCIAL/INDUSTRIAL USE IN SAN FERNANDO PAMPANGA",
+    "sqm": 300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, San Fernando, Saguin",
+    "region": "Pampanga",
+    "lat": 15.1047486,
+    "lng": 120.6244862,
+    "price_php": 26500000.0,
+    "price_unit": "total",
+    "agent_name": "Jelievie Sarmiento- ADC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 300 m2",
+      "price_raw": "Sale: ₱ 26,500,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 74.82,
+      "NLEX": 22.09,
+      "C5": 62.47,
+      "R10": 60.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

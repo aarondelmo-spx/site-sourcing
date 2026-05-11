@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-barangay-8",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-barangay-8-cavite_712353014758-0eb1-0ee2-6cfe-10df4089",
+  "scraped_at": "2026-05-11T05:06:10.513390Z",
+  "first_seen_at": "2026-05-04T06:59:47.731701Z",
+  "expires_at": "2026-05-18T05:06:10.513390Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Warehouse located at Dalahican, Cavite City, Cavite",
+    "sqm": 704.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Cavite City, Barangay 8",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 40000000.0,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 704 m2",
+      "price_raw": "Sale: ₱ 40,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

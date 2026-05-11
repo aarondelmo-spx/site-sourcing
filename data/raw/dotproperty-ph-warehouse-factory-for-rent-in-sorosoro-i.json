@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sorosoro-i",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sorosoro-ilaya-batangas_e3cf979253b0-a870-6202-6e87-2ae32089",
+  "scraped_at": "2026-05-11T05:31:44.958049Z",
+  "first_seen_at": "2026-05-04T02:57:42.622363Z",
+  "expires_at": "2026-05-18T05:31:44.958049Z",
+  "status": "active",
+  "listing": {
+    "title": "2019 sqm warehouse for rent in batangas city",
+    "sqm": 2019.0,
+    "dock_doors": 1,
+    "clear_height_m": 11.0,
+    "address": "Batangas, Batangas City, Sorosoro Ilaya",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 350000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,019 m2",
+      "price_raw": "Rent: ₱ 350,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

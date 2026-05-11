@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-la",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-la-paz-metro-manila_3b76e92f28dc-52a1-0e82-3afe-038d2089",
+  "scraped_at": "2026-05-11T04:58:17.489096Z",
+  "first_seen_at": "2026-05-04T07:07:32.668455Z",
+  "expires_at": "2026-05-18T04:58:17.489096Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE MAKATI",
+    "sqm": 1580.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Makati, La Paz",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 500860000.0,
+    "price_unit": "total",
+    "agent_name": "Oca Prime Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,580 m2",
+      "price_raw": "Sale: ₱ 500,860,000\n                                                                                                    Rent: ₱ 790,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

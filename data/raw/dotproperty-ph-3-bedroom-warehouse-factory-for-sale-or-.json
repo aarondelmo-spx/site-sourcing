@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-3-bedroom-warehouse-factory-for-sale-or-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/3-bedroom-warehouse-factory-for-sale-or-rent-in-punta-laguna_7f2cb6e96525-1181-6b22-9771-c6810089",
+  "scraped_at": "2026-05-11T05:14:08.778276Z",
+  "first_seen_at": "2026-05-04T07:07:12.229787Z",
+  "expires_at": "2026-05-18T05:14:08.778276Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale near Filinvest Technopark Calamba near Batino exit from slex",
+    "sqm": 1294.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Punta",
+    "region": "Laguna",
+    "lat": 14.1724281,
+    "lng": 121.1193336,
+    "price_php": 50000000.0,
+    "price_unit": "total",
+    "agent_name": "Metro Residences",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,294 m2",
+      "price_raw": "Sale: ₱ 50,000,000\n                                                                                                    Rent: Contact for price"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.15,
+      "NLEX": 54.79,
+      "C5": 42.75,
+      "R10": 51.55
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

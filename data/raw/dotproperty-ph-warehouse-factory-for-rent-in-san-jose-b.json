@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-jose-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-jose-batangas_156bc1195956-7a7e-c7f2-27ff-64d32089",
+  "scraped_at": "2026-05-11T05:31:34.424989Z",
+  "first_seen_at": "2026-05-04T02:57:20.529760Z",
+  "expires_at": "2026-05-18T05:31:34.424989Z",
+  "status": "active",
+  "listing": {
+    "title": "2582 sqm peza warehouse for rent in Batangas",
+    "sqm": 2582.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Batangas, Santo Tomas, San Jose",
+    "region": "Batangas",
+    "lat": 14.1053127,
+    "lng": 121.1485144,
+    "price_php": 650000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,582 m2",
+      "price_raw": "Rent: ₱ 650,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.06,
+      "NLEX": 62.77,
+      "C5": 50.68,
+      "R10": 59.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-camalig-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-camalig-bulacan_da36f20c1a01-ae7e-6a62-b357-14d32089",
+  "scraped_at": "2026-05-11T05:19:07.038210Z",
+  "first_seen_at": "2026-05-04T07:21:34.704319Z",
+  "expires_at": "2026-05-18T05:19:07.038210Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale in Sterling Industrial Park Meycauayan, Bulacan",
+    "sqm": 3800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Camalig",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 170000000.0,
+    "price_unit": "total",
+    "agent_name": "Eckhart Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,800 m2",
+      "price_raw": "Sale: ₱ 170,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

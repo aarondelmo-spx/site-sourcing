@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-magay-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-magay-cebu_bdd85a7bf046-f150-ec52-e969-53532089",
+  "scraped_at": "2026-05-11T05:35:18.692344Z",
+  "first_seen_at": "2026-05-08T04:03:41.721674Z",
+  "expires_at": "2026-05-18T05:35:18.692344Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT IN  COMPOSTELA CEBU   5000 sqm area",
+    "sqm": 5934.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Compostela, Magay",
+    "region": "Cebu",
+    "lat": 10.4764297,
+    "lng": 124.0202098,
+    "price_php": 1068120.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Nemrick-Cabanog",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,934 m2",
+      "price_raw": "Rent: ₱ 1,068,120\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 511.88,
+      "NLEX": 567.83,
+      "C5": 556.07,
+      "R10": 566.38
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-socorro-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-socorro-metro-manila-near-lrt-2-araneta-center-cubao_f372d444629e-38de-f1d2-1846-0ae32089",
+  "scraped_at": "2026-05-08T03:24:20.485076Z",
+  "first_seen_at": "2026-05-08T03:24:20.485076Z",
+  "expires_at": "2026-05-15T03:24:20.485076Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN50441 Residential Warehouse for rent Cubao, New Manila",
+    "sqm": 720.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Socorro",
+    "region": "NCR",
+    "lat": 14.6166049,
+    "lng": 121.0570895,
+    "price_php": 180000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 720 m2",
+      "price_raw": "Rent: ₱ 180,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.44,
+      "NLEX": 6.53,
+      "C5": 2.75,
+      "R10": 8.5
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

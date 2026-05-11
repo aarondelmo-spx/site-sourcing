@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pulong-buh",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pulong-buhangin-bulacan_b7e75934b83d-0ee0-bf52-1239-311b2089",
+  "scraped_at": "2026-05-11T05:19:32.796634Z",
+  "first_seen_at": "2026-05-04T07:21:10.347793Z",
+  "expires_at": "2026-05-18T05:19:32.796634Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse  📍 Pulong Buhangin, Sta. Maria, Bulacan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Santa Maria, Pulong Buhangin",
+    "region": "Bulacan",
+    "lat": 14.8696175,
+    "lng": 120.9989376,
+    "price_php": 15000000.0,
+    "price_unit": "total",
+    "agent_name": "Maricar David",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 15,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 35.57,
+      "NLEX": 9.9,
+      "C5": 17.37,
+      "R10": 22.84
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

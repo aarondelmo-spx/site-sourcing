@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-inchican-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-inchican-cavite_1e3768277263-6370-8472-bcb2-1ae32089",
+  "scraped_at": "2026-05-11T05:03:39.009463Z",
+  "first_seen_at": "2026-05-04T06:56:55.209085Z",
+  "expires_at": "2026-05-18T05:03:39.009463Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5500 sqm Cavite Warehouse Factory Space For Rent near tagaytay",
+    "sqm": 5500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Inchican",
+    "region": "Cavite",
+    "lat": 14.2329071,
+    "lng": 121.0377684,
+    "price_php": 730000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,500 m2",
+      "price_raw": "Rent: ₱ 730,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.84,
+      "NLEX": 46.88,
+      "C5": 35.38,
+      "R10": 43.01
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

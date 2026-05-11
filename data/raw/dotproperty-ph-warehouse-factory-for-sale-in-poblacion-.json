@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-poblacion-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-poblacion-batangas_6f808d1f8345-7ee0-2935-cf8f-a983ada2",
+  "scraped_at": "2026-05-11T05:33:03.639261Z",
+  "first_seen_at": "2026-05-04T07:10:46.385413Z",
+  "expires_at": "2026-05-18T05:33:03.639261Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1.1 Hectare Industrial Lot for Sale for Warehouse and Manufacturing",
+    "sqm": 11927.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Malvar, Poblacion",
+    "region": "Batangas",
+    "lat": 14.0402082,
+    "lng": 121.1530434,
+    "price_php": 128239104.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 11,927 m2",
+      "price_raw": "Sale: ₱ 128,239,104"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.47,
+      "NLEX": 69.93,
+      "C5": 57.87,
+      "R10": 66.68
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-6-bedroom-warehouse-factory-for-rent-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/6-bedroom-warehouse-factory-for-rent-in-mahabang-parang-batangas_3ae8897984bb-43c0-df02-7ba8-98d32089",
+  "scraped_at": "2026-05-11T05:30:46.900411Z",
+  "first_seen_at": "2026-05-04T07:09:14.963207Z",
+  "expires_at": "2026-05-18T05:30:46.900411Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "9,000 sqm batangas warehouse for rent",
+    "sqm": 9000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Batangas City, Mahabang Parang",
+    "region": "Batangas",
+    "lat": 13.8202434,
+    "lng": 121.0749663,
+    "price_php": 1500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 9,000 m2",
+      "price_raw": "Rent: ₱ 1,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 33.16,
+      "NLEX": 92.93,
+      "C5": 81.29,
+      "R10": 89.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

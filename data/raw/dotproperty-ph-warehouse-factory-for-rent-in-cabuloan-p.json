@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cabuloan-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cabuloan-pangasinan_5b45eb2f1018-889f-3025-8465-01b0a007",
+  "scraped_at": "2026-05-04T07:33:32.416926Z",
+  "first_seen_at": "2026-05-04T07:33:21.043134Z",
+  "expires_at": "2026-05-11T07:33:32.416926Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "500 SQM WAREHOUSE FOR LEASE - URDANETA CITY",
+    "sqm": 500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Urdaneta, Cabuloan",
+    "region": "Pangasinan",
+    "lat": 15.9806923,
+    "lng": 120.5913401,
+    "price_php": 80000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 80,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 165.53,
+      "NLEX": 96.47,
+      "C5": 148.41,
+      "R10": 151.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

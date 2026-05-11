@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tungkop-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tungkop-cebu_0460f00ea049-3f51-98b2-e26a-fa632089",
+  "scraped_at": "2026-05-11T05:36:04.517449Z",
+  "first_seen_at": "2026-05-08T04:04:42.293809Z",
+  "expires_at": "2026-05-18T05:36:04.517449Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Industrial Factory with 12 Warehouses in Minglanilla",
+    "sqm": 47231.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Minglanilla, Tungkop",
+    "region": "Cebu",
+    "lat": 10.2401931,
+    "lng": 123.7819538,
+    "price_php": 1.889,
+    "price_unit": "total",
+    "agent_name": "PH Real Estate Portal",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 47,231 m2",
+      "price_raw": "Sale: ₱ 1.889 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.13,
+      "NLEX": 575.66,
+      "C5": 563.72,
+      "R10": 573.87
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

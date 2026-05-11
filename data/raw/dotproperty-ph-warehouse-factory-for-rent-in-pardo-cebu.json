@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pardo-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pardo-cebu_931ede9ff99e-88e0-b592-2c49-3889b089",
+  "scraped_at": "2026-05-11T05:35:44.655479Z",
+  "first_seen_at": "2026-05-08T04:04:08.439166Z",
+  "expires_at": "2026-05-18T05:35:44.655479Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1150 sqm Warehouse for Rent in Pardo, Cebu City",
+    "sqm": 1150.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Pardo",
+    "region": "Cebu",
+    "lat": 10.2796011,
+    "lng": 123.8554097,
+    "price_php": 287500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,150 m2",
+      "price_raw": "Rent: ₱ 287,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.99,
+      "NLEX": 576.15,
+      "C5": 564.25,
+      "R10": 574.45
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

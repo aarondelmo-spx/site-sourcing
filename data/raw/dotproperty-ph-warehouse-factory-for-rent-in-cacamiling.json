@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cacamiling",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cacamilingan-norte-tarlac_2da7b1720faf-bcaf-aae5-ba4b-37d77a35",
+  "scraped_at": "2026-05-04T07:31:50.311975Z",
+  "first_seen_at": "2026-05-04T07:31:50.311975Z",
+  "expires_at": "2026-05-11T07:31:50.311975Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2000 SQM WAREHOUSE FOR LEASE - CAMILING, TARLAC",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Camiling, Cacamilingan Norte",
+    "region": "Tarlac",
+    "lat": 15.6866171,
+    "lng": 120.4100588,
+    "price_php": 246000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 246,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 142.25,
+      "NLEX": 75.12,
+      "C5": 127.39,
+      "R10": 127.86
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

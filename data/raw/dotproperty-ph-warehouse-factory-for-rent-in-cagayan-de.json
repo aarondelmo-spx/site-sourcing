@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cagayan-de",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cagayan-de-oro-misamis-oriental_60ebf929bf50-0eee-cf42-29c2-a78ee089",
+  "scraped_at": "2026-05-11T05:38:57.201182Z",
+  "first_seen_at": "2026-05-04T07:44:39.425404Z",
+  "expires_at": "2026-05-18T05:38:57.201182Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR RENT/ LEASE CAGAYAN DE ORO",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Cagayan de Oro",
+    "region": "Misamis Oriental",
+    "lat": 8.4860705,
+    "lng": 124.656805,
+    "price_php": 236500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Philippine Access",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 236,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 734.29,
+      "NLEX": 792.45,
+      "C5": 780.45,
+      "R10": 790.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

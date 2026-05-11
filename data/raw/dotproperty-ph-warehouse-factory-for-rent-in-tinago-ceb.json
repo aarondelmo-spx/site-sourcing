@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tinago-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tinago-cebu_aa85309f80d5-3921-2c42-01dc-29f70089",
+  "scraped_at": "2026-05-11T05:35:42.803411Z",
+  "first_seen_at": "2026-05-11T05:35:42.803411Z",
+  "expires_at": "2026-05-18T05:35:42.803411Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouses in Port Area 1073sqm Cebu City Pier",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Tinago",
+    "region": "Cebu",
+    "lat": 10.2949412,
+    "lng": 123.9097112,
+    "price_php": 226500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Invest Realty Services, Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 226,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.98,
+      "NLEX": 577.89,
+      "C5": 566.02,
+      "R10": 576.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

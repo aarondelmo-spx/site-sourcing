@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-9",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-91-leyte_58aa1e4e5358-ceef-f772-8836-35c91089",
+  "scraped_at": "2026-05-04T07:42:41.790776Z",
+  "first_seen_at": "2026-05-04T07:42:29.661617Z",
+  "expires_at": "2026-05-11T07:42:41.790776Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,551 sq. meters Brand New Warehouse Space for Lease in Tacloban City, Leyte",
+    "sqm": 3551.0,
+    "dock_doors": null,
+    "clear_height_m": 8.0,
+    "address": "Leyte, Tacloban, Barangay 91",
+    "region": "Leyte",
+    "lat": 11.2250367,
+    "lng": 124.9895284,
+    "price_php": 639193.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,551 m2",
+      "price_raw": "Rent: ₱ 639,193\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 527.55,
+      "NLEX": 575.57,
+      "C5": 564.89,
+      "R10": 575.39
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

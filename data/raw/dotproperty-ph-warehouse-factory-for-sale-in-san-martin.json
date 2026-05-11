@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-martin",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-martin-de-porres-metro-manila_5e49d771e3ed-d33e-6752-e331-d1632089",
+  "scraped_at": "2026-05-11T05:01:25.367298Z",
+  "first_seen_at": "2026-05-04T06:55:44.292358Z",
+  "expires_at": "2026-05-18T05:01:25.367298Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for sale with 2,000 sqm Lot area in  Sucat, Parañaque",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, San Martin de Porres",
+    "region": "NCR",
+    "lat": 14.495913,
+    "lng": 121.0412314,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": "JV Boris",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.35,
+      "NLEX": 17.86,
+      "C5": 6.18,
+      "R10": 14.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

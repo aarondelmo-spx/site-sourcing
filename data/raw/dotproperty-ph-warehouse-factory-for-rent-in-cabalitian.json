@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cabalitian",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cabalitian-pangasinan_6c487b9616d8-bce0-11e2-8e8c-a8532089",
+  "scraped_at": "2026-05-04T07:33:21.966454Z",
+  "first_seen_at": "2026-05-04T07:33:21.966454Z",
+  "expires_at": "2026-05-11T07:33:21.966454Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse with Office space for Lease in San Fernando, Pampanga",
+    "sqm": null,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Pangasinan, Asingan, Cabalitian",
+    "region": "Pangasinan",
+    "lat": null,
+    "lng": null,
+    "price_php": 247302.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Centricity Corp.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 247,302\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm"
+  ]
+}

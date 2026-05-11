@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tipolo-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tipolo-cebu_58c0be8c608c-549e-e9c5-bd29-34d0642a",
+  "scraped_at": "2026-05-11T05:36:38.276557Z",
+  "first_seen_at": "2026-05-04T03:05:01.802259Z",
+  "expires_at": "2026-05-18T05:36:38.276557Z",
+  "status": "active",
+  "listing": {
+    "title": "For Sale: Hernan Cortes Warehouse Property",
+    "sqm": 8000.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Tipolo",
+    "region": "Cebu",
+    "lat": 10.33498,
+    "lng": 123.9256942,
+    "price_php": 65000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,000 m2",
+      "price_raw": "Sale: ₱ 65,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.36,
+      "NLEX": 575.1,
+      "C5": 563.25,
+      "R10": 573.49
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

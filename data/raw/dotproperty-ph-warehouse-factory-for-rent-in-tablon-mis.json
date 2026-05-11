@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tablon-mis",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tablon-misamis-oriental_86036665eb8c-b590-4012-22cc-22d32089",
+  "scraped_at": "2026-05-11T05:38:49.411677Z",
+  "first_seen_at": "2026-05-04T07:44:34.834700Z",
+  "expires_at": "2026-05-18T05:38:49.411677Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: 3400 sqm Warehouse in Tablon, Cagayan de Oro",
+    "sqm": 3400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Cagayan de Oro, Tablon",
+    "region": "Misamis Oriental",
+    "lat": null,
+    "lng": null,
+    "price_php": 570000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Zyra",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,400 m2",
+      "price_raw": "Rent: ₱ 570,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

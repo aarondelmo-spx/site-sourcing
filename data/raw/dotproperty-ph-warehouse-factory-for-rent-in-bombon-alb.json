@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bombon-alb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bombon-albay_a7c9a46ef3a1-9560-0792-0a03-35c91089",
+  "scraped_at": "2026-05-04T07:34:08.264037Z",
+  "first_seen_at": "2026-05-04T07:34:08.264037Z",
+  "expires_at": "2026-05-11T07:34:08.264037Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,500 SQM Prime Ground-Loading Warehouse for Lease in Tabaco City",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Albay, Tabaco, Bombon",
+    "region": "Albay",
+    "lat": null,
+    "lng": null,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

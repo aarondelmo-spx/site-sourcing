@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-buenavista",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-buenavista-ii-cavite_9048bdf1767b-8cd1-6a02-7ede-24d32089",
+  "scraped_at": "2026-05-08T03:30:57.256904Z",
+  "first_seen_at": "2026-04-29T08:36:19.570405Z",
+  "expires_at": "2026-05-15T03:30:57.256904Z",
+  "status": "active",
+  "listing": {
+    "title": "7,752 Sqm Warehouse Factory space for Rent In General Trias, Cavite",
+    "sqm": 7752.0,
+    "dock_doors": 1,
+    "clear_height_m": 10.0,
+    "address": "Cavite, General Trias, Buenavista II",
+    "region": "Cavite",
+    "lat": 14.316398,
+    "lng": 120.9062566,
+    "price_php": 1500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 7,752 m2",
+      "price_raw": "Rent: ₱ 1,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.39,
+      "NLEX": 39.12,
+      "C5": 30.29,
+      "R10": 34.14
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

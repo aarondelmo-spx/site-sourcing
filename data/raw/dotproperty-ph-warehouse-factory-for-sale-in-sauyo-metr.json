@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-sauyo-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-sauyo-metro-manila_9a8defb671c3-f850-ee52-ad40-e7d32089",
+  "scraped_at": "2026-05-11T04:58:49.139083Z",
+  "first_seen_at": "2026-05-04T06:52:58.309561Z",
+  "expires_at": "2026-05-18T04:58:49.139083Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Quezon City Industrial Property for Sale!",
+    "sqm": 13110.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Sauyo",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 1.049,
+    "price_unit": "total",
+    "agent_name": "Property Source PH - RE/MAX Capital",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 13,110 m2",
+      "price_raw": "Sale: ₱ 1.049 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pulung-mar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pulung-maragul-pampanga_a3f30b51a0fe-fd41-7092-15f1-b4d32089",
+  "scraped_at": "2026-05-11T05:29:56.957541Z",
+  "first_seen_at": "2026-05-04T07:26:33.635040Z",
+  "expires_at": "2026-05-18T05:29:56.957541Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale:  WAREHOUSE IN ANGELES CITY PAMPANGA NEAR CLARK",
+    "sqm": 150.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Pulung Maragul",
+    "region": "Pampanga",
+    "lat": 15.164007,
+    "lng": 120.6054137,
+    "price_php": 8000000.0,
+    "price_unit": "total",
+    "agent_name": "Glenndie Rivera",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 150 m2",
+      "price_raw": "Sale: ₱ 8,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 81.44,
+      "NLEX": 23.83,
+      "C5": 68.55,
+      "R10": 67.19
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

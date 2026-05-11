@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balagtas-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balagtas-batangas_76af0b422865-19de-f972-1fc0-45c91089",
+  "scraped_at": "2026-05-11T05:31:06.576782Z",
+  "first_seen_at": "2026-05-04T07:09:33.070396Z",
+  "expires_at": "2026-05-18T05:31:06.576782Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent Warehouse with Office in Balagtas, Bulacan, 1,496 square meters",
+    "sqm": 1496.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Batangas City, Balagtas",
+    "region": "Batangas",
+    "lat": 13.7926353,
+    "lng": 121.0693877,
+    "price_php": 179520.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,496 m2",
+      "price_raw": "Rent: ₱ 179,520\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 36.29,
+      "NLEX": 95.95,
+      "C5": 84.34,
+      "R10": 92.01
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

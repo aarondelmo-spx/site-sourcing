@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sasa-davao",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sasa-davao-del-sur_ab79fb01fb58-10a1-8482-7496-35c91089",
+  "scraped_at": "2026-05-11T05:37:46.711209Z",
+  "first_seen_at": "2026-05-04T07:43:34.940674Z",
+  "expires_at": "2026-05-18T05:37:46.711209Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent Warehouse in Sasa, Davao City near Sasa Seaport,1,200 square meters",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Sasa",
+    "region": "Davao del Sur",
+    "lat": 7.1418448,
+    "lng": 125.6468319,
+    "price_php": 192000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 192,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 918.77,
+      "NLEX": 976.53,
+      "C5": 964.58,
+      "R10": 974.72
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

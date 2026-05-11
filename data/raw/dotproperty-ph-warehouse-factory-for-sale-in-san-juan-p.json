@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-juan-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-juan-pampanga_0f6e6b344af3-bf0e-99b2-57ae-a9d32089",
+  "scraped_at": "2026-05-11T05:29:46.920796Z",
+  "first_seen_at": "2026-05-04T07:26:21.890803Z",
+  "expires_at": "2026-05-18T05:29:46.920796Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE COMMERCIAL PROPERTY (LOT AND BUILDING) IN PAMPANGA ALONG MAC ARTHUR HIG",
+    "sqm": 413.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Apalit, San Juan",
+    "region": "Pampanga",
+    "lat": 14.9374079,
+    "lng": 120.7916348,
+    "price_php": 35000000.0,
+    "price_unit": "total",
+    "agent_name": "Jelievie Sarmiento- ADC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 413 m2",
+      "price_raw": "Sale: ₱ 35,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 49.5,
+      "NLEX": 10.8,
+      "C5": 36.68,
+      "R10": 35.15
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

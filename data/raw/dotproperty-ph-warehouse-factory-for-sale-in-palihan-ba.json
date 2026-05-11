@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-palihan-ba",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-palihan-bataan_12467ad1a2bc-c000-a222-f767-04e9e089",
+  "scraped_at": "2026-05-04T07:29:56.358745Z",
+  "first_seen_at": "2026-05-04T07:27:31.902272Z",
+  "expires_at": "2026-05-11T07:29:56.358745Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Bataan Logistics Warehouse With Prime Road Network",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Hermosa, Palihan",
+    "region": "Bataan",
+    "lat": 14.844813,
+    "lng": 120.472933,
+    "price_php": 185000000.0,
+    "price_unit": "total",
+    "agent_name": "Cathrina Tantamco",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 185,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 67.24,
+      "NLEX": 46.34,
+      "C5": 63.47,
+      "R10": 56.14
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

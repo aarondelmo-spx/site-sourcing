@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-dionis",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-dionisio-cavite_94373fd932b4-fd5e-91f2-549b-85d32089",
+  "scraped_at": "2026-05-11T05:04:27.242298Z",
+  "first_seen_at": "2026-05-04T06:50:14.096365Z",
+  "expires_at": "2026-05-18T05:04:27.242298Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "491.96 sqm Warehouse For Lease at Dasmarinas Cavite",
+    "sqm": 492.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, San Dionisio",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 152507.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 491.96 m2",
+      "price_raw": "Rent: ₱ 152,507\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

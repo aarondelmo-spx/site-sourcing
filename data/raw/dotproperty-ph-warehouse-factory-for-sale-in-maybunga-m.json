@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-maybunga-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maybunga-metro-manila_45bc047102bc-5f00-d4c2-f66b-0a632089",
+  "scraped_at": "2026-05-11T04:59:30.241622Z",
+  "first_seen_at": "2026-05-04T06:53:47.627793Z",
+  "expires_at": "2026-05-18T04:59:30.241622Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling Office Warehouse with Residential in Maybunga Pasig City FOR SALE",
+    "sqm": 746.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Maybunga",
+    "region": "NCR",
+    "lat": 14.5749635,
+    "lng": 121.0876318,
+    "price_php": 63410000.0,
+    "price_unit": "total",
+    "agent_name": "Charmaine Bataller",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 746 m2",
+      "price_raw": "Sale: ₱ 63,410,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.89,
+      "NLEX": 12.1,
+      "C5": 2.76,
+      "R10": 12.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

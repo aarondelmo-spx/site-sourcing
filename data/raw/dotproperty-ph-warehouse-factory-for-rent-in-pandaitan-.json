@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pandaitan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pandaitan-davao-del-sur_77e0f5035009-f30f-d072-a8ce-73941089",
+  "scraped_at": "2026-05-11T05:38:29.360401Z",
+  "first_seen_at": "2026-05-04T07:43:30.576029Z",
+  "expires_at": "2026-05-18T05:38:29.360401Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1040 sqm Warehouse for Lease, Davao",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Pandaitan",
+    "region": "Davao del Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 208000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 208,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

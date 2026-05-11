@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bungahan-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bungahan-laguna_ecd99bd1622f-26af-c662-bb02-b85c5089",
+  "scraped_at": "2026-05-08T03:34:17.575285Z",
+  "first_seen_at": "2026-04-29T08:43:47.910989Z",
+  "expires_at": "2026-05-15T03:34:17.575285Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse Space for Rent Lease 1,200 sqm in Biñan Laguna PEZA Accredited",
+    "sqm": 1200.0,
+    "dock_doors": 1,
+    "clear_height_m": 7.0,
+    "address": "Laguna, Biñan, Bungahan",
+    "region": "Laguna",
+    "lat": 14.3017243,
+    "lng": 121.074602,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.85,
+      "NLEX": 39.74,
+      "C5": 27.84,
+      "R10": 36.39
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

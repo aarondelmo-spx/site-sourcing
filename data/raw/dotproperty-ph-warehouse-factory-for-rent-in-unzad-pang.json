@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-unzad-pang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-unzad-pangasinan_024c8e14fbf7-0d4f-fe42-cc5c-a4d32089",
+  "scraped_at": "2026-05-04T07:33:31.431855Z",
+  "first_seen_at": "2026-05-04T07:33:26.486949Z",
+  "expires_at": "2026-05-11T07:33:31.431855Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "900-1,300 SQM. 26 Units Warehouses for Lease in Pangasinan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Villasis, Unzad",
+    "region": "Pangasinan",
+    "lat": null,
+    "lng": null,
+    "price_php": 169000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Daisylyn-Lacson",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 169,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

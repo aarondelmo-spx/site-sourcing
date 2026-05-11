@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tulay-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tulay-cebu_b20185d80b7f-30c0-3a72-ebed-45c91089",
+  "scraped_at": "2026-05-11T05:34:31.679180Z",
+  "first_seen_at": "2026-05-04T03:01:57.909723Z",
+  "expires_at": "2026-05-18T05:34:31.679180Z",
+  "status": "active",
+  "listing": {
+    "title": "For Rent Warehouse Ideal for Storage or Manufacturing in Minglanilla, Cebu",
+    "sqm": 1760.0,
+    "dock_doors": 1,
+    "clear_height_m": 11.0,
+    "address": "Cebu, Minglanilla, Tulay",
+    "region": "Cebu",
+    "lat": 10.2378367,
+    "lng": 123.7943306,
+    "price_php": 440000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,760 m2",
+      "price_raw": "Rent: ₱ 440,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.09,
+      "NLEX": 576.58,
+      "C5": 564.65,
+      "R10": 574.81
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

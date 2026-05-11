@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-calzada-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-calzada-metro-manila_315fecbd3246-2370-ea62-2fe8-02532089",
+  "scraped_at": "2026-05-11T05:01:26.079665Z",
+  "first_seen_at": "2026-05-04T06:54:35.006220Z",
+  "expires_at": "2026-05-18T05:01:26.079665Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale in Taguig City",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Calzada",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 300000000.0,
+    "price_unit": "total",
+    "agent_name": "Asset Haven Realty- Dominic Lorico",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Sale: ₱ 300,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

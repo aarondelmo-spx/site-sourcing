@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-amsic-pamp",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-amsic-pampanga_c009c4774592-225e-7a32-1a74-11532089",
+  "scraped_at": "2026-05-11T05:28:18.993189Z",
+  "first_seen_at": "2026-05-04T07:23:16.205227Z",
+  "expires_at": "2026-05-18T05:28:18.993189Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Space for Lease Rent 2,700 sqm in Angeles Pampanga",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Amsic",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 760000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME REALTY INC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 760,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

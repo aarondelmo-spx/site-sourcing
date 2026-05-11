@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-palo-alto-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-palo-alto-laguna_42d4cc4b832c-7f9e-9e82-5c6e-85d32089",
+  "scraped_at": "2026-05-08T03:37:26.212685Z",
+  "first_seen_at": "2026-04-29T08:47:53.196778Z",
+  "expires_at": "2026-05-15T03:37:26.212685Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse and Huge parking for Rent in Palo Alto, Laguna",
+    "sqm": 1000.0,
+    "dock_doors": 4,
+    "clear_height_m": 3.7,
+    "address": "Laguna, Calamba, Palo-Alto",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

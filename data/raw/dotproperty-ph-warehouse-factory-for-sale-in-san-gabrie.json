@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-gabrie",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-gabriel-cavite_82e78976d464-648e-b892-1a15-c73d1089",
+  "scraped_at": "2026-05-11T05:06:05.471758Z",
+  "first_seen_at": "2026-05-04T06:59:45.496358Z",
+  "expires_at": "2026-05-18T05:06:05.471758Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Compound in Governors Drive, Bancal, Cavite",
+    "sqm": 15000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Mariano Alvarez, San Gabriel",
+    "region": "Cavite",
+    "lat": 14.3003421,
+    "lng": 121.0090085,
+    "price_php": 2.552,
+    "price_unit": "total",
+    "agent_name": "Grandeur Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 15,000 m2",
+      "price_raw": "Sale: ₱ 2.552 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.27,
+      "NLEX": 39.28,
+      "C5": 28.2,
+      "R10": 35.19
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

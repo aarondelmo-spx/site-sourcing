@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bgy-16-kaw",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bgy-16-kawit-east-washington-dr-albay_e0a0628da804-b1ce-5822-5f31-07d32089",
+  "scraped_at": "2026-05-04T07:34:10.738481Z",
+  "first_seen_at": "2026-05-04T07:34:06.376388Z",
+  "expires_at": "2026-05-11T07:34:10.738481Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "600 sqm. Warehouse for Lease in Legazpi City, Albay Province",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": 10.0,
+    "address": "Albay, Legazpi, Bgy. 16 - Kawit-East Washington Dr",
+    "region": "Albay",
+    "lat": 13.1409295,
+    "lng": 123.7363461,
+    "price_php": 180000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Daisylyn-Lacson",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 180,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 301.56,
+      "NLEX": 338.96,
+      "C5": 329.74,
+      "R10": 339.9
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

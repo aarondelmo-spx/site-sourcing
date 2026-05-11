@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-vicent",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-vicente-batangas_4b4ff3e1b316-6941-7b82-7847-19d32089",
+  "scraped_at": "2026-05-11T05:31:38.728024Z",
+  "first_seen_at": "2026-05-04T02:57:28.171897Z",
+  "expires_at": "2026-05-18T05:31:38.728024Z",
+  "status": "active",
+  "listing": {
+    "title": "2,250 sqm PEZA Factory Warehouse For Rent in LISP 3, Santo Tomas",
+    "sqm": 2250.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Batangas, Santo Tomas, San Vicente",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 700000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,250 m2",
+      "price_raw": "Rent: ₱ 700,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

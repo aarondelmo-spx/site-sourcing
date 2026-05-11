@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bagbag-met",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bagbag-metro-manila_cfa7714fc517-738e-1a42-aa20-8174c089",
+  "scraped_at": "2026-04-29T08:23:42.618817Z",
+  "expires_at": "2026-05-06T08:23:42.618817Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Sale along Quirino Highway, Novaliches, Quezon City",
+    "sqft": 19181.3,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Bagbag",
+    "region": "NCR",
+    "lat": 14.6790605,
+    "lng": 121.0320227,
+    "price_php": 260000000.0,
+    "price_unit": "total",
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,782 m2",
+      "price_raw": "Sale: ₱ 260,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 14.39,
+      "NLEX": 3.7,
+      "C5": 4.77,
+      "R10": 7.63
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

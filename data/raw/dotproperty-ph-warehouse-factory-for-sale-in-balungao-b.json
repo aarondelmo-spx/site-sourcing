@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-balungao-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balungao-bulacan_f55530b9f864-1c8e-2f52-3c1d-0f20d089",
+  "scraped_at": "2026-05-08T03:49:29.563257Z",
+  "first_seen_at": "2026-04-29T09:02:58.707559Z",
+  "expires_at": "2026-05-15T03:49:29.563257Z",
+  "status": "active",
+  "listing": {
+    "title": "Calumpit, Bulacan Property w/ Improvements for sale",
+    "sqm": 8548.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Bulacan, Calumpit, Balungao",
+    "region": "Bulacan",
+    "lat": 14.9230633,
+    "lng": 120.765496,
+    "price_php": 200000000.0,
+    "price_unit": "total",
+    "agent_name": "Santos Knight Frank  ICM",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 8,548 m2",
+      "price_raw": "Sale: ₱ 200,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 49.6,
+      "NLEX": 14.03,
+      "C5": 37.88,
+      "R10": 35.4
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

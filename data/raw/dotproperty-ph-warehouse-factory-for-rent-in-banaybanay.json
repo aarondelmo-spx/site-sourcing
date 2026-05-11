@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-banaybanay",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-banaybanay-laguna_df7b67a83f55-f36f-ec92-3906-0a75c089",
+  "scraped_at": "2026-05-11T05:12:57.683397Z",
+  "first_seen_at": "2026-05-04T07:01:42.800960Z",
+  "expires_at": "2026-05-18T05:12:57.683397Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN CABUYAO LAGUNA",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Cabuyao, Banaybanay",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 825000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 825,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

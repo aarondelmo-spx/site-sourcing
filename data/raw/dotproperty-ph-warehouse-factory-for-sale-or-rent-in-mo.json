@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-mo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-moonwalk-metro-manila_6fa21c29d9ee-13f0-d182-5131-330be089",
+  "scraped_at": "2026-05-11T04:58:06.587374Z",
+  "first_seen_at": "2026-05-04T06:52:24.284212Z",
+  "expires_at": "2026-05-18T04:58:06.587374Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,500 sqm Prime Corner Office Warehouse Situated in a Prime Road in Makati Accessible to Trucks",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Moonwalk",
+    "region": "NCR",
+    "lat": 14.4804982,
+    "lng": 121.00531,
+    "price_php": 106000000.0,
+    "price_unit": "total",
+    "agent_name": "Bridgette Aloya",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Sale: ₱ 106,000,000\n                                                                                                    Rent: ₱ 350\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.35,
+      "NLEX": 19.25,
+      "C5": 9.15,
+      "R10": 15.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

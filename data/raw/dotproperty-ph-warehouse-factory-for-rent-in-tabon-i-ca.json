@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabon-i-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabon-i-cavite_8ce9a4edce17-c761-5a25-b3b6-9bc22a73",
+  "scraped_at": "2026-05-11T05:02:14.659804Z",
+  "first_seen_at": "2026-05-04T06:56:32.606983Z",
+  "expires_at": "2026-05-18T05:02:14.659804Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Brand New Warehouse for Lease Rent in Kawit Cavite",
+    "sqm": 1600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Kawit, Tabon I",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,600 m2",
+      "price_raw": "Rent: ₱ 450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

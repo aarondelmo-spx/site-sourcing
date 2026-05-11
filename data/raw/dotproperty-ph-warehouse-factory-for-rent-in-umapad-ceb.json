@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-umapad-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-umapad-cebu_590db972059e-51f0-a142-3dd9-24d32089",
+  "scraped_at": "2026-05-11T05:35:49.777503Z",
+  "first_seen_at": "2026-05-08T04:01:52.602943Z",
+  "expires_at": "2026-05-18T05:35:49.777503Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Rent in Alang-alang, Mandaue City, Cebu",
+    "sqm": 2400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Umapad",
+    "region": "Cebu",
+    "lat": 10.3304993,
+    "lng": 123.9628135,
+    "price_php": 660000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CebuAdCon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,400 m2",
+      "price_raw": "Rent: ₱ 660,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 521.14,
+      "NLEX": 577.75,
+      "C5": 565.91,
+      "R10": 576.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

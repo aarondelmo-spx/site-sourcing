@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-punta-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-punta-laguna_4debca301218-7780-d222-9271-38fc5089",
+  "scraped_at": "2026-05-11T05:14:27.275750Z",
+  "first_seen_at": "2026-05-04T07:08:06.382419Z",
+  "expires_at": "2026-05-18T05:14:27.275750Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE! 2,102 sqm Warehouse inside PEZA Zone at Filinvest Technology Park, Calamba Laguna",
+    "sqm": 2102.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Punta",
+    "region": "Laguna",
+    "lat": 14.1724281,
+    "lng": 121.1193336,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,102 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.15,
+      "NLEX": 54.79,
+      "C5": 42.75,
+      "R10": 51.55
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

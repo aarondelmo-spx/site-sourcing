@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-e-rodrigue",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-e-rodriguez-metro-manila-near-lrt-2-araneta-center-cubao_e632ae8995d5-6191-a902-3b23-bb632089",
+  "scraped_at": "2026-05-08T03:25:08.783307Z",
+  "first_seen_at": "2026-04-29T08:22:33.768462Z",
+  "expires_at": "2026-05-15T03:25:08.783307Z",
+  "status": "active",
+  "listing": {
+    "title": "For Sale Warehouse with Office in Cubao Quezon City",
+    "sqm": 289.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, E. Rodriguez",
+    "region": "NCR",
+    "lat": 14.624365,
+    "lng": 121.0546806,
+    "price_php": 35000000.0,
+    "price_unit": "total",
+    "agent_name": "Sheryl Garcia",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 289 m2",
+      "price_raw": "Sale: ₱ 35,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.09,
+      "NLEX": 5.81,
+      "C5": 3.43,
+      "R10": 8.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

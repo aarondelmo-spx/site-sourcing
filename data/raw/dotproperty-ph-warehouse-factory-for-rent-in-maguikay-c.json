@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maguikay-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maguikay-cebu_e95cea035584-f990-3572-c744-1c632089",
+  "scraped_at": "2026-05-08T04:04:30.302603Z",
+  "first_seen_at": "2026-05-08T04:01:49.675957Z",
+  "expires_at": "2026-05-15T04:04:30.302603Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse with Loading Bay at Mandaue City Cebu",
+    "sqm": 1800.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Maguikay",
+    "region": "Cebu",
+    "lat": 10.341736,
+    "lng": 123.947291,
+    "price_php": 522000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Bachelors Realty & Brokerage Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Rent: ₱ 522,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.13,
+      "NLEX": 575.77,
+      "C5": 563.93,
+      "R10": 574.18
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

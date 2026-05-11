@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maduya-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maduya-cavite_1c79e3f9fea7-b021-b092-5958-04d32089",
+  "scraped_at": "2026-05-11T05:04:33.585555Z",
+  "first_seen_at": "2026-05-04T06:56:46.806714Z",
+  "expires_at": "2026-05-18T05:04:33.585555Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1280 sqm warehouse for rent in carmona cavite with elevated loading docks",
+    "sqm": 1280.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Maduya",
+    "region": "Cavite",
+    "lat": 14.3258176,
+    "lng": 121.0740971,
+    "price_php": 250000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,280 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.52,
+      "NLEX": 37.1,
+      "C5": 25.17,
+      "R10": 33.82
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

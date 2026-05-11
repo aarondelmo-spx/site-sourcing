@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-villa-agli",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-villa-aglipay-tarlac_321ce8d52927-051e-6cd2-cedc-87d32089",
+  "scraped_at": "2026-05-04T07:31:33.627732Z",
+  "first_seen_at": "2026-05-04T07:31:18.426351Z",
+  "expires_at": "2026-05-11T07:31:33.627732Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "638 square meters Warehouse for Rent in Sula, San Jose, Tarlac",
+    "sqm": 638.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, San Jose, Villa Aglipay",
+    "region": "Tarlac",
+    "lat": 15.4561575,
+    "lng": 120.4402457,
+    "price_php": 70180.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 638 m2",
+      "price_raw": "Rent: ₱ 70,180\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 118.36,
+      "NLEX": 54.1,
+      "C5": 104.66,
+      "R10": 104.05
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

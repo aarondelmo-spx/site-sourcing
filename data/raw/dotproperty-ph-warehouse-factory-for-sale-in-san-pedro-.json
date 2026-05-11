@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-pedro-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-pedro-batangas_2b92152f00b8-58f1-d142-5433-3d100089",
+  "scraped_at": "2026-05-11T05:32:50.726869Z",
+  "first_seen_at": "2026-05-04T07:10:47.425339Z",
+  "expires_at": "2026-05-18T05:32:50.726869Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Warehouse and Logistics Property in Sto Tomas, Batangas",
+    "sqm": 7880.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Santo Tomas, San Pedro",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 500000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 7,880 m2",
+      "price_raw": "Sale: ₱ 500,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

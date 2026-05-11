@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-muzon-riza",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-muzon-rizal_5af2e7698e13-9df1-9b12-48fe-86532089",
+  "scraped_at": "2026-05-11T05:25:12.520617Z",
+  "first_seen_at": "2026-05-04T07:15:24.855340Z",
+  "expires_at": "2026-05-18T05:25:12.520617Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Exclusive! Warehouse in Barangay San Isidro, Angono, Rizal For Sale",
+    "sqm": 1981.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, Muzon",
+    "region": "Rizal",
+    "lat": 14.545037,
+    "lng": 121.1435097,
+    "price_php": 74000000.0,
+    "price_unit": "total",
+    "agent_name": "Dream Address PH",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,981 m2",
+      "price_raw": "Sale: ₱ 74,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.42,
+      "NLEX": 18.77,
+      "C5": 9.45,
+      "R10": 19.44
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

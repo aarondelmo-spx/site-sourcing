@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-5-bedroom-warehouse-factory-for-sale-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/5-bedroom-warehouse-factory-for-sale-in-malinta-metro-manila_fc391633605e-196e-e122-0a1d-da1fc089",
+  "scraped_at": "2026-05-11T04:58:35.507396Z",
+  "first_seen_at": "2026-05-04T06:52:53.642996Z",
+  "expires_at": "2026-05-18T04:58:35.507396Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,800 sqm Warehouse for Sale in Valenzuela City",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Malinta",
+    "region": "NCR",
+    "lat": 14.6969353,
+    "lng": 120.9639567,
+    "price_php": 55000000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Erika Manalon)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Sale: ₱ 55,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.34,
+      "NLEX": 1.92,
+      "C5": 9.57,
+      "R10": 3.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

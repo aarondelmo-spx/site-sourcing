@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-nicolasa-v",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-nicolasa-virata-cavite_6548bb81e325-504f-1a42-100d-43532089",
+  "scraped_at": "2026-05-08T03:29:12.884578Z",
+  "first_seen_at": "2026-04-29T08:33:33.373916Z",
+  "expires_at": "2026-05-15T03:29:12.884578Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse for LEASE in Biñan Laguna!| 5,154 SQM | PEZA, Gated, Office!!!!",
+    "sqm": 5154.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, General Mariano Alvarez, Nicolasa Virata",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 1450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Meliza",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,154 m2",
+      "price_raw": "Rent: ₱ 1,450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

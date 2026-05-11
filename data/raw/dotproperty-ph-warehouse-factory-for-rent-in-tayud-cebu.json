@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tayud-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tayud-cebu_16d7f97f7517-58d0-0922-cb62-cae9b089",
+  "scraped_at": "2026-05-11T05:35:54.322686Z",
+  "first_seen_at": "2026-05-08T04:01:50.698790Z",
+  "expires_at": "2026-05-18T05:35:54.322686Z",
+  "status": "active",
+  "listing": {
+    "title": "1071 sqm Warehouse for Rent in Tayud Consolacion",
+    "sqm": 1071.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cebu, Consolacion, Tayud",
+    "region": "Cebu",
+    "lat": 10.3691696,
+    "lng": 123.9711649,
+    "price_php": 259182.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,071 m2",
+      "price_raw": "Rent: ₱ 259,182\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.2,
+      "NLEX": 574.67,
+      "C5": 562.85,
+      "R10": 573.11
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

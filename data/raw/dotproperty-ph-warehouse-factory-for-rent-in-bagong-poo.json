@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bagong-poo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bagong-pook-batangas_83c5aab87f51-e270-ba32-c2e6-81632089",
+  "scraped_at": "2026-05-11T05:31:05.465640Z",
+  "first_seen_at": "2026-05-04T07:09:25.295038Z",
+  "expires_at": "2026-05-18T05:31:05.465640Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Malvar Warehouse for LEASE – 2,053 SQM, High Ceiling, Secure Facility!",
+    "sqm": 2053.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Malvar, Bagong Pook",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 575000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Meliza",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,053 m2",
+      "price_raw": "Rent: ₱ 575,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-palindan-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-palindan-batangas_bff4bad03d9f-c270-a492-259d-3a51c089",
+  "scraped_at": "2026-05-11T05:31:59.340800Z",
+  "first_seen_at": "2026-05-04T07:09:28.300906Z",
+  "expires_at": "2026-05-18T05:31:59.340800Z",
+  "status": "active",
+  "listing": {
+    "title": "Brand New Warehouse for Lease, Ibaan Batangas",
+    "sqm": 12702.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Batangas, Ibaan, Palindan",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 3324555.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Skye Properties - RE/MAX 8",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 12,702 m2",
+      "price_raw": "Rent: ₱ 3,324,555\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

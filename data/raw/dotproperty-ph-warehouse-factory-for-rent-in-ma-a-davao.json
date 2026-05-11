@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ma-a-davao",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ma-a-davao-del-sur_f11973bd0452-0770-7d52-06ed-28d32089",
+  "scraped_at": "2026-05-11T05:38:10.874779Z",
+  "first_seen_at": "2026-05-04T07:43:15.726599Z",
+  "expires_at": "2026-05-18T05:38:10.874779Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,200 sqm Warehouse For Rent in Ma-A, Davao City, Davao del Sur",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Ma-A",
+    "region": "Davao del Sur",
+    "lat": 7.061232,
+    "lng": 125.5868664,
+    "price_php": 180000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 180,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 922.9,
+      "NLEX": 980.89,
+      "C5": 968.92,
+      "R10": 979.03
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

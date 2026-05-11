@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-aplaya-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-aplaya-batangas_dbbe08b09525-1ff0-ce42-53e1-6272f089",
+  "scraped_at": "2026-05-11T05:32:10.101440Z",
+  "first_seen_at": "2026-05-04T07:10:13.148768Z",
+  "expires_at": "2026-05-18T05:32:10.101440Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "3,000 sqm Warehouse for Rent in Bauan, Batangas",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Bauan, Aplaya",
+    "region": "Batangas",
+    "lat": 13.782828,
+    "lng": 121.0074987,
+    "price_php": 560000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 560,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 39.11,
+      "NLEX": 96.83,
+      "C5": 85.53,
+      "R10": 92.63
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

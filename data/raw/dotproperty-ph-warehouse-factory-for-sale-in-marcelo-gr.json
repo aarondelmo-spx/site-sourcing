@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-marcelo-gr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-marcelo-green-village-metro-manila_ea1dd1cafdd1-4bb1-c172-90f9-a9840089",
+  "scraped_at": "2026-05-11T05:00:26.132288Z",
+  "first_seen_at": "2026-05-04T06:53:53.534043Z",
+  "expires_at": "2026-05-18T05:00:26.132288Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Multi-Unit Industrial Warehouse in Bagumbayan, Taguig near BGC, Arca South, Acacia Estates",
+    "sqm": 25000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Marcelo Green Village",
+    "region": "NCR",
+    "lat": 14.467573,
+    "lng": 121.0444701,
+    "price_php": 66800.0,
+    "price_unit": "total",
+    "agent_name": "Bridgette Aloya",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 25,000 m2",
+      "price_raw": "Sale: ₱ 66,800"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.31,
+      "NLEX": 21.02,
+      "C5": 9.28,
+      "R10": 17.92
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

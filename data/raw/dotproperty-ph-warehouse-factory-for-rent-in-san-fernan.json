@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-fernan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-fernando-batangas_d5bf28b0efb1-6cc1-0842-9c27-667fe089",
+  "scraped_at": "2026-05-11T05:32:11.550910Z",
+  "first_seen_at": "2026-05-04T07:09:31.826909Z",
+  "expires_at": "2026-05-18T05:32:11.550910Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2000sqm Warehouse Unit for Rent in Lima Land Inc. San Fernando Malvar Batangas City",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Malvar, San Fernando",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 672000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Erds Rejano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 672,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

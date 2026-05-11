@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balong-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balong-bato-metro-manila-near-lrt-2-j-ruiz_817b7bf9cf1f-c74e-5412-8d3f-b7d32089",
+  "scraped_at": "2026-05-08T03:24:25.970758Z",
+  "first_seen_at": "2026-05-08T03:24:25.970758Z",
+  "expires_at": "2026-05-15T03:24:25.970758Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN56244 Commissary Warehouse for Rent In San Juan!",
+    "sqm": 208.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, San Juan, Balong-Bato",
+    "region": "NCR",
+    "lat": 14.6064836,
+    "lng": 121.0240191,
+    "price_php": 120000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 208 m2",
+      "price_raw": "Rent: ₱ 120,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.27,
+      "NLEX": 5.45,
+      "C5": 5.25,
+      "R10": 5.04
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-sabutan-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sabutan-cavite_a8910299d60c-609e-85f2-3b71-cc632089",
+  "scraped_at": "2026-05-11T05:04:29.881742Z",
+  "first_seen_at": "2026-05-04T06:56:58.672562Z",
+  "expires_at": "2026-05-18T05:04:29.881742Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1125 SQM 3-Phas Warehouse in Maguyam, Silang Cavite",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Silang, Sabutan",
+    "region": "Cavite",
+    "lat": 14.2400484,
+    "lng": 120.9762083,
+    "price_php": 202500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Prism Real Estate and Marketing Company",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 202,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.12,
+      "NLEX": 46.13,
+      "C5": 35.45,
+      "R10": 41.74
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

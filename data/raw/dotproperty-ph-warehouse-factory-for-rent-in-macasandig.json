@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-macasandig",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-macasandig-misamis-oriental_5cb5835a5675-dc8e-d392-2482-b9d32089",
+  "scraped_at": "2026-05-11T05:38:54.929800Z",
+  "first_seen_at": "2026-05-04T07:44:45.556124Z",
+  "expires_at": "2026-05-18T05:38:54.929800Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: 10,000+ sqm. Misamis Oriental Warehouse",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Misamis Oriental, Cagayan de Oro, Macasandig",
+    "region": "Misamis Oriental",
+    "lat": 8.4776127,
+    "lng": 124.6459073,
+    "price_php": 2500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gil Alegado",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 2,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 734.47,
+      "NLEX": 792.67,
+      "C5": 780.67,
+      "R10": 790.75
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

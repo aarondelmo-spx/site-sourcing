@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santiago-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santiago-cavite_001a4582f12c-b3d0-ac82-82bb-85d32089",
+  "scraped_at": "2026-05-11T05:04:14.758369Z",
+  "first_seen_at": "2026-05-04T06:57:59.686933Z",
+  "expires_at": "2026-05-18T05:04:14.758369Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "445.60 sqm Warehouse For Lease at Santiago General Trias, Cavite",
+    "sqm": 445.6,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Santiago",
+    "region": "Cavite",
+    "lat": 14.3500839,
+    "lng": 120.9008156,
+    "price_php": 138136.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 445.6 m2",
+      "price_raw": "Rent: ₱ 138,136\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.92,
+      "NLEX": 35.73,
+      "C5": 27.47,
+      "R10": 30.65
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

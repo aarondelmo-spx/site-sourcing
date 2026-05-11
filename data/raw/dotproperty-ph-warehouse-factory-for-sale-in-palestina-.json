@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-palestina-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-palestina-nueva-ecija_57bdf40184d0-805f-f452-13d1-60a41089",
+  "scraped_at": "2026-05-04T07:30:36.938710Z",
+  "first_seen_at": "2026-05-04T07:30:36.938710Z",
+  "expires_at": "2026-05-11T07:30:36.938710Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE IN SAN JOSE NUEVA ECIJA",
+    "sqm": 2941.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, San Jose, Palestina",
+    "region": "Nueva Ecija",
+    "lat": 15.7575505,
+    "lng": 121.0106038,
+    "price_php": 50000000.0,
+    "price_unit": "total",
+    "agent_name": "Angie Dote",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,941 m2",
+      "price_raw": "Sale: ₱ 50,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 134.24,
+      "NLEX": 71.11,
+      "C5": 115.31,
+      "R10": 121.33
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

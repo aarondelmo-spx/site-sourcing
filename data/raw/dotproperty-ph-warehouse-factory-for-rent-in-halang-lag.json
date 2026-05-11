@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-halang-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-halang-laguna_17831af73834-76ce-86d2-e38b-a2d32089",
+  "scraped_at": "2026-05-11T05:11:32.890679Z",
+  "first_seen_at": "2026-05-04T07:04:12.862745Z",
+  "expires_at": "2026-05-18T05:11:32.890679Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "600 SQM Calamba Warehouse for Lease",
+    "sqm": 600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Halang",
+    "region": "Laguna",
+    "lat": 14.1974222,
+    "lng": 121.1624916,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Armando Sison",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 600 m2",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.42,
+      "NLEX": 53.32,
+      "C5": 41.15,
+      "R10": 50.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-unang-siga",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-unang-sigaw-metro-manila-near-lrt-1-balintawak_d5e7335fe18c-d1d1-d282-ec76-01632089",
+  "scraped_at": "2026-04-29T08:18:21.146569Z",
+  "expires_at": "2026-05-06T08:18:21.146569Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For RENT Warehouse in North Diversion Quezon City",
+    "sqft": 12809.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Unang Sigaw",
+    "region": "NCR",
+    "lat": 14.6654581,
+    "lng": 121.0002669,
+    "price_php": 476000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,190 m2",
+      "price_raw": "Rent: ₱ 476,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.96,
+      "NLEX": 1.68,
+      "C5": 8.14,
+      "R10": 3.89
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-socorro-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-socorro-metro-manila-near-mrt-3-araneta-center-cubao_99efd769acaa-86c1-d572-9b32-061cc089",
+  "scraped_at": "2026-05-11T05:01:18.924265Z",
+  "first_seen_at": "2026-05-04T06:54:01.119428Z",
+  "expires_at": "2026-05-18T05:01:18.924265Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Income Generating QC | Commercial Warehouse ₱130k/SQM for Sale in Quezon City along P. Tuazon",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Socorro",
+    "region": "NCR",
+    "lat": 14.6166049,
+    "lng": 121.0570895,
+    "price_php": 130000.0,
+    "price_unit": "total",
+    "agent_name": "biensingson",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,000 m2",
+      "price_raw": "Sale: ₱ 130,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.44,
+      "NLEX": 6.53,
+      "C5": 2.75,
+      "R10": 8.5
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-baesa-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-baesa-metro-manila_10c66f816bcb-0a80-6c92-c465-931c0089",
+  "scraped_at": "2026-05-11T05:00:06.226102Z",
+  "first_seen_at": "2026-05-04T06:52:29.541748Z",
+  "expires_at": "2026-05-18T05:00:06.226102Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse in Baesa Quezon City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Baesa",
+    "region": "NCR",
+    "lat": 14.66953,
+    "lng": 121.0057849,
+    "price_php": 68000000.0,
+    "price_unit": "total",
+    "agent_name": "Sheryl Garcia",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 68,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.33,
+      "NLEX": 1.83,
+      "C5": 7.41,
+      "R10": 4.63
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

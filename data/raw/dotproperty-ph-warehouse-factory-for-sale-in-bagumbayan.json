@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bagumbayan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bagumbayan-poblacion-cavite_ec64e8b07bc5-b2ae-4242-ca0e-81ccf089",
+  "scraped_at": "2026-05-11T05:05:22.786342Z",
+  "first_seen_at": "2026-05-04T06:53:12.036395Z",
+  "expires_at": "2026-05-18T05:05:22.786342Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "OPEN SHED TYPE WAREHOUSE FOR SALE IN GEN. TRIAS CITY, CAVITE",
+    "sqm": 675.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Bagumbayan Poblacion",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 29750000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 8",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 675 m2",
+      "price_raw": "Sale: ₱ 29,750,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

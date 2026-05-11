@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-angeles-pa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-angeles-pampanga_eeb6ae947866-856f-8332-5308-95a35089",
+  "scraped_at": "2026-05-11T05:30:03.331847Z",
+  "first_seen_at": "2026-05-04T07:26:41.644889Z",
+  "expires_at": "2026-05-18T05:30:03.331847Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Warehouse with office in  Angeles, Pampanga",
+    "sqm": 5452.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles",
+    "region": "Pampanga",
+    "lat": 15.1693275,
+    "lng": 120.6116835,
+    "price_php": 218080000.0,
+    "price_unit": "total",
+    "agent_name": "Denise Manalo",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 5,452 m2",
+      "price_raw": "Sale: ₱ 218,080,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 81.57,
+      "NLEX": 23.23,
+      "C5": 68.51,
+      "R10": 67.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

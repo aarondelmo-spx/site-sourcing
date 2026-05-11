@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-potrero-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-potrero-metro-manila_79ae2db05821-1011-7d42-b456-a5d32089",
+  "scraped_at": "2026-05-11T04:57:19.729535Z",
+  "first_seen_at": "2026-05-04T06:51:35.357552Z",
+  "expires_at": "2026-05-18T04:57:19.729535Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,300 sqm Warehouse for Rent in Potrero, Malabon City",
+    "sqm": 1300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Malabon, Potrero",
+    "region": "NCR",
+    "lat": 14.665566,
+    "lng": 120.9782132,
+    "price_php": 350000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,300 m2",
+      "price_raw": "Rent: ₱ 350,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.54,
+      "NLEX": 3.66,
+      "C5": 9.84,
+      "R10": 1.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

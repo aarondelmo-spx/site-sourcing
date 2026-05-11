@@ -1,0 +1,33 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-punturin-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-punturin-metro-manila_bc1d47d41ae4-065f-cbd2-f8e3-8b632089",
+  "scraped_at": "2026-04-29T08:18:12.009802Z",
+  "expires_at": "2026-05-06T08:18:12.009802Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WIDE WAREHOUSE IN PUNTURIN VALEZUELA FOR LEASE",
+    "sqft": 34444.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Punturin",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 576000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,200 m2",
+      "price_raw": "Rent: ₱ 576,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

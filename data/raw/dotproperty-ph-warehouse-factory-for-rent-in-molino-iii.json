@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-molino-iii",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-molino-iii-cavite_1929c2c46fa5-a69f-8f72-cff2-c5d32089",
+  "scraped_at": "2026-05-11T05:03:48.263461Z",
+  "first_seen_at": "2026-05-04T06:57:22.497899Z",
+  "expires_at": "2026-05-18T05:03:48.263461Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,000 sqm Lot with Warehouse for rent in Bacoor, Cavite",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, Molino III",
+    "region": "Cavite",
+    "lat": 14.4058456,
+    "lng": 120.976979,
+    "price_php": 334600.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,000 m2",
+      "price_raw": "Rent: ₱ 334,600\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.32,
+      "NLEX": 27.78,
+      "C5": 17.92,
+      "R10": 23.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

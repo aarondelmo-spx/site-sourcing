@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-iba-bulaca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-iba-bulacan_9d219dbcba4d-9501-cb88-2543-9f1af578",
+  "scraped_at": "2026-05-11T05:20:21.949532Z",
+  "first_seen_at": "2026-05-04T07:20:53.340810Z",
+  "expires_at": "2026-05-18T05:20:21.949532Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse with Structure in Sterling Meycauayan, Bulacan PP Code # 1329",
+    "sqm": 6783.7,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Iba",
+    "region": "Bulacan",
+    "lat": 14.7589242,
+    "lng": 120.9811468,
+    "price_php": 315000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 6,783.71 m2",
+      "price_raw": "Sale: ₱ 315,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 23.55,
+      "NLEX": 3.53,
+      "C5": 8.44,
+      "R10": 10.39
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

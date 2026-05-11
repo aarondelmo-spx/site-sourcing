@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-putatan-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-putatan-metro-manila_80d199fbd857-ba91-0282-c213-5f14f089",
+  "scraped_at": "2026-05-11T05:00:22.288082Z",
+  "first_seen_at": "2026-05-04T06:54:23.279526Z",
+  "expires_at": "2026-05-18T05:00:22.288082Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "MUNTINLUPA INDUSTRIAL WAREHOUSE",
+    "sqm": 1235.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Putatan",
+    "region": "NCR",
+    "lat": 14.4031143,
+    "lng": 121.0398982,
+    "price_php": 73000000.0,
+    "price_unit": "total",
+    "agent_name": "Patrice Trijo - Wealth Property Consultants",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,235 m2",
+      "price_raw": "Sale: ₱ 73,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.6,
+      "NLEX": 28.04,
+      "C5": 16.46,
+      "R10": 24.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

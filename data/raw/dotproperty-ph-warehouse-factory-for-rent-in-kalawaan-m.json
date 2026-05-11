@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-kalawaan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-kalawaan-metro-manila_e5fb1ff3683d-e90f-8952-4c0f-69d32089",
+  "scraped_at": "2026-05-11T04:56:40.550324Z",
+  "first_seen_at": "2026-05-08T03:23:53.167739Z",
+  "expires_at": "2026-05-18T04:56:40.550324Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling Warehouse For Rent in Pasig with racking system AFSS",
+    "sqm": 18678.0,
+    "dock_doors": null,
+    "clear_height_m": 13.5,
+    "address": "Metro Manila, Pasig, Kalawaan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 11000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 18,678 m2",
+      "price_raw": "Rent: ₱ 11,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

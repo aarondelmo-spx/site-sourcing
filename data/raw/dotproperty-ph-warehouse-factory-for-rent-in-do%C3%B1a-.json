@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-do%C3%B1a-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-do%C3%B1a-josefa-metro-manila_707c9b419486-42ff-1042-5929-d6d32089",
+  "scraped_at": "2026-05-11T04:57:05.837295Z",
+  "first_seen_at": "2026-05-04T06:51:28.338905Z",
+  "expires_at": "2026-05-18T04:57:05.837295Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN55551 Warehouse for Rent In Banawe!",
+    "sqm": 500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Doña Josefa",
+    "region": "NCR",
+    "lat": 14.621092,
+    "lng": 121.0073407,
+    "price_php": 130000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 130,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.97,
+      "NLEX": 3.63,
+      "C5": 7.67,
+      "R10": 3.21
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

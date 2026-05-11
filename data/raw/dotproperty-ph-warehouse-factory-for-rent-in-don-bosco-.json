@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-don-bosco-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-bosco-metro-manila_2bae61bc7c44-ca11-1f62-a8f5-06e9f089",
+  "scraped_at": "2026-05-11T04:56:15.866178Z",
+  "first_seen_at": "2026-05-04T06:49:17.141025Z",
+  "expires_at": "2026-05-18T04:56:15.866178Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,200sqm Paranaque Warehouse w/ Office FOR LEASE",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Parañaque, Don Bosco",
+    "region": "NCR",
+    "lat": 14.4853251,
+    "lng": 121.0296577,
+    "price_php": 870000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Next Point Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 870,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.67,
+      "NLEX": 18.83,
+      "C5": 7.59,
+      "R10": 15.49
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

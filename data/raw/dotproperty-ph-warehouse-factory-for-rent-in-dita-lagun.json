@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dita-lagun",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dita-laguna_39f72a6d6dd5-096e-d8a2-18c7-c6d32089",
+  "scraped_at": "2026-05-11T05:09:10.237115Z",
+  "first_seen_at": "2026-04-29T08:47:07.508418Z",
+  "expires_at": "2026-05-18T05:09:10.237115Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2400 sqm warehouse for rent in santa rosa laguna",
+    "sqm": 2400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Dita",
+    "region": "Laguna",
+    "lat": 14.2776704,
+    "lng": 121.1133489,
+    "price_php": 560000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,400 m2",
+      "price_raw": "Rent: ₱ 560,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.23,
+      "NLEX": 43.26,
+      "C5": 31.15,
+      "R10": 40.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

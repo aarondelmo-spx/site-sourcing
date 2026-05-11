@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-pablo-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-pablo-bulacan_1d9895f6ccef-17ae-81b2-d415-64d32089",
+  "scraped_at": "2026-05-08T03:47:15.856045Z",
+  "first_seen_at": "2026-04-29T09:00:10.506832Z",
+  "expires_at": "2026-05-15T03:47:15.856045Z",
+  "status": "active",
+  "listing": {
+    "title": "2,566 sqm Warehouse For Rent in Malolos, Bulacan",
+    "sqm": 2566.0,
+    "dock_doors": 1,
+    "clear_height_m": 17.0,
+    "address": "Bulacan, Malolos, San Pablo",
+    "region": "Bulacan",
+    "lat": 14.8378202,
+    "lng": 120.8532118,
+    "price_php": 900000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,566 m2",
+      "price_raw": "Rent: ₱ 900,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 36.6,
+      "NLEX": 6.36,
+      "C5": 24.75,
+      "R10": 22.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

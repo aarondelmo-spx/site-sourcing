@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-borol-2nd-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-borol-2nd-bulacan_3b734f429430-c580-f372-3afe-22941089",
+  "scraped_at": "2026-05-11T05:18:05.652702Z",
+  "first_seen_at": "2026-05-04T07:17:47.611280Z",
+  "expires_at": "2026-05-18T05:18:05.652702Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Spaces for Lease Rent 2,500 sqm in Balagtas Bulacan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Balagtas (Bigaa), Borol 2nd",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 400000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

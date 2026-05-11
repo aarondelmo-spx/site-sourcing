@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mahabang-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mahabang-parang-rizal_e66a51f3fdcd-9bde-7432-92e0-77d32089",
+  "scraped_at": "2026-05-11T05:24:57.515491Z",
+  "first_seen_at": "2026-05-04T07:15:09.987849Z",
+  "expires_at": "2026-05-18T05:24:57.515491Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Income Generating Warehouse for Sale in Rizal",
+    "sqm": 15675.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Angono, Mahabang Parang",
+    "region": "Rizal",
+    "lat": null,
+    "lng": null,
+    "price_php": 650000000.0,
+    "price_unit": "total",
+    "agent_name": "Geraldine Garrovillas",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 15,675 m2",
+      "price_raw": "Sale: ₱ 650,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

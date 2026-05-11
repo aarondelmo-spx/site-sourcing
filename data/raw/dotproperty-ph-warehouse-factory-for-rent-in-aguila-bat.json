@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-aguila-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-aguila-batangas_39783d508082-0cae-d442-4c11-96118089",
+  "scraped_at": "2026-05-08T04:00:56.614951Z",
+  "first_seen_at": "2026-05-04T07:10:39.194681Z",
+  "expires_at": "2026-05-15T04:00:56.614951Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Brand New Warehouses and Vacant Lots for Lease and Sale in San Jose, Batangas",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, San Jose, Aguila",
+    "region": "Batangas",
+    "lat": 13.8447026,
+    "lng": 121.0887797,
+    "price_php": 225000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 225,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 30.23,
+      "NLEX": 90.35,
+      "C5": 78.64,
+      "R10": 86.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

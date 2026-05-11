@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dulong-bay",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dulong-bayan-bulacan_5124645f88db-6960-ab32-9268-1eab1089",
+  "scraped_at": "2026-05-11T05:15:09.338465Z",
+  "first_seen_at": "2026-05-04T07:17:48.736305Z",
+  "expires_at": "2026-05-18T05:15:09.338465Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease in San Jose Del Monte, Bulacan",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, San Jose del Monte, Dulong Bayan",
+    "region": "Bulacan",
+    "lat": 14.8141687,
+    "lng": 121.0455314,
+    "price_php": 280000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 280,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 29.48,
+      "NLEX": 12.36,
+      "C5": 10.35,
+      "R10": 18.64
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

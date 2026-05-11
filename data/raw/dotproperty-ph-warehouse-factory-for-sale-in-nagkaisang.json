@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-nagkaisang",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-nagkaisang-nayon-metro-manila_7e51f44a356e-a4ae-bc82-0c9d-aeeac089",
+  "scraped_at": "2026-05-11T04:58:37.468679Z",
+  "first_seen_at": "2026-05-08T03:25:35.129377Z",
+  "expires_at": "2026-05-18T04:58:37.468679Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "7,713 sqm Warehouse for Sale in Quezon City *Nagkaisang Nayon",
+    "sqm": 7713.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Nagkaisang Nayon",
+    "region": "NCR",
+    "lat": 14.7193687,
+    "lng": 121.0198094,
+    "price_php": 347100000.0,
+    "price_unit": "total",
+    "agent_name": "Realus Realtors (Sam Mariano)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 7,713 m2",
+      "price_raw": "Sale: ₱ 347,100,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 18.8,
+      "NLEX": 4.64,
+      "C5": 3.18,
+      "R10": 8.51
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

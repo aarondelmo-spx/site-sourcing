@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-paciano-ri",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-paciano-rizal-laguna_af1863baa8a0-803e-0d52-0a20-4ae32089",
+  "scraped_at": "2026-05-08T03:43:38.922528Z",
+  "first_seen_at": "2026-05-04T07:07:20.110081Z",
+  "expires_at": "2026-05-15T03:43:38.922528Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Calamba City, Laguna",
+    "sqm": 3838.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Paciano Rizal",
+    "region": "Laguna",
+    "lat": 14.2143275,
+    "lng": 121.1308132,
+    "price_php": 150000000.0,
+    "price_unit": "total",
+    "agent_name": "Kaye Ara",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,838 m2",
+      "price_raw": "Sale: ₱ 150,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.81,
+      "NLEX": 50.55,
+      "C5": 38.44,
+      "R10": 47.53
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

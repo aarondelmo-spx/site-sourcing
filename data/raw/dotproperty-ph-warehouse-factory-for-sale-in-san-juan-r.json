@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-juan-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-juan-rizal_09fd766bfd81-af0f-ddc5-0170-9a8f3fdb",
+  "scraped_at": "2026-05-11T05:25:51.216168Z",
+  "first_seen_at": "2026-05-04T07:15:05.452446Z",
+  "expires_at": "2026-05-18T05:25:51.216168Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Taytay Rizal 4190 SQM",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, San Juan",
+    "region": "Rizal",
+    "lat": 14.5545605,
+    "lng": 121.1248669,
+    "price_php": 350000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 350,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.41,
+      "NLEX": 16.56,
+      "C5": 7.2,
+      "R10": 17.18
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

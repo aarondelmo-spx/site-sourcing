@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-15-bedroom-warehouse-factory-for-sale-in",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/15-bedroom-warehouse-factory-for-sale-in-fortune-metro-manila_8d2c2e2993bd-917f-6572-840c-f18fc089",
+  "scraped_at": "2026-05-11T04:59:16.999529Z",
+  "first_seen_at": "2026-05-04T06:53:27.262784Z",
+  "expires_at": "2026-05-18T04:59:16.999529Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE! Industrial Vacant Lot along Champaca st Brgy. Fortune Marikina City",
+    "sqm": 9089.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Marikina, Fortune",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 318115000.0,
+    "price_unit": "total",
+    "agent_name": "REinvestmentsph",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 9,089 m2",
+      "price_raw": "Sale: ₱ 318,115,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

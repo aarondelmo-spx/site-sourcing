@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ibabang-du",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ibabang-dupay-quezon_38582c879318-b66e-2282-3ebe-45c91089",
+  "scraped_at": "2026-05-04T07:16:40.624773Z",
+  "first_seen_at": "2026-05-04T07:16:40.624773Z",
+  "expires_at": "2026-05-11T07:16:40.624773Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "746.45 SQM Warehouse for Lease — Lucena City, Quezon",
+    "sqm": 746.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Quezon, Lucena, Ibabang Dupay",
+    "region": "Quezon",
+    "lat": 13.9692734,
+    "lng": 121.6291668,
+    "price_php": 186612.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 746.45 m2",
+      "price_raw": "Rent: ₱ 186,612\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 56.05,
+      "NLEX": 101.2,
+      "C5": 89.93,
+      "R10": 100.42
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

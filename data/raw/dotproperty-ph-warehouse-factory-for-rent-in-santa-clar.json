@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-clar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-clara-cavite_9665a8d5f2ff-6850-ca52-98ff-33632089",
+  "scraped_at": "2026-05-11T05:02:16.894123Z",
+  "first_seen_at": "2026-05-04T06:56:36.732979Z",
+  "expires_at": "2026-05-18T05:02:16.894123Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Industrial Warehouse For Rent / Lease at Gen Trias City Cavite High Ceiling",
+    "sqm": 7380.3,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias, Santa Clara",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 1573244.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "GENE",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 7,380.31 m2",
+      "price_raw": "Rent: ₱ 1,573,244\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

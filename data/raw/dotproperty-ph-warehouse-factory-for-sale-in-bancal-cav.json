@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bancal-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bancal-cavite_f061475af852-984e-aa42-0396-babdf089",
+  "scraped_at": "2026-05-11T05:06:03.559265Z",
+  "first_seen_at": "2026-05-04T06:58:51.570924Z",
+  "expires_at": "2026-05-18T05:06:03.559265Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Compound in Governors Drive, Bancal, Cavite",
+    "sqm": 15000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Bancal",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 2.552,
+    "price_unit": "total",
+    "agent_name": "Natalie Basmajian",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 15,000 m2",
+      "price_raw": "Sale: ₱ 2.552 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

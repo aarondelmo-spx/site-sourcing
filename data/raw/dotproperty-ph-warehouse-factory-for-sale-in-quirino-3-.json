@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-quirino-3-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-quirino-3-a-metro-manila-near-lrt-2-anonas_c9c412036dd4-c610-7782-f330-56d32089",
+  "scraped_at": "2026-05-11T04:59:00.761018Z",
+  "first_seen_at": "2026-05-04T06:53:09.555679Z",
+  "expires_at": "2026-05-18T04:59:00.761018Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Quezon City Industrial Warehouse for Sale!",
+    "sqm": 2500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Quirino 3-A",
+    "region": "NCR",
+    "lat": 14.6290672,
+    "lng": 121.0629183,
+    "price_php": 794160000.0,
+    "price_unit": "total",
+    "agent_name": "Property Source PH - RE/MAX Capital",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,500 m2",
+      "price_raw": "Sale: ₱ 794,160,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.96,
+      "NLEX": 6.32,
+      "C5": 3.18,
+      "R10": 9.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

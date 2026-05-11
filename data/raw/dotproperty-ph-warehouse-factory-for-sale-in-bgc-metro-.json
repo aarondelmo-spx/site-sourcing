@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bgc-metro-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bgc-metro-manila_d66cf6493bf2-1abe-f822-1907-d2ccf089",
+  "scraped_at": "2026-05-11T05:00:23.762958Z",
+  "first_seen_at": "2026-05-04T06:54:48.525783Z",
+  "expires_at": "2026-05-18T05:00:23.762958Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE IN TAGUIG OFFICE/WAREHOUSE",
+    "sqm": 133.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, BGC",
+    "region": "NCR",
+    "lat": 14.5516398,
+    "lng": 121.0438617,
+    "price_php": 15800000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 8",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 133 m2",
+      "price_raw": "Sale: ₱ 15,800,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.69,
+      "NLEX": 11.91,
+      "C5": 0.6,
+      "R10": 10.02
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabe-bulac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabe-bulacan_29d83d608778-cf4f-ad82-8107-1f0be089",
+  "scraped_at": "2026-04-29T09:01:14.938449Z",
+  "expires_at": "2026-05-06T09:01:14.938449Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: ₱120/SQM Commercial Warehouse in Tabe, Bulacan City | 1,898 sqm Fitted Property",
+    "sqft": 20429.9,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Tabe",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 227760.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,898 m2",
+      "price_raw": "Rent: ₱ 227,760\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

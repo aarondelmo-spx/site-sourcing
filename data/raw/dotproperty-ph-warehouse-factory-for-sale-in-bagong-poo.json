@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bagong-poo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bagong-pook-batangas_00944dbd79ed-4841-5552-adb2-4f952089",
+  "scraped_at": "2026-05-11T05:32:58.520756Z",
+  "first_seen_at": "2026-05-04T07:11:00.548402Z",
+  "expires_at": "2026-05-18T05:32:58.520756Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Agricultural Warehouse for Sale in Malvar Cadastre, Bagong Pook, Batangas",
+    "sqm": 11606.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Malvar, Bagong Pook",
+    "region": "Batangas",
+    "lat": null,
+    "lng": null,
+    "price_php": 250000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 11,606 m2",
+      "price_raw": "Sale: ₱ 250,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

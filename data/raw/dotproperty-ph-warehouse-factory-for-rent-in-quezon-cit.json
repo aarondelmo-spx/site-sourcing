@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-quezon-cit",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-quezon-city-metro-manila-near-mrt-3-kamuning_23ee8f87e502-f0fe-b352-a77b-c91d0089",
+  "scraped_at": "2026-05-11T04:55:46.150170Z",
+  "first_seen_at": "2026-05-04T06:49:53.209945Z",
+  "expires_at": "2026-05-18T04:55:46.150170Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Prime Warehouse for Lease — Near EDSA, Quezon City",
+    "sqm": 1170.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City",
+    "region": "NCR",
+    "lat": 14.650376,
+    "lng": 121.0676426,
+    "price_php": 632400.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,170 m2",
+      "price_raw": "Rent: ₱ 632,400\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.3,
+      "NLEX": 6.22,
+      "C5": 2.65,
+      "R10": 10.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

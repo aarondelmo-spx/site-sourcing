@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-muzon-bula",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-muzon-bulacan_a94be2b8ef88-77ae-d072-2298-04d32089",
+  "scraped_at": "2026-05-11T05:15:30.213862Z",
+  "first_seen_at": "2026-05-04T07:17:59.879741Z",
+  "expires_at": "2026-05-18T05:15:30.213862Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,000 sqm Warehouse for Rent in Muzon, San Jose Del Monte City, Bulacan",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, San Jose del Monte, Muzon",
+    "region": "Bulacan",
+    "lat": 14.8105371,
+    "lng": 121.0461479,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 29.09,
+      "NLEX": 12.21,
+      "C5": 9.94,
+      "R10": 18.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-duhat-bula",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-duhat-bulacan_ab7367c939f0-75df-e122-f94f-bee5d089",
+  "scraped_at": "2026-05-11T05:16:17.355067Z",
+  "first_seen_at": "2026-05-04T07:19:07.663250Z",
+  "expires_at": "2026-05-18T05:16:17.355067Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Rent in Marilao Bulacan",
+    "sqm": 1152.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bocaue, Duhat",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 186320.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Annie Go",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,152 m2",
+      "price_raw": "Rent: ₱ 186,320\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

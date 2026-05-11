@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bangal-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bangal-bataan_ff6465898974-5170-b6d2-8ca0-14d32089",
+  "scraped_at": "2026-05-04T07:27:03.403347Z",
+  "first_seen_at": "2026-05-04T07:27:03.403347Z",
+  "expires_at": "2026-05-11T07:27:03.403347Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent: 2,100 square meter Warehouses in Dinalupihan, Bataan",
+    "sqm": 2100.0,
+    "dock_doors": null,
+    "clear_height_m": 9.0,
+    "address": "Bataan, Dinalupihan, Bangal",
+    "region": "Bataan",
+    "lat": null,
+    "lng": null,
+    "price_php": 525000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,100 m2",
+      "price_raw": "Rent: ₱ 525,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bayanan-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bayanan-cavite_c57f3ce0267b-a76e-f112-5338-abfa5089",
+  "scraped_at": "2026-05-11T05:06:21.226782Z",
+  "first_seen_at": "2026-05-04T06:58:28.103018Z",
+  "expires_at": "2026-05-18T05:06:21.226782Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Progressive Village, Molino 1, Cavite!",
+    "sqm": 420.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, Bayanan",
+    "region": "Cavite",
+    "lat": 14.4311318,
+    "lng": 120.9680621,
+    "price_php": 8500000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 420 m2",
+      "price_raw": "Sale: ₱ 8,500,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.94,
+      "NLEX": 25.14,
+      "C5": 15.94,
+      "R10": 20.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

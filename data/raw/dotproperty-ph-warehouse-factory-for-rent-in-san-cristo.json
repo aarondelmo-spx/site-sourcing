@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-cristo",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-cristobal-laguna_1aedb395aaa8-d151-5e02-adfb-a2d32089",
+  "scraped_at": "2026-05-11T05:11:47.329693Z",
+  "first_seen_at": "2026-05-04T07:04:11.784856Z",
+  "expires_at": "2026-05-18T05:11:47.329693Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1440 SQM Calamba Warehouse For Lease",
+    "sqm": 1440.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, San Cristobal",
+    "region": "Laguna",
+    "lat": 14.2225688,
+    "lng": 121.1477314,
+    "price_php": 360000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Armando Sison",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,440 m2",
+      "price_raw": "Rent: ₱ 360,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.19,
+      "NLEX": 50.17,
+      "C5": 38.01,
+      "R10": 47.35
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

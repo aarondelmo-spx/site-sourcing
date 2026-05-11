@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-tondo-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tondo-metro-manila_078df0db2c0b-a35e-8162-6ce4-53941089",
+  "scraped_at": "2026-05-11T05:01:09.611095Z",
+  "first_seen_at": "2026-05-04T06:54:58.514870Z",
+  "expires_at": "2026-05-18T05:01:09.611095Z",
+  "status": "active",
+  "listing": {
+    "title": "3-Storey Industrial Warehouse for Sale in Tondo, Manila",
+    "sqm": 700.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, Tondo",
+    "region": "NCR",
+    "lat": 14.6063667,
+    "lng": 120.9777425,
+    "price_php": 135000000.0,
+    "price_unit": "total",
+    "agent_name": "Yvette De Asis",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 700 m2",
+      "price_raw": "Sale: ₱ 135,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.65,
+      "NLEX": 6.29,
+      "C5": 9.65,
+      "R10": 1.01
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

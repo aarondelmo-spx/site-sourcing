@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-do%C3%B1a-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-do%C3%B1a-imelda-metro-manila_13391d330242-383f-ca05-5cd8-bf9c5055",
+  "scraped_at": "2026-05-11T05:01:07.209545Z",
+  "first_seen_at": "2026-05-04T06:55:13.616717Z",
+  "expires_at": "2026-05-18T05:01:07.209545Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Quezon City | 1,614.50 sqm | Near SLEX Araneta Entry Point",
+    "sqm": 1614.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Doña Imelda",
+    "region": "NCR",
+    "lat": 14.6056311,
+    "lng": 121.0198007,
+    "price_php": 290610000.0,
+    "price_unit": "total",
+    "agent_name": "Yvette De Asis",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,614.5 m2",
+      "price_raw": "Sale: ₱ 290,610,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.15,
+      "NLEX": 5.44,
+      "C5": 5.56,
+      "R10": 4.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-turu-pampa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-turu-pampanga_caab2b1c93f5-bebe-b982-914f-b4d32089",
+  "scraped_at": "2026-05-11T05:26:29.994224Z",
+  "first_seen_at": "2026-05-04T07:23:12.957171Z",
+  "expires_at": "2026-05-18T05:26:29.994224Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "27,000 square meter Warehouse For Rent in San Fernando, Pampanga",
+    "sqm": 27000.0,
+    "dock_doors": null,
+    "clear_height_m": 12.0,
+    "address": "Pampanga, Magalang, Turu",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 900000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PRIME Philippines - Joy",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 27,000 m2",
+      "price_raw": "Rent: ₱ 900,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

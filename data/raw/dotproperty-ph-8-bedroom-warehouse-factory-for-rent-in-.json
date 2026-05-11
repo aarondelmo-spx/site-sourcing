@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-8-bedroom-warehouse-factory-for-rent-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/8-bedroom-warehouse-factory-for-rent-in-mambugan-rizal_cc3dc2fdc9f3-1bfe-a512-ee58-8a07d089",
+  "scraped_at": "2026-05-11T05:21:39.513840Z",
+  "first_seen_at": "2026-05-04T07:11:48.007832Z",
+  "expires_at": "2026-05-18T05:21:39.513840Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,110 sqm Antipolo Warehouse for Rent Warehouse for Lease",
+    "sqm": 2110.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Antipolo, Mambugan",
+    "region": "Rizal",
+    "lat": 14.6202984,
+    "lng": 121.1482792,
+    "price_php": 600000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Tanabe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,110 m2",
+      "price_raw": "Rent: ₱ 600,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.95,
+      "NLEX": 15.34,
+      "C5": 6.22,
+      "R10": 18.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ibabao-est",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ibabao-estancia-cebu_cd8bcf0924e1-c880-6965-ff99-5085f889",
+  "scraped_at": "2026-05-11T05:33:59.185942Z",
+  "first_seen_at": "2026-05-08T04:02:34.611800Z",
+  "expires_at": "2026-05-18T05:33:59.185942Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1300 sqm Warehouse For Rent in Mandaue City Near Pacific Mall",
+    "sqm": 1300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Mandaue, Ibabao-Estancia",
+    "region": "Cebu",
+    "lat": 10.3417649,
+    "lng": 123.9474665,
+    "price_php": 286000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realty Network Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,300 m2",
+      "price_raw": "Rent: ₱ 286,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 519.14,
+      "NLEX": 575.78,
+      "C5": 563.94,
+      "R10": 574.19
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

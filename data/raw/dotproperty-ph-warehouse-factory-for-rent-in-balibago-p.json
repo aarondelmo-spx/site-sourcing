@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balibago-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balibago-pampanga_5373f83ac475-c37f-d3e2-8032-15d32089",
+  "scraped_at": "2026-05-11T05:29:14.102184Z",
+  "first_seen_at": "2026-05-04T07:23:33.442921Z",
+  "expires_at": "2026-05-18T05:29:14.102184Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent Warehouse inside Clark Pampanga",
+    "sqm": 60.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Balibago",
+    "region": "Pampanga",
+    "lat": 15.1697631,
+    "lng": 120.5907635,
+    "price_php": 20000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 60 m2",
+      "price_raw": "Rent: ₱ 20,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 82.84,
+      "NLEX": 25.46,
+      "C5": 70.1,
+      "R10": 68.62
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

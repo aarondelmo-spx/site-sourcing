@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maamot-tar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maamot-tarlac_deeb26e80093-042e-2d42-4c8e-c46df089",
+  "scraped_at": "2026-05-04T07:31:48.867826Z",
+  "first_seen_at": "2026-05-04T07:31:46.044024Z",
+  "expires_at": "2026-05-11T07:31:48.867826Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "𝟕𝟒𝟐 𝐒𝐐𝐌 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 𝐈𝐧𝐝𝐮𝐬𝐭𝐫𝐢𝐚𝐥 𝐖𝐚𝐫𝐞𝐡𝐨𝐮𝐬𝐞 𝐍𝐨𝐰 𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐢𝐧 𝐒𝐚𝐧 𝐉𝐨𝐬𝐞, 𝐓𝐚𝐫𝐥𝐚𝐜",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": 10.0,
+    "address": "Tarlac, San Jose, Maamot",
+    "region": "Tarlac",
+    "lat": null,
+    "lng": null,
+    "price_php": 85330.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Claryz Repollo",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 85,330\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

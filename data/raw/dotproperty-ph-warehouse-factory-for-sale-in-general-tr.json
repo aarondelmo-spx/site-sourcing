@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-general-tr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-general-trias-cavite_b1b16c3ecc93-0311-f562-773c-768dd089",
+  "scraped_at": "2026-05-11T05:05:24.708034Z",
+  "first_seen_at": "2026-05-04T06:58:41.664610Z",
+  "expires_at": "2026-05-18T05:05:24.708034Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE – GENERAL TRIAS, CAVITE",
+    "sqm": 805.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, General Trias",
+    "region": "Cavite",
+    "lat": 14.3541434,
+    "lng": 120.902739,
+    "price_php": 25000000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 805 m2",
+      "price_raw": "Sale: ₱ 25,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.65,
+      "NLEX": 35.24,
+      "C5": 26.98,
+      "R10": 30.16
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

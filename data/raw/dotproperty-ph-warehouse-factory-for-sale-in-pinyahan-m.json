@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pinyahan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pinyahan-metro-manila-near-mrt-3-kamuning_8cc6c2547a57-f5e0-8d42-6716-da632089",
+  "scraped_at": "2026-05-11T04:59:16.100351Z",
+  "first_seen_at": "2026-05-04T06:53:17.767565Z",
+  "expires_at": "2026-05-18T04:59:16.100351Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale Warehouse in Brgy. Lingunan, Valenzuela",
+    "sqm": 2310.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Pinyahan",
+    "region": "NCR",
+    "lat": 14.6451861,
+    "lng": 121.0403282,
+    "price_php": 69300000.0,
+    "price_unit": "total",
+    "agent_name": "Rose Thomas",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,310 m2",
+      "price_raw": "Sale: ₱ 69,300,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.8,
+      "NLEX": 3.4,
+      "C5": 5.32,
+      "R10": 7.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

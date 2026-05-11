@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-guitnang-b",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-guitnang-bayan-ii-rizal_1d66f0eb0418-12e1-dd72-b251-73941089",
+  "scraped_at": "2026-05-11T05:24:20.974116Z",
+  "first_seen_at": "2026-05-04T07:11:55.975337Z",
+  "expires_at": "2026-05-18T05:24:20.974116Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "456sqm Commercial/Warehouse for Lease, Camarin Caloocan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, San Mateo, Guitnang Bayan II",
+    "region": "Rizal",
+    "lat": null,
+    "lng": null,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Kayoken Realty (Parent)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-talamban-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-talamban-cebu_4a7084a6685d-fe50-c182-7dfa-d9dbc089",
+  "scraped_at": "2026-05-11T05:36:13.408920Z",
+  "first_seen_at": "2026-05-08T04:04:48.740387Z",
+  "expires_at": "2026-05-18T05:36:13.408920Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Talamban , Cebu City",
+    "sqm": 935.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Talamban",
+    "region": "Cebu",
+    "lat": 10.3512949,
+    "lng": 123.9135622,
+    "price_php": 89900000.0,
+    "price_unit": "total",
+    "agent_name": "Luchie U. Malgue",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 935 m2",
+      "price_raw": "Sale: ₱ 89,900,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 516.11,
+      "NLEX": 572.86,
+      "C5": 561.01,
+      "R10": 571.25
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

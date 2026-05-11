@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-cawayan-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-cawayan-bugtong-nueva-ecija_eda7e2e1f8a2-c791-85f2-e251-59d32089",
+  "scraped_at": "2026-05-04T07:30:30.588178Z",
+  "first_seen_at": "2026-05-04T07:30:30.588178Z",
+  "expires_at": "2026-05-11T07:30:30.588178Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,211 sqm Warehouse for Rent in San Isidro, San Simon, Pampanga",
+    "sqm": 1211.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Nueva Ecija, Guimba, Cawayan Bugtong",
+    "region": "Nueva Ecija",
+    "lat": null,
+    "lng": null,
+    "price_php": 145320.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,211 m2",
+      "price_raw": "Rent: ₱ 145,320\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

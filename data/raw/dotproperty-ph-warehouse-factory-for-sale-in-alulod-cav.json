@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-alulod-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-alulod-cavite_a8a130a8f599-7d81-8a72-0236-e9851089",
+  "scraped_at": "2026-05-11T05:05:27.005245Z",
+  "first_seen_at": "2026-05-04T06:59:01.078164Z",
+  "expires_at": "2026-05-18T05:05:27.005245Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1.3 Hectares Propert For Sale In Indang, Cavite - Ideal For Logistics Warehouse",
+    "sqm": 13461.5,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Indang, Alulod",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 121535500.0,
+    "price_unit": "total",
+    "agent_name": "Broker She Manalang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 13,461.5 m2",
+      "price_raw": "Sale: ₱ 121,535,500"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

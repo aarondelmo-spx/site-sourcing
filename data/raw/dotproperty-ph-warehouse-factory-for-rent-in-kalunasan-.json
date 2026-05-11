@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-kalunasan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-kalunasan-cebu_09bc63f79161-3210-e512-05b0-a6d32089",
+  "scraped_at": "2026-05-11T05:35:16.395373Z",
+  "first_seen_at": "2026-05-08T04:03:05.943472Z",
+  "expires_at": "2026-05-18T05:35:16.395373Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "906 sqm Warehouse near Port Cebu",
+    "sqm": 906.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Kalunasan",
+    "region": "Cebu",
+    "lat": 10.3341726,
+    "lng": 123.8814853,
+    "price_php": 271800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 906 m2",
+      "price_raw": "Rent: ₱ 271,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 515.64,
+      "NLEX": 572.55,
+      "C5": 560.68,
+      "R10": 570.91
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

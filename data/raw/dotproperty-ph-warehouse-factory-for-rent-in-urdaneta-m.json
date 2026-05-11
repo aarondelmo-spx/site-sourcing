@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-urdaneta-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-urdaneta-metro-manila-near-mrt-3-buendia_0ca2a90bec31-5621-54f2-bf72-83d32089",
+  "scraped_at": "2026-05-11T04:56:23.582639Z",
+  "first_seen_at": "2026-05-04T06:49:27.281907Z",
+  "expires_at": "2026-05-18T04:56:23.582639Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Office Warehouse for lease at Makati City, Metro Manila",
+    "sqm": 783.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Makati, Urdaneta",
+    "region": "NCR",
+    "lat": 14.5606726,
+    "lng": 121.0277636,
+    "price_php": 626400.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Easy Property Match",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 783 m2",
+      "price_raw": "Rent: ₱ 626,400\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.5,
+      "NLEX": 10.51,
+      "C5": 2.57,
+      "R10": 8.1
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

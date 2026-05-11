@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-balibago-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-balibago-laguna_d96e1b018cca-1d7e-3832-ce44-dc632089",
+  "scraped_at": "2026-05-11T05:08:17.365559Z",
+  "first_seen_at": "2026-05-04T07:02:01.997836Z",
+  "expires_at": "2026-05-18T05:08:17.365559Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Lease Santa Rosa Laguna Industrial Park main road",
+    "sqm": 2600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Balibago",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 598000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Anna AD",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,600 m2",
+      "price_raw": "Rent: ₱ 598,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

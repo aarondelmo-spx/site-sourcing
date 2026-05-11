@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-prinza-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-prinza-laguna_e1f5dd4410c7-4331-e342-d36e-ee631089",
+  "scraped_at": "2026-05-08T03:40:04.847215Z",
+  "first_seen_at": "2026-04-29T08:51:28.009072Z",
+  "expires_at": "2026-05-15T03:40:04.847215Z",
+  "status": "active",
+  "listing": {
+    "title": "WAREHOUSE FOR LEASE IN  CALAMBA LAGUNA",
+    "sqm": 1547.2,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Prinza",
+    "region": "Laguna",
+    "lat": 14.196301,
+    "lng": 121.1347103,
+    "price_php": 456068.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,547.22 m2",
+      "price_raw": "Rent: ₱ 456,068\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.84,
+      "NLEX": 52.6,
+      "C5": 40.49,
+      "R10": 49.56
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-busdi-buki",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-busdi-bukidnon_323863489f2d-b08e-f972-d347-a3d32089",
+  "scraped_at": "2026-05-04T07:45:01.462419Z",
+  "first_seen_at": "2026-05-04T07:45:01.462419Z",
+  "expires_at": "2026-05-11T07:45:01.462419Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Valencia City, Bukidnon",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bukidnon, Malaybalay, Busdi",
+    "region": "Bukidnon",
+    "lat": null,
+    "lng": null,
+    "price_php": 224000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 2,000 m2",
+      "price_raw": "Rent: ₱ 224,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

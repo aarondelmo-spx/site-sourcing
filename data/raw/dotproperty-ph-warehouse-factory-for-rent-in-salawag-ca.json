@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-salawag-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-salawag-cavite_1944d822ae12-6a11-02b2-7e4c-85d32089",
+  "scraped_at": "2026-05-11T05:04:20.005747Z",
+  "first_seen_at": "2026-05-04T06:57:44.595229Z",
+  "expires_at": "2026-05-18T05:04:20.005747Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "498.75 sqm Warehouse For Lease at Dasmarinas Cavite",
+    "sqm": 498.8,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Dasmariñas, Salawag",
+    "region": "Cavite",
+    "lat": 14.3611819,
+    "lng": 120.9855706,
+    "price_php": 154612.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 498.75 m2",
+      "price_raw": "Rent: ₱ 154,612\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.72,
+      "NLEX": 32.62,
+      "C5": 22.19,
+      "R10": 28.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-upper-bicu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-upper-bicutan-metro-manila_955301598e90-eafe-0e62-3572-66d32089",
+  "scraped_at": "2026-05-11T04:56:49.674052Z",
+  "first_seen_at": "2026-05-08T03:24:37.749739Z",
+  "expires_at": "2026-05-18T04:56:49.674052Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "High Ceiling  3,500 sqm Taguig City Commercial Warehouse For Rent",
+    "sqm": 3500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Upper Bicutan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 920000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,500 m2",
+      "price_raw": "Rent: ₱ 920,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

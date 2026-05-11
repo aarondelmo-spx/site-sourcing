@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-rita",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-rita-bulacan_13f05a52f043-4d40-e462-b9d8-ec951089",
+  "scraped_at": "2026-05-11T05:18:00.415467Z",
+  "first_seen_at": "2026-05-04T07:18:30.089476Z",
+  "expires_at": "2026-05-18T05:18:00.415467Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR LEASE - 4 Warehouse Building with Canopy in Guiguinto, Bulacan",
+    "sqm": 1887.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Guiguinto, Santa Rita",
+    "region": "Bulacan",
+    "lat": 14.8568787,
+    "lng": 120.8646069,
+    "price_php": 263201.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,887 m2",
+      "price_raw": "Rent: ₱ 263,201\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 37.91,
+      "NLEX": 4.6,
+      "C5": 24.94,
+      "R10": 23.51
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

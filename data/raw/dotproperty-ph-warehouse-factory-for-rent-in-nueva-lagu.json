@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-nueva-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-nueva-laguna_3c17d9044d78-990e-fb22-b951-efd02089",
+  "scraped_at": "2026-05-11T05:07:53.332684Z",
+  "first_seen_at": "2026-05-04T07:01:32.471285Z",
+  "expires_at": "2026-05-18T05:07:53.332684Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "200.85 sqm Warehouse for Rent at Nueva, San Pedro City, Laguna",
+    "sqm": 200.8,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, San Pedro, Nueva",
+    "region": "Laguna",
+    "lat": 14.3512724,
+    "lng": 121.0633102,
+    "price_php": 44187.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 200.85 m2",
+      "price_raw": "Rent: ₱ 44,187\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.02,
+      "NLEX": 34.11,
+      "C5": 22.25,
+      "R10": 30.77
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

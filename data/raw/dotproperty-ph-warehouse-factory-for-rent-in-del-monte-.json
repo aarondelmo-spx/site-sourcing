@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-del-monte-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-del-monte-metro-manila_952fddabad44-464e-b142-ab7e-52532089",
+  "scraped_at": "2026-05-11T04:57:40.641259Z",
+  "first_seen_at": "2026-05-04T06:49:32.863105Z",
+  "expires_at": "2026-05-18T04:57:40.641259Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "4 storey warehouse & office for lease near EDSA, Skyway, Quezon City",
+    "sqm": 1200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Del Monte",
+    "region": "NCR",
+    "lat": 14.642094,
+    "lng": 121.0177929,
+    "price_php": 450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Catherine Clidoro",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,200 m2",
+      "price_raw": "Rent: ₱ 450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 10.21,
+      "NLEX": 1.54,
+      "C5": 7.65,
+      "R10": 4.81
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

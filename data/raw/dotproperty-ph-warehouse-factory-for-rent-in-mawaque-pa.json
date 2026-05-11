@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mawaque-pa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mawaque-pampanga_61a3b910ca17-a2be-5bd2-583c-66d32089",
+  "scraped_at": "2026-05-11T05:29:18.288893Z",
+  "first_seen_at": "2026-05-04T07:23:04.449770Z",
+  "expires_at": "2026-05-18T05:29:18.288893Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Lease Warehouse in Mabalacat City, Pampanga",
+    "sqm": 7740.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Mabalacat, Mawaque",
+    "region": "Pampanga",
+    "lat": 15.2138937,
+    "lng": 120.585933,
+    "price_php": 1935000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 7,740 m2",
+      "price_raw": "Rent: ₱ 1,935,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 87.23,
+      "NLEX": 26.98,
+      "C5": 74.02,
+      "R10": 72.96
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

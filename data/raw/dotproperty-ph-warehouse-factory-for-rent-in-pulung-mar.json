@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pulung-mar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pulung-maragul-pampanga_8ea8316a546b-d22f-ae22-ed37-da43c089",
+  "scraped_at": "2026-05-11T05:29:34.885626Z",
+  "first_seen_at": "2026-05-04T07:25:56.951688Z",
+  "expires_at": "2026-05-18T05:29:34.885626Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "WAREHOUSES FOR LEASE IN ANGELES CITY, PAMPANGA",
+    "sqm": 2556.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Pulung Maragul",
+    "region": "Pampanga",
+    "lat": 15.164007,
+    "lng": 120.6054137,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 8",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,556 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 81.44,
+      "NLEX": 23.83,
+      "C5": 68.55,
+      "R10": 67.19
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

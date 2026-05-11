@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tatalon-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tatalon-metro-manila_af24fb2ca9b4-072e-46b2-c240-81d32089",
+  "scraped_at": "2026-05-11T04:57:33.189639Z",
+  "first_seen_at": "2026-05-04T06:50:10.806351Z",
+  "expires_at": "2026-05-18T04:57:33.189639Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,800 sqm Warehouse for Rent Along G. Araneta Avenue, Quezon City",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Tatalon",
+    "region": "NCR",
+    "lat": 14.6189516,
+    "lng": 121.0130295,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.66,
+      "NLEX": 3.87,
+      "C5": 7.05,
+      "R10": 3.78
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

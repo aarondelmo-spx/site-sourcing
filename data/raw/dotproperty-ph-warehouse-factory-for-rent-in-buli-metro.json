@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-buli-metro",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-buli-metro-manila_6c6cfe4e29b9-2ee1-a3c2-cf61-81d32089",
+  "scraped_at": "2026-05-11T04:57:33.985033Z",
+  "first_seen_at": "2026-05-04T06:50:49.750830Z",
+  "expires_at": "2026-05-18T04:57:33.985033Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,000 sqm Showroom & Warehouse for Rent in Buli, Muntinlupa City",
+    "sqm": 2000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Buli",
+    "region": "NCR",
+    "lat": 14.4439276,
+    "lng": 121.0454677,
+    "price_php": 800000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,000 m2",
+      "price_raw": "Rent: ₱ 800,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.99,
+      "NLEX": 23.63,
+      "C5": 11.9,
+      "R10": 20.4
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

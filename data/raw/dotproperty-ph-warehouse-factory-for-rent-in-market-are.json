@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-market-are",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-market-area-laguna_835a81ea3a1f-250e-0782-1439-74d32089",
+  "scraped_at": "2026-05-11T05:08:59.888997Z",
+  "first_seen_at": "2026-05-04T07:02:09.586726Z",
+  "expires_at": "2026-05-18T05:08:59.888997Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2,240 sqm warehouse for rent in santa rosa laguna",
+    "sqm": 2240.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Santa Rosa, Market Area",
+    "region": "Laguna",
+    "lat": 14.315539,
+    "lng": 121.1110389,
+    "price_php": 450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,240 m2",
+      "price_raw": "Rent: ₱ 450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.9,
+      "NLEX": 39.14,
+      "C5": 27.0,
+      "R10": 36.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

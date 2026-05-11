@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-basak-pard",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-basak-pardo-cebu_a9c6b8d06385-d61e-e732-eaf0-721ec089",
+  "scraped_at": "2026-05-08T04:04:34.076256Z",
+  "first_seen_at": "2026-05-08T04:04:34.076256Z",
+  "expires_at": "2026-05-15T04:04:34.076256Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "268 sqm Warehouse in SRP Cebu",
+    "sqm": 268.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Basak Pardo",
+    "region": "Cebu",
+    "lat": 10.28127,
+    "lng": 123.8795782,
+    "price_php": 65000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 268 m2",
+      "price_raw": "Rent: ₱ 65,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.34,
+      "NLEX": 577.4,
+      "C5": 565.51,
+      "R10": 575.72
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-7-bedroom-warehouse-factory-for-sale-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/7-bedroom-warehouse-factory-for-sale-in-commonwealth-metro-manila_7c34a1e5c168-8bb1-fd52-6f1a-04b1e089",
+  "scraped_at": "2026-05-11T04:59:18.257129Z",
+  "first_seen_at": "2026-05-04T06:53:18.937715Z",
+  "expires_at": "2026-05-18T04:59:18.257129Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale!! 3 Storey Office building with Warehouse along Payatas road, Commonwealth Quezon City",
+    "sqm": 1800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Commonwealth",
+    "region": "NCR",
+    "lat": 14.6998459,
+    "lng": 121.0819632,
+    "price_php": 150000000.0,
+    "price_unit": "total",
+    "agent_name": "REinvestmentsph",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,800 m2",
+      "price_raw": "Sale: ₱ 150,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.96,
+      "NLEX": 9.3,
+      "C5": 1.11,
+      "R10": 13.43
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

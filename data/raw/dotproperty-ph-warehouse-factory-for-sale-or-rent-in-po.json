@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-po",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-poblacion-bulacan_d930e6b0ea6e-9530-d932-b185-d67dd089",
+  "scraped_at": "2026-05-08T03:49:15.122069Z",
+  "first_seen_at": "2026-04-29T09:02:40.120868Z",
+  "expires_at": "2026-05-15T03:49:15.122069Z",
+  "status": "active",
+  "listing": {
+    "title": "WAREHOUSE FOR SALE OR FOR LEASE IN BUSTOS, BULACAN",
+    "sqm": 1000.0,
+    "dock_doors": 1,
+    "clear_height_m": 13.7,
+    "address": "Bulacan, Bustos, Poblacion",
+    "region": "Bulacan",
+    "lat": 14.9537635,
+    "lng": 120.9108074,
+    "price_php": 32000000.0,
+    "price_unit": "total",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 9",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Sale: ₱ 32,000,000\n                                                                                                    Rent: ₱ 140,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 46.34,
+      "NLEX": 3.67,
+      "C5": 29.84,
+      "R10": 32.31
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-cabuloan-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-cabuloan-pangasinan_99edd77633ad-2621-a352-2239-9c70d089",
+  "scraped_at": "2026-05-04T07:33:34.496730Z",
+  "first_seen_at": "2026-05-04T07:33:34.496730Z",
+  "expires_at": "2026-05-11T07:33:34.496730Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Property for sale in Urdaneta, Pangasinan",
+    "sqm": 2265.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pangasinan, Urdaneta, Cabuloan",
+    "region": "Pangasinan",
+    "lat": 15.9806923,
+    "lng": 120.5913401,
+    "price_php": 65000000.0,
+    "price_unit": "total",
+    "agent_name": "Santos Knight Frank  ICM",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 2,265 m2",
+      "price_raw": "Sale: ₱ 65,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 165.53,
+      "NLEX": 96.47,
+      "C5": 148.41,
+      "R10": 151.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

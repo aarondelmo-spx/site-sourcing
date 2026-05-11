@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-plainview-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-plainview-metro-manila-near-mrt-3-boni_05b1ff8b57b5-f821-c732-bf58-6dd50089",
+  "scraped_at": "2026-05-11T04:56:11.284377Z",
+  "first_seen_at": "2026-05-04T06:49:58.951073Z",
+  "expires_at": "2026-05-18T04:56:11.284377Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Mandaluyong City",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Mandaluyong, Plainview",
+    "region": "NCR",
+    "lat": 14.5761957,
+    "lng": 121.0323463,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "27C Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 3.22,
+      "NLEX": 8.94,
+      "C5": 3.2,
+      "R10": 7.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

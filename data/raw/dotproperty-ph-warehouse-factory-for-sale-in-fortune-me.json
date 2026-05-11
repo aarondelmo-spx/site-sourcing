@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-fortune-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-fortune-metro-manila_5a99359125af-8390-f772-a6fa-e348f089",
+  "scraped_at": "2026-05-08T03:27:46.519746Z",
+  "first_seen_at": "2026-05-04T06:52:30.461340Z",
+  "expires_at": "2026-05-15T03:27:46.519746Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE: WAREHOUSE IN MARIKINA",
+    "sqm": 3939.8,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Marikina, Fortune",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 236388000.0,
+    "price_unit": "total",
+    "agent_name": "Sophia Ng",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,939.8 m2",
+      "price_raw": "Sale: ₱ 236,388,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

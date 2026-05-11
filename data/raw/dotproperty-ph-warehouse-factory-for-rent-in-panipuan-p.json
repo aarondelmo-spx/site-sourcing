@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-panipuan-p",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-panipuan-pampanga_a3c211ad04fd-2d71-b662-769f-1ae32089",
+  "scraped_at": "2026-05-11T05:28:26.490716Z",
+  "first_seen_at": "2026-05-04T07:23:12.010857Z",
+  "expires_at": "2026-05-18T05:28:26.490716Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For rent warehouse in Panipuan San Fernando Pampanga",
+    "sqm": 1480.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Mexico, Panipuan",
+    "region": "Pampanga",
+    "lat": 15.0896185,
+    "lng": 120.6673583,
+    "price_php": 193000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,480 m2",
+      "price_raw": "Rent: ₱ 193,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 70.88,
+      "NLEX": 18.08,
+      "C5": 57.99,
+      "R10": 56.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

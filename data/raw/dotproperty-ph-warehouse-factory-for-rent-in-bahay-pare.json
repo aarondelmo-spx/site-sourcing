@@ -1,0 +1,37 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bahay-pare",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bahay-pare-bulacan_fcfd28df8abb-71fe-bc32-d17e-feb6f089",
+  "scraped_at": "2026-05-08T03:48:04.310897Z",
+  "first_seen_at": "2026-05-08T03:48:04.310897Z",
+  "expires_at": "2026-05-15T03:48:04.310897Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "338 sqm Warehouse for Rent in Banker's Village, North Caloocan",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Meycauayan, Bahay Pare",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 100000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 100,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

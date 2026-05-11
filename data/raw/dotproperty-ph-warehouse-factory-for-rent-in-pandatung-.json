@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pandatung-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pandatung-bataan_27cbf7a21f1d-18be-3002-2750-05d32089",
+  "scraped_at": "2026-05-04T07:27:04.328891Z",
+  "first_seen_at": "2026-05-04T07:27:04.328891Z",
+  "expires_at": "2026-05-11T07:27:04.328891Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "10,000 square meter Warehouse For Rent in Bataan",
+    "sqm": 10000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bataan, Hermosa, Pandatung",
+    "region": "Bataan",
+    "lat": 14.8143652,
+    "lng": 120.4863151,
+    "price_php": 1900000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 10,000 m2",
+      "price_raw": "Rent: ₱ 1,900,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 64.37,
+      "NLEX": 45.54,
+      "C5": 61.41,
+      "R10": 53.67
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

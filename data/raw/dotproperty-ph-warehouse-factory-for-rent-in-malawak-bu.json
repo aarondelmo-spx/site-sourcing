@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-malawak-bu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-malawak-bulacan_8214a04dabaf-c06f-dfc2-7eed-08d32089",
+  "scraped_at": "2026-05-11T05:15:18.041057Z",
+  "first_seen_at": "2026-05-04T07:17:54.070931Z",
+  "expires_at": "2026-05-18T05:15:18.041057Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Bustos, Bulacan. Accessible to 20-40 footer trucks!",
+    "sqm": 1812.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bustos, Malawak",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 199320.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,812 m2",
+      "price_raw": "Rent: ₱ 199,320\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

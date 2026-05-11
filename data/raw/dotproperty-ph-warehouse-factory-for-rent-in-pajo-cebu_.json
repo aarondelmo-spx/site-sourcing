@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pajo-cebu_",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pajo-cebu_9865883db484-c12e-0142-d29c-99361089",
+  "scraped_at": "2026-05-11T05:34:15.789826Z",
+  "first_seen_at": "2026-05-04T03:01:52.854517Z",
+  "expires_at": "2026-05-18T05:34:15.789826Z",
+  "status": "active",
+  "listing": {
+    "title": "1,540 SQM Warehouse in Lapu-Lapu City - Peza Accreditedd Warehouse",
+    "sqm": 1540.0,
+    "dock_doors": 1,
+    "clear_height_m": 6.5,
+    "address": "Cebu, Lapu-Lapu, Pajo",
+    "region": "Cebu",
+    "lat": 10.3124067,
+    "lng": 123.9602091,
+    "price_php": 315000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,540 m2",
+      "price_raw": "Rent: ₱ 315,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 522.6,
+      "NLEX": 579.27,
+      "C5": 567.43,
+      "R10": 577.68
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

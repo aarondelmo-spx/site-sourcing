@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pio-del-pi",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pio-del-pilar-metro-manila_d0b1df18c966-8eef-5ff2-4b0b-4ae32089",
+  "scraped_at": "2026-05-11T04:57:39.524907Z",
+  "first_seen_at": "2026-05-04T06:50:12.907635Z",
+  "expires_at": "2026-05-18T04:57:39.524907Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN56192 Warehouse For Rent in MAKATI!",
+    "sqm": 630.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Makati, Pio Del Pilar",
+    "region": "NCR",
+    "lat": 14.5581672,
+    "lng": 121.0132802,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 630 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.06,
+      "NLEX": 10.62,
+      "C5": 3.97,
+      "R10": 7.4
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

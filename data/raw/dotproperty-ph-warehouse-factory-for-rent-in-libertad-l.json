@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-libertad-l",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-libertad-leyte_fb79c2cbb238-c30e-6e92-9f12-35c91089",
+  "scraped_at": "2026-05-04T07:42:39.368731Z",
+  "first_seen_at": "2026-05-04T07:42:39.368731Z",
+  "expires_at": "2026-05-11T07:42:39.368731Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1500 square meters Warehouse for lease in Tacloban City, Leyte",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Leyte, Tacloban, Libertad",
+    "region": "Leyte",
+    "lat": 11.2509211,
+    "lng": 125.0068755,
+    "price_php": 352500.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 352,500\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 527.28,
+      "NLEX": 575.06,
+      "C5": 564.42,
+      "R10": 574.91
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

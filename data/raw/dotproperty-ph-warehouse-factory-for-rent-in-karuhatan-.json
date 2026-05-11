@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-karuhatan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-karuhatan-metro-manila_81d5d93cbe12-1b9f-0652-7541-89d32089",
+  "scraped_at": "2026-05-11T04:56:41.968961Z",
+  "first_seen_at": "2026-05-04T06:51:08.322520Z",
+  "expires_at": "2026-05-18T04:56:41.968961Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "822 sqm Warehouse Building for Rent in Karuhatan, Valenzuela City",
+    "sqm": 822.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Karuhatan",
+    "region": "NCR",
+    "lat": 14.6863729,
+    "lng": 120.9756853,
+    "price_php": 160000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 822 m2",
+      "price_raw": "Rent: ₱ 160,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.83,
+      "NLEX": 1.66,
+      "C5": 8.81,
+      "R10": 2.59
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-ma",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-malabanias-pampanga_ac2d085425ce-b12e-3552-14f0-6fbc8089",
+  "scraped_at": "2026-05-11T05:30:13.887464Z",
+  "first_seen_at": "2026-05-04T06:58:35.399982Z",
+  "expires_at": "2026-05-18T05:30:13.887464Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "COMMERCIAL / WAREHOUSE FOR RENT/SALE IN MALABANIAS, ANGELES CITY PAMPANGA",
+    "sqm": 1819.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Malabanias",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 130000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,819 m2",
+      "price_raw": "Sale: ₱ 130,000,000\n                                                                                                    Rent: ₱ 500,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

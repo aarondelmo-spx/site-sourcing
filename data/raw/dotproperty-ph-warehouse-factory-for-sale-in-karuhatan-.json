@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-karuhatan-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-karuhatan-metro-manila_094a618732af-067f-8d42-5946-ba632089",
+  "scraped_at": "2026-05-11T05:01:20.718358Z",
+  "first_seen_at": "2026-05-04T06:55:07.909786Z",
+  "expires_at": "2026-05-18T05:01:20.718358Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Karuhatan, Valenzuela",
+    "sqm": 583.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Karuhatan",
+    "region": "NCR",
+    "lat": 14.6863729,
+    "lng": 120.9756853,
+    "price_php": 35000000.0,
+    "price_unit": "total",
+    "agent_name": "Zobelle88 Brokerage",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 583 m2",
+      "price_raw": "Sale: ₱ 35,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 15.83,
+      "NLEX": 1.66,
+      "C5": 8.81,
+      "R10": 2.59
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

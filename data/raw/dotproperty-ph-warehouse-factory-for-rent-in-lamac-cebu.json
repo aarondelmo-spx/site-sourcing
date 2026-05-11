@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lamac-cebu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lamac-cebu_2ebd1c1f9d99-0000-5482-99eb-45c91089",
+  "scraped_at": "2026-05-11T05:34:50.460917Z",
+  "first_seen_at": "2026-05-08T04:02:31.837373Z",
+  "expires_at": "2026-05-18T05:34:50.460917Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "570 square meters Warehouse for Rent near SM Consolacion-Cebu",
+    "sqm": 570.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Consolacion, Lamac",
+    "region": "Cebu",
+    "lat": 10.3801312,
+    "lng": 123.9666254,
+    "price_php": 131100.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 570 m2",
+      "price_raw": "Rent: ₱ 131,100\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 516.92,
+      "NLEX": 573.38,
+      "C5": 561.56,
+      "R10": 571.83
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

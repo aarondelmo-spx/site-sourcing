@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santo-domi",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santo-domingo-rizal_5c587940f9f8-6d71-1772-9465-beb6f089",
+  "scraped_at": "2026-05-11T05:24:30.425954Z",
+  "first_seen_at": "2026-05-04T06:50:09.522712Z",
+  "expires_at": "2026-05-18T05:24:30.425954Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "908 sqm Warehouse for Rent in Floodway, Cainta",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Cainta, Santo Domingo",
+    "region": "Rizal",
+    "lat": 14.5848634,
+    "lng": 121.1184621,
+    "price_php": 366100.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 366,100\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.38,
+      "NLEX": 13.96,
+      "C5": 4.74,
+      "R10": 15.48
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

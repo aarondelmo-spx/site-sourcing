@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-guevarra-t",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-guevarra-tarlac_39587a801526-754f-73b2-de09-c5d32089",
+  "scraped_at": "2026-05-04T07:31:44.919126Z",
+  "first_seen_at": "2026-05-04T07:31:10.498965Z",
+  "expires_at": "2026-05-11T07:31:44.919126Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse For Rent in San Fernando Pampanga JASA Highway",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, La Paz, Guevarra",
+    "region": "Tarlac",
+    "lat": null,
+    "lng": null,
+    "price_php": 90000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 400 m2",
+      "price_raw": "Rent: ₱ 90,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bi%C3%B1an",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bi%C3%B1ang-1st-bulacan_1e3155c2e087-0c9e-3572-681d-09d32089",
+  "scraped_at": "2026-05-11T05:15:35.372542Z",
+  "first_seen_at": "2026-05-04T07:01:03.872584Z",
+  "expires_at": "2026-05-18T05:15:35.372542Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,152 sqm Warehouse for Rent (22-C) in Bocaue, Bulacan",
+    "sqm": 1152.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Bocaue, Biñang 1st",
+    "region": "Bulacan",
+    "lat": 14.8053472,
+    "lng": 120.9295381,
+    "price_php": 174800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,152 m2",
+      "price_raw": "Rent: ₱ 174,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 29.94,
+      "NLEX": 1.04,
+      "C5": 15.92,
+      "R10": 15.72
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-loma-lagun",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loma-laguna_31b4c69f1a2f-75de-fb52-3fb9-68532089",
+  "scraped_at": "2026-05-11T05:09:13.019202Z",
+  "first_seen_at": "2026-05-04T02:31:51.814579Z",
+  "expires_at": "2026-05-18T05:09:13.019202Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PEZA Warehouse Space for Lease/Rent in Biñan Laguna",
+    "sqm": 15600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Biñan, Loma",
+    "region": "Laguna",
+    "lat": 14.288166,
+    "lng": 121.0637866,
+    "price_php": 2530000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "ME REALTY INC",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 15,600 m2",
+      "price_raw": "Rent: ₱ 2,530,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.82,
+      "NLEX": 41.05,
+      "C5": 29.26,
+      "R10": 37.54
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

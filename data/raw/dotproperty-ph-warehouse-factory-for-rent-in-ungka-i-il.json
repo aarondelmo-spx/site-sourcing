@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ungka-i-il",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ungka-i-iloilo_f5c079ca018d-380f-b992-4ddf-45c91089",
+  "scraped_at": "2026-05-11T05:37:04.649639Z",
+  "first_seen_at": "2026-05-04T07:41:12.335813Z",
+  "expires_at": "2026-05-18T05:37:04.649639Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Rent Warehouse near Robinsons Place Pavia, Iloilo, 1,600 Square Meters",
+    "sqm": 1600.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Iloilo, Pavia, Ungka I",
+    "region": "Iloilo",
+    "lat": 10.7565977,
+    "lng": 122.5391881,
+    "price_php": 300000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,600 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 403.34,
+      "NLEX": 463.98,
+      "C5": 451.8,
+      "R10": 461.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

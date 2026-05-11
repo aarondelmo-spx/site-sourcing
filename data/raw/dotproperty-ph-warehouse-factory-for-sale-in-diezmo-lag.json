@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-diezmo-lag",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-diezmo-laguna_ff22cd8c4f59-e381-bf22-4956-6b32c089",
+  "scraped_at": "2026-05-11T05:14:29.754145Z",
+  "first_seen_at": "2026-05-04T07:07:22.078132Z",
+  "expires_at": "2026-05-18T05:14:29.754145Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PEZA Warehouse for Sale in LISP I, Cabuyao, Laguna",
+    "sqm": 4902.0,
+    "dock_doors": null,
+    "clear_height_m": 16.0,
+    "address": "Laguna, Cabuyao, Diezmo",
+    "region": "Laguna",
+    "lat": 14.234348,
+    "lng": 121.0901342,
+    "price_php": 350000000.0,
+    "price_unit": "total",
+    "agent_name": "Metric Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 4,902 m2",
+      "price_raw": "Sale: ₱ 350,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.23,
+      "NLEX": 47.41,
+      "C5": 35.47,
+      "R10": 44.06
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

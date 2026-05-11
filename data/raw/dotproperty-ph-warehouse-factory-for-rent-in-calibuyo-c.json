@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-calibuyo-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-calibuyo-cavite_68aa2327b6e1-7bbf-3ac2-7ede-c5d32089",
+  "scraped_at": "2026-05-08T03:31:10.161946Z",
+  "first_seen_at": "2026-04-29T08:36:59.054884Z",
+  "expires_at": "2026-05-15T03:31:10.161946Z",
+  "status": "active",
+  "listing": {
+    "title": "5676 sqm warehouse for rent in tanza cavite",
+    "sqm": 5676.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Tanza, Calibuyo",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 1700000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,676 m2",
+      "price_raw": "Rent: ₱ 1,700,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

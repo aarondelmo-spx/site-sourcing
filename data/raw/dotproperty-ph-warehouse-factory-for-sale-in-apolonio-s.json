@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-apolonio-s",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-apolonio-samson-metro-manila-near-lrt-1-balintawak_576bb0310d78-e4ae-b402-bde3-95a0d089",
+  "scraped_at": "2026-05-11T05:01:14.058555Z",
+  "first_seen_at": "2026-05-04T06:54:09.169072Z",
+  "expires_at": "2026-05-18T05:01:14.058555Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1200sqm Warehouse with Office, Quarters and 20-Car Garage For Sale at Balintawak Quezon City",
+    "sqm": 1249.6,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Apolonio Samson",
+    "region": "NCR",
+    "lat": 14.6546579,
+    "lng": 121.0137052,
+    "price_php": 78000000.0,
+    "price_unit": "total",
+    "agent_name": "Team Bugatti - Realus Realtors",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,249.6 m2",
+      "price_raw": "Sale: ₱ 78,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.62,
+      "NLEX": 0.43,
+      "C5": 7.65,
+      "R10": 4.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

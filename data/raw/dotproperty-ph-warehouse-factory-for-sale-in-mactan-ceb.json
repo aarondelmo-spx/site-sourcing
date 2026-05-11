@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mactan-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mactan-cebu_2c9f208a8e29-9f9e-0aa2-cc41-39d08089",
+  "scraped_at": "2026-05-11T05:36:34.056242Z",
+  "first_seen_at": "2026-05-08T04:04:51.665118Z",
+  "expires_at": "2026-05-18T05:36:34.056242Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: Warehouse in Lapu-Lapu City, Cebu",
+    "sqm": 18294.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Lapu-Lapu, Mactan",
+    "region": "Cebu",
+    "lat": 10.28815,
+    "lng": 124.0073639,
+    "price_php": 350000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 18,294 m2",
+      "price_raw": "Sale: ₱ 350,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 527.81,
+      "NLEX": 584.36,
+      "C5": 572.53,
+      "R10": 582.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

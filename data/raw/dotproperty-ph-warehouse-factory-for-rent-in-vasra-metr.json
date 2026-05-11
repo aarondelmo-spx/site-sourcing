@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-vasra-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-vasra-metro-manila_6bc119e1eb61-a64f-c7b2-44ec-a3d32089",
+  "scraped_at": "2026-05-11T04:57:14.390539Z",
+  "first_seen_at": "2026-05-04T06:51:37.409245Z",
+  "expires_at": "2026-05-18T04:57:14.390539Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN54540 Commercial Warehouse Novaliches QC! P350/sqm.avl @NA The 1500 square met",
+    "sqm": 1500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Vasra",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 525000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 1,500 m2",
+      "price_raw": "Rent: ₱ 525,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

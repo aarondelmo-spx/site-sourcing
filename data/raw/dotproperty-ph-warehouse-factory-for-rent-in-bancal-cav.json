@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bancal-cav",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bancal-cavite_f05490204dc3-9361-3cc2-403f-c5d32089",
+  "scraped_at": "2026-05-11T05:04:03.050592Z",
+  "first_seen_at": "2026-05-04T02:26:49.353076Z",
+  "expires_at": "2026-05-18T05:04:03.050592Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2376 sqm warehouse for rent in caloocan",
+    "sqm": 2376.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Carmona, Bancal",
+    "region": "Cavite",
+    "lat": 14.2751378,
+    "lng": 121.0105873,
+    "price_php": 850000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,376 m2",
+      "price_raw": "Rent: ₱ 850,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.89,
+      "NLEX": 42.08,
+      "C5": 30.95,
+      "R10": 38.0
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

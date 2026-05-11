@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pampang-pa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pampang-pampanga_2b86d4b5d8d0-3950-cb92-e786-03d32089",
+  "scraped_at": "2026-05-11T05:27:07.129567Z",
+  "first_seen_at": "2026-05-04T07:23:29.551588Z",
+  "expires_at": "2026-05-18T05:27:07.129567Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "400 sqm Warehouse for Rent near Friendship, Angeles City, Pampanga",
+    "sqm": 400.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Pampang",
+    "region": "Pampanga",
+    "lat": 15.1491147,
+    "lng": 120.584133,
+    "price_php": 52000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 400 m2",
+      "price_raw": "Rent: ₱ 52,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 81.35,
+      "NLEX": 26.01,
+      "C5": 69.01,
+      "R10": 67.19
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

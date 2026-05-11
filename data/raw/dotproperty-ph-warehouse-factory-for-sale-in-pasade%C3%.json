@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pasade%C3%",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pasade%C3%B1a-metro-manila-near-lrt-2-gilmore_31cb26167051-b9a0-30c2-68e4-4f69d089",
+  "scraped_at": "2026-05-11T05:00:54.422722Z",
+  "first_seen_at": "2026-05-04T06:55:32.869898Z",
+  "expires_at": "2026-05-18T05:00:54.422722Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "[06239-P-015] Warehouse For Sale in Metro Manila",
+    "sqm": 761.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, San Juan, Pasadeña",
+    "region": "NCR",
+    "lat": 14.6096087,
+    "lng": 121.0323962,
+    "price_php": 90000000.0,
+    "price_unit": "total",
+    "agent_name": "Buena Mano",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 761 m2",
+      "price_raw": "Sale: ₱ 90,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 6.75,
+      "NLEX": 5.46,
+      "C5": 4.84,
+      "R10": 5.88
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

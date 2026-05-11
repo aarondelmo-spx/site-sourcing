@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-3-bedroom-warehouse-factory-for-rent-in-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/3-bedroom-warehouse-factory-for-rent-in-sabang-cavite_4608959a137f-e7ef-1362-f572-dc301089",
+  "scraped_at": "2026-05-08T03:29:44.783559Z",
+  "first_seen_at": "2026-04-29T08:34:06.905238Z",
+  "expires_at": "2026-05-15T03:29:44.783559Z",
+  "status": "active",
+  "listing": {
+    "title": "13700 sqm warehouse factory space for rent in Cavite technopark",
+    "sqm": 13700.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Naic, Sabang",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 4000000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 13,700 m2",
+      "price_raw": "Rent: ₱ 4,000,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

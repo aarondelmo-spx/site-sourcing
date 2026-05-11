@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-panacan-da",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-panacan-davao-del-sur_f9c8c68f7968-f2b1-8312-9e05-c2632089",
+  "scraped_at": "2026-05-11T05:38:03.067348Z",
+  "first_seen_at": "2026-05-04T07:43:14.628618Z",
+  "expires_at": "2026-05-18T05:38:03.067348Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1192 sqm Warehouse for Rent in Malagamot, Panacan, Davao",
+    "sqm": 1192.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Panacan",
+    "region": "Davao del Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 178800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gelyn Artuque",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,192 m2",
+      "price_raw": "Rent: ₱ 178,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

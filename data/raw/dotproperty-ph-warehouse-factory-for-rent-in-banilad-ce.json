@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-banilad-ce",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-banilad-cebu_8c37223d50ee-7dce-e722-f741-fdfec089",
+  "scraped_at": "2026-05-11T05:35:51.718168Z",
+  "first_seen_at": "2026-05-08T04:02:18.671708Z",
+  "expires_at": "2026-05-18T05:35:51.718168Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "700 sqm Warehouse in Banilad",
+    "sqm": 700.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Banilad",
+    "region": "Cebu",
+    "lat": 10.33888,
+    "lng": 123.9168275,
+    "price_php": 112000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Globenet Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 700 m2",
+      "price_raw": "Rent: ₱ 112,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 517.45,
+      "NLEX": 574.21,
+      "C5": 562.36,
+      "R10": 572.6
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

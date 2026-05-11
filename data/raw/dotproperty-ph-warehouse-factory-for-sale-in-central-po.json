@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-central-po",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-central-pob-cebu_e0e5e5e70b71-ba21-6b92-0fd4-8ccd0089",
+  "scraped_at": "2026-05-11T05:36:12.637544Z",
+  "first_seen_at": "2026-05-08T04:04:50.217089Z",
+  "expires_at": "2026-05-18T05:36:12.637544Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "MIXED USE COMMERCIAL INDUSTRIAL PROPERTY CEBU",
+    "sqm": 2718.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Cebu City, Central (Pob.)",
+    "region": "Cebu",
+    "lat": 10.2934208,
+    "lng": 123.9022613,
+    "price_php": 489240000.0,
+    "price_unit": "total",
+    "agent_name": "Patrice Trijo - Wealth Property Consultants",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 2,718 m2",
+      "price_raw": "Sale: ₱ 489,240,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.65,
+      "NLEX": 577.59,
+      "C5": 565.72,
+      "R10": 575.94
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-ana-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-ana-rizal_1f7067f3b2cb-dc8e-c742-d136-64f0c089",
+  "scraped_at": "2026-05-11T05:23:34.809687Z",
+  "first_seen_at": "2026-05-04T02:46:11.402015Z",
+  "expires_at": "2026-05-18T05:23:34.809687Z",
+  "status": "active",
+  "listing": {
+    "title": "For Lease: Warehouse at Taytay Rizal- 500 sqm",
+    "sqm": 500.0,
+    "dock_doors": 1,
+    "clear_height_m": 10.0,
+    "address": "Rizal, Taytay, Santa Ana",
+    "region": "Rizal",
+    "lat": 14.5402246,
+    "lng": 121.1064932,
+    "price_php": 200000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Josh De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 9.49,
+      "NLEX": 16.34,
+      "C5": 6.26,
+      "R10": 16.15
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-blumentrit",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-blumentritt-negros-occidental_0720b1b9f864-6f30-6942-9e95-e3d32089",
+  "scraped_at": "2026-05-04T07:41:40.030537Z",
+  "first_seen_at": "2026-05-04T07:41:40.030537Z",
+  "expires_at": "2026-05-11T07:41:40.030537Z",
+  "status": "active",
+  "listing": {
+    "title": "Bacolod City, Negros Occidental Warehouse for Lease/Rent",
+    "sqm": 1029.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Negros Occidental, Murcia, Blumentritt",
+    "region": "Negros Occidental",
+    "lat": null,
+    "lng": null,
+    "price_php": 154350.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Celina F. Lucero",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,029 m2",
+      "price_raw": "Rent: ₱ 154,350\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

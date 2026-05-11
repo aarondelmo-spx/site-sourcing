@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-catarman-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-catarman-cebu_4f3599a2095e-bd11-6072-db76-e9851089",
+  "scraped_at": "2026-05-11T05:36:15.434365Z",
+  "first_seen_at": "2026-05-08T04:04:45.171375Z",
+  "expires_at": "2026-05-18T05:36:15.434365Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2 STOREY INDUSTRIAL WAREHOUSE IN LILOAN",
+    "sqm": 1065.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Liloan, Catarman",
+    "region": "Cebu",
+    "lat": 10.391205,
+    "lng": 124.0070004,
+    "price_php": 20000000.0,
+    "price_unit": "total",
+    "agent_name": "Broker She Manalang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,065 m2",
+      "price_raw": "Sale: ₱ 20,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 518.56,
+      "NLEX": 574.82,
+      "C5": 563.03,
+      "R10": 573.31
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

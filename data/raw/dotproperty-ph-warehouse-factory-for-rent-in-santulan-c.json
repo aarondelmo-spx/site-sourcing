@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santulan-c",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santulan-cavite_39391e80d5a1-ecbe-40b2-3a01-44d32089",
+  "scraped_at": "2026-05-08T03:30:32.810407Z",
+  "first_seen_at": "2026-04-29T08:36:13.916997Z",
+  "expires_at": "2026-05-15T03:30:32.810407Z",
+  "status": "active",
+  "listing": {
+    "title": "1794 sqm peza factory warehouse building for rent in lima batangas",
+    "sqm": 1794.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Cavite, Naic, Santulan",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 520000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,794 m2",
+      "price_raw": "Rent: ₱ 520,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

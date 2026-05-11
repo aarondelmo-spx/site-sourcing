@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-panacan-da",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-panacan-davao-del-sur_946869a7a1f7-41e1-9db2-5f82-3611f089",
+  "scraped_at": "2026-05-11T05:38:35.749136Z",
+  "first_seen_at": "2026-05-04T07:44:27.224170Z",
+  "expires_at": "2026-05-18T05:38:35.749136Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "COMMERCIAL WAREHOUSE BUILDING FOR SALE IN DAVAO DEL SUR!",
+    "sqm": 3390.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Panacan",
+    "region": "Davao del Sur",
+    "lat": null,
+    "lng": null,
+    "price_php": 137876500.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 3,390 m2",
+      "price_raw": "Sale: ₱ 137,876,500"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

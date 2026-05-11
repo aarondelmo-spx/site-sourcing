@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barraca-pa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barraca-pangasinan_2987b33370ad-ae70-f532-04c0-36d32089",
+  "scraped_at": "2026-05-04T07:33:14.767239Z",
+  "first_seen_at": "2026-05-04T07:33:14.767239Z",
+  "expires_at": "2026-05-11T07:33:14.767239Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "800 to 2,400 sqm Warehouse For Lease in Valenzuela City",
+    "sqm": 2400.0,
+    "dock_doors": null,
+    "clear_height_m": 10.0,
+    "address": "Pangasinan, Villasis, Barraca",
+    "region": "Pangasinan",
+    "lat": 15.9385232,
+    "lng": 120.5819024,
+    "price_php": 240000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rona Sarmiento",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,400 m2",
+      "price_raw": "Rent: ₱ 240,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 161.33,
+      "NLEX": 92.23,
+      "C5": 144.34,
+      "R10": 147.09
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

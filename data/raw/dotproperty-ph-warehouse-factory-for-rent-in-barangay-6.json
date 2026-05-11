@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-6",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-6-laguna_a2730034d2fc-9580-2992-6ac2-355e3089",
+  "scraped_at": "2026-05-11T05:10:50.815105Z",
+  "first_seen_at": "2026-05-04T06:56:41.331528Z",
+  "expires_at": "2026-05-18T05:10:50.815105Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Rent in Calamba Laguna",
+    "sqm": 3500.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Calamba, Barangay 6",
+    "region": "Laguna",
+    "lat": 14.2139934,
+    "lng": 121.1682218,
+    "price_php": 425600.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Jackson Lim",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,500 m2",
+      "price_raw": "Rent: ₱ 425,600\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.89,
+      "NLEX": 51.77,
+      "C5": 39.59,
+      "R10": 49.11
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

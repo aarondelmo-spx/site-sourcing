@@ -1,0 +1,33 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-daang-baka",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-daang-bakal-metro-manila_c3feea4bf627-36af-8122-6ac5-08d32089",
+  "scraped_at": "2026-04-29T08:21:30.638928Z",
+  "expires_at": "2026-05-06T08:21:30.638928Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "350 sqm Warehouse for Rent in Daang Bakal, Mandaluyong City",
+    "sqft": 3767.4,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Mandaluyong, Daang Bakal",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 140000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 350 m2",
+      "price_raw": "Rent: ₱ 140,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-malinta-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-malinta-metro-manila_a8b95af0e8de-ea3e-f452-3e04-ae5a1089",
+  "scraped_at": "2026-05-11T04:58:40.452211Z",
+  "first_seen_at": "2026-05-04T06:52:57.124766Z",
+  "expires_at": "2026-05-18T04:58:40.452211Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Sale: 2-Storey Warehouse (Industrial) in Valenzuela City",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Malinta",
+    "region": "NCR",
+    "lat": 14.6969353,
+    "lng": 120.9639567,
+    "price_php": 60000000.0,
+    "price_unit": "total",
+    "agent_name": "Cristal Villena",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Sale: ₱ 60,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.34,
+      "NLEX": 1.92,
+      "C5": 9.57,
+      "R10": 3.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

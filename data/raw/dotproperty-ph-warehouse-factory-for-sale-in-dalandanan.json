@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-dalandanan",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-dalandanan-metro-manila_27be9c5c765e-9871-fe32-f238-11532089",
+  "scraped_at": "2026-05-11T05:00:39.952135Z",
+  "first_seen_at": "2026-05-04T06:52:54.783231Z",
+  "expires_at": "2026-05-18T05:00:39.952135Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2 Storey Warehouse in Pasolo Valenzuela City for Sale",
+    "sqm": 1520.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Dalandanan",
+    "region": "NCR",
+    "lat": 14.6969353,
+    "lng": 120.9639567,
+    "price_php": 60000000.0,
+    "price_unit": "total",
+    "agent_name": "Charmaine Bataller",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 1,520 m2",
+      "price_raw": "Sale: ₱ 60,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.34,
+      "NLEX": 1.92,
+      "C5": 9.57,
+      "R10": 3.29
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

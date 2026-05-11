@@ -1,0 +1,38 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-tere",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-teresita-metro-manila_8c29a3ac6ac0-fe4f-8212-bce3-f4d32089",
+  "scraped_at": "2026-04-29T08:21:21.853713Z",
+  "expires_at": "2026-05-06T08:21:21.853713Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "450 sqm Lot with Warehouse in Kanlaon, Quezon City",
+    "sqft": 4843.8,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Santa Teresita",
+    "region": "NCR",
+    "lat": 14.620151,
+    "lng": 120.9986707,
+    "price_php": 170000.0,
+    "price_unit": "per sqm/month",
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 450 m2",
+      "price_raw": "Rent: ₱ 170,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 8.07,
+      "NLEX": 3.91,
+      "C5": 8.35,
+      "R10": 2.28
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

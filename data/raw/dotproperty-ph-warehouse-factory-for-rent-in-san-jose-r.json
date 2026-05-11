@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-san-jose-r",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-san-jose-rizal_96abb739d99c-aaa1-fc82-cae3-26cbf089",
+  "scraped_at": "2026-05-11T05:24:07.302948Z",
+  "first_seen_at": "2026-05-04T02:47:03.652263Z",
+  "expires_at": "2026-05-18T05:24:07.302948Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse/Office for Rent in Antipolo, Rizal",
+    "sqm": 778.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Rizal, Antipolo, San Jose",
+    "region": "Rizal",
+    "lat": 14.5820738,
+    "lng": 121.1818586,
+    "price_php": 233400.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "A-Sun Centre",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 778 m2",
+      "price_raw": "Rent: ₱ 233,400\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.89,
+      "NLEX": 20.14,
+      "C5": 11.25,
+      "R10": 22.24
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

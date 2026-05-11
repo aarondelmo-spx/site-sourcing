@@ -1,0 +1,34 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-lingunan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-lingunan-metro-manila_a9429d6d793e-47c0-ce42-2159-f1532089",
+  "scraped_at": "2026-05-11T05:00:48.474446Z",
+  "first_seen_at": "2026-05-04T02:22:31.309063Z",
+  "expires_at": "2026-05-18T05:00:48.474446Z",
+  "status": "active",
+  "listing": {
+    "title": "HUGE INDUSTRIAL LOT FOR SALE IN VALENZUELA",
+    "sqm": 46000.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Lingunan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 1.2,
+    "price_unit": "total",
+    "agent_name": "Rose Thomas",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 46,000 m2",
+      "price_raw": "Sale: ₱ 1.2 billion"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

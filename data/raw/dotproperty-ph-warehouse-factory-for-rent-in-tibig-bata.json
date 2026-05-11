@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tibig-bata",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tibig-batangas_29b1102e8af3-a3cf-9032-72f8-43d32089",
+  "scraped_at": "2026-05-11T05:31:07.673066Z",
+  "first_seen_at": "2026-05-04T07:09:29.566164Z",
+  "expires_at": "2026-05-18T05:31:07.673066Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "300 sqm Warehouse for Rent Near Balete Exit, Lipa",
+    "sqm": 300.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Batangas, Lipa, Tibig",
+    "region": "Batangas",
+    "lat": 13.9561834,
+    "lng": 121.1625266,
+    "price_php": 85000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 300 m2",
+      "price_raw": "Rent: ₱ 85,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 17.8,
+      "NLEX": 79.27,
+      "C5": 67.24,
+      "R10": 75.95
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

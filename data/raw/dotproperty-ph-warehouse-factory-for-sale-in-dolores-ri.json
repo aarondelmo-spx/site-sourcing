@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-dolores-ri",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-dolores-rizal_cfdaa3f03e49-3e71-7f32-f878-7dace089",
+  "scraped_at": "2026-05-11T05:25:38.099591Z",
+  "first_seen_at": "2026-05-04T07:15:16.364081Z",
+  "expires_at": "2026-05-18T05:25:38.099591Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE Industrial Lot with Warehouse located at Ortigas Avenue, Taytay, Rizal",
+    "sqm": 3547.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Rizal, Taytay, Dolores",
+    "region": "Rizal",
+    "lat": 14.5703733,
+    "lng": 121.131209,
+    "price_php": 159615000.0,
+    "price_unit": "total",
+    "agent_name": "Natalie Basmajian",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 3,547 m2",
+      "price_raw": "Sale: ₱ 159,615,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 12.29,
+      "NLEX": 16.0,
+      "C5": 6.77,
+      "R10": 17.22
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

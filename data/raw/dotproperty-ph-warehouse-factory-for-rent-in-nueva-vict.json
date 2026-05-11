@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-nueva-vict",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-nueva-victoria-pampanga_3628d8690a9c-508f-7962-2e3a-42d32089",
+  "scraped_at": "2026-05-11T05:27:06.296198Z",
+  "first_seen_at": "2026-05-04T07:23:37.918351Z",
+  "expires_at": "2026-05-18T05:27:06.296198Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "2637 sqm pampanga warehouse for rent",
+    "sqm": 2637.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Mexico, Nueva Victoria",
+    "region": "Pampanga",
+    "lat": null,
+    "lng": null,
+    "price_php": 320000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,637 m2",
+      "price_raw": "Rent: ₱ 320,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

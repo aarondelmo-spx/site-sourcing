@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-baesa-metr",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-baesa-metro-manila_342f5f74d8f4-2c21-1fd2-17bf-99d32089",
+  "scraped_at": "2026-05-08T03:24:16.292530Z",
+  "first_seen_at": "2026-05-04T06:51:03.801258Z",
+  "expires_at": "2026-05-15T03:24:16.292530Z",
+  "status": "active",
+  "listing": {
+    "title": "601 sqm Lot with 2 Storey Warehouse in Baesa, Quezon City",
+    "sqm": 750.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Baesa",
+    "region": "NCR",
+    "lat": 14.66953,
+    "lng": 121.0057849,
+    "price_php": 175000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 750 m2",
+      "price_raw": "Rent: ₱ 175,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 13.33,
+      "NLEX": 1.83,
+      "C5": 7.41,
+      "R10": 4.63
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

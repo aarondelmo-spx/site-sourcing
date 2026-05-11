@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-maybunga-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-maybunga-metro-manila_e8912896bbc9-045f-9c42-2bf9-5ef0d089",
+  "scraped_at": "2026-05-08T03:21:52.964927Z",
+  "first_seen_at": "2026-04-29T08:18:43.450954Z",
+  "expires_at": "2026-05-15T03:21:52.964927Z",
+  "status": "active",
+  "listing": {
+    "title": "Pasig Commercial and Industrial Warehouse for Lease",
+    "sqm": 2600.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Maybunga",
+    "region": "NCR",
+    "lat": 14.5749635,
+    "lng": 121.0876318,
+    "price_php": 780000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Edna Sangalang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,600 m2",
+      "price_raw": "Rent: ₱ 780,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.89,
+      "NLEX": 12.1,
+      "C5": 2.76,
+      "R10": 12.61
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

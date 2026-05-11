@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mandaluyon",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mandaluyong-city-mabini-j-rizal-metro-manila_5b434f8c51da-b44f-2e52-be09-1ea1c089",
+  "scraped_at": "2026-05-04T06:49:22.744658Z",
+  "first_seen_at": "2026-05-04T06:49:22.744658Z",
+  "expires_at": "2026-05-11T06:49:22.744658Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Mandaluyong Office Warehouse for lease visible from EDSA",
+    "sqm": 3200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Mandaluyong, Mabini-J. Rizal",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 1520000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Maggi Chua",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 3,200 m2",
+      "price_raw": "Rent: ₱ 1,520,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

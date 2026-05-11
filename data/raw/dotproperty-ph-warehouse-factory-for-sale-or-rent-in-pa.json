@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-pa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-pasong-tamo-metro-manila_2c387cca280f-b11e-6fe5-b2c8-b6ffecd6",
+  "scraped_at": "2026-05-11T05:00:47.098168Z",
+  "first_seen_at": "2026-05-04T06:55:14.664420Z",
+  "expires_at": "2026-05-18T05:00:47.098168Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Space for Sale and for Lease Rent 1,000 sqm in Quezon City",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Pasong Tamo",
+    "region": "NCR",
+    "lat": 14.6901623,
+    "lng": 121.0654436,
+    "price_php": 160000000.0,
+    "price_unit": "total",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Sale: ₱ 160,000,000\n                                                                                                    Rent: ₱ 400,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 16.34,
+      "NLEX": 7.23,
+      "C5": 1.12,
+      "R10": 11.41
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

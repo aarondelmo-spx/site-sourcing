@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-mabini-tar",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-mabini-tarlac_1647bc612321-652e-e982-48ed-25e2f089",
+  "scraped_at": "2026-05-04T07:31:54.538459Z",
+  "first_seen_at": "2026-05-04T07:31:54.538459Z",
+  "expires_at": "2026-05-11T07:31:54.538459Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Tarlac",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Tarlac, Tarlac, Mabini",
+    "region": "Tarlac",
+    "lat": 15.4877064,
+    "lng": 120.5881409,
+    "price_php": 680000000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe88 Realty & Development Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 680,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 114.04,
+      "NLEX": 46.05,
+      "C5": 98.57,
+      "R10": 99.64
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

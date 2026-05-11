@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-lewin-lagu",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-lewin-laguna_099227b979f5-2c91-a392-48f1-92941089",
+  "scraped_at": "2026-05-11T05:13:34.811233Z",
+  "first_seen_at": "2026-05-04T07:07:23.034543Z",
+  "expires_at": "2026-05-18T05:13:34.811233Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for Sale in Carmona, Cavite",
+    "sqm": 4779.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Laguna, Lumban, Lewin",
+    "region": "Laguna",
+    "lat": null,
+    "lng": null,
+    "price_php": 215000000.0,
+    "price_unit": "total",
+    "agent_name": "CTY Real Estate",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 4,779 m2",
+      "price_raw": "Sale: ₱ 215,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

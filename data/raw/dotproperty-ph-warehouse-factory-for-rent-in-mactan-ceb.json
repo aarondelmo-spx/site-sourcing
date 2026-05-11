@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-mactan-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mactan-cebu_f88fa5ad9ac0-a011-3e62-b396-88851089",
+  "scraped_at": "2026-05-11T05:35:15.333180Z",
+  "first_seen_at": "2026-05-08T04:02:09.398219Z",
+  "expires_at": "2026-05-18T05:35:15.333180Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "For Lease Warehouse 3500sqm with Loading Bay Soong Lapu-lapu",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Lapu-Lapu, Mactan",
+    "region": "Cebu",
+    "lat": 10.28815,
+    "lng": 124.0073639,
+    "price_php": 665000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Cebu Invest Realty Services, Inc.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "",
+      "price_raw": "Rent: ₱ 665,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 527.81,
+      "NLEX": 584.36,
+      "C5": 572.53,
+      "R10": 582.79
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

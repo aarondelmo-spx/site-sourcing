@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-bulihan-ca",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bulihan-cavite_100a0b4b5bb8-aaff-4072-3dd2-4ae32089",
+  "scraped_at": "2026-05-11T05:04:23.480025Z",
+  "first_seen_at": "2026-05-04T06:57:55.931331Z",
+  "expires_at": "2026-05-18T05:04:23.480025Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1033 sqm new warehouse for rent in Silang cavite",
+    "sqm": 1033.0,
+    "dock_doors": null,
+    "clear_height_m": 9.0,
+    "address": "Cavite, Silang, Bulihan",
+    "region": "Cavite",
+    "lat": null,
+    "lng": null,
+    "price_php": 358000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,033 m2",
+      "price_raw": "Rent: ₱ 358,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

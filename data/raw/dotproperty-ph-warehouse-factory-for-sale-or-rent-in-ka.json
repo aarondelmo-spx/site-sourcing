@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-ka",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-kalawaan-metro-manila_d5884faedb52-8dde-0292-ee76-2bc60089",
+  "scraped_at": "2026-05-11T05:00:15.389967Z",
+  "first_seen_at": "2026-05-04T06:54:39.284443Z",
+  "expires_at": "2026-05-18T05:00:15.389967Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE/LEASE Warehouse in 1 Axis Road, Brgy. Kalawaan, Pasig City",
+    "sqm": 7000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasig, Kalawaan",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 975000000.0,
+    "price_unit": "total",
+    "agent_name": "That's Broker Raven",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 7,000 m2",
+      "price_raw": "Sale: ₱ 975,000,000\n                                                                                                    Rent: ₱ 2,660,000\n                                                                                                             /\n                                                            month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

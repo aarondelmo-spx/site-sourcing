@@ -1,0 +1,42 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-makati-tow",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-makati-townhouse-bangkal-near-ayala-ave-barangay-47-metro-manila_c71409a4ed1f-fec0-da62-358b-f011d089",
+  "scraped_at": "2026-05-11T05:01:21.898690Z",
+  "first_seen_at": "2026-05-04T06:55:50.159831Z",
+  "expires_at": "2026-05-18T05:01:21.898690Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Bangkal Makati Warehouse For Sale",
+    "sqm": null,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Pasay, Barangay 47",
+    "region": "NCR",
+    "lat": 14.5549743,
+    "lng": 120.999599,
+    "price_php": 33000000.0,
+    "price_unit": "total",
+    "agent_name": "Michaela Climaco",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "",
+      "price_raw": "Sale: ₱ 33,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 2.14,
+      "NLEX": 11.02,
+      "C5": 5.38,
+      "R10": 7.11
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "sqm",
+    "dock_doors"
+  ]
+}

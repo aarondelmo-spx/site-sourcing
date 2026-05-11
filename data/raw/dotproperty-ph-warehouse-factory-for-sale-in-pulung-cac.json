@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-pulung-cac",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pulung-cacutud-pampanga_2412d353fa07-c6ee-7b65-e36a-e92bebd4",
+  "scraped_at": "2026-05-11T05:30:06.867485Z",
+  "first_seen_at": "2026-05-04T07:26:45.698656Z",
+  "expires_at": "2026-05-18T05:30:06.867485Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "FOR SALE - Lot with Warehouse and Office in Angeles, Pampanga",
+    "sqm": 5452.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Pampanga, Angeles, Pulung Cacutud",
+    "region": "Pampanga",
+    "lat": 15.1693275,
+    "lng": 120.6116835,
+    "price_php": 218080000.0,
+    "price_unit": "total",
+    "agent_name": "Luxe Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Land area: 5,452 m2",
+      "price_raw": "Sale: ₱ 218,080,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 81.57,
+      "NLEX": 23.23,
+      "C5": 68.51,
+      "R10": 67.3
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

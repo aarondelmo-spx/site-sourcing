@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lara-pampa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lara-pampanga_ccd07033842c-3521-4cc2-1884-ca0c8089",
+  "scraped_at": "2026-05-11T05:27:18.916715Z",
+  "first_seen_at": "2026-05-04T07:23:47.109698Z",
+  "expires_at": "2026-05-18T05:27:18.916715Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse Space for Lease Rent 1,480 sqm in San Fernando Pampanga",
+    "sqm": 1480.0,
+    "dock_doors": 1,
+    "clear_height_m": 9.0,
+    "address": "Pampanga, San Fernando, Lara",
+    "region": "Pampanga",
+    "lat": 15.085461,
+    "lng": 120.6241856,
+    "price_php": 220000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Marc Evan Sevilla",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,480 m2",
+      "price_raw": "Rent: ₱ 220,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 73.09,
+      "NLEX": 22.64,
+      "C5": 61.05,
+      "R10": 58.96
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

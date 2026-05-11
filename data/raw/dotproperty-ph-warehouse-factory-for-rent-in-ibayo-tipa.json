@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ibayo-tipa",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ibayo-tipas-metro-manila_173fea585579-387f-1f62-9121-f6d32089",
+  "scraped_at": "2026-05-04T06:51:46.950820Z",
+  "first_seen_at": "2026-05-04T06:51:46.950820Z",
+  "expires_at": "2026-05-11T06:51:46.950820Z",
+  "status": "active",
+  "listing": {
+    "title": "5,000 pallet position Warehouse for rent in Taguig City",
+    "sqm": 5000.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Taguig, Ibayo-Tipas",
+    "region": "NCR",
+    "lat": 14.5315459,
+    "lng": 121.0665256,
+    "price_php": 2500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sidney Ang",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,000 m2",
+      "price_raw": "Rent: ₱ 2,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 5.53,
+      "NLEX": 14.88,
+      "C5": 2.83,
+      "R10": 13.32
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

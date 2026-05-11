@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-tagalag-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tagalag-metro-manila_4afb3b4244cf-a31e-3ed2-a1b6-b8d32089",
+  "scraped_at": "2026-05-11T04:57:38.589869Z",
+  "first_seen_at": "2026-05-08T03:24:32.515438Z",
+  "expires_at": "2026-05-18T04:57:38.589869Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "PN53235 Storage Warehouse for Rent In Valenzuela!",
+    "sqm": 800.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Tagalag",
+    "region": "NCR",
+    "lat": null,
+    "lng": null,
+    "price_php": 90000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Rolan De Guzman",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Land area: 800 m2",
+      "price_raw": "Rent: ₱ 90,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

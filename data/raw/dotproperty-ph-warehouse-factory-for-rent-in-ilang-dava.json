@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-ilang-dava",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ilang-davao-del-sur_8ab8060bc94a-421e-b592-211a-42c70089",
+  "scraped_at": "2026-05-11T05:38:23.562588Z",
+  "first_seen_at": "2026-05-04T07:44:10.485330Z",
+  "expires_at": "2026-05-18T05:38:23.562588Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse for lease in Ilang, Davao City",
+    "sqm": 1279.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Ilang",
+    "region": "Davao del Sur",
+    "lat": 7.1747651,
+    "lng": 125.6532934,
+    "price_php": 255800.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Gretchen Daros",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,279 m2",
+      "price_raw": "Rent: ₱ 255,800\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 916.05,
+      "NLEX": 973.75,
+      "C5": 961.81,
+      "R10": 971.96
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

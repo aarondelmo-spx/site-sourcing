@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-diliman-i-",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-diliman-i-bulacan_6d37ab59b485-1020-ccc2-465f-b8ae3089",
+  "scraped_at": "2026-05-11T05:20:27.935531Z",
+  "first_seen_at": "2026-05-04T07:22:35.284167Z",
+  "expires_at": "2026-05-18T05:20:27.935531Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse/Commercial Lot near Plaridel Bypasss road, For Sale",
+    "sqm": 1914.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, San Rafael, Diliman I",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 48000000.0,
+    "price_unit": "total",
+    "agent_name": null,
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 1,914 m2",
+      "price_raw": "Sale: ₱ 48,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}
