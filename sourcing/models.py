@@ -15,13 +15,20 @@ from pydantic import BaseModel, Field, field_validator, model_validator
 
 # ── Spec ──────────────────────────────────────────────────────────────────────
 
-VALID_REGIONS = {"NCR", "Cavite", "Laguna", "Bulacan", "Rizal", "Pampanga", "Batangas"}
+VALID_REGIONS = {
+    # Luzon
+    "NCR", "Cavite", "Laguna", "Bulacan", "Rizal", "Pampanga", "Batangas",
+    # Visayas
+    "Cebu", "Iloilo",
+    # Mindanao
+    "Davao del Sur", "Misamis Oriental",
+}
 VALID_CORRIDORS = {"SLEX", "NLEX", "C5", "R10"}
 VALID_FLOOD_RISK = {"low", "medium", "high"}
 
 
 class ScoringWeights(BaseModel):
-    sqft: float = 25
+    sqm: float = 25
     dock_doors: float = 20
     clear_height_m: float = 15
     region: float = 20
@@ -29,10 +36,19 @@ class ScoringWeights(BaseModel):
     peza_zone: float = 5
     max_flood_risk: float = 5
 
+    @model_validator(mode="before")
+    @classmethod
+    def _migrate_sqft(cls, data: object) -> object:
+        """Backward compat: old spec.yaml had 'sqft' weight key."""
+        if isinstance(data, dict) and "sqft" in data and "sqm" not in data:
+            data = dict(data)
+            data["sqm"] = data.pop("sqft")
+        return data
+
     @model_validator(mode="after")
     def weights_sum_to_100(self) -> "ScoringWeights":
         total = (
-            self.sqft + self.dock_doors + self.clear_height_m +
+            self.sqm + self.dock_doors + self.clear_height_m +
             self.region + self.corridor_access + self.peza_zone +
             self.max_flood_risk
         )
@@ -45,8 +61,8 @@ class ScoringWeights(BaseModel):
 
 
 class SpecConfig(BaseModel):
-    min_sqft: float = Field(..., gt=0)
-    max_sqft: float = Field(..., gt=0)
+    min_sqm: float = Field(..., gt=0)
+    max_sqm: float = Field(..., gt=0)
     dock_doors_min: int = Field(..., ge=0)
     clear_height_m_min: float = Field(..., gt=0)
     regions: List[str]
@@ -56,16 +72,23 @@ class SpecConfig(BaseModel):
     power_supply: str = "reliable"
     weights: ScoringWeights = Field(default_factory=ScoringWeights)
 
-    @field_validator("min_sqft")
+    @model_validator(mode="before")
     @classmethod
-    def min_lt_max(cls, v: float) -> float:
-        return v  # cross-field check in model_validator below
+    def _migrate_sqft_keys(cls, data: object) -> object:
+        """Backward compat: old spec.yaml used min_sqft / max_sqft."""
+        if isinstance(data, dict):
+            data = dict(data)
+            if "min_sqft" in data and "min_sqm" not in data:
+                data["min_sqm"] = data.pop("min_sqft")
+            if "max_sqft" in data and "max_sqm" not in data:
+                data["max_sqm"] = data.pop("max_sqft")
+        return data
 
     @model_validator(mode="after")
-    def min_sqft_lt_max(self) -> "SpecConfig":
-        if self.min_sqft >= self.max_sqft:
+    def min_sqm_lt_max(self) -> "SpecConfig":
+        if self.min_sqm >= self.max_sqm:
             raise ValueError(
-                f"min_sqft ({self.min_sqft}) must be less than max_sqft ({self.max_sqft})"
+                f"min_sqm ({self.min_sqm}) must be less than max_sqm ({self.max_sqm})"
             )
         return self
 
@@ -98,7 +121,7 @@ class SpecConfig(BaseModel):
 
 class ListingFields(BaseModel):
     title: str = ""
-    sqft: Optional[float] = None
+    sqm: Optional[float] = None
     dock_doors: Optional[int] = None
     clear_height_m: Optional[float] = None
     address: str = ""
@@ -107,7 +130,24 @@ class ListingFields(BaseModel):
     lng: Optional[float] = None
     price_php: Optional[float] = None
     price_unit: Optional[str] = None   # e.g. "per sqm/month"
+    agent_name: Optional[str] = None
+    agent_phone: Optional[str] = None
     raw_extras: Dict = Field(default_factory=dict)  # source-specific fields
+
+    @model_validator(mode="before")
+    @classmethod
+    def _migrate_sqft(cls, data: object) -> object:
+        """
+        Backward compat: old scraped JSON files had 'sqft' field stored in
+        imperial sqft units (scrapers multiplied sqm × 10.7639).
+        Convert back to sqm on load.
+        """
+        if isinstance(data, dict) and "sqft" in data and "sqm" not in data:
+            data = dict(data)
+            old_val = data.pop("sqft")
+            # Old scrapers stored sqft = sqm_value * 10.7639. Convert back.
+            data["sqm"] = round(old_val / 10.7639, 1) if old_val is not None else None
+        return data
 
 
 class EnrichedFields(BaseModel):
@@ -121,6 +161,7 @@ class RawListing(BaseModel):
     source: str                      # "lamudi-ph" | "dotproperty-ph"
     url: str
     scraped_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
+    first_seen_at: Optional[datetime] = None  # set on first scrape, never overwritten
     expires_at: Optional[datetime] = None
     status: Literal["active", "stale", "not_found", "incomplete"] = "active"
     listing: ListingFields = Field(default_factory=ListingFields)
@@ -134,8 +175,8 @@ class RawListing(BaseModel):
     def check_completeness(self) -> "RawListing":
         """Populate missing_required and set status = incomplete if needed."""
         missing = []
-        if self.listing.sqft is None:
-            missing.append("sqft")
+        if self.listing.sqm is None:
+            missing.append("sqm")
         if self.listing.dock_doors is None:
             missing.append("dock_doors")
         if self.listing.region is None:
@@ -149,13 +190,22 @@ class RawListing(BaseModel):
 # ── Scored listing ────────────────────────────────────────────────────────────
 
 class ScoreBreakdown(BaseModel):
-    sqft: float = 0
+    sqm: float = 0
     dock_doors: float = 0
     clear_height_m: float = 0
     region: float = 0
     corridor_access: float = 0
     peza_zone: float = 0
     max_flood_risk: float = 0
+
+    @model_validator(mode="before")
+    @classmethod
+    def _migrate_sqft(cls, data: object) -> object:
+        """Backward compat: old scored JSON files had 'sqft' breakdown key."""
+        if isinstance(data, dict) and "sqft" in data and "sqm" not in data:
+            data = dict(data)
+            data["sqm"] = data.pop("sqft")
+        return data
 
 
 class ScoredListing(BaseModel):
@@ -164,6 +214,7 @@ class ScoredListing(BaseModel):
     source: str
     url: str
     scraped_at: datetime
+    first_seen_at: Optional[datetime] = None
     expires_at: Optional[datetime] = None
     status: str
     listing: ListingFields
@@ -172,6 +223,7 @@ class ScoredListing(BaseModel):
     score: float = 0
     score_breakdown: ScoreBreakdown = Field(default_factory=ScoreBreakdown)
     possible_duplicate_of: Optional[str] = None  # id of suspected duplicate
+    is_new: bool = False                          # True if first seen since last run
 
 
 # ── Status (scraper progress) ─────────────────────────────────────────────────
@@ -200,3 +252,12 @@ def load_spec(path: str = "spec.yaml") -> SpecConfig:
         raw = yaml.safe_load(f)
 
     return SpecConfig(**raw)
+
+
+# Force Pydantic to re-evaluate all forward references — required on Python 3.14+
+# where annotation evaluation semantics changed (PEP 649).
+ListingFields.model_rebuild()
+EnrichedFields.model_rebuild()
+RawListing.model_rebuild()
+ScoredListing.model_rebuild()
+ScraperStatus.model_rebuild()
