@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-pandacan-m",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pandacan-metro-manila_3d2433326e28-089f-7c55-39c3-943dd9f0",
+  "scraped_at": "2026-05-15T01:02:25.428916Z",
+  "first_seen_at": "2026-05-13T00:38:55.893251Z",
+  "expires_at": "2026-05-22T01:02:25.428916Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,000 warehouse for lease at Pandacan",
+    "sqm": 1000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Manila, Pandacan",
+    "region": "NCR",
+    "lat": 14.5872028,
+    "lng": 121.0059384,
+    "price_php": 450000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Homer Cokeng Jr.",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 450,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 4.33,
+      "NLEX": 7.4,
+      "C5": 6.15,
+      "R10": 4.34
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

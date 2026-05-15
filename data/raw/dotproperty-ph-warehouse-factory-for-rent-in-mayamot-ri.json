@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-mayamot-ri",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mayamot-rizal_a5e551975cb1-38b0-1522-0275-98e9e089",
-  "scraped_at": "2026-05-11T05:24:28.496052Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mayamot-rizal_a07d64d45d23-ec61-d462-8f81-19e9e089",
+  "scraped_at": "2026-05-15T01:27:08.005470Z",
   "first_seen_at": "2026-05-04T07:12:35.595057Z",
-  "expires_at": "2026-05-18T05:24:28.496052Z",
+  "expires_at": "2026-05-22T01:27:08.005470Z",
   "status": "incomplete",
   "listing": {
     "title": "WAREHOUSES FOR LEASE",
-    "sqm": 230.0,
+    "sqm": 2200.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Rizal, Antipolo, Mayamot",
     "region": "Rizal",
     "lat": 14.6225139,
     "lng": 121.1079949,
-    "price_php": 85100.0,
+    "price_php": 814000.0,
     "price_unit": "per sqm/month",
     "agent_name": "PROSPERLAND HOME REALTY - PLHR 8",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 230 m2",
-      "price_raw": "Rent: ₱ 85,100\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 2,200 m2",
+      "price_raw": "Rent: ₱ 814,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

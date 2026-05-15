@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-camias-pam",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-camias-pampanga_fde758589742-0d60-04c2-0562-fae32089",
-  "scraped_at": "2026-05-11T05:29:35.991049Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-camias-pampanga_e8b89deceb02-30a1-2482-5799-fae32089",
+  "scraped_at": "2026-05-15T01:31:29.548394Z",
   "first_seen_at": "2026-05-04T07:24:20.633480Z",
-  "expires_at": "2026-05-18T05:29:35.991049Z",
+  "expires_at": "2026-05-22T01:31:29.548394Z",
   "status": "incomplete",
   "listing": {
     "title": "For rent warehouse in Magalang Pampanga",
-    "sqm": 825.0,
+    "sqm": 907.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Pampanga, Magalang, Camias",
     "region": "Pampanga",
     "lat": 15.1832411,
     "lng": 120.6333863,
-    "price_php": 127000.0,
+    "price_php": 140585.0,
     "price_unit": "per sqm/month",
     "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 825 m2",
-      "price_raw": "Rent: ₱ 127,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 907 m2",
+      "price_raw": "Rent: ₱ 140,585\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

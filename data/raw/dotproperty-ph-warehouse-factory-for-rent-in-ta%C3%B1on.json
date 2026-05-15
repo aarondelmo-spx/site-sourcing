@@ -2,9 +2,9 @@
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-ta%C3%B1on",
   "source": "dotproperty-ph",
   "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ta%C3%B1ong-metro-manila_f2dea2cb31e0-8a3f-c172-fcc6-7c5cf089",
-  "scraped_at": "2026-05-11T04:55:19.514187Z",
+  "scraped_at": "2026-05-15T01:01:37.171009Z",
   "first_seen_at": "2026-05-04T06:49:15.212081Z",
-  "expires_at": "2026-05-18T04:55:19.514187Z",
+  "expires_at": "2026-05-22T01:01:37.171009Z",
   "status": "incomplete",
   "listing": {
     "title": "Marikina Office Warehouse For Rent",
@@ -15,14 +15,14 @@
     "region": "NCR",
     "lat": null,
     "lng": null,
-    "price_php": 135000.0,
+    "price_php": 130000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Lalaine Kaw",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
       "area_raw": "Usable area: 664 m2",
-      "price_raw": "Rent: ₱ 135,000\n                                                                                                     /\n                                                        month"
+      "price_raw": "Rent: ₱ 130,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

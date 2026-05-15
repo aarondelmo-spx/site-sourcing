@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-ususan-met",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-ususan-metro-manila_5a44b42a8544-cda0-af92-b56f-ba79b089",
-  "scraped_at": "2026-05-11T04:59:26.223047Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-ususan-metro-manila_1ea87a1a5475-29f1-b852-ca86-58431089",
+  "scraped_at": "2026-05-15T01:07:08.799826Z",
   "first_seen_at": "2026-05-04T06:54:03.539381Z",
-  "expires_at": "2026-05-18T04:59:26.223047Z",
+  "expires_at": "2026-05-22T01:07:08.799826Z",
   "status": "incomplete",
   "listing": {
-    "title": "286 sqm Office Warehouse for Sale in Taguig City",
-    "sqm": 286.0,
+    "title": "For Sale Warehouse near WalterMart Bicutan, Bagumbayan, Taguig City",
+    "sqm": 1000.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Taguig, Ususan",
     "region": "NCR",
     "lat": 14.5319236,
     "lng": 121.0668637,
-    "price_php": 16800000.0,
+    "price_php": 130000000.0,
     "price_unit": "total",
-    "agent_name": "Realus Realtors (Raselle Atilano)",
+    "agent_name": "Cristal Villena",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 286 m2",
-      "price_raw": "Sale: ₱ 16,800,000"
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Sale: ₱ 130,000,000"
     }
   },
   "enriched": {

@@ -1,0 +1,36 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-masuso-bul",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-masuso-bulacan_70d69940b45d-3cef-a842-e8c5-18dd0089",
+  "scraped_at": "2026-05-15T01:21:17.878436Z",
+  "first_seen_at": "2026-05-15T01:21:17.878436Z",
+  "expires_at": "2026-05-22T01:21:17.878436Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "414 sqm Warehouse for Rent in Pandi, Bulacan",
+    "sqm": 414.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Bulacan, Pandi, Masuso",
+    "region": "Bulacan",
+    "lat": null,
+    "lng": null,
+    "price_php": 90000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - TG)",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 414 m2",
+      "price_raw": "Rent: ₱ 90,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {},
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

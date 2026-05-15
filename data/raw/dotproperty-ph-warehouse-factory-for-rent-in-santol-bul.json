@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-santol-bul",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santol-bulacan_c30d4889e5e6-49e0-0142-10dd-00020089",
-  "scraped_at": "2026-05-11T05:18:01.465960Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santol-bulacan_d24965be1152-28bf-1a92-0ec9-f3d32089",
+  "scraped_at": "2026-05-15T01:21:32.090728Z",
   "first_seen_at": "2026-05-04T07:19:31.692862Z",
-  "expires_at": "2026-05-18T05:18:01.465960Z",
+  "expires_at": "2026-05-22T01:21:32.090728Z",
   "status": "incomplete",
   "listing": {
-    "title": "3,320 sqm covered warehouse - MALOLOS BULACAN",
-    "sqm": null,
-    "dock_doors": 1,
+    "title": "730 sqm warehouse for rent in malolos bulacan",
+    "sqm": 730.0,
+    "dock_doors": null,
     "clear_height_m": null,
     "address": "Bulacan, Malolos, Santol",
     "region": "Bulacan",
     "lat": 14.8378202,
     "lng": 120.8532118,
-    "price_php": 1200000.0,
+    "price_php": 100000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Lerry Nakagawa",
+    "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 1,200,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 730 m2",
+      "price_raw": "Rent: ₱ 100,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,6 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm"
+    "dock_doors"
   ]
 }

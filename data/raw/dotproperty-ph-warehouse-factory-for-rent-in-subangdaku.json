@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-subangdaku",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-subangdaku-cebu_c33137abb8e6-a6f0-e372-0fbf-047fd089",
-  "scraped_at": "2026-05-11T05:35:38.397521Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-subangdaku-cebu_4afc5cabf960-0dc1-f172-c22a-86d32089",
+  "scraped_at": "2026-05-15T01:36:28.772247Z",
   "first_seen_at": "2026-05-08T04:02:11.267294Z",
-  "expires_at": "2026-05-18T05:35:38.397521Z",
+  "expires_at": "2026-05-22T01:36:28.772247Z",
   "status": "incomplete",
   "listing": {
-    "title": "FOR LEASE Warehouse in HVG Arcade, Mandaue, Cebu City",
-    "sqm": null,
+    "title": "630 sqm Warehouse for Lease in Highway, Subangdaku, Mandaue City Cebu",
+    "sqm": 630.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cebu, Mandaue, Subangdaku",
     "region": "Cebu",
     "lat": 10.3185111,
     "lng": 123.9249267,
-    "price_php": 144000.0,
+    "price_php": 157500.0,
     "price_unit": "per sqm/month",
-    "agent_name": "One Global Realty",
+    "agent_name": "CebuAdCon",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 144,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 630 m2",
+      "price_raw": "Rent: ₱ 157,500\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

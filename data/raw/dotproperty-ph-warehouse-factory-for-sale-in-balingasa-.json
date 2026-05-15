@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-balingasa-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balingasa-metro-manila-near-lrt-1-balintawak_5c112fb19ba3-b04f-b652-a37f-74191089",
-  "scraped_at": "2026-05-11T05:00:34.650891Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balingasa-metro-manila-near-lrt-1-balintawak_8780f4f88a02-d4ee-7162-8aeb-faa51089",
+  "scraped_at": "2026-05-15T01:07:21.696907Z",
   "first_seen_at": "2026-05-04T06:53:58.825596Z",
-  "expires_at": "2026-05-18T05:00:34.650891Z",
+  "expires_at": "2026-05-22T01:07:21.696907Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse for Sale: in GRACE VILLAGE, QC: Lot: 2,414 sqm, 2 corners, P180,000/sqm",
-    "sqm": 2414.0,
+    "title": "Warehouse for sale in Balingasa Road, Brgy. Balingasa, Quezon City",
+    "sqm": 4412.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Balingasa",
     "region": "NCR",
     "lat": 14.646425,
     "lng": 120.9950294,
-    "price_php": 434520000.0,
+    "price_php": 661800000.0,
     "price_unit": "total",
-    "agent_name": "Glenda Joyce Tanlimco",
+    "agent_name": "Rizan Dungganon",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 2,414 m2",
-      "price_raw": "Sale: ₱ 434,520,000"
+      "area_raw": "Land area: 4,412 m2",
+      "price_raw": "Sale: ₱ 661,800,000"
     }
   },
   "enriched": {

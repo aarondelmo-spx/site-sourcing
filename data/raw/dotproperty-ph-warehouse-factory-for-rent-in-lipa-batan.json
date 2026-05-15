@@ -1,10 +1,10 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-lipa-batan",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lipa-batangas_3b6c6b821929-7101-9332-f244-4179e089",
-  "scraped_at": "2026-05-11T05:32:26.958503Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lipa-batangas_ce533f98743b-42ae-ec52-e312-9ec70089",
+  "scraped_at": "2026-05-15T01:33:44.912643Z",
   "first_seen_at": "2026-05-04T07:10:02.252717Z",
-  "expires_at": "2026-05-18T05:32:26.958503Z",
+  "expires_at": "2026-05-22T01:33:44.912643Z",
   "status": "incomplete",
   "listing": {
     "title": "For Lease: Warehouse located at CFS1 Lima Technology Center",
@@ -17,7 +17,7 @@
     "lng": 121.1052772,
     "price_php": 901800.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Natalie Basmajian",
+    "agent_name": "Grandeur Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",

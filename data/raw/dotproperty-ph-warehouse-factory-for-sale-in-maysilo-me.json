@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-maysilo-me",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maysilo-metro-manila_a1e574c36c4a-400f-8472-23ed-689c2089",
-  "scraped_at": "2026-05-11T05:01:33.944188Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maysilo-metro-manila_bc4efa679942-abfe-1262-c8ad-2436d089",
+  "scraped_at": "2026-05-15T01:05:05.794331Z",
   "first_seen_at": "2026-05-04T06:53:02.786781Z",
-  "expires_at": "2026-05-18T05:01:33.944188Z",
+  "expires_at": "2026-05-22T01:05:05.794331Z",
   "status": "incomplete",
   "listing": {
-    "title": "Newly Built Commercial Building/Warehouse in Maysilo, Malabon",
-    "sqm": 300.0,
+    "title": "Lot with warehouse and Parking accessible to Trucks For Sale at Malabon",
+    "sqm": 6614.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Malabon, Maysilo",
     "region": "NCR",
     "lat": null,
     "lng": null,
-    "price_php": 25000000.0,
+    "price_php": 165350000.0,
     "price_unit": "total",
-    "agent_name": "27C Realty",
+    "agent_name": "GENE",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 300 m2",
-      "price_raw": "Sale: ₱ 25,000,000"
+      "area_raw": "Usable area: 6,614 m2",
+      "price_raw": "Sale: ₱ 165,350,000"
     }
   },
   "enriched": {

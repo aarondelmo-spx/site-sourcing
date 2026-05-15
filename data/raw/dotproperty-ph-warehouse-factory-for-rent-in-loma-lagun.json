@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-loma-lagun",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loma-laguna_31b4c69f1a2f-75de-fb52-3fb9-68532089",
-  "scraped_at": "2026-05-11T05:09:13.019202Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loma-laguna_18e4cb8cc61f-c31f-a522-7af3-58d32089",
+  "scraped_at": "2026-05-15T01:13:48.548124Z",
   "first_seen_at": "2026-05-04T02:31:51.814579Z",
-  "expires_at": "2026-05-18T05:09:13.019202Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:13:48.548124Z",
+  "status": "active",
   "listing": {
-    "title": "PEZA Warehouse Space for Lease/Rent in Biñan Laguna",
-    "sqm": 15600.0,
-    "dock_doors": null,
+    "title": "1871 sqm peza warehouse for rent in calamba laguna",
+    "sqm": 1870.0,
+    "dock_doors": 1,
     "clear_height_m": null,
     "address": "Laguna, Biñan, Loma",
     "region": "Laguna",
     "lat": 14.288166,
     "lng": 121.0637866,
-    "price_php": 2530000.0,
+    "price_php": 520000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "ME REALTY INC",
+    "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Land area: 15,600 m2",
-      "price_raw": "Rent: ₱ 2,530,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,870 m2",
+      "price_raw": "Rent: ₱ 520,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -35,7 +35,5 @@
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "dock_doors"
-  ]
+  "missing_required": []
 }

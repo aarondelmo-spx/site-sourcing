@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-alabang-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-alabang-metro-manila_508b29f76bb1-5481-93c2-756b-71d32089",
+  "scraped_at": "2026-05-15T01:03:26.712375Z",
+  "first_seen_at": "2026-05-15T01:03:26.712375Z",
+  "expires_at": "2026-05-22T01:03:26.712375Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "5,000 sqm Office Commercial Warehouse in Alabang, Muntinlupa City",
+    "sqm": 5000.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Muntinlupa, Alabang",
+    "region": "NCR",
+    "lat": 14.4128734,
+    "lng": 121.0384243,
+    "price_php": 1500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 5,000 m2",
+      "price_raw": "Rent: ₱ 1,500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 1.54,
+      "NLEX": 26.94,
+      "C5": 15.39,
+      "R10": 23.44
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,39 +1,41 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-1",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-110-leyte_6716aba54e2b-79e0-ca82-569b-a545d089",
-  "scraped_at": "2026-05-04T07:42:34.816656Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-13-b-davao-del-sur_52e49010d982-dd01-9502-626c-d2632089",
+  "scraped_at": "2026-05-15T01:38:31.265729Z",
   "first_seen_at": "2026-05-04T06:49:47.291092Z",
-  "expires_at": "2026-05-11T07:42:34.816656Z",
-  "status": "active",
+  "expires_at": "2026-05-22T01:38:31.265729Z",
+  "status": "incomplete",
   "listing": {
-    "title": "Elevated Modern Warehouse for Lease | Maharlika Highway, Tacloban City",
-    "sqm": 4643.0,
-    "dock_doors": 5,
-    "clear_height_m": 9.0,
-    "address": "Leyte, Tacloban, Barangay 110",
-    "region": "Leyte",
-    "lat": 11.2672969,
-    "lng": 124.9653202,
-    "price_php": 1485760.0,
+    "title": "1,100 sqm Warehouse Space for Rent in Davao City",
+    "sqm": 1100.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Davao del Sur, Davao City, Barangay 13-B",
+    "region": "Davao del Sur",
+    "lat": 7.0776251,
+    "lng": 125.6141467,
+    "price_php": 165000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Fareast Habitat and Settlements. Inc.",
+    "agent_name": "PRIME Hannah",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 4,643 m2",
-      "price_raw": "Rent: ₱ 1,485,760\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,100 m2",
+      "price_raw": "Rent: ₱ 165,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
     "corridor_distances_km": {
-      "SLEX": 522.58,
-      "NLEX": 570.46,
-      "C5": 559.81,
-      "R10": 570.3
+      "SLEX": 922.93,
+      "NLEX": 980.84,
+      "C5": 968.87,
+      "R10": 979.0
     },
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": []
+  "missing_required": [
+    "dock_doors"
+  ]
 }

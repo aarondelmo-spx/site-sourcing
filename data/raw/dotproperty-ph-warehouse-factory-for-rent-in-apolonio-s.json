@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-apolonio-s",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-apolonio-samson-metro-manila-near-lrt-1-balintawak_6f2ef21af334-9050-8472-34b6-08d32089",
+  "scraped_at": "2026-05-13T00:40:06.291155Z",
+  "first_seen_at": "2026-05-13T00:40:00.389137Z",
+  "expires_at": "2026-05-20T00:40:06.291155Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "1,250 sqm Office & Warehouse for Rent on EDSA Balintawak, Quezon City",
+    "sqm": 465.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Quezon City, Apolonio Samson",
+    "region": "NCR",
+    "lat": 14.6546579,
+    "lng": 121.0137052,
+    "price_php": 500000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Regent Estate Sales & Development",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 465 m2",
+      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 11.62,
+      "NLEX": 0.43,
+      "C5": 7.65,
+      "R10": 4.93
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

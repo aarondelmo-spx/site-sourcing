@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-bahay-toro",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bahay-toro-metro-manila_5406401a0e29-5210-3c82-20d2-a8d32089",
-  "scraped_at": "2026-05-11T04:57:16.567812Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bahay-toro-metro-manila_c172dd875ba1-a1df-0422-1426-1ae32089",
+  "scraped_at": "2026-05-15T01:03:49.418366Z",
   "first_seen_at": "2026-05-04T06:51:07.188487Z",
-  "expires_at": "2026-05-18T04:57:16.567812Z",
+  "expires_at": "2026-05-22T01:03:49.418366Z",
   "status": "incomplete",
   "listing": {
-    "title": "PN56439 Warehouse For Rent in General Ave nr Rd 20 QC!",
-    "sqm": 2000.0,
+    "title": "450 sqm Warehouse for Rent in Bahay Toro, Quezon City",
+    "sqm": 450.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Bahay Toro",
     "region": "NCR",
     "lat": 14.666285,
     "lng": 121.0349555,
-    "price_php": 500000.0,
+    "price_php": 90000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Rolan De Guzman",
+    "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 2,000 m2",
-      "price_raw": "Rent: ₱ 500,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 450 m2",
+      "price_raw": "Rent: ₱ 90,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

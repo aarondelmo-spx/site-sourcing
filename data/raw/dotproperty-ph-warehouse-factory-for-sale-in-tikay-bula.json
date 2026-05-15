@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-tikay-bula",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tikay-bulacan_9377b1c40bd1-50de-0642-d9fa-a7080089",
-  "scraped_at": "2026-05-11T05:19:56.142043Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-tikay-bulacan_bf77f81468dd-29fe-da62-ee94-f6080089",
+  "scraped_at": "2026-05-15T01:23:31.435996Z",
   "first_seen_at": "2026-05-04T07:22:07.143284Z",
-  "expires_at": "2026-05-18T05:19:56.142043Z",
+  "expires_at": "2026-05-22T01:23:31.435996Z",
   "status": "incomplete",
   "listing": {
-    "title": "Industrial Warehouse in Bulacan City For Sale",
-    "sqm": 10360.0,
+    "title": "Industrial Warehouse in Malolos Bulacan City For Sale",
+    "sqm": 4415.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Bulacan, Malolos, Tikay",
     "region": "Bulacan",
     "lat": 14.8378202,
     "lng": 120.8532118,
-    "price_php": 879190000.0,
+    "price_php": 926960000.0,
     "price_unit": "total",
     "agent_name": "My Hometown Realty & Developer Inc. (FT)",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 10,360 m2",
-      "price_raw": "Sale: ₱ 879,190,000"
+      "area_raw": "Land area: 4,415 m2",
+      "price_raw": "Sale: ₱ 926,960,000"
     }
   },
   "enriched": {

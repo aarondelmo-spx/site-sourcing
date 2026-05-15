@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-dumlog-ceb",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dumlog-cebu_df3f3d913d4e-6a01-d422-c14c-e6d9e089",
+  "scraped_at": "2026-05-15T01:37:00.604511Z",
+  "first_seen_at": "2026-05-15T01:37:00.604511Z",
+  "expires_at": "2026-05-22T01:37:00.604511Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "523 sqm Warehouse for Rent in Dumlog Talisay",
+    "sqm": 523.1,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cebu, Talisay, Dumlog",
+    "region": "Cebu",
+    "lat": 10.2501107,
+    "lng": 123.8369851,
+    "price_php": 130780.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "SHOUJIKI REALTY",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 523.12 m2",
+      "price_raw": "Rent: ₱ 130,780\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 520.56,
+      "NLEX": 577.86,
+      "C5": 565.95,
+      "R10": 576.13
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-don-bosco-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-bosco-metro-manila_2bae61bc7c44-ca11-1f62-a8f5-06e9f089",
-  "scraped_at": "2026-05-11T04:56:15.866178Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-bosco-metro-manila_f4c5c7f5c76c-5850-b772-1416-eae32089",
+  "scraped_at": "2026-05-15T01:03:33.489536Z",
   "first_seen_at": "2026-05-04T06:49:17.141025Z",
-  "expires_at": "2026-05-18T04:56:15.866178Z",
+  "expires_at": "2026-05-22T01:03:33.489536Z",
   "status": "incomplete",
   "listing": {
-    "title": "2,200sqm Paranaque Warehouse w/ Office FOR LEASE",
-    "sqm": null,
+    "title": "310 sqm Warehouse for Rent in Parañaque, Metro Manila",
+    "sqm": 310.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Parañaque, Don Bosco",
     "region": "NCR",
     "lat": 14.4853251,
     "lng": 121.0296577,
-    "price_php": 870000.0,
+    "price_php": 150000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Next Point Realty",
+    "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 870,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 310 m2",
+      "price_raw": "Rent: ₱ 150,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

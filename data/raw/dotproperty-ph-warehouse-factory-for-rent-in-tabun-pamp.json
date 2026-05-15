@@ -1,13 +1,13 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-tabun-pamp",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabun-pampanga_ccc85d7facfe-a110-5462-98f3-23c70089",
-  "scraped_at": "2026-05-11T05:29:30.792482Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tabun-pampanga_bab58ec9fda7-b7f0-f122-3b6f-4f62d089",
+  "scraped_at": "2026-05-15T01:30:17.279231Z",
   "first_seen_at": "2026-05-04T07:23:05.449796Z",
-  "expires_at": "2026-05-18T05:29:30.792482Z",
+  "expires_at": "2026-05-22T01:30:17.279231Z",
   "status": "incomplete",
   "listing": {
-    "title": "3,870 Sqm NON PEZA Warehouse in Mabalacat Pampanga",
+    "title": "Institutional Grade 3,870 SQM Industrial Unit for Lease in Mabalacat Pampanga featuring 11-Meter Height and Ample Parking",
     "sqm": null,
     "dock_doors": 1,
     "clear_height_m": null,
@@ -15,14 +15,14 @@
     "region": "Pampanga",
     "lat": null,
     "lng": null,
-    "price_php": 968000.0,
+    "price_php": 967500.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Phil Dang-At",
+    "agent_name": "Cedtrix Rena - PRIME Philippines",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
       "area_raw": "",
-      "price_raw": "Rent: ₱ 968,000\n                                                                                                     /\n                                                        month"
+      "price_raw": "Rent: ₱ 967,500\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

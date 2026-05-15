@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-sapang-bul",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sapang-bulak-bulacan_74b0a7b2602b-dd2f-c632-c240-ec2bf089",
-  "scraped_at": "2026-05-11T05:17:59.474952Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sapang-bulak-bulacan_d735d3d73d8b-54cf-1c52-d00a-16e9b089",
+  "scraped_at": "2026-05-15T01:22:05.579251Z",
   "first_seen_at": "2026-05-04T07:17:50.129900Z",
-  "expires_at": "2026-05-18T05:17:59.474952Z",
+  "expires_at": "2026-05-22T01:22:05.579251Z",
   "status": "incomplete",
   "listing": {
-    "title": "WAREHOUSE FOR LEASE IN OBANDO, BULACAN",
-    "sqm": 1166.0,
+    "title": "WAREHOUSE FOR LEASE IN  SANTA MARIA, BULACAN",
+    "sqm": 600.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Bulacan, Doña Remedios Trinidad, Sapang Bulak",
     "region": "Bulacan",
     "lat": 15.0344968,
     "lng": 121.0940557,
-    "price_php": 256520.0,
+    "price_php": 72000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "PROSPERLAND HOME REALTY - PLHR 7",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 10",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,166 m2",
-      "price_raw": "Rent: ₱ 256,520\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 600 m2",
+      "price_raw": "Rent: ₱ 72,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

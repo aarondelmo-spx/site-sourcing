@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-don-jose-l",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-jose-laguna_cfbd64632b9a-bf01-bf42-1261-a4532089",
-  "scraped_at": "2026-05-11T05:09:19.188021Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-don-jose-laguna_5ed0148a174b-0b01-ec52-67f1-14d32089",
+  "scraped_at": "2026-05-15T01:13:31.175487Z",
   "first_seen_at": "2026-05-04T07:01:34.512014Z",
-  "expires_at": "2026-05-18T05:09:19.188021Z",
+  "expires_at": "2026-05-22T01:13:31.175487Z",
   "status": "incomplete",
   "listing": {
-    "title": "High Ceiling Warehouse Spaces for Lease Rent in Cabuyao Laguna",
-    "sqm": null,
+    "title": "For Rent/Lease: 1,410 square meter PEZA Warehouses in Sta. Rosa, Laguna",
+    "sqm": 1410.0,
     "dock_doors": null,
-    "clear_height_m": null,
+    "clear_height_m": 8.0,
     "address": "Laguna, Santa Rosa, Don Jose",
     "region": "Laguna",
     "lat": 14.2586909,
     "lng": 121.0621202,
-    "price_php": 200000.0,
+    "price_php": 423000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "ME REALTY INC",
+    "agent_name": "PRIME Philippines - Joy",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 200,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,410 m2",
+      "price_raw": "Rent: ₱ 423,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

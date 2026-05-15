@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-ususan-met",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ususan-metro-manila_795c1aea0956-9660-e992-54e3-2fc0d089",
-  "scraped_at": "2026-05-11T04:55:49.317624Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-ususan-metro-manila_f7998ff0adbd-580f-c642-6e62-1cb20089",
+  "scraped_at": "2026-05-15T01:03:56.235117Z",
   "first_seen_at": "2026-05-04T06:49:57.741422Z",
-  "expires_at": "2026-05-18T04:55:49.317624Z",
+  "expires_at": "2026-05-22T01:03:56.235117Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse Space for Lease Rent 1,600 sqm in Taguig City",
-    "sqm": null,
+    "title": "6000sqm 2 story office warehouse Taguig",
+    "sqm": 6000.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Taguig, Ususan",
     "region": "NCR",
     "lat": 14.5319236,
     "lng": 121.0668637,
-    "price_php": 440000.0,
+    "price_php": 2000000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "ME Realty Inc.",
+    "agent_name": "Elpie Campo",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 440,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 6,000 m2",
+      "price_raw": "Rent: ₱ 2,000,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

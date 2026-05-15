@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-sale-in-bangkal-me",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bangkal-metro-manila-near-mrt-3-magallanes_1f237bc08500-8cf0-ce22-8db8-a247b089",
+  "scraped_at": "2026-05-15T01:07:00.401995Z",
+  "first_seen_at": "2026-05-13T00:41:29.156944Z",
+  "expires_at": "2026-05-22T01:07:00.401995Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Warehouse Property for Sale in Bangkal, Makati City",
+    "sqm": 200.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Metro Manila, Makati, Bangkal",
+    "region": "NCR",
+    "lat": 14.5442638,
+    "lng": 121.0143477,
+    "price_php": 33000000.0,
+    "price_unit": "total",
+    "agent_name": "Yalu Sabado - Top Realty",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 200 m2",
+      "price_raw": "Sale: ₱ 33,000,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 0.83,
+      "NLEX": 12.17,
+      "C5": 3.84,
+      "R10": 8.82
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

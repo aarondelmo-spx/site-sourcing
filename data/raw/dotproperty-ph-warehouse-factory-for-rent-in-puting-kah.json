@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-puting-kah",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-puting-kahoy-cavite_7168fa5accc5-00df-d402-2883-d6d32089",
-  "scraped_at": "2026-05-11T05:03:30.876788Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-puting-kahoy-cavite_18c6a0a6c5b2-0600-de52-1d16-1ae32089",
+  "scraped_at": "2026-05-15T01:09:26.480889Z",
   "first_seen_at": "2026-05-04T06:56:45.633334Z",
-  "expires_at": "2026-05-18T05:03:30.876788Z",
+  "expires_at": "2026-05-22T01:09:26.480889Z",
   "status": "incomplete",
   "listing": {
-    "title": "3,370sqm WAREHOUSE FOR LEASE | SILANG, CAVITE",
-    "sqm": 3370.0,
+    "title": "7566 square meters warehouse for rent in Silang, Cavite",
+    "sqm": 7566.0,
     "dock_doors": null,
-    "clear_height_m": 9.0,
+    "clear_height_m": null,
     "address": "Cavite, Silang, Puting Kahoy",
     "region": "Cavite",
     "lat": 14.2171239,
     "lng": 121.0407164,
-    "price_php": 640300.0,
+    "price_php": 1200000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Rona Sarmiento",
+    "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 3,370 m2",
-      "price_raw": "Rent: ₱ 640,300\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 7,566 m2",
+      "price_raw": "Rent: ₱ 1,200,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

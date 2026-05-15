@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-malinta-me",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-malinta-metro-manila_a8b95af0e8de-ea3e-f452-3e04-ae5a1089",
-  "scraped_at": "2026-05-11T04:58:40.452211Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-malinta-metro-manila_5bf6b4e8f3f7-c101-7482-0032-9733c089",
+  "scraped_at": "2026-05-15T01:07:15.778063Z",
   "first_seen_at": "2026-05-04T06:52:57.124766Z",
-  "expires_at": "2026-05-18T04:58:40.452211Z",
+  "expires_at": "2026-05-22T01:07:15.778063Z",
   "status": "incomplete",
   "listing": {
-    "title": "For Sale: 2-Storey Warehouse (Industrial) in Valenzuela City",
-    "sqm": 1000.0,
+    "title": "FOR SALE – Factory / Industrial Property in Valenzuela PP CODE: 3419",
+    "sqm": 1950.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Valenzuela, Malinta",
     "region": "NCR",
     "lat": 14.6969353,
     "lng": 120.9639567,
-    "price_php": 60000000.0,
+    "price_php": 58500000.0,
     "price_unit": "total",
-    "agent_name": "Cristal Villena",
+    "agent_name": "Property Post Inc- Kristina Garcia",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 1,000 m2",
-      "price_raw": "Sale: ₱ 60,000,000"
+      "area_raw": "Usable area: 1,950 m2",
+      "price_raw": "Sale: ₱ 58,500,000"
     }
   },
   "enriched": {

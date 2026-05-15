@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-paliparan-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-paliparan-i-cavite_5b5226938d86-20b1-15c2-e1f1-fa632089",
-  "scraped_at": "2026-05-11T05:02:21.009709Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-paliparan-i-cavite_00d33d233350-b581-6922-f961-52532089",
+  "scraped_at": "2026-05-15T01:09:20.906597Z",
   "first_seen_at": "2026-05-04T06:56:39.168664Z",
-  "expires_at": "2026-05-18T05:02:21.009709Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:09:20.906597Z",
+  "status": "active",
   "listing": {
     "title": "Warehouse Space for Lease Rent 7,700 sqm in Molino-Paliparan Dasmariñas Cavite",
-    "sqm": null,
+    "sqm": 7700.0,
     "dock_doors": 4,
     "clear_height_m": null,
     "address": "Cavite, Dasmariñas, Paliparan I",
     "region": "Cavite",
     "lat": 14.285149,
     "lng": 120.9895932,
-    "price_php": 2000000.0,
+    "price_php": 2165000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "ME REALTY INC",
+    "agent_name": "ME Realty Inc.",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 2,000,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 7,700 m2",
+      "price_raw": "Rent: ₱ 2,165,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -35,7 +35,5 @@
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "sqm"
-  ]
+  "missing_required": []
 }

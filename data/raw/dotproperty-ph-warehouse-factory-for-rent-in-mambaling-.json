@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-mambaling-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mambaling-cebu_aea4cd6d782a-510f-2b62-5353-74d32089",
-  "scraped_at": "2026-05-11T05:34:56.490063Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-mambaling-cebu_ebe409d7eb47-45ee-e0b2-2177-c4d32089",
+  "scraped_at": "2026-05-15T01:36:10.300769Z",
   "first_seen_at": "2026-05-08T04:01:54.425980Z",
-  "expires_at": "2026-05-18T05:34:56.490063Z",
+  "expires_at": "2026-05-22T01:36:10.300769Z",
   "status": "incomplete",
   "listing": {
-    "title": "711 sqm Warehouse in Mambaling Cebu",
-    "sqm": 711.0,
+    "title": "940 sqm Warehouse Property for Rent in Mambaling, Cebu City, Cebu",
+    "sqm": 940.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cebu, Cebu City, Mambaling",
     "region": "Cebu",
     "lat": 10.2852169,
     "lng": 123.8865301,
-    "price_php": 127980.0,
+    "price_php": 178809.0,
     "price_unit": "per sqm/month",
     "agent_name": "Cebu Globenet Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 711 m2",
-      "price_raw": "Rent: ₱ 127,980\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 940 m2",
+      "price_raw": "Rent: ₱ 178,809\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

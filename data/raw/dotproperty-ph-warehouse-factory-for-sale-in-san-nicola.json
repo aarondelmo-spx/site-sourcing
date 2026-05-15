@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-san-nicola",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-nicolas-iii-cavite_7d6ec8259af8-bd01-7332-10ea-c3482089",
-  "scraped_at": "2026-05-11T05:05:45.567386Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-san-nicolas-metro-manila_207783aa6555-4a40-de92-4c06-88750089",
+  "scraped_at": "2026-05-15T01:06:36.020756Z",
   "first_seen_at": "2026-05-04T06:54:36.849109Z",
-  "expires_at": "2026-05-18T05:05:45.567386Z",
+  "expires_at": "2026-05-22T01:06:36.020756Z",
   "status": "incomplete",
   "listing": {
-    "title": "San Nicholas 3 | Warehouse For Sale - #8592",
-    "sqm": 340.0,
+    "title": "FOR SALE: WAREHOUSE – PASIG CITY",
+    "sqm": 7000.0,
     "dock_doors": null,
     "clear_height_m": null,
-    "address": "Cavite, Bacoor, San Nicolas III",
-    "region": "Cavite",
+    "address": "Metro Manila, Pasig, San Nicolas",
+    "region": "NCR",
     "lat": null,
     "lng": null,
-    "price_php": 19000000.0,
+    "price_php": 975000000.0,
     "price_unit": "total",
-    "agent_name": "Everbright Real Estate",
+    "agent_name": "Janna Sangcap",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 340 m2",
-      "price_raw": "Sale: ₱ 19,000,000"
+      "area_raw": "Usable area: 7,000 m2",
+      "price_raw": "Sale: ₱ 975,000,000"
     }
   },
   "enriched": {

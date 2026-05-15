@@ -1,10 +1,10 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-lawa-bulac",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lawa-bulacan_901db7110eaa-2eee-1942-ef8d-55d32089",
-  "scraped_at": "2026-05-11T05:15:40.035335Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lawa-bulacan_c1aeaa28fa75-48ff-d7d2-48ce-55d32089",
+  "scraped_at": "2026-05-15T01:20:06.422916Z",
   "first_seen_at": "2026-05-04T07:17:54.993923Z",
-  "expires_at": "2026-05-18T05:15:40.035335Z",
+  "expires_at": "2026-05-22T01:20:06.422916Z",
   "status": "incomplete",
   "listing": {
     "title": "Warehouse for Rent in Meycauayan, Bulacan",
@@ -15,14 +15,14 @@
     "region": "Bulacan",
     "lat": 14.7298408,
     "lng": 120.976571,
-    "price_php": 97000.0,
+    "price_php": 176700.0,
     "price_unit": "per sqm/month",
     "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
       "area_raw": "Land area: 930 m2",
-      "price_raw": "Rent: ₱ 97,000\n                                                                                                     /\n                                                        month"
+      "price_raw": "Rent: ₱ 176,700\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

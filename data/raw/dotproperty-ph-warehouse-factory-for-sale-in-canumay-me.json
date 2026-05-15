@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-canumay-me",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-canumay-metro-manila_68cd74ee3d33-3b5e-ee42-aed5-2b8cc089",
-  "scraped_at": "2026-05-11T05:01:33.012716Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-canumay-metro-manila_731b678f9007-2f41-25e2-e005-41532089",
+  "scraped_at": "2026-05-15T01:07:10.520455Z",
   "first_seen_at": "2026-05-04T06:53:13.135414Z",
-  "expires_at": "2026-05-18T05:01:33.012716Z",
+  "expires_at": "2026-05-22T01:07:10.520455Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse in Valenzuela FOR SALE!!!",
-    "sqm": 2289.0,
+    "title": "Warehouse For Sale in Canumay, Valenzuela 500 meters away from NLEX",
+    "sqm": 20000.0,
     "dock_doors": null,
-    "clear_height_m": null,
+    "clear_height_m": 500.0,
     "address": "Metro Manila, Valenzuela, Canumay",
     "region": "NCR",
     "lat": 14.7126622,
     "lng": 120.9880317,
-    "price_php": 250000000.0,
+    "price_php": 800000000.0,
     "price_unit": "total",
-    "agent_name": "Minland Realty - Jon",
+    "agent_name": "Jomilo Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 2,289 m2",
-      "price_raw": "Sale: ₱ 250,000,000"
+      "area_raw": "Usable area: 20,000 m2",
+      "price_raw": "Sale: ₱ 800,000,000"
     }
   },
   "enriched": {

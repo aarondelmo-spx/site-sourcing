@@ -1,25 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-punturin-m",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-punturin-metro-manila_bc1d47d41ae4-065f-cbd2-f8e3-8b632089",
-  "scraped_at": "2026-04-29T08:18:12.009802Z",
-  "expires_at": "2026-05-06T08:18:12.009802Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-punturin-metro-manila_95bc2554373a-78f1-1b02-5c2d-3ae32089",
+  "scraped_at": "2026-05-13T00:40:12.182134Z",
+  "first_seen_at": "2026-05-13T00:39:55.713936Z",
+  "expires_at": "2026-05-20T00:40:12.182134Z",
   "status": "incomplete",
   "listing": {
-    "title": "WIDE WAREHOUSE IN PUNTURIN VALEZUELA FOR LEASE",
-    "sqft": 34444.5,
+    "title": "Warehouse for Rent in Brgy. Punturin, Valenzuela City",
+    "sqm": 1677.5,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Valenzuela, Punturin",
     "region": "NCR",
     "lat": null,
     "lng": null,
-    "price_php": 576000.0,
+    "price_php": 352954.0,
     "price_unit": "per sqm/month",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 3,200 m2",
-      "price_raw": "Rent: ₱ 576,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,677.54 m2",
+      "price_raw": "Rent: ₱ 352,954\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

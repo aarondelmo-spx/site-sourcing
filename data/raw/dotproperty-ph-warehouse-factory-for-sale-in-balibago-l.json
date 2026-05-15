@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-balibago-l",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balibago-laguna_2cc2e40e0f7a-2320-a6d2-dcf4-dc632089",
-  "scraped_at": "2026-05-11T05:13:16.687894Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-balibago-laguna_0ac4d9e19f46-467f-2f22-4e6d-d0c02089",
+  "scraped_at": "2026-05-15T01:18:07.135338Z",
   "first_seen_at": "2026-05-04T02:36:45.690619Z",
-  "expires_at": "2026-05-18T05:13:16.687894Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:18:07.135338Z",
+  "status": "active",
   "listing": {
-    "title": "Sta Rosa Laguna Warehouse Complex for Sale in Industrial Park Main Road Balibago",
-    "sqm": 4000.0,
-    "dock_doors": null,
+    "title": "FOR SALE CORNER LOT WAREHOUSE WITH OFFICE IN MERIDIAN INDUSTRIAL COMPLEX BALIBAGO STA. ROSA LAGUNA",
+    "sqm": 13179.0,
+    "dock_doors": 1,
     "clear_height_m": null,
     "address": "Laguna, Santa Rosa, Balibago",
     "region": "Laguna",
     "lat": null,
     "lng": null,
-    "price_php": 500000000.0,
+    "price_php": 510000000.0,
     "price_unit": "total",
-    "agent_name": "Anna AD",
+    "agent_name": "REinvestmentsph",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 4,000 m2",
-      "price_raw": "Sale: ₱ 500,000,000"
+      "area_raw": "Usable area: 13,179 m2",
+      "price_raw": "Sale: ₱ 510,000,000"
     }
   },
   "enriched": {
@@ -30,7 +30,5 @@
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "dock_doors"
-  ]
+  "missing_required": []
 }

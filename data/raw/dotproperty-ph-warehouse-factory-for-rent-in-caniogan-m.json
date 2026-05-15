@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-caniogan-m",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-caniogan-metro-manila_10b96b43aae0-5a61-e3b2-f3c0-b3d32089",
-  "scraped_at": "2026-05-11T04:56:44.785356Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-caniogan-metro-manila_5aa5b77e5141-34a0-f3b2-3c80-c4d32089",
+  "scraped_at": "2026-05-15T01:03:09.910274Z",
   "first_seen_at": "2026-05-04T06:50:44.505733Z",
-  "expires_at": "2026-05-18T04:56:44.785356Z",
+  "expires_at": "2026-05-22T01:03:09.910274Z",
   "status": "incomplete",
   "listing": {
-    "title": "PN55733 Warehouse For Rent PASIG!",
-    "sqm": 490.0,
+    "title": "Small Warehouse for Rent Lease Pasig Kapitolyo 400 sqm",
+    "sqm": 395.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Pasig, Caniogan",
     "region": "NCR",
     "lat": 14.5705422,
     "lng": 121.0768422,
-    "price_php": 165000.0,
+    "price_php": 197500.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Rolan De Guzman",
+    "agent_name": "Easy Property Match",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Land area: 490 m2",
-      "price_raw": "Rent: ₱ 165,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 395 m2",
+      "price_raw": "Rent: ₱ 197,500\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

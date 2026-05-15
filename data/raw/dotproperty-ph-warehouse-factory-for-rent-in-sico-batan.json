@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-sico-batan",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sico-batangas_f40ae60dcf5e-979e-0042-1c4f-9172f089",
-  "scraped_at": "2026-05-11T05:32:24.751421Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sico-batangas_2a037317d9df-f0f0-b652-8e07-762bf089",
+  "scraped_at": "2026-05-15T01:33:38.117521Z",
   "first_seen_at": "2026-05-04T07:10:00.912766Z",
-  "expires_at": "2026-05-18T05:32:24.751421Z",
+  "expires_at": "2026-05-22T01:33:38.117521Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouses and Office Unit for Rent in Batangas City",
-    "sqm": null,
+    "title": "WAREHOUSE FOR LEASE IN BATANGAS CITY",
+    "sqm": 130.0,
     "dock_doors": null,
-    "clear_height_m": 15.0,
+    "clear_height_m": null,
     "address": "Batangas, Lipa, Sico",
     "region": "Batangas",
     "lat": 13.9423047,
     "lng": 121.1260586,
-    "price_php": 354000.0,
+    "price_php": 60000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "27C Realty",
+    "agent_name": "PROSPERLAND HOME REALTY - PLHR 6",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 354,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 130 m2",
+      "price_raw": "Rent: ₱ 60,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

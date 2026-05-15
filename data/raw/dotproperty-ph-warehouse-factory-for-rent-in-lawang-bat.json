@@ -1,0 +1,39 @@
+{
+  "id": "dotproperty-ph-warehouse-factory-for-rent-in-lawang-bat",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lawang-bato-metro-manila_1bb3dc77ea1d-fb6e-11f2-51c2-64d32089",
+  "scraped_at": "2026-05-13T00:39:48.819864Z",
+  "first_seen_at": "2026-05-13T00:39:48.819864Z",
+  "expires_at": "2026-05-20T00:39:48.819864Z",
+  "status": "active",
+  "listing": {
+    "title": "Warehouse space in gated compound for lease in Valenzuela City",
+    "sqm": 2524.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
+    "address": "Metro Manila, Valenzuela, Lawang Bato",
+    "region": "NCR",
+    "lat": 14.7306486,
+    "lng": 120.9952558,
+    "price_php": 505000.0,
+    "price_unit": "per sqm/month",
+    "agent_name": "Sondi Tuazon",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-rent",
+      "area_raw": "Usable area: 2,524 m2",
+      "price_raw": "Rent: ₱ 505,000\n                                                                                                     /\n                                                        month"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 20.21,
+      "NLEX": 3.69,
+      "C5": 5.91,
+      "R10": 7.9
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": []
+}

@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-tandang-so",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tandang-sora-metro-manila_34f042be627a-3d2e-f0d2-0da1-e9d32089",
-  "scraped_at": "2026-05-04T06:51:53.976870Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-tandang-sora-metro-manila_62789a0f3afb-6841-7322-ff1b-b93f2089",
+  "scraped_at": "2026-05-13T00:40:04.807773Z",
   "first_seen_at": "2026-05-04T06:49:51.928650Z",
-  "expires_at": "2026-05-11T06:51:53.976870Z",
+  "expires_at": "2026-05-20T00:40:04.807773Z",
   "status": "active",
   "listing": {
-    "title": "Warehouse/Office for Lease at  Tandang Sora Ave. Brgy. Tandang Sora Quezon City",
-    "sqm": 3200.4,
+    "title": "4,303.44 SQM. 2 Storey Annex Warehouse for Lease in Tandang Sora Quezon City",
+    "sqm": 4303.4,
     "dock_doors": 1,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Tandang Sora",
     "region": "NCR",
     "lat": 14.6748904,
     "lng": 121.0321869,
-    "price_php": 576336.0,
+    "price_php": 862026.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Realus Realtors (Cyril Katipunan)",
+    "agent_name": "Daisylyn-Lacson",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 3,200.45 m2",
-      "price_raw": "Rent: ₱ 576,336\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 4,303.44 m2",
+      "price_raw": "Rent: ₱ 862,026\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

@@ -2,10 +2,10 @@
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-sun-valley",
   "source": "dotproperty-ph",
   "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-sun-valley-metro-manila_2e9770fd4788-8280-d0b2-0f39-83d32089",
-  "scraped_at": "2026-04-29T08:21:35.910715Z",
+  "scraped_at": "2026-05-13T00:40:05.479779Z",
   "first_seen_at": "2026-04-29T08:21:35.910715Z",
-  "expires_at": "2026-05-06T08:21:35.910715Z",
-  "status": "stale",
+  "expires_at": "2026-05-20T00:40:05.479779Z",
+  "status": "active",
   "listing": {
     "title": "Warehouse for Lease in Queensway Commercial Center, Parañaque City",
     "sqm": 1200.0,
@@ -17,7 +17,7 @@
     "lng": 121.0409726,
     "price_php": 480000.0,
     "price_unit": "per sqm/month",
-    "agent_name": null,
+    "agent_name": "Realus Realtors (Cyril Katipunan)",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",

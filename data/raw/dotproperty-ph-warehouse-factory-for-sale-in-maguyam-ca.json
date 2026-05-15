@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-maguyam-ca",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maguyam-cavite_031eef4ad1c3-d95f-9975-2a2a-c56ce9d6",
-  "scraped_at": "2026-05-11T05:06:42.096088Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maguyam-cavite_a7c27592f7df-bebe-2f52-e079-6b570089",
+  "scraped_at": "2026-05-15T01:11:50.106101Z",
   "first_seen_at": "2026-05-04T06:58:24.570484Z",
-  "expires_at": "2026-05-18T05:06:42.096088Z",
+  "expires_at": "2026-05-22T01:11:50.106101Z",
   "status": "incomplete",
   "listing": {
-    "title": "Industrial Lot for Sale 40 minutes from Alabang for Warehouse",
-    "sqm": 5219.0,
+    "title": "Cavite Light Industrial Park 2, Maguyam Silang Lot for Sale",
+    "sqm": 2518.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cavite, Silang, Maguyam",
     "region": "Cavite",
     "lat": 14.2581799,
     "lng": 121.0157125,
-    "price_php": 75936450.0,
+    "price_php": 52878000.0,
     "price_unit": "total",
     "agent_name": null,
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 5,219 m2",
-      "price_raw": "Sale: ₱ 75,936,450"
+      "area_raw": "Usable area: 2,518 m2",
+      "price_raw": "Sale: ₱ 52,878,000"
     }
   },
   "enriched": {

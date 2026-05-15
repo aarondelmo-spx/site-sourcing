@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-fatima-lag",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-fatima-laguna_9e188209c600-adbe-9e52-3b7d-91d32089",
-  "scraped_at": "2026-05-11T05:08:25.502762Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-fatima-laguna_6190162d626b-a44e-6fb2-210d-91d32089",
+  "scraped_at": "2026-05-15T01:13:27.096012Z",
   "first_seen_at": "2026-05-04T07:01:51.947003Z",
-  "expires_at": "2026-05-18T05:08:25.502762Z",
+  "expires_at": "2026-05-22T01:13:27.096012Z",
   "status": "incomplete",
   "listing": {
-    "title": "1,238 sqm Warehouse in San Pedro, Laguna",
-    "sqm": 1238.0,
+    "title": "1,139 sqm Warehouse in San Pedro, Laguna",
+    "sqm": 1139.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Laguna, San Pedro, Fatima",
     "region": "Laguna",
     "lat": null,
     "lng": null,
-    "price_php": 210460.0,
+    "price_php": 193630.0,
     "price_unit": "per sqm/month",
     "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,238 m2",
-      "price_raw": "Rent: ₱ 210,460\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,139 m2",
+      "price_raw": "Rent: ₱ 193,630\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

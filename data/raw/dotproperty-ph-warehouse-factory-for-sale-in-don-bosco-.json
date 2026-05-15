@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-don-bosco-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-don-bosco-metro-manila_9ef11b996d09-f8a0-a442-9266-c8305089",
-  "scraped_at": "2026-05-11T04:59:47.649191Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-don-bosco-metro-manila_e27d7d28e334-e6df-b715-335f-47c9df47",
+  "scraped_at": "2026-05-15T01:05:50.290901Z",
   "first_seen_at": "2026-05-04T06:53:34.499018Z",
-  "expires_at": "2026-05-18T04:59:47.649191Z",
+  "expires_at": "2026-05-22T01:05:50.290901Z",
   "status": "incomplete",
   "listing": {
-    "title": "FOR SALE: Prime Property with Two Warehouses",
-    "sqm": 3000.0,
+    "title": "For Sale: West Service Road Parañaque Office Warehouse",
+    "sqm": 2600.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Parañaque, Don Bosco",
     "region": "NCR",
     "lat": 14.4853251,
     "lng": 121.0296577,
-    "price_php": 375000000.0,
+    "price_php": 300000000.0,
     "price_unit": "total",
     "agent_name": "Brad Zafe",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 3,000 m2",
-      "price_raw": "Sale: ₱ 375,000,000"
+      "area_raw": "Usable area: 2,600 m2",
+      "price_raw": "Sale: ₱ 300,000,000"
     }
   },
   "enriched": {

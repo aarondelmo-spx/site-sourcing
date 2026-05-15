@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-loyola-hei",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loyola-heights-metro-manila_65b7afca175f-eaf1-e842-c39a-91d32089",
-  "scraped_at": "2026-05-11T04:57:37.498967Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-loyola-heights-metro-manila_bfb7c9e70e95-70b1-17f2-f0b6-5ae32089",
+  "scraped_at": "2026-05-15T01:03:27.919556Z",
   "first_seen_at": "2026-05-08T03:23:39.258170Z",
-  "expires_at": "2026-05-18T04:57:37.498967Z",
+  "expires_at": "2026-05-22T01:03:27.919556Z",
   "status": "incomplete",
   "listing": {
-    "title": "PN56073 Warehouse w/ Office for Rent In Roosevelt Qc!",
-    "sqm": 1200.0,
+    "title": "Warehouse for Rent in Munoz Quezon City",
+    "sqm": 350.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Loyola Heights",
     "region": "NCR",
     "lat": 14.6349745,
     "lng": 121.0710154,
-    "price_php": 350000.0,
+    "price_php": 85000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Rolan De Guzman",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,200 m2",
-      "price_raw": "Rent: ₱ 350,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 350 m2",
+      "price_raw": "Rent: ₱ 85,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

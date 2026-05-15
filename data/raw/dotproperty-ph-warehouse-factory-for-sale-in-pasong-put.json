@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-pasong-put",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pasong-putik-proper-metro-manila_4c74b2f4a07e-3b7e-f6a2-e99f-e1532089",
-  "scraped_at": "2026-05-11T05:01:29.262042Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-pasong-putik-proper-metro-manila_2a65ef4509ac-98ae-70f2-8810-41632089",
+  "scraped_at": "2026-05-15T01:07:07.229512Z",
   "first_seen_at": "2026-05-04T06:53:10.802188Z",
-  "expires_at": "2026-05-18T05:01:29.262042Z",
+  "expires_at": "2026-05-22T01:07:07.229512Z",
   "status": "incomplete",
   "listing": {
-    "title": "FOR SALE! 2 Hectares Warehouse located in Quezon City!",
-    "sqm": 22324.0,
+    "title": "☆WAREHOUSE FOR SALE/LEASE IN NOVALICHES☆",
+    "sqm": 1241.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Pasong Putik Proper",
     "region": "NCR",
     "lat": 14.7229769,
     "lng": 121.0504238,
-    "price_php": 1.587,
+    "price_php": 260000000.0,
     "price_unit": "total",
-    "agent_name": "Paul Kenneth Ang",
+    "agent_name": "Zobelle88 Brokerage",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 22,324 m2",
-      "price_raw": "Sale: ₱ 1.587 billion"
+      "area_raw": "Usable area: 1,241 m2",
+      "price_raw": "Sale: ₱ 260,000,000"
     }
   },
   "enriched": {

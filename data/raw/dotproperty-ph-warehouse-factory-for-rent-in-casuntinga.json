@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-casuntinga",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-casuntingan-cebu_5558ad4c16a4-4a3f-e642-985a-18aad089",
-  "scraped_at": "2026-05-11T05:35:48.856812Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-casuntingan-cebu_edea538d572a-68a1-f6e2-f096-27d32089",
+  "scraped_at": "2026-05-15T01:35:29.936853Z",
   "first_seen_at": "2026-05-08T04:01:56.587556Z",
-  "expires_at": "2026-05-18T05:35:48.856812Z",
+  "expires_at": "2026-05-22T01:35:29.936853Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse For Rent/Lease Casuntingan Mandaue 700 Sqm",
-    "sqm": null,
+    "title": "455 sqm Warehouse in Mandaue with Office",
+    "sqm": 455.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cebu, Mandaue, Casuntingan",
     "region": "Cebu",
     "lat": 10.3438415,
     "lng": 123.9321143,
-    "price_php": 224000.0,
+    "price_php": 136500.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Philippine Access",
+    "agent_name": "Cebu Globenet Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 224,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 455 m2",
+      "price_raw": "Rent: ₱ 136,500\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

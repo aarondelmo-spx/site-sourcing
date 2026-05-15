@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-lahug-cebu",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lahug-cebu_fcaf92b26ec2-5021-9762-ef96-d4d32089",
-  "scraped_at": "2026-05-11T05:34:42.553808Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-lahug-cebu_5d55fd3e38cb-7eaf-b6d2-5756-d4d32089",
+  "scraped_at": "2026-05-15T01:36:16.541940Z",
   "first_seen_at": "2026-05-08T04:02:10.281038Z",
-  "expires_at": "2026-05-18T05:34:42.553808Z",
+  "expires_at": "2026-05-22T01:36:16.541940Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehous for rent in Cebu City",
-    "sqm": 1345.0,
+    "title": "Warehouse for rent in Cebu City",
+    "sqm": 940.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cebu, Cebu City, Lahug",
     "region": "Cebu",
     "lat": 10.3285605,
     "lng": 123.9008849,
-    "price_php": 255550.0,
+    "price_php": 178809.0,
     "price_unit": "per sqm/month",
     "agent_name": "Cebu Globenet Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,345 m2",
-      "price_raw": "Rent: ₱ 255,550\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 940 m2",
+      "price_raw": "Rent: ₱ 178,809\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

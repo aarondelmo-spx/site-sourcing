@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-iba-bulaca",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-iba-bulacan_9a20599c536f-3480-9622-6cb8-04d32089",
-  "scraped_at": "2026-05-11T05:17:15.169037Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-iba-bulacan_7e89903c658c-f3ae-ae92-c8ee-a97bf089",
+  "scraped_at": "2026-05-15T01:21:48.090285Z",
   "first_seen_at": "2026-05-04T07:17:58.617706Z",
-  "expires_at": "2026-05-18T05:17:15.169037Z",
+  "expires_at": "2026-05-22T01:21:48.090285Z",
   "status": "incomplete",
   "listing": {
-    "title": "1400 sqm warehouse for rent in meycauayan bulacan",
-    "sqm": 1400.0,
+    "title": "WAREHOUSE FOR LEASE IN Sterling Bulacan",
+    "sqm": 2300.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Bulacan, Meycauayan, Iba",
     "region": "Bulacan",
     "lat": 14.7589242,
     "lng": 120.9811468,
-    "price_php": 270000.0,
+    "price_php": 280000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Sidney Ang",
+    "agent_name": "Maricar David",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,400 m2",
-      "price_raw": "Rent: ₱ 270,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 2,300 m2",
+      "price_raw": "Rent: ₱ 280,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-pangatlan-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pangatlan-pampanga_e24e6f8187d8-7181-3a72-78f4-eae32089",
-  "scraped_at": "2026-05-11T05:26:58.448776Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pangatlan-pampanga_03a27c196b97-c20e-7c12-b733-eae32089",
+  "scraped_at": "2026-05-15T01:29:26.649564Z",
   "first_seen_at": "2026-05-04T07:23:39.968194Z",
-  "expires_at": "2026-05-18T05:26:58.448776Z",
+  "expires_at": "2026-05-22T01:29:26.649564Z",
   "status": "incomplete",
   "listing": {
-    "title": "3600 sqm warehouse for rent in Pampanga",
-    "sqm": 3600.0,
+    "title": "2233 sqm warehouse for rent in pampanga",
+    "sqm": 2233.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Pampanga, Mexico, Pangatlan",
     "region": "Pampanga",
     "lat": null,
     "lng": null,
-    "price_php": 400000.0,
+    "price_php": 250000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 3,600 m2",
-      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 2,233 m2",
+      "price_raw": "Rent: ₱ 250,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

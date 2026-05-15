@@ -1,13 +1,13 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-santo-domi",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santo-domingo-rizal_5c587940f9f8-6d71-1772-9465-beb6f089",
-  "scraped_at": "2026-05-11T05:24:30.425954Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santo-domingo-rizal_fd541e4981a8-f2c1-e942-4dd8-b30d0089",
+  "scraped_at": "2026-05-15T01:26:55.898095Z",
   "first_seen_at": "2026-05-04T06:50:09.522712Z",
-  "expires_at": "2026-05-18T05:24:30.425954Z",
+  "expires_at": "2026-05-22T01:26:55.898095Z",
   "status": "incomplete",
   "listing": {
-    "title": "908 sqm Warehouse for Rent in Floodway, Cainta",
+    "title": "240 sqm Warehouse with Office and Quarters for Rent in Cainta, Rizal",
     "sqm": null,
     "dock_doors": null,
     "clear_height_m": null,
@@ -15,14 +15,14 @@
     "region": "Rizal",
     "lat": 14.5848634,
     "lng": 121.1184621,
-    "price_php": 366100.0,
+    "price_php": 60000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
       "area_raw": "",
-      "price_raw": "Rent: ₱ 366,100\n                                                                                                     /\n                                                        month"
+      "price_raw": "Rent: ₱ 60,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

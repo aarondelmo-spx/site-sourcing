@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-santa-rita",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-rita-bulacan_13f05a52f043-4d40-e462-b9d8-ec951089",
-  "scraped_at": "2026-05-11T05:18:00.415467Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-santa-rita-bulacan_c8006d854941-d76e-1c22-5ae0-a7d32089",
+  "scraped_at": "2026-05-15T01:20:47.997095Z",
   "first_seen_at": "2026-05-04T07:18:30.089476Z",
-  "expires_at": "2026-05-18T05:18:00.415467Z",
+  "expires_at": "2026-05-22T01:20:47.997095Z",
   "status": "incomplete",
   "listing": {
-    "title": "FOR LEASE - 4 Warehouse Building with Canopy in Guiguinto, Bulacan",
-    "sqm": 1887.0,
+    "title": "1090 sqm Warehouse for Rent in Sta. Rita, Guiguinto, Bulacan",
+    "sqm": 1090.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Bulacan, Guiguinto, Santa Rita",
     "region": "Bulacan",
     "lat": 14.8568787,
     "lng": 120.8646069,
-    "price_php": 263201.0,
+    "price_php": 130000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Luxe Realty",
+    "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Land area: 1,887 m2",
-      "price_raw": "Rent: ₱ 263,201\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,090 m2",
+      "price_raw": "Rent: ₱ 130,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

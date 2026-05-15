@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-centro-ceb",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-centro-cebu_08a42a567f78-ab40-e782-5754-89121089",
-  "scraped_at": "2026-05-11T05:35:53.462206Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-centro-cebu_64ef147d12f9-6f20-b992-f659-ad75c089",
+  "scraped_at": "2026-05-15T01:37:01.874224Z",
   "first_seen_at": "2026-05-08T04:01:55.491226Z",
-  "expires_at": "2026-05-18T05:35:53.462206Z",
+  "expires_at": "2026-05-22T01:37:01.874224Z",
   "status": "incomplete",
   "listing": {
-    "title": "Compound Warehouse at Mandaue City Cebu",
-    "sqm": 532.0,
+    "title": "475 sqm Warehouse for Rent in Cebu *Mandaue City",
+    "sqm": 475.0,
     "dock_doors": null,
-    "clear_height_m": 6.0,
+    "clear_height_m": null,
     "address": "Cebu, Mandaue, Centro",
     "region": "Cebu",
     "lat": 10.3241294,
     "lng": 123.942925,
-    "price_php": 151620.0,
+    "price_php": 160000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Bachelors Realty & Brokerage Inc.",
+    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 532 m2",
-      "price_raw": "Rent: ₱ 151,620\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 475 m2",
+      "price_raw": "Rent: ₱ 160,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

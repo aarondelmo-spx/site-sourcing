@@ -1,14 +1,14 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-baesa-metr",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-baesa-metro-manila_10c66f816bcb-0a80-6c92-c465-931c0089",
-  "scraped_at": "2026-05-11T05:00:06.226102Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-baesa-metro-manila_36aa71779b28-576e-fc52-e917-2d780089",
+  "scraped_at": "2026-05-15T01:06:24.608414Z",
   "first_seen_at": "2026-05-04T06:52:29.541748Z",
-  "expires_at": "2026-05-18T05:00:06.226102Z",
+  "expires_at": "2026-05-22T01:06:24.608414Z",
   "status": "incomplete",
   "listing": {
-    "title": "For Sale Warehouse in Baesa Quezon City",
-    "sqm": null,
+    "title": "FOR SALE – Warehouse / Showroom / Office in Baesa, Quezon City",
+    "sqm": 1110.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Baesa",
@@ -17,11 +17,11 @@
     "lng": 121.0057849,
     "price_php": 68000000.0,
     "price_unit": "total",
-    "agent_name": "Sheryl Garcia",
+    "agent_name": "Angel Bauyon",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "",
+      "area_raw": "Usable area: 1,110 m2",
       "price_raw": "Sale: ₱ 68,000,000"
     }
   },
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

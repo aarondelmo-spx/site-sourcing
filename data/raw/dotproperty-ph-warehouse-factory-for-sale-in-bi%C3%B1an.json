@@ -1,13 +1,13 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-bi%C3%B1an",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bi%C3%B1an-laguna_1ccab1b70039-30f0-4bb2-0d2b-b70d3089",
-  "scraped_at": "2026-05-11T05:13:46.585401Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-bi%C3%B1an-laguna_f7c433d77db7-ae3e-2bb2-75fc-17c66089",
+  "scraped_at": "2026-05-15T01:18:31.496763Z",
   "first_seen_at": "2026-05-04T07:07:15.953803Z",
-  "expires_at": "2026-05-18T05:13:46.585401Z",
+  "expires_at": "2026-05-22T01:18:31.496763Z",
   "status": "incomplete",
   "listing": {
-    "title": "FOR SALE Industrial with Warehouse located at Laguna Technopark, Biñan, Laguna",
+    "title": "FOR SALE - Industrial Corner Lot with Warehouse in Laguna Technopark, Biñan, Laguna",
     "sqm": 3000.0,
     "dock_doors": null,
     "clear_height_m": null,
@@ -17,7 +17,7 @@
     "lng": 121.0427959,
     "price_php": 430000000.0,
     "price_unit": "total",
-    "agent_name": "Grandeur Realty",
+    "agent_name": "Luxe Realty",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",

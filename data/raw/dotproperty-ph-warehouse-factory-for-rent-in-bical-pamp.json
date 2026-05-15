@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-bical-pamp",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bical-pampanga_8744a6f4e708-bae0-ff12-bf78-b4d32089",
-  "scraped_at": "2026-05-11T05:28:35.338059Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bical-pampanga_4584c73659fb-3c21-ba62-7ac9-b4d32089",
+  "scraped_at": "2026-05-15T01:30:55.785804Z",
   "first_seen_at": "2026-05-04T07:24:04.678888Z",
-  "expires_at": "2026-05-18T05:28:35.338059Z",
+  "expires_at": "2026-05-22T01:30:55.785804Z",
   "status": "incomplete",
   "listing": {
-    "title": "For lease warehouse at Mabalacat City Pampanga",
-    "sqm": 408.0,
+    "title": "For rent warehouse at Dau Mabalacat City Pampanga",
+    "sqm": 102.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Pampanga, Mabalacat, Bical",
     "region": "Pampanga",
     "lat": null,
     "lng": null,
-    "price_php": 204000.0,
+    "price_php": 51000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Raymond Alarcon - Perspective Realty and Development Corporation",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 408 m2",
-      "price_raw": "Rent: ₱ 204,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 102 m2",
+      "price_raw": "Rent: ₱ 51,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

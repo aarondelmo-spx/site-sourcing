@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-maduya-cav",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maduya-cavite_15370e28366e-7c1e-13a8-8694-924a3a76",
-  "scraped_at": "2026-05-11T05:06:40.590390Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-maduya-cavite_c912a2f923f0-7aae-ce82-ae39-ed570089",
+  "scraped_at": "2026-05-15T01:11:47.623122Z",
   "first_seen_at": "2026-05-04T06:58:22.382290Z",
-  "expires_at": "2026-05-18T05:06:40.590390Z",
+  "expires_at": "2026-05-22T01:11:47.623122Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse for Sale in Carmona Cavite",
-    "sqm": 2475.0,
+    "title": "Goldenmile Warehouse Carmona Cavite  For Sale",
+    "sqm": 2800.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cavite, Carmona, Maduya",
     "region": "Cavite",
     "lat": 14.3258176,
     "lng": 121.0740971,
-    "price_php": 143000000.0,
+    "price_php": 112000000.0,
     "price_unit": "total",
     "agent_name": null,
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Land area: 2,475 m2",
-      "price_raw": "Sale: ₱ 143,000,000"
+      "area_raw": "Usable area: 2,800 m2",
+      "price_raw": "Sale: ₱ 112,000,000"
     }
   },
   "enriched": {

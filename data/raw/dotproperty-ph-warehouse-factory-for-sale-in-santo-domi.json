@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-in-santo-domi",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santo-domingo-rizal_da2416b0419d-966e-7125-d96c-116cc734",
-  "scraped_at": "2026-05-11T05:25:48.056882Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-in-santo-domingo-rizal_4e8e05abf22a-bec0-86e5-220b-c5dfdd88",
+  "scraped_at": "2026-05-15T01:28:14.122471Z",
   "first_seen_at": "2026-05-04T07:15:06.642297Z",
-  "expires_at": "2026-05-18T05:25:48.056882Z",
+  "expires_at": "2026-05-22T01:28:14.122471Z",
   "status": "incomplete",
   "listing": {
-    "title": "SAN JUAN CAINTA LOT @ 1,050 sq.m., with Warehouse @ 3,150 sq.m",
-    "sqm": 3150.0,
+    "title": "AS - FOR SALE: 19,401 sqm Warehouse Compound in Cainta, Rizal",
+    "sqm": 4276.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Rizal, Cainta, Santo Domingo",
     "region": "Rizal",
     "lat": 14.5848634,
     "lng": 121.1184621,
-    "price_php": 110000000.0,
+    "price_php": 562629000.0,
     "price_unit": "total",
     "agent_name": null,
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 3,150 m2",
-      "price_raw": "Sale: ₱ 110,000,000"
+      "area_raw": "Usable area: 4,276 m2",
+      "price_raw": "Sale: ₱ 562,629,000"
     }
   },
   "enriched": {

@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-dolores-ri",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dolores-rizal_90552fb09727-bb10-4e42-1d10-05d32089",
-  "scraped_at": "2026-05-11T05:22:55.454863Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dolores-rizal_782bbc3d24ed-e08f-e142-0860-3cbb2089",
+  "scraped_at": "2026-05-15T01:25:20.484844Z",
   "first_seen_at": "2026-05-04T07:12:18.812470Z",
-  "expires_at": "2026-05-18T05:22:55.454863Z",
+  "expires_at": "2026-05-22T01:25:20.484844Z",
   "status": "incomplete",
   "listing": {
-    "title": "10,000sqm Warehouse in Taytay for Rent",
-    "sqm": null,
+    "title": "3850 sqm warehouse for rent in taytay rizal",
+    "sqm": 3800.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Rizal, Taytay, Dolores",
     "region": "Rizal",
     "lat": 14.5703733,
     "lng": 121.131209,
-    "price_php": 1250000.0,
+    "price_php": 1000000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Elpie Campo",
+    "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 1,250,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 3,800 m2",
+      "price_raw": "Rent: ₱ 1,000,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

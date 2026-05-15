@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-dela-paz-m",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dela-paz-metro-manila_ca52ff8bafa8-de8f-4262-08f1-38d32089",
-  "scraped_at": "2026-05-11T04:57:27.959499Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-dela-paz-metro-manila_ec212031e6e4-9a8e-b8d2-98ac-54d32089",
+  "scraped_at": "2026-05-15T01:02:57.426385Z",
   "first_seen_at": "2026-05-11T04:57:27.959499Z",
-  "expires_at": "2026-05-18T04:57:27.959499Z",
+  "expires_at": "2026-05-22T01:02:57.426385Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse for Lease at Octagon Village, Pasig City",
-    "sqm": 1100.0,
+    "title": "500 sqm Warehouse for Rent in Dela Paz, Pasig City",
+    "sqm": 500.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Pasig, Dela Paz",
     "region": "NCR",
     "lat": 14.6178075,
     "lng": 121.0945327,
-    "price_php": 308000.0,
+    "price_php": 175000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Realus Realtors (Cyril Katipunan)",
+    "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,100 m2",
-      "price_raw": "Rent: ₱ 308,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 500 m2",
+      "price_raw": "Rent: ₱ 175,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

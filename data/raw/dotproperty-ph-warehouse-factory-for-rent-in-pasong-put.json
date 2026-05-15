@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-pasong-put",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pasong-putik-proper-metro-manila_e7fcd5537c01-b5e0-7282-74a9-fae32089",
-  "scraped_at": "2026-05-11T04:57:23.115531Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pasong-putik-proper-metro-manila_6a1e291c42a8-37b1-83b2-a0c6-1ae32089",
+  "scraped_at": "2026-05-15T01:03:51.762200Z",
   "first_seen_at": "2026-05-08T03:23:47.367496Z",
-  "expires_at": "2026-05-18T04:57:23.115531Z",
+  "expires_at": "2026-05-22T01:03:51.762200Z",
   "status": "incomplete",
   "listing": {
-    "title": "726 sqm Warehouse for Rent in Nagkaisang Nayon, Novaliches, Quezon City",
-    "sqm": 726.0,
+    "title": "2,500 sqm Warehouse Lot for Rent in Novaliches, Quezon City",
+    "sqm": 1000.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Pasong Putik Proper",
     "region": "NCR",
     "lat": 14.7229769,
     "lng": 121.0504238,
-    "price_php": 160000.0,
+    "price_php": 300000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 726 m2",
-      "price_raw": "Rent: ₱ 160,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,000 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

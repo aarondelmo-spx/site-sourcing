@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-vibora-pob",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-vibora-poblacion-cavite_f0b025799090-5aee-b862-eebc-48d32089",
-  "scraped_at": "2026-05-11T05:03:18.207196Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-vibora-poblacion-cavite_75ff4a2a03aa-885f-6952-c7fb-48d32089",
+  "scraped_at": "2026-05-15T01:08:58.181038Z",
   "first_seen_at": "2026-05-04T06:56:56.541779Z",
-  "expires_at": "2026-05-18T05:03:18.207196Z",
+  "expires_at": "2026-05-22T01:08:58.181038Z",
   "status": "incomplete",
   "listing": {
-    "title": "1,153 sqm Warehouse in General Trias, Cavite",
-    "sqm": 1153.0,
+    "title": "950 sqm Warehouse in General Trias, Cavite",
+    "sqm": 950.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cavite, General Trias, Vibora Poblacion",
     "region": "Cavite",
     "lat": null,
     "lng": null,
-    "price_php": 288250.0,
+    "price_php": 237500.0,
     "price_unit": "per sqm/month",
     "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Land area: 1,153 m2",
-      "price_raw": "Rent: ₱ 288,250\n                                                                                                     /\n                                                        month"
+      "area_raw": "Land area: 950 m2",
+      "price_raw": "Rent: ₱ 237,500\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

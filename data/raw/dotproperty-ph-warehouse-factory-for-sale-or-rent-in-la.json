@@ -1,32 +1,37 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-sale-or-rent-in-la",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-la-paz-metro-manila_3b76e92f28dc-52a1-0e82-3afe-038d2089",
-  "scraped_at": "2026-05-11T04:58:17.489096Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-sale-or-rent-in-landayan-laguna_91813ced8ff9-af61-93d2-fb49-ec632089",
+  "scraped_at": "2026-05-15T01:18:09.451566Z",
   "first_seen_at": "2026-05-04T07:07:32.668455Z",
-  "expires_at": "2026-05-18T04:58:17.489096Z",
+  "expires_at": "2026-05-22T01:18:09.451566Z",
   "status": "incomplete",
   "listing": {
-    "title": "WAREHOUSE FOR LEASE MAKATI",
-    "sqm": 1580.0,
+    "title": "Rush SALE   Lease 1,622 sqm INDUSTRIAL Lot with Warehouse in Cataquiz San Pedro Laguna",
+    "sqm": 1622.0,
     "dock_doors": null,
     "clear_height_m": null,
-    "address": "Metro Manila, Makati, La Paz",
-    "region": "NCR",
-    "lat": null,
-    "lng": null,
-    "price_php": 500860000.0,
+    "address": "Laguna, San Pedro, Landayan",
+    "region": "Laguna",
+    "lat": 14.3503152,
+    "lng": 121.0643557,
+    "price_php": 39970000.0,
     "price_unit": "total",
-    "agent_name": "Oca Prime Realty",
+    "agent_name": "Heyy Land Group ,Inc",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-sale",
-      "area_raw": "Usable area: 1,580 m2",
-      "price_raw": "Sale: ₱ 500,860,000\n                                                                                                    Rent: ₱ 790,000\n                                                                                                             /\n                                                            month"
+      "area_raw": "Usable area: 1,622 m2",
+      "price_raw": "Sale: ₱ 39,970,000\n                                                                                                    Rent: ₱ 110,000\n                                                                                                             /\n                                                            month"
     }
   },
   "enriched": {
-    "corridor_distances_km": {},
+    "corridor_distances_km": {
+      "SLEX": 3.17,
+      "NLEX": 34.23,
+      "C5": 22.36,
+      "R10": 30.9
+    },
     "peza_zone_km": null,
     "flood_risk": null
   },

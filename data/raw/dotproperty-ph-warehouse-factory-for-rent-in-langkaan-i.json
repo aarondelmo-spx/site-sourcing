@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-langkaan-i",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-langkaan-i-cavite_b5e63f2f54d5-9fb0-cf22-f7fa-f7d32089",
-  "scraped_at": "2026-05-11T05:04:35.648253Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-langkaan-i-cavite_0ab0be343540-a010-1c12-9988-b9d32089",
+  "scraped_at": "2026-05-15T01:09:43.525959Z",
   "first_seen_at": "2026-05-04T02:26:19.259689Z",
-  "expires_at": "2026-05-18T05:04:35.648253Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:09:43.525959Z",
+  "status": "active",
   "listing": {
-    "title": "5406 sqm Peza Warehouse Factory For Rent in Dasmariñas, Cavite",
-    "sqm": 5406.0,
-    "dock_doors": null,
-    "clear_height_m": 9.5,
+    "title": "High Ceiling 2,650 sqm Warehouse For Rent in Dasmariñas, Cavite",
+    "sqm": 2650.0,
+    "dock_doors": 1,
+    "clear_height_m": null,
     "address": "Cavite, Dasmariñas, Langkaan I",
     "region": "Cavite",
     "lat": 14.2958942,
     "lng": 120.9465657,
-    "price_php": 1830000.0,
+    "price_php": 900000.0,
     "price_unit": "per sqm/month",
     "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 5,406 m2",
-      "price_raw": "Rent: ₱ 1,830,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 2,650 m2",
+      "price_raw": "Rent: ₱ 900,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -35,7 +35,5 @@
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "dock_doors"
-  ]
+  "missing_required": []
 }

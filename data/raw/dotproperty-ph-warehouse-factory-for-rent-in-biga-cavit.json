@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-biga-cavit",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-biga-cavite_a09dedc74315-dc60-1ab2-3616-72d32089",
-  "scraped_at": "2026-05-11T05:04:12.566472Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-biga-cavite_bc3d7680476d-d0a1-80e2-4e66-72d32089",
+  "scraped_at": "2026-05-15T01:08:52.442650Z",
   "first_seen_at": "2026-05-04T06:57:16.085579Z",
-  "expires_at": "2026-05-18T05:04:12.566472Z",
+  "expires_at": "2026-05-22T01:08:52.442650Z",
   "status": "incomplete",
   "listing": {
-    "title": "5,676.7 sq.m. Warehouse for Rent in Tanza, Cavite - PHP 1,844,927",
-    "sqm": 5676.7,
+    "title": "2,690 sq.m. Warehouse for Rent in Tanza, Cavite - PHP 874,276",
+    "sqm": 2690.1,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Cavite, Tanza, Biga",
     "region": "Cavite",
     "lat": null,
     "lng": null,
-    "price_php": 1844927.0,
+    "price_php": 874276.0,
     "price_unit": "per sqm/month",
     "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 5,676.7 m2",
-      "price_raw": "Rent: ₱ 1,844,927\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 2,690.08 m2",
+      "price_raw": "Rent: ₱ 874,276\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

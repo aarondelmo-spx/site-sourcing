@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-central-me",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-central-metro-manila_cf3e906bb825-407e-ef92-56f1-c6d32089",
-  "scraped_at": "2026-05-11T04:57:32.310819Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-central-metro-manila_66389da56c04-189e-1602-5092-71d32089",
+  "scraped_at": "2026-05-15T01:03:02.334680Z",
   "first_seen_at": "2026-05-04T06:49:26.112938Z",
-  "expires_at": "2026-05-18T04:57:32.310819Z",
+  "expires_at": "2026-05-22T01:03:02.334680Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse For Rent in Scout Area Quezon City",
-    "sqm": 396.3,
+    "title": "1,500 sqm Brand New Warehouse 1 for Rent in West Avenue, Quezon City",
+    "sqm": 1500.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Quezon City, Central",
     "region": "NCR",
     "lat": 14.6474563,
     "lng": 121.0458558,
-    "price_php": 170000.0,
+    "price_php": 600000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Realus Realtors (Keanu Gregorio - OB)",
+    "agent_name": "Regent Estate Sales & Development",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 396.3 m2",
-      "price_raw": "Rent: ₱ 170,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 1,500 m2",
+      "price_raw": "Rent: ₱ 600,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

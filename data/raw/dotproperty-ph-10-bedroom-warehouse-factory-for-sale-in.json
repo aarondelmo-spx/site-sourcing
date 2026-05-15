@@ -1,0 +1,41 @@
+{
+  "id": "dotproperty-ph-10-bedroom-warehouse-factory-for-sale-in",
+  "source": "dotproperty-ph",
+  "url": "https://www.dotproperty.com.ph/ads/10-bedroom-warehouse-factory-for-sale-in-molino-i-cavite_76bcc4b14679-ac41-6132-7260-5447b089",
+  "scraped_at": "2026-05-15T01:10:12.059277Z",
+  "first_seen_at": "2026-05-15T01:10:12.059277Z",
+  "expires_at": "2026-05-22T01:10:12.059277Z",
+  "status": "incomplete",
+  "listing": {
+    "title": "Molino Cavite Residential Property for Sale | 10BR 10 Bedroom Property with Warehouse Potential | Progressive Village",
+    "sqm": 420.0,
+    "dock_doors": null,
+    "clear_height_m": null,
+    "address": "Cavite, Bacoor, Molino I",
+    "region": "Cavite",
+    "lat": 14.4311318,
+    "lng": 120.9680621,
+    "price_php": 8500000.0,
+    "price_unit": "total",
+    "agent_name": "Jay Rod Danganan - Realtor  0012927",
+    "agent_phone": null,
+    "raw_extras": {
+      "listing_type": "warehouses-for-sale",
+      "area_raw": "Usable area: 420 m2",
+      "price_raw": "Sale: ₱ 8,500,000"
+    }
+  },
+  "enriched": {
+    "corridor_distances_km": {
+      "SLEX": 7.94,
+      "NLEX": 25.14,
+      "C5": 15.94,
+      "R10": 20.52
+    },
+    "peza_zone_km": null,
+    "flood_risk": null
+  },
+  "missing_required": [
+    "dock_doors"
+  ]
+}

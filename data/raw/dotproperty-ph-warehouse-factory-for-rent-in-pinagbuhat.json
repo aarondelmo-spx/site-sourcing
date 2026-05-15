@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-pinagbuhat",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pinagbuhatan-metro-manila_cf6920a8faa5-1e0f-0672-40f1-66d32089",
-  "scraped_at": "2026-05-11T04:57:36.614981Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-pinagbuhatan-metro-manila_af29915b3006-c821-0392-5920-17d32089",
+  "scraped_at": "2026-05-15T01:03:38.254118Z",
   "first_seen_at": "2026-05-04T06:51:09.140871Z",
-  "expires_at": "2026-05-18T04:57:36.614981Z",
+  "expires_at": "2026-05-22T01:03:38.254118Z",
   "status": "incomplete",
   "listing": {
-    "title": "1,100 square meters Warehouse for Rent in Pasig City, Metro Manila",
-    "sqm": 1100.0,
+    "title": "100 square meters Warehouse for Lease Located at Pasay City Ground floor GF",
+    "sqm": 100.0,
     "dock_doors": null,
     "clear_height_m": null,
     "address": "Metro Manila, Pasig, Pinagbuhatan",
     "region": "NCR",
     "lat": null,
     "lng": null,
-    "price_php": 400000.0,
+    "price_php": 70000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Sidney Ang",
+    "agent_name": "Easy Property Match",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,100 m2",
-      "price_raw": "Rent: ₱ 400,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 100 m2",
+      "price_raw": "Rent: ₱ 70,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {

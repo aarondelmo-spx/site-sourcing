@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-wack-wack-",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-wack-wack-greenhills-metro-manila-near-mrt-3-ortigas_e5bade336383-7761-5b02-4007-29d32089",
-  "scraped_at": "2026-05-11T04:57:22.283879Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-wack-wack-greenhills-metro-manila-near-mrt-3-ortigas_99934aae9816-ae9f-3ed2-4eaf-78d32089",
+  "scraped_at": "2026-05-15T01:02:56.408419Z",
   "first_seen_at": "2026-04-29T08:19:42.536574Z",
-  "expires_at": "2026-05-18T04:57:22.283879Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:02:56.408419Z",
+  "status": "active",
   "listing": {
-    "title": "PN55538 Office Warehouse for Rent In Mandaluyong!",
-    "sqm": 300.0,
-    "dock_doors": null,
+    "title": "Small Warehouse for Rent Lease in Manila",
+    "sqm": 844.0,
+    "dock_doors": 1,
     "clear_height_m": null,
     "address": "Metro Manila, Mandaluyong, Wack-Wack Greenhills",
     "region": "NCR",
     "lat": 14.5809242,
     "lng": 121.0549098,
-    "price_php": 135000.0,
+    "price_php": 567168.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Rolan De Guzman",
+    "agent_name": "Easy Property Match",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 300 m2",
-      "price_raw": "Rent: ₱ 135,000\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 844 m2",
+      "price_raw": "Rent: ₱ 567,168\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -35,7 +35,5 @@
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "dock_doors"
-  ]
+  "missing_required": []
 }

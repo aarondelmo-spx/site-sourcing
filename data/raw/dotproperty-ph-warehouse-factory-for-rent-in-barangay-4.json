@@ -1,28 +1,28 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-barangay-4",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-4-cavite_b7b47ccdb487-2041-d772-7b36-199a1089",
-  "scraped_at": "2026-05-11T05:02:25.832283Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-barangay-4-cavite_dbfc2ef0a0bc-e961-c162-c6f2-9beee089",
+  "scraped_at": "2026-05-15T01:09:49.997507Z",
   "first_seen_at": "2026-05-04T02:26:46.246888Z",
-  "expires_at": "2026-05-18T05:02:25.832283Z",
+  "expires_at": "2026-05-22T01:09:49.997507Z",
   "status": "incomplete",
   "listing": {
-    "title": "Warehouse & Office for Lease – Carmona, Cavite",
-    "sqm": null,
+    "title": "2000 SQM WAREHOUSE - CARMONA CAVITE FOR LEASE",
+    "sqm": 17.0,
     "dock_doors": null,
-    "clear_height_m": 1.2,
+    "clear_height_m": null,
     "address": "Cavite, Carmona, Barangay 4",
     "region": "Cavite",
     "lat": 14.2751378,
     "lng": 121.0105873,
-    "price_php": 595800.0,
+    "price_php": 300000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "CTY Real Estate",
+    "agent_name": "Lerry Nakagawa",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "",
-      "price_raw": "Rent: ₱ 595,800\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 17 m2",
+      "price_raw": "Rent: ₱ 300,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
@@ -36,7 +36,6 @@
     "flood_risk": null
   },
   "missing_required": [
-    "sqm",
     "dock_doors"
   ]
 }

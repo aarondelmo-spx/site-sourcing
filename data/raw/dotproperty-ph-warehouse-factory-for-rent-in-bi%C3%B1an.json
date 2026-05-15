@@ -1,41 +1,39 @@
 {
   "id": "dotproperty-ph-warehouse-factory-for-rent-in-bi%C3%B1an",
   "source": "dotproperty-ph",
-  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bi%C3%B1ang-1st-bulacan_1e3155c2e087-0c9e-3572-681d-09d32089",
-  "scraped_at": "2026-05-11T05:15:35.372542Z",
+  "url": "https://www.dotproperty.com.ph/ads/warehouse-factory-for-rent-in-bi%C3%B1an-laguna_748fe75e52b7-c2b0-51c2-b20f-58d32089",
+  "scraped_at": "2026-05-15T01:14:03.725169Z",
   "first_seen_at": "2026-05-04T07:01:03.872584Z",
-  "expires_at": "2026-05-18T05:15:35.372542Z",
-  "status": "incomplete",
+  "expires_at": "2026-05-22T01:14:03.725169Z",
+  "status": "active",
   "listing": {
-    "title": "1,152 sqm Warehouse for Rent (22-C) in Bocaue, Bulacan",
-    "sqm": 1152.0,
-    "dock_doors": null,
+    "title": "3165 peza warehouse for rent in laguna technopark with fire sprinkler",
+    "sqm": 3165.0,
+    "dock_doors": 1,
     "clear_height_m": null,
-    "address": "Bulacan, Bocaue, Biñang 1st",
-    "region": "Bulacan",
-    "lat": 14.8053472,
-    "lng": 120.9295381,
-    "price_php": 174800.0,
+    "address": "Laguna, Biñan, Biñan",
+    "region": "Laguna",
+    "lat": 14.2608963,
+    "lng": 121.0427959,
+    "price_php": 1100000.0,
     "price_unit": "per sqm/month",
-    "agent_name": "Regent Estate Sales & Development",
+    "agent_name": "Sidney Ang",
     "agent_phone": null,
     "raw_extras": {
       "listing_type": "warehouses-for-rent",
-      "area_raw": "Usable area: 1,152 m2",
-      "price_raw": "Rent: ₱ 174,800\n                                                                                                     /\n                                                        month"
+      "area_raw": "Usable area: 3,165 m2",
+      "price_raw": "Rent: ₱ 1,100,000\n                                                                                                     /\n                                                        month"
     }
   },
   "enriched": {
     "corridor_distances_km": {
-      "SLEX": 29.94,
-      "NLEX": 1.04,
-      "C5": 15.92,
-      "R10": 15.72
+      "SLEX": 5.48,
+      "NLEX": 43.81,
+      "C5": 32.25,
+      "R10": 40.03
     },
     "peza_zone_km": null,
     "flood_risk": null
   },
-  "missing_required": [
-    "dock_doors"
-  ]
+  "missing_required": []
 }
