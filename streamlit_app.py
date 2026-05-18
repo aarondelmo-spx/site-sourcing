@@ -58,6 +58,10 @@ AUDIT_PATH     = os.path.join(DATA_DIR, "pipeline_audit.jsonl")
 SCRAPER_CMD    = [sys.executable, "-m", "sourcing.scrapers.orchestrator", "--spec", SPEC_PATH]
 POLL_INTERVAL_S = 3
 
+GITHUB_TOKEN   = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO    = "aarondelmo-spx/site-sourcing"
+WORKFLOW_FILE  = "scrape.yml"
+
 PIPELINE_STATUSES = [
     "Prospect", "Contacted", "Site Visit", "LOI / Negotiating", "Signed", "Rejected",
 ]
@@ -602,6 +606,25 @@ with col3:
         if st.button("🔒 Logout"):
             del st.session_state["_spx_authenticated"]
             st.rerun()
+
+    # ── Remote trigger via GitHub Actions ─────────────────────────────────────
+    if GITHUB_TOKEN:
+        if st.button("☁️ Run Scraper (Cloud)", help="Triggers GitHub Actions — scrapes on GitHub's servers. Takes ~30 min. No local PC needed."):
+            import requests as _req
+            resp = _req.post(
+                f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/{WORKFLOW_FILE}/dispatches",
+                headers={
+                    "Authorization": f"Bearer {GITHUB_TOKEN}",
+                    "Accept": "application/vnd.github.v3+json",
+                },
+                json={"ref": "master"},
+            )
+            if resp.status_code == 204:
+                st.success("✅ Cloud scrape triggered! Data will refresh in ~30 minutes.")
+            else:
+                st.error(f"Failed to trigger: {resp.status_code} — {resp.text}")
+    else:
+        st.caption("💡 Set `GITHUB_TOKEN` secret to enable cloud scraping from this button.")
 
 
 @st.fragment(run_every=POLL_INTERVAL_S if status.state == "running" else None)

@@ -1,0 +1,43 @@
+name: Run Scraper
+
+on:
+  workflow_dispatch:        # manual trigger (from website button or GitHub UI)
+  schedule:
+    - cron: '0 2 */2 * *'  # every 2 days at 2 AM UTC = 10 AM Manila time
+
+permissions:
+  contents: write           # needed to push scraped data back to repo
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright Chromium
+        run: playwright install chromium --with-deps
+
+      - name: Run scraper
+        run: python run_scraper.py
+
+      - name: Commit and push scraped data
+        run: |
+          git config user.name "SPX Scraper Bot"
+          git config user.email "scraper@spxexpress.com"
+          git add data/
+          git diff --cached --quiet && echo "No new data" || (
+            git commit -m "Auto scrape $(date +'%Y-%m-%d %H:%M UTC')" &&
+            git push
+          )
