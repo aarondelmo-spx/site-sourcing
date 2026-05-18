@@ -11,9 +11,8 @@ venv/
 env/
 .env
 
-# Data — exclude geocode cache and status from git
+# Data — exclude geocode cache from git
 data/geocode_cache.json
-data/status.json
 
 # Keep reference CSVs in git (manually maintained, small)
 !data/ph-flood-risk.csv

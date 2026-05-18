@@ -1,0 +1,10 @@
+{
+  "state": "running",
+  "pid": 7420,
+  "started_at": "2026-05-18T00:43:33.770764+00:00",
+  "finished_at": null,
+  "total": 0,
+  "fetched": 0,
+  "message": "[dotproperty-ph] Scraping NCR...",
+  "last_error": ""
+}

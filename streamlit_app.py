@@ -42,6 +42,12 @@ from sourcing.requirements import (
 )
 from sourcing.scorer.engine import ScoringEngine
 from sourcing.storage import load_scored, load_status, reset_status, save_status
+from sourcing.search import (
+    apply_nl_filters,
+    cached_parse_nl,
+    load_scored_cached,
+    sidebar_filter,
+)
 
 _HAS_ANTHROPIC = bool(os.environ.get("ANTHROPIC_API_KEY", ""))
 
@@ -485,9 +491,14 @@ def build_map(listings: List[ScoredListing], show_corridors: bool, show_peza: bo
     return _build_map_cached(cache_key, listings, show_corridors, show_peza, peza_path)
 
 
-def listings_to_df(listings: List[ScoredListing]) -> pd.DataFrame:
+@st.cache_data(show_spinner=False)
+def listings_to_df(
+    _cache_key: tuple,          # (id, score, is_new) tuples — drives invalidation
+    _listings: list,            # underscore prefix = skipped by Streamlit's hasher
+) -> pd.DataFrame:
+    """DataFrame conversion — cached by listing IDs+scores, rebuilt only when filtered set changes."""
     rows = []
-    for l in listings:
+    for l in _listings:
         corridors = l.enriched.corridor_distances_km or {}
         rows.append({
             "New":       "🆕" if l.is_new else "",
@@ -602,7 +613,28 @@ def status_panel():
         save_status(s)
         s = load_status()
     if s.state == "running":
-        st.info(f"⏳ **Scraper running** (PID {s.pid}) — {s.fetched} fetched · {s.message}")
+        # ── Progress bar ──────────────────────────────────────────────────────
+        fetched  = s.fetched or 0
+        total    = s.total   or 0
+        progress = min(fetched / total, 0.99) if total > 0 else 0.0
+
+        # Elapsed time
+        elapsed_str = ""
+        if s.started_at:
+            try:
+                started = datetime.fromisoformat(s.started_at.replace("Z", "+00:00"))
+                elapsed = datetime.now(timezone.utc) - started
+                mins, secs = divmod(int(elapsed.total_seconds()), 60)
+                elapsed_str = f" · ⏱ {mins}m {secs}s elapsed"
+            except Exception:
+                pass
+
+        st.info(f"⏳ **Scraper running**{elapsed_str}")
+        st.progress(
+            progress,
+            text=f"**{fetched:,}** listings fetched · {s.message}"
+        )
+
     elif s.state == "done":
         st.success(
             f"✅ **Last run complete** — {s.total} listings · {s.message}"
@@ -617,7 +649,7 @@ status_panel()
 # ── Load data ─────────────────────────────────────────────────────────────────
 
 st.divider()
-all_scored = load_scored(os.path.join(DATA_DIR, "scored"))
+all_scored = load_scored_cached(os.path.join(DATA_DIR, "scored"))
 
 if not all_scored:
     if status.state != "running":
@@ -921,47 +953,22 @@ with st.sidebar:
 
 # ── Apply filters ─────────────────────────────────────────────────────────────
 
-filtered = all_scored
-if not show_incomplete:
-    filtered = [l for l in filtered if not l.missing_required]
-if not show_duplicates:
-    filtered = [l for l in filtered if not l.possible_duplicate_of]
-if region_filter:
-    filtered = [l for l in filtered if l.listing.region in region_filter]
-
-
-def sqm_ok(l):
-    v = l.listing.sqm
-    return include_unknown_sqm if v is None else sqm_range[0] <= v <= sqm_range[1]
-
-
-def dock_ok(l):
-    v = l.listing.dock_doors
-    return include_unknown_docks if v is None else v >= dock_min
-
-
-def height_ok(l):
-    v = l.listing.clear_height_m
-    return include_unknown_height if v is None else v >= height_min
-
-
-def slex_ok(l):
-    d = (l.enriched.corridor_distances_km or {}).get("SLEX")
-    # > 200 km means the listing is outside Luzon (e.g. Cebu, Davao) — SLEX
-    # distance is meaningless there, treat the same as "unknown".
-    if d is None or d > 200:
-        return include_unknown_slex
-    return d <= slex_max_km
-
-
-def price_ok(l):
-    if price_max_filter is None:
-        return True
-    v = l.listing.price_php
-    return include_unknown_price if v is None else v <= price_max_filter
-
-
-filtered = [l for l in filtered if sqm_ok(l) and dock_ok(l) and height_ok(l) and slex_ok(l) and price_ok(l)]
+filtered = sidebar_filter(
+    all_scored,
+    region_filter=region_filter,
+    sqm_range=sqm_range,
+    dock_min=dock_min,
+    height_min=height_min,
+    slex_max_km=slex_max_km,
+    price_max=price_max_filter,
+    show_duplicates=show_duplicates,
+    show_incomplete=show_incomplete,
+    include_unknown_sqm=include_unknown_sqm,
+    include_unknown_docks=include_unknown_docks,
+    include_unknown_height=include_unknown_height,
+    include_unknown_slex=include_unknown_slex,
+    include_unknown_price=include_unknown_price,
+)
 
 if filter_by_map and "map_bounds" in st.session_state:
     b = st.session_state.map_bounds
@@ -1013,11 +1020,398 @@ if not filtered:
     )
     st.stop()
 
-# ── View tabs  (Pipeline first — daily workflow) ──────────────────────────────
+# ── NL search helpers (apply_nl_filters imported from sourcing.search) ────────
 
-tab_pipeline, tab_map, tab_table, tab_breakdown = st.tabs(
-    ["🏗️ Pipeline", "🗺️ Map", "📋 Table", "📈 Score breakdown"]
+def _search_card_html(l: ScoredListing, rank: int) -> str:
+    """Return a clean HTML property card for the search results list."""
+    score      = l.score if l.score is not None else 0
+    color      = score_color(score)
+    score_str  = f"{score:.0f}" if l.score is not None else "—"
+    title      = _html.escape(l.listing.title[:80] or "(no title)")
+    addr       = _html.escape(l.listing.address or l.listing.region or "")
+    region     = _html.escape(l.listing.region or "?")
+    sqm_str    = f"{l.listing.sqm:,.0f} sqm" if l.listing.sqm else "—"
+    docks_str  = str(l.listing.dock_doors) if l.listing.dock_doors is not None else "—"
+    height_str = f"{l.listing.clear_height_m:.1f} m" if l.listing.clear_height_m else "—"
+    flood_str  = (l.enriched.flood_risk or "?").capitalize()
+    corridors  = l.enriched.corridor_distances_km or {}
+    slex_str   = f"{corridors['SLEX']:.1f} km" if corridors.get("SLEX") else "—"
+    price_str  = f"₱{l.listing.price_php:,.0f}/mo" if l.listing.price_php else "—"
+    url        = _html.escape(l.url)
+    agent      = _html.escape(l.listing.agent_name or "")
+
+    flood_color = "#e74c3c" if flood_str.lower() == "high" else (
+        "#f39c12" if flood_str.lower() == "medium" else "#27ae60"
+    )
+
+    missing_html = ""
+    if l.missing_required:
+        missing_html = (
+            f"<div style='margin-top:6px;font-size:11px;color:#e74c3c'>"
+            f"⚠ Missing: {_html.escape(', '.join(l.missing_required))}</div>"
+        )
+
+    return f"""
+<div style='background:white;border:1px solid #e8e8e8;border-radius:10px;
+            padding:16px 18px;margin-bottom:12px;
+            box-shadow:0 1px 4px rgba(0,0,0,.07);font-family:sans-serif'>
+  <div style='display:flex;align-items:flex-start;gap:12px'>
+    <div style='flex-shrink:0;text-align:center'>
+      <div style='color:#bbb;font-size:11px;font-weight:600'>#{rank}</div>
+      <div style='background:{color};color:white;border-radius:20px;
+                  padding:4px 12px;font-weight:800;font-size:20px;
+                  line-height:1.2;margin-top:2px'>{score_str}</div>
+      <div style='color:#bbb;font-size:10px;margin-top:1px'>/100</div>
+    </div>
+    <div style='flex:1;min-width:0'>
+      <div style='font-size:14px;font-weight:700;line-height:1.35;
+                  color:#1a1a1a;margin-bottom:3px'>{title}</div>
+      <div style='font-size:12px;color:#888;margin-bottom:10px'>{addr}</div>
+      <div style='display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px'>
+        <span><b>📐</b> {sqm_str}</span>
+        <span><b>🚪</b> {docks_str} docks</span>
+        <span><b>↕</b> {height_str} ceiling</span>
+        <span><b>🛣️ SLEX</b> {slex_str}</span>
+        <span><b>💰</b> {price_str}</span>
+        <span style='color:{flood_color}'><b>🌊</b> {flood_str} flood</span>
+      </div>
+      {missing_html}
+      <div style='margin-top:10px;display:flex;align-items:center;justify-content:space-between'>
+        <span style='font-size:11px;color:#aaa'>{region}{(" · " + agent) if agent else ""}</span>
+        <a href='{url}' target='_blank'
+           style='background:#EE4D2D;color:white;border-radius:6px;
+                  padding:5px 12px;font-size:12px;font-weight:600;
+                  text-decoration:none;white-space:nowrap'>View listing →</a>
+      </div>
+    </div>
+  </div>
+</div>"""
+
+
+def generate_search_html(
+    listings: List[ScoredListing],
+    query: str,
+    parsed: dict,
+) -> str:
+    """Generate a self-contained standalone HTML page with Leaflet map + property cards."""
+    # Build GeoJSON for Leaflet
+    features = []
+    for i, l in enumerate(listings):
+        if l.listing.lat is None or l.listing.lng is None:
+            continue
+        color = score_color(l.score)
+        score = l.score or 0
+        features.append({
+            "type": "Feature",
+            "geometry": {"type": "Point", "coordinates": [l.listing.lng, l.listing.lat]},
+            "properties": {
+                "rank":    i + 1,
+                "title":   l.listing.title or "(no title)",
+                "score":   f"{score:.0f}",
+                "region":  l.listing.region or "?",
+                "sqm":     f"{l.listing.sqm:,.0f} sqm" if l.listing.sqm else "—",
+                "price":   f"₱{l.listing.price_php:,.0f}/mo" if l.listing.price_php else "—",
+                "url":     l.url,
+                "color":   color,
+            },
+        })
+
+    geojson = json.dumps({"type": "FeatureCollection", "features": features})
+
+    cards_html = "".join(_search_card_html(l, i + 1) for i, l in enumerate(listings[:20]))
+
+    # Filter summary
+    parts = []
+    if parsed.get("sqm_min") or parsed.get("sqm_max"):
+        lo = parsed.get("sqm_min", 0)
+        hi = parsed.get("sqm_max", 0)
+        parts.append(f"{lo:,.0f}–{hi:,.0f} sqm" if lo and hi else
+                     (f"≥{lo:,.0f} sqm" if lo else f"≤{hi:,.0f} sqm"))
+    if parsed.get("region_priority"):
+        parts.append(", ".join(parsed["region_priority"]))
+    if parsed.get("budget_max_sqm_month"):
+        parts.append(f"≤₱{parsed['budget_max_sqm_month']:,.0f}/sqm/mo")
+    if parsed.get("dock_doors_min"):
+        parts.append(f"≥{parsed['dock_doors_min']} docks")
+    filter_summary = "  ·  ".join(parts) if parts else "No specific filters applied"
+
+    today = datetime.now().strftime("%B %d, %Y")
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warehouse Search — SPX Site Sourcing</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+       background: #f5f5f7; color: #1a1a1a; }}
+header {{ background: #EE4D2D; color: white; padding: 16px 24px; }}
+header h1 {{ font-size: 20px; font-weight: 800; }}
+header p  {{ font-size: 13px; opacity: .85; margin-top: 3px; }}
+.query-box {{ background: white; border-left: 4px solid #EE4D2D;
+              padding: 12px 20px; margin: 16px 24px; border-radius: 6px;
+              font-size: 13px; color: #444; }}
+.query-box strong {{ color: #EE4D2D; }}
+.filter-chips {{ padding: 0 24px 10px; font-size: 12px; color: #888; }}
+.layout {{ display: flex; gap: 0; height: calc(100vh - 160px); min-height: 500px; }}
+#map {{ flex: 0 0 55%; border-right: 1px solid #ddd; }}
+.cards-panel {{ flex: 1; overflow-y: auto; padding: 16px; background: #f5f5f7; }}
+.cards-panel h2 {{ font-size: 14px; color: #888; margin-bottom: 12px; font-weight: 500; }}
+.card {{ background: white; border: 1px solid #e8e8e8; border-radius: 10px;
+         padding: 14px 16px; margin-bottom: 10px;
+         box-shadow: 0 1px 4px rgba(0,0,0,.06); }}
+.card-header {{ display: flex; gap: 12px; align-items: flex-start; }}
+.score-badge {{ flex-shrink: 0; text-align: center; }}
+.score-badge .num {{ border-radius: 20px; padding: 3px 11px;
+                      font-weight: 800; font-size: 18px; color: white; }}
+.score-badge .label {{ font-size: 10px; color: #bbb; margin-top: 2px; }}
+.card-body h3 {{ font-size: 13px; font-weight: 700; line-height: 1.3; margin-bottom: 3px; }}
+.card-body .addr {{ font-size: 11px; color: #888; margin-bottom: 8px; }}
+.specs {{ display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 11px; color: #555; }}
+.card-footer {{ margin-top: 10px; display: flex; justify-content: space-between;
+                align-items: center; }}
+.card-footer .meta {{ font-size: 11px; color: #aaa; }}
+.card-footer a {{ background: #EE4D2D; color: white; border-radius: 5px;
+                  padding: 4px 10px; font-size: 11px; font-weight: 600;
+                  text-decoration: none; }}
+.leaflet-popup-content-wrapper {{ border-radius: 10px; box-shadow: 0 2px 12px rgba(0,0,0,.15); }}
+.leaflet-popup-content {{ margin: 0; }}
+.pop {{ padding: 12px; font-family: sans-serif; width: 220px; }}
+.pop-score {{ display:inline-block;border-radius:20px;padding:2px 10px;
+              color:white;font-weight:800;font-size:15px;margin-bottom:6px; }}
+.pop-title {{ font-size:12px;font-weight:700;line-height:1.3;margin-bottom:4px; }}
+.pop-specs {{ font-size:11px;color:#555;margin-bottom:8px; }}
+.pop-link {{ display:block;background:#EE4D2D;color:white;text-align:center;
+             border-radius:5px;padding:5px;font-size:11px;font-weight:600;
+             text-decoration:none; }}
+footer {{ text-align:center;padding:16px;font-size:11px;color:#aaa; }}
+@media(max-width:700px){{
+  .layout{{flex-direction:column;height:auto;}}
+  #map{{flex:none;height:350px;}}
+}}
+</style>
+</head>
+<body>
+<header>
+  <h1>🏭 SPX Site Sourcing — Warehouse Search</h1>
+  <p>Generated {today}</p>
+</header>
+<div class="query-box">
+  <strong>Search:</strong> {_html.escape(query)}
+</div>
+<div class="filter-chips">Filters applied: {_html.escape(filter_summary)} &nbsp;·&nbsp; {len(listings)} results</div>
+<div class="layout">
+  <div id="map"></div>
+  <div class="cards-panel">
+    <h2>{len(listings)} properties found</h2>
+    {"".join(_search_card_html(l, i+1) for i, l in enumerate(listings[:20]))}
+    {"<p style='text-align:center;color:#aaa;font-size:12px;padding:10px'>Showing top 20 of " + str(len(listings)) + " results</p>" if len(listings) > 20 else ""}
+  </div>
+</div>
+<footer>SPX Site Sourcing &nbsp;·&nbsp; Confidential &nbsp;·&nbsp; {today}</footer>
+<script>
+var map = L.map('map').setView([14.40, 121.00], 9);
+L.tileLayer('https://{{s}}.basemaps.cartocdn.com/light_all/{{z}}/{{x}}/{{y}}{{r}}.png',{{
+  attribution:'© OpenStreetMap, © CARTO', maxZoom:18
+}}).addTo(map);
+var data = {geojson};
+L.geoJSON(data, {{
+  pointToLayer: function(f, latlng) {{
+    var p = f.properties;
+    return L.circleMarker(latlng, {{
+      radius: Math.min(14, 6 + parseInt(p.score)/12),
+      fillColor: p.color, color: 'white',
+      weight: 2, opacity: 1, fillOpacity: 0.88
+    }});
+  }},
+  onEachFeature: function(f, layer) {{
+    var p = f.properties;
+    layer.bindPopup(
+      '<div class="pop"><span class="pop-score" style="background:'+p.color+'">'
+      +p.score+'</span>'
+      +'<div class="pop-title">#'+p.rank+' '+p.title+'</div>'
+      +'<div class="pop-specs">'+p.sqm+' &nbsp;·&nbsp; '+p.price
+      +' &nbsp;·&nbsp; '+p.region+'</div>'
+      +'<a class="pop-link" href="'+p.url+'" target="_blank">View listing →</a></div>',
+      {{maxWidth: 250}}
+    );
+    layer.bindTooltip('#'+p.rank+' '+p.title.substring(0,40), {{sticky:false}});
+  }}
+}}).addTo(map);
+</script>
+</body>
+</html>"""
+
+
+# ── View tabs  (Search first, then ops tabs) ───────────────────────────────────
+
+tab_search, tab_pipeline, tab_map, tab_table, tab_breakdown = st.tabs(
+    ["🔍 Search", "🏗️ Pipeline", "🗺️ Map", "📋 Table", "📈 Score breakdown"]
 )
+
+# ══════════════════════════════════════════════════════════════════════════════
+# SEARCH TAB
+# ══════════════════════════════════════════════════════════════════════════════
+
+with tab_search:
+    # ── Hero search bar ───────────────────────────────────────────────────────
+    st.markdown(
+        "<div style='padding:24px 0 16px'>"
+        "<div style='font-size:26px;font-weight:800;color:#1a1a1a;margin-bottom:6px'>"
+        "🔍 Find a warehouse</div>"
+        "<div style='font-size:14px;color:#888'>"
+        "Describe what you need in plain language — area, location, price, features.</div>"
+        "</div>",
+        unsafe_allow_html=True,
+    )
+
+    _sq_col, _btn_col = st.columns([6, 1])
+    with _sq_col:
+        _search_query = st.text_input(
+            "search_bar",
+            placeholder=(
+                "e.g.  10,000 sqm warehouse in Laguna under ₱200/sqm, 6 docks, near SLEX"
+            ),
+            label_visibility="collapsed",
+            key="search_nl_query",
+        )
+    with _btn_col:
+        _search_btn = st.button("Search", type="primary", use_container_width=True, key="search_go")
+
+    # ── Run search ────────────────────────────────────────────────────────────
+    _q_stripped = _search_query.strip()
+    # Double-submit guard: skip if query unchanged since last successful search
+    _last_q = st.session_state.get("_search_query", "")
+    _should_search = (
+        _search_btn
+        and _q_stripped
+        and not st.session_state.get("_search_locked", False)
+        and (_q_stripped != _last_q or st.session_state.get("_search_results") is None)
+    )
+    if _should_search:
+        if not _HAS_ANTHROPIC:
+            st.warning("Set `ANTHROPIC_API_KEY` to enable AI-powered search.")
+        else:
+            st.session_state["_search_locked"] = True
+            with st.spinner("Parsing your search…"):
+                # cached_parse_nl never calls Claude twice for the same text
+                _s_parsed, _s_err = cached_parse_nl(_q_stripped)
+            st.session_state["_search_locked"] = False
+            if _s_err:
+                st.warning(f"Couldn't fully parse: {_s_err}")
+            _s_results = apply_nl_filters(all_scored, _s_parsed)
+            st.session_state["_search_results"]  = _s_results
+            st.session_state["_search_query"]    = _q_stripped
+            st.session_state["_search_parsed"]   = _s_parsed
+
+    _sr = st.session_state.get("_search_results")
+    _sq = st.session_state.get("_search_query", "")
+    _sp = st.session_state.get("_search_parsed", {})
+
+    if not _HAS_ANTHROPIC and not _sr:
+        st.info(
+            "**ANTHROPIC_API_KEY not set** — search uses AI to understand natural language.  \n"
+            "Set the key to enable it, or use the sidebar filters on the Map/Table tabs."
+        )
+    elif _sr is None:
+        # No search yet — show quick-start hints
+        st.markdown(
+            "<div style='padding:40px 0;text-align:center;color:#aaa'>"
+            "<div style='font-size:40px;margin-bottom:12px'>🏭</div>"
+            "<div style='font-size:15px;font-weight:600;color:#888'>Try a search above</div>"
+            "<div style='font-size:13px;margin-top:8px'>Examples:<br>"
+            "• <i>8,000 sqm dry warehouse in Laguna, 4+ docks, low flood risk</i><br>"
+            "• <i>Grade A warehouse near SLEX under PHP 180/sqm Laguna or Cavite</i><br>"
+            "• <i>10,000 to 15,000 sqm with genset, PEZA zone preferred</i></div>"
+            "</div>",
+            unsafe_allow_html=True,
+        )
+    else:
+        # ── Filter chips (what was applied) ───────────────────────────────────
+        _chip_parts = []
+        if _sp.get("sqm_min") or _sp.get("sqm_max"):
+            lo, hi = _sp.get("sqm_min", 0), _sp.get("sqm_max", 0)
+            _chip_parts.append(
+                f"📐 {lo:,.0f}–{hi:,.0f} sqm" if (lo and hi) else
+                (f"📐 ≥{lo:,.0f} sqm" if lo else f"📐 ≤{hi:,.0f} sqm")
+            )
+        if _sp.get("region_priority"):
+            _chip_parts.append("📍 " + ", ".join(_sp["region_priority"]))
+        if _sp.get("budget_max_sqm_month"):
+            _chip_parts.append(f"💰 ≤₱{_sp['budget_max_sqm_month']:,.0f}/sqm/mo")
+        if _sp.get("dock_doors_min"):
+            _chip_parts.append(f"🚪 ≥{_sp['dock_doors_min']} docks")
+        if _sp.get("clear_height_min"):
+            _chip_parts.append(f"↕ ≥{_sp['clear_height_min']:.1f}m ceiling")
+        if (_sp.get("slex_max_km") or 60) < 60:
+            _chip_parts.append(f"🛣️ ≤{_sp['slex_max_km']:.0f}km SLEX")
+        if _sp.get("peza_required"):
+            _chip_parts.append("🏭 PEZA zone")
+
+        _chip_html = "".join(
+            f"<span style='background:#f0f0f0;border-radius:20px;padding:3px 10px;"
+            f"font-size:12px;margin-right:6px;color:#444'>{c}</span>"
+            for c in _chip_parts
+        )
+        if _chip_parts:
+            st.markdown(
+                f"<div style='margin-bottom:10px'>{_chip_html}</div>",
+                unsafe_allow_html=True,
+            )
+
+        # ── Results count + export button ─────────────────────────────────────
+        _r_col1, _r_col2 = st.columns([4, 1])
+        _r_col1.markdown(
+            f"**{len(_sr)}** properties found"
+            + (f"  ·  showing top {min(len(_sr), 20)}" if len(_sr) > 20 else "")
+        )
+        if _sr:
+            _html_bytes = generate_search_html(_sr, _sq, _sp).encode("utf-8")
+            _r_col2.download_button(
+                "⬇️ Export HTML",
+                data=_html_bytes,
+                file_name=f"SPX_Search_{datetime.now().strftime('%Y%m%d_%H%M')}.html",
+                mime="text/html",
+                key="export_search_html",
+                use_container_width=True,
+            )
+
+        if not _sr:
+            st.markdown(
+                "<div style='text-align:center;padding:40px;color:#888'>"
+                "<div style='font-size:32px'>🔍</div>"
+                "<div style='font-size:15px;font-weight:600;margin-top:8px'>"
+                "No listings match your search</div>"
+                "<div style='margin-top:4px;font-size:13px'>"
+                "Try broader criteria — e.g. remove a region constraint or increase budget.</div>"
+                "</div>",
+                unsafe_allow_html=True,
+            )
+        else:
+            # ── Map + cards layout ─────────────────────────────────────────────
+            _map_col, _card_col = st.columns([3, 2], gap="medium")
+
+            with _map_col:
+                _sm, _smapped = build_map(_sr[:50], show_corridors=True, show_peza=False)
+                st_folium(_sm, width=None, height=520, returned_objects=[], key="search_map")
+                if _smapped == 0:
+                    st.caption("No coordinates available for these listings yet.")
+
+            with _card_col:
+                st.markdown(
+                    "<div style='height:520px;overflow-y:auto;padding-right:4px'>",
+                    unsafe_allow_html=True,
+                )
+                for _i, _l in enumerate(_sr[:20]):
+                    st.markdown(_search_card_html(_l, _i + 1), unsafe_allow_html=True)
+                if len(_sr) > 20:
+                    st.caption(f"Showing top 20 of {len(_sr)} results. Export HTML to see all.")
+                st.markdown("</div>", unsafe_allow_html=True)
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # PIPELINE TAB
@@ -1025,43 +1419,47 @@ tab_pipeline, tab_map, tab_table, tab_breakdown = st.tabs(
 
 with tab_pipeline:
     pipeline_data = load_pipeline()
-    id_to_listing = {l.id: l for l in all_scored}
 
-    # Build rows
-    pipeline_rows = []
+    # ── Build rows from ALL scored listings (for global counts + safe save) ──
+    all_pipeline_rows = []
     for l in all_scored:
         p = pipeline_data.get(l.id, {})
-        pipeline_rows.append({
+        all_pipeline_rows.append({
             "ID":            l.id,
             "Status":        p.get("status", "Prospect"),
             "Title":         (l.listing.title[:55] or "(no title)"),
             "Region":        l.listing.region or "?",
-            "sqm":           f"{l.listing.sqm:,.0f}" if l.listing.sqm else "—",
-            "Score":         f"{l.score:.0f}" if l.score is not None else "—",
+            "sqm":           l.listing.sqm,          # numeric → sorts correctly
+            "Score":         l.score,                 # numeric → sorts correctly
             "Agent":         l.listing.agent_name or p.get("contact_name", ""),
             "Contact phone": p.get("contact_phone", ""),
             "Notes":         p.get("notes", ""),
             "Link":          l.url,
         })
+    all_pipeline_df = pd.DataFrame(all_pipeline_rows)
 
-    pipeline_df = pd.DataFrame(pipeline_rows)
-    status_counts = pipeline_df["Status"].value_counts()
-
-    # Filtered-view pill counts (respect sidebar filters so NCR→NCR counts)
-    filtered_ids = {l.id for l in filtered}
-    filtered_pipeline_df = pipeline_df[pipeline_df["ID"].isin(filtered_ids)]
-    filtered_status_counts = filtered_pipeline_df["Status"].value_counts()
-
-    # Show filtered counts when a filter is active; global counts otherwise
+    # ── Determine which rows to show (respects sidebar filter) ───────────────
     using_filtered = len(filtered) < len(all_scored)
-    display_counts = filtered_status_counts if using_filtered else status_counts
+    filtered_ids = {l.id for l in filtered}
 
-    # Label so users know whether pills reflect filtered or full view
     if using_filtered:
-        st.caption(f"Showing pipeline for **{len(filtered_pipeline_df)}** filtered listings "
-                   f"({len(pipeline_df)} total across all regions)")
+        # Show only filtered rows, sorted by score desc (same as rest of UI)
+        show_df = all_pipeline_df[all_pipeline_df["ID"].isin(filtered_ids)].copy()
+        show_df = show_df.sort_values("Score", ascending=False, na_position="last")
+        show_df = show_df.reset_index(drop=True)
+        st.caption(
+            f"Showing **{len(show_df)}** filtered listings · "
+            f"{len(all_pipeline_df)} total scraped · "
+            "**Clear all filters** in the sidebar to see everything."
+        )
+    else:
+        show_df = all_pipeline_df
 
-    # Coloured status count pills
+    # ── Status count pills (always reflect filtered view) ─────────────────────
+    _count_df = show_df if using_filtered else all_pipeline_df
+    display_counts = _count_df["Status"].value_counts()
+    global_counts  = all_pipeline_df["Status"].value_counts()
+
     scols = st.columns(len(PIPELINE_STATUSES))
     for col, s in zip(scols, PIPELINE_STATUSES):
         c = PIPELINE_STATUS_COLORS[s]
@@ -1077,9 +1475,9 @@ with tab_pipeline:
 
     st.divider()
 
-    # Editable table
+    # Editable table — shows filtered view
     edited = st.data_editor(
-        pipeline_df,
+        show_df,
         column_config={
             "ID":            st.column_config.TextColumn("ID", disabled=True, width="small"),
             "Status":        st.column_config.SelectboxColumn(
@@ -1087,8 +1485,8 @@ with tab_pipeline:
             ),
             "Title":         st.column_config.TextColumn("Title", disabled=True),
             "Region":        st.column_config.TextColumn("Region", disabled=True, width="small"),
-            "sqm":           st.column_config.TextColumn("sqm", disabled=True, width="small"),
-            "Score":         st.column_config.TextColumn("Score", disabled=True, width="small"),
+            "sqm":           st.column_config.NumberColumn("sqm", format="%,.0f", disabled=True, width="small"),
+            "Score":         st.column_config.NumberColumn("Score (/100)", format="%.0f", disabled=True, width="small"),
             "Agent":         st.column_config.TextColumn("Agent", width="medium"),
             "Contact phone": st.column_config.TextColumn("Phone", width="medium"),
             "Notes":         st.column_config.TextColumn("Notes", width="large"),
@@ -1101,7 +1499,8 @@ with tab_pipeline:
     )
 
     if st.button("💾 Save pipeline", type="primary"):
-        new_pipeline: Dict[str, dict] = {}
+        # Start with ALL existing pipeline data — preserve non-visible rows
+        new_pipeline: Dict[str, dict] = dict(pipeline_data)
         for _, row in edited.iterrows():
             lid = row["ID"]
             old_status = pipeline_data.get(lid, {}).get("status", "Prospect")
@@ -1115,12 +1514,18 @@ with tab_pipeline:
                 "updated_at":    datetime.now(timezone.utc).isoformat(),
             }
         save_pipeline(new_pipeline)
-        st.success(f"Pipeline saved — {len(new_pipeline)} listings tracked.")
+        n_vis = len(edited)
+        n_total = len(new_pipeline)
+        st.success(
+            f"Pipeline saved — {n_vis} visible listings updated"
+            + (f", {n_total - n_vis} non-filtered listings preserved." if using_filtered else ".")
+        )
         st.rerun()
 
     st.caption(
         "Status changes are logged to `data/pipeline_audit.jsonl` for history. "
-        "Shows all scored listings regardless of active sidebar filters."
+        + ("Showing filtered view — clear sidebar filters to see all listings." if using_filtered
+           else "Showing all scored listings.")
     )
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -1177,7 +1582,8 @@ with tab_map:
 # ══════════════════════════════════════════════════════════════════════════════
 
 with tab_table:
-    df = listings_to_df(filtered)
+    _df_cache_key = tuple((l.id, l.score, l.is_new) for l in filtered)
+    df = listings_to_df(_df_cache_key, filtered)
 
     def fmt(v, fmt_str, fallback="—"):
         if v is None or (isinstance(v, float) and pd.isna(v)):
